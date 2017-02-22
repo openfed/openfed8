@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: configurator
+label: Configurator
+weight: 4
+is_admin: null
+permissions:
+  - 'use text format flexible_html'

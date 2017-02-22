@@ -1,0 +1,62 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_browser_entity_form
+    - views
+_core:
+  default_config_hash: W_xXNMSEf-uh7BSptT0dl38Cy420L4P8qqQS_TZwOn4
+name: select_media
+label: 'Select Media'
+display: iframe
+display_configuration:
+  width: 100%
+  height: '500'
+  link_text: 'Select entities'
+  auto_open: true
+selection_display: no_display
+selection_display_configuration:
+  view: media_entity_browser
+  view_display: entity_browser_1
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  1e221fcc-218c-4ba9-b5e5-67829a4cf7e9:
+    settings:
+      view: media_entity_browser
+      view_display: entity_browser_1
+      submit_text: 'Select entities'
+    uuid: 1e221fcc-218c-4ba9-b5e5-67829a4cf7e9
+    weight: 1
+    label: 'Select Media'
+    id: view
+  96cc11d0-e298-4374-a2f4-cc457edd11d2:
+    settings:
+      entity_type: media
+      bundle: iframe
+      form_mode: default
+      submit_text: 'Save entity'
+    uuid: 96cc11d0-e298-4374-a2f4-cc457edd11d2
+    weight: 2
+    label: 'Insert Iframe'
+    id: entity_form
+  406311a4-ece5-44aa-9509-6100872ce33a:
+    settings:
+      entity_type: media
+      bundle: javascript
+      form_mode: default
+      submit_text: 'Save entity'
+    uuid: 406311a4-ece5-44aa-9509-6100872ce33a
+    weight: 3
+    label: 'Insert Script'
+    id: entity_form
+  d7385eda-811a-4343-a3d1-0405ee809c8f:
+    settings:
+      entity_type: media
+      bundle: svg
+      form_mode: default
+      submit_text: 'Save entity'
+    uuid: d7385eda-811a-4343-a3d1-0405ee809c8f
+    weight: 4
+    label: 'Insert SVG'
+    id: entity_form

@@ -1,0 +1,6 @@
+name: Openfed Distribution Updater
+description: Openfed Distribution Updater
+package: Openfed
+type: module
+core: 8.x
+version: '8.x-0.4'

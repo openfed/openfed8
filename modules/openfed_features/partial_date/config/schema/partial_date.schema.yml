@@ -1,0 +1,263 @@
+partial_date.settings:
+  type: config_object
+  label: Settings
+  mapping:
+    partial_date_component_field_txt_inline_styles:
+      type: string
+      label: txt_inline_styles
+    partial_date_component_field_inline_styles:
+      type: string
+      label: inline_styles
+
+partial_date.format.*:
+  type: config_entity
+  label: 'Partial date format'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: string
+      label: 'Label'
+    meridiem:
+      type: string
+      label: 'Meridiem'
+    year_designation:
+      type: string
+      label: 'Year Designation'
+    display:
+      type: partial_date.format.display
+      label: 'Display'
+    components:
+      type: partial_date.format.components
+      label: 'Components'
+    separator:
+      type: partial_date.format.separator
+      label: 'Separator'
+
+partial_date.format.display:
+  type: mapping
+  label: 'Display'
+  mapping:
+    year:
+      type: string
+      label: 'Year'
+      default: 'estimate_label'
+    month:
+      type: string
+      label: 'Year'
+      default: 'estimate_label'
+    day:
+      type: string
+      label: 'Year'
+      default: 'estimate_label'
+    hour:
+      type: string
+      label: 'Year'
+      default: 'estimate_label'
+    minute:
+      type: string
+      label: 'Year'
+      default: 'estimate_label'
+    second:
+      type: string
+      label: 'Year'
+      default: 'none'
+    timezone:
+      type: string
+      label: 'Year'
+      default: 'none'
+
+partial_date.format.separator:
+  type: mapping
+  label: 'Separator'
+  mapping:
+    date:
+      type: string
+      label: 'Date'
+      default: '/'
+    time:
+      type: string
+      label: 'Time'
+      default: ':'
+    datetime:
+      type: string
+      label: 'Date and time'
+      default: ' '
+    range:
+      type: string
+      label: 'Range'
+      default: ' - '
+    other:
+      type: string
+      label: 'Other'
+      default: ' '
+
+partial_date.format.components:
+  type: mapping
+  label: 'Components'
+  mapping:
+    approx:
+      type: partial_date.format.component_value
+      label: 'approx'
+    year:
+      type: partial_date.format.component_format
+      label: 'year'
+      default: 'estimate_label'
+    month:
+      type: partial_date.format.component_format
+      label: 'month'
+      default: 'estimate_label'
+    day:
+      type: partial_date.format.component_format
+      label: 'day'
+      default: 'estimate_label'
+    hour:
+      type: partial_date.format.component_format
+      label: 'hour'
+      default: 'estimate_label'
+    minute:
+      type: partial_date.format.component_format
+      label: 'minute'
+      default: 'estimate_label'
+    second:
+      type: partial_date.format.component_format
+      label: 'second'
+      default: 'none'
+    timezone:
+      type: partial_date.format.component_format
+      label: 'timezone'
+      default: 'none'
+    c1:
+      type: partial_date.format.component_value
+      label: 'custom1'
+    c2:
+      type: partial_date.format.component_value
+      label: 'custom2'
+    c3:
+      type: partial_date.format.component_value
+      label: 'custom3'
+
+partial_date.format.component_value:
+  type: mapping
+  label: 'Components'
+  mapping:
+    value:
+      type: string
+      label: 'value'
+    weight:
+      type: integer
+      label: 'weight'
+
+partial_date.format.component_format:
+  type: mapping
+  label: 'Components'
+  mapping:
+    format:
+      type: string
+      label: 'format'
+    weight:
+      type: integer
+      label: 'weight'
+    empty:
+      type: string
+      label: 'empty'
+
+partial_date.component_booleans:
+  type: mapping
+  mapping:
+    year:
+      type: boolean
+    month:
+      type: boolean
+    day:
+      type: boolean
+    hour:
+      type: boolean
+    minute:
+      type: boolean
+    second:
+      type: boolean
+
+partial_date.component_booleans_with_timezone:
+  type: partial_date.component_booleans
+  mapping:
+    timezone:
+      type: boolean
+
+field.field_settings.partial_date_time:
+  type: mapping
+  label: 'Partial date time field settings'
+  mapping:
+    path:
+      type: string
+    hide_blank_items:
+      type: boolean
+    estimates:
+      type: mapping
+      label: 'Estimates'
+      mapping:
+        year:
+          type: sequence
+          label: 'Year estimates'
+          sequence:
+            type: string
+        month:
+          type: sequence
+          label: 'Month estimates'
+          sequence:
+            type: string
+        day:
+          type: sequence
+          label: 'Day estimates'
+          sequence:
+            type: string
+        hour:
+          type: sequence
+          label: 'Hour estimates'
+          sequence:
+            type: string
+        minute:
+          type: sequence
+          label: 'Minute estimates'
+          sequence:
+            type: string
+        second:
+          type: sequence
+          label: 'Second estimates'
+          sequence:
+            type: string
+
+field.storage_settings.partial_date_time:
+  type: mapping
+  label: 'Partial date time storage settings'
+  mapping:
+    minimum_components:
+      type: mapping
+      mapping:
+        from:
+          type: mapping
+          mapping:
+            granularity:
+              type: partial_date.component_booleans_with_timezone
+            estimate:
+              type: partial_date.component_booleans
+        txt_short:
+          type: boolean
+        txt_long:
+          type: boolean
+
+field.storage_settings.partial_date_time_range:
+  type: field.storage_settings.partial_date_time
+  label: 'Partial date time range storage settings'
+  mapping:
+    minimum_components:
+      type: mapping
+      mapping:
+        to:
+          type: mapping
+          mapping:
+            granularity:
+              type: partial_date.component_booleans_with_timezone
+            estimate:
+              type: partial_date.component_booleans

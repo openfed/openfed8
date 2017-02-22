@@ -1,0 +1,287 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\partial_date\DateTools;
+
+/**
+ * Implements hook_help().
+ */
+function partial_date_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for partial_date module.
+    case 'help.page.partial_date':
+      $output = '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('The <i>Partial Date</i> module provides the ability to store incomplete dates (like Year & Month only). '
+          . 'For more information see the <a href=":doc">online documentation</a>.',
+          array(':doc' => 'https://www.drupal.org/project/partial_date')) . '</p>';
+      $output .= '<h3>' . t('Uses') . '</h3>';
+      $output .= '<dl>';
+      $output .= '<dt>'. t('Partial date formats') . '</dt>';
+      $output .= '<dd>'. t('Three formats are provided by default (<i>short</i>, <i>medium</i> & <i>long</i>). '
+          . 'You may addapt them to your needs or create additional ones through <a href=":doc">configuration page</a>.',
+          array(':doc' => '/admin/config/regional/partial-date-formats')) . '</dd>';
+      $output .= '<dt>'. t('Estimates') . '</dt>';
+      $output .= '<dd>'. t('The module allow users to enter a more readable text value, for example, "<i>The stone age </i>" or "<i>Jurrassic period </i>". '
+          . 'These estimate values are optional and can be disabled.') . '</dd>';
+      $output .= '<dt>'. t('Timezone') . '</dt>';
+      $output .= '<dd>'. t('Currently a timezone may be available to users. However, it is for informational uses only. '
+          . 'Not timezone conversion is performed. This may change in the future.') . '</dd>';
+      $output .= '</dl>';
+      return $output;
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function partial_date_theme() {
+  return array(
+    'partial_date' => [
+      'variables' => [
+        'date' => [],
+        'format' => NULL,
+      ],
+      'file' => 'partial_date.theme.inc',
+    ],
+    'partial_date_range' => [
+      'variables' => [
+        'from' => [],
+        'to' => [],
+        'format' => NULL,
+      ],
+      'file' => 'partial_date.theme.inc',
+    ],
+    'checkbox_with_options' => array(
+      'render element' => 'element',
+    ),
+  );
+}
+
+/**
+ * These are the core components that always exist, but are shown or hidden
+ * depending on the selected field settings.
+ */
+function partial_date_components(array $excluded_components = NULL) {
+  static $components = NULL;
+  if (!isset($components)) {
+    $components = array(
+      'year' => t('Year', array(), array('context' => 'datetime')),
+      'month' => t('Month', array(), array('context' => 'datetime')),
+      'day' => t('Day', array(), array('context' => 'datetime')),
+      'hour' => t('Hour', array(), array('context' => 'datetime')),
+      'minute' => t('Minute', array(), array('context' => 'datetime')),
+      'second' => t('Second', array(), array('context' => 'datetime')),
+      'timezone' => t('Timezone', array(), array('context' => 'datetime')),
+    );
+  }
+  if ($excluded_components) {
+    return array_diff_key($components, array_flip($excluded_components));
+  }
+
+  return $components;
+}
+
+/**
+ * Simpler version of the above with keys only (no labels).
+ */
+function partial_date_component_keys() {
+  static $components = NULL;
+  if (!isset($components)) {
+    $components = array(
+      'year',
+      'month',
+      'day',
+      'hour',
+      'minute',
+      'second',
+      'timezone',
+    );
+  }
+  return $components;
+}
+
+/**
+ * Helper function to determine the correct timezone based on the timezone
+ * handling options used.
+ *
+ * @param string $timezone
+ *   Current timezone from the database or widget.
+ *
+ * @param string $tz_handling
+ *   The timezone handling options that needs enforcing.
+ */
+function partial_date_timezone_handling_correlation($timezone = '', $tz_handling = 'none') {
+  // Override or return unchanged depending on the set action.
+  switch ($tz_handling) {
+    case 'utc':
+      return 'UTC';
+
+    case 'site':
+      $config = \Drupal::config('system.date');
+      $default_timezone = $config->get('timezone.default');
+      return !empty($default_timezone) ? $default_timezone : @date_default_timezone_get();
+
+    case 'user':
+      return drupal_get_user_timezone();
+
+    case 'date':
+    case 'none':
+      // Parse the existing timezone.
+      $timezone = isset($timezone) ? $timezone : '';
+      switch ($timezone) {
+        case '--user--':
+        case '--site--':
+          $timezone = partial_date_timezone_handling_correlation($timezone, trim($timezone, '-'));
+          break;
+      }
+      return $timezone;
+
+    default:
+      return '';
+
+  }
+}
+
+/**
+ * Returns option lists for the various components, with the exception of year
+ * which is not supported.
+ *
+ * @param string $type
+ *   One of the date granularity keys: year, month, day, etc.
+ * @param array $options
+ *   Additional values to prefix onto the options list.
+ */
+function partial_date_granularity_field_options($type, $options = array(), $increment = 1) {
+  switch ($type) {
+    case 'second':
+    case 'minute':
+      $tmp = array(0, 15, 30, 45);
+      return $options + array_combine($tmp, $tmp); //date_minutes('i', FALSE, $increment);
+
+    case 'hour':
+      return $options + array_combine(range(0, 23), range(0, 23));
+
+    case 'day':
+      return $options + array_combine(range(1, 31), range(1, 31));
+
+    case 'month':
+      return $options + DateTools::monthNames();
+
+    case 'timezone':
+      // Ref: Date API module
+      return $options + system_time_zones();
+
+    case 'year':
+    default:
+      return $options;
+  }
+}
+
+/**
+ * Decorates a year with the given year designations.
+ *
+ * As there is no year 0, so an empty year will return an empty string.
+ */
+function partial_date_year_designation_decorator($year, $designation = 'ce') {
+  static $designation_suffixes;
+  if (empty($designation_suffixes)) {
+    $designation_suffixes = array(
+      'BC' => 'BC',
+      'AD' => 'AD',
+      'BCE' => 'BCE',
+      'CE' => 'CE',
+    );
+    foreach ($designation_suffixes as $key => $designation_suffix) {
+      $designation_suffixes[$key] = t($designation_suffix, array(), array('context' => 'datetime'));
+    }
+  }
+
+  if (empty($year) || !is_numeric($year)) {
+    return '';
+  }
+  switch ($designation) {
+    case 'ce':
+      return $year > 0 ? $designation_suffixes['CE'] : $designation_suffixes['BCE'];
+
+    case 'bce':
+      return $year > 0 ? '' : $designation_suffixes['BCE'];
+
+    case 'ad':
+      return $year > 0 ? $designation_suffixes['AD'] : $designation_suffixes['BC'];
+
+    case 'bc':
+      return $year > 0 ? '' : $designation_suffixes['BC'];
+
+    case 'sign':
+    default:
+      return '';
+  }
+}
+
+/**
+ * Generates a numeric date string.
+ */
+function partial_date_float(array $c) {
+  foreach (partial_date_components(array('timezone')) as $key => $label) {
+    if (!isset($c[$key]) || !strlen($c[$key])) {
+      $c[$key] = 0;
+    }
+    elseif ($key != 'year' && $key != 'month') {
+      // Increment hours, minutes and seconds to allow the module to distintish
+      // between 0 meaning unset and 1 to 24/60 being the actual values.
+      // Day is incremented to provide a buffer to add / remove the timezone.
+      $c[$key] = $c[$key] + 1;
+    }
+  }
+
+  $date = abs($c['year'])
+      . sprintf('%02s', $c['month'])  // 0 or 1-12
+      . sprintf('%02s', $c['day']) // 0 or 2-32
+      . sprintf('%02s', $c['hour']) // 0 or 1-24
+      . sprintf('%02s', $c['minute']) // 0 or 1-60
+      . sprintf('%02s', $c['second']); // 0 or 1-60
+  return ((float) ltrim($date, '0')) * ($c['year'] >= 0 ? 1.0 : -1.0);
+}
+
+/**
+ * Returns any configured separators for two components.
+ */
+function _partial_date_component_separator_type($a, $b) {
+  $a_type = _partial_date_component_type($a);
+  $b_type = _partial_date_component_type($b);
+  if (!$a_type || !$b_type) {
+    $key = 'other';
+  }
+  elseif ($a_type == $b_type) {
+    $key = $a_type;
+  }
+  else {
+    $key = 'datetime';
+  }
+  return $key;
+
+}
+/**
+ * Helper function to determine the component type for inserting the component
+ * separator.
+ *
+ * @return mixed
+ *   One of date, time or FALSE.
+ */
+function _partial_date_component_type($key) {
+  switch ($key) {
+    case 'year':
+    case 'month':
+    case 'day':
+      return 'date';
+
+    case 'hour':
+    case 'minute':
+    case 'second':
+      return 'time';
+
+    case 'timezone':
+    default:
+      return FALSE;
+  }
+}

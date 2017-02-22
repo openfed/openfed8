@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_body
+    - media_entity.bundle.svg
+  module:
+    - text
+id: media.svg.field_body
+field_name: field_body
+entity_type: media
+bundle: svg
+label: Body
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: ' '
+    format: embeddable_text
+default_value_callback: ''
+settings: {  }
+field_type: text_long

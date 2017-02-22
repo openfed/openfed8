@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Defines the schema for the partial date fields.
+ */
+
+/**
+ * Implement hook_field_schema().
+ * function partial_date_field_schema($field) - moved to PartialDateTime::schema()
+ */
+
+/**
+ * Implements hook_uninstall().
+ * function partial_date_uninstall() - moved to PartialDateTime::delete()
+ */
+ 

@@ -1,0 +1,63 @@
+uuid: 734520c8-8531-41b4-aac2-b08263ab94f7
+langcode: en
+status: true
+dependencies: {  }
+id: long
+label: Long
+meridiem: a
+year_designation: bc
+display:
+  year: estimate_label
+  month: estimate_label
+  day: estimate_label
+  hour: estimate_label
+  minute: estimate_label
+  second: none
+  timezone: none
+components:
+  year:
+    weight: 0
+    format: Y-ce
+    empty: ''
+  month:
+    weight: 1
+    format: F
+    empty: ''
+  day:
+    weight: 2
+    format: j-S
+    empty: ''
+  hour:
+    weight: 3
+    format: h
+    empty: ''
+  minute:
+    weight: 4
+    format: i
+    empty: ''
+  second:
+    weight: 5
+    format: s
+    empty: ''
+  timezone:
+    weight: 6
+    format: e
+    empty: ''
+  c1:
+    weight: 7
+    value: ''
+  c2:
+    weight: 8
+    value: ''
+  c3:
+    weight: 9
+    value: ''
+  approx:
+    weight: -1
+    value: ''
+separator:
+  date: ' '
+  time: ':'
+  datetime: ', '
+  range: ' to '
+  other: ' '

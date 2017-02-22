@@ -1,0 +1,6 @@
+entity.partial_date_format.collection:
+    route_name: entity.partial_date_format.collection
+    title: 'Partial date formats'
+    description: 'Configure how partial dates are displayed.'
+    parent: system.admin_config_regional
+    weight: -5

@@ -1,0 +1,34 @@
+<?php
+
+/**
+ * @file
+ * Provides hook implementations for Contact Storage Clear module.
+ */
+
+use Drupal\Core\Entity\ContentEntityNullStorage;
+
+/**
+ * Implements hook_entity_type_alter().
+ *
+ * @param \Drupal\Core\Entity\EntityTypeInterface[] $entity_types
+ */
+function contact_storage_clear_entity_type_alter(array &$entity_types) {
+  $handlers = $entity_types['contact_message']->getHandlerClasses();
+  $handlers['storage'] = ContentEntityNullStorage::class;
+  // Views integration depends on messages being stored in the database.
+  unset($handlers['views_data']);
+  $entity_types['contact_message']->set('handlers', $handlers);
+}
+
+/**
+ * Implements hook_module_implements_alter().
+ */
+function contact_storage_clear_module_implements_alter(&$implementations, $hook) {
+  // Make sure that contact_storage_clear_entity_type_alter() is called after
+  // contact_storage_entity_type_alter().
+  if ($hook == 'entity_type_alter') {
+    $group = $implementations['contact_storage_clear'];
+    unset($implementations['contact_storage_clear']);
+    $implementations['contact_storage_clear'] = $group;
+  }
+}

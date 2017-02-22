@@ -1,0 +1,6 @@
+name: Contact storage clear
+description: Keeps all the other benefits of <em>Contact Storage</em> but removes the storage of contact messages.
+type: module
+core: 8.x
+dependencies:
+  - contact_storage

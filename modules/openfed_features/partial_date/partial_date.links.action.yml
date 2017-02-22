@@ -1,0 +1,5 @@
+entity.partial_date_format.add:
+    route_name: entity.partial_date_format.add_form
+    title: 'Add format'
+    appears_on:
+      - entity.partial_date_format.collection

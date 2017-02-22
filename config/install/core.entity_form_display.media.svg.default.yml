@@ -1,0 +1,40 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.svg.field_body
+    - media_entity.bundle.svg
+  module:
+    - workbench_moderation
+    - text
+id: media.svg.default
+targetEntityType: media
+bundle: svg
+mode: default
+content:
+  field_body:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+  langcode:
+    type: language_select
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

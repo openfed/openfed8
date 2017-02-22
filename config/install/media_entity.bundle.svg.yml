@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: svg
+label: SVG
+description: ''
+type: generic
+queue_thumbnail_downloads: false
+new_revision: true
+type_configuration: {  }
+field_map: {  }

@@ -1,0 +1,40 @@
+<?php
+/**
+ * @file
+ * Contains install and update functions for Openfed Multilingual.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function openfed_multilingual_install() {
+  // Discover all the module configurations that we'll use to override existing
+  // ones.
+  $module = basename(__FILE__, '.install');
+  $module_configs = \Drupal::configFactory()->listAll($module);
+
+  // Overriding existing configurations.
+  if (!empty($module_configs)) {
+    foreach ($module_configs as $module_config_name) {
+      $config = \Drupal::configFactory()->getEditable($module_config_name);
+      // All the configurations set in this module starting with the module name
+      // are overrides of the an already existing config. Here we'll get the
+      // exiting config name.
+      $existing_config = str_replace($module . '.', '', $module_config_name);
+      $existing_config = \Drupal::configFactory()
+        ->getEditable($existing_config);
+      $existing_config->setData($config->get())->save();
+      // We don't need to keep this config.
+      $config->delete();
+    }
+  }
+
+  // Set "/en" as the default path prefix for English language
+  \Drupal::configFactory()
+    ->getEditable('language.negotiation')
+    ->set('url.prefixes.en', 'en')
+    ->save(TRUE);
+
+  // Ensure the translation fields are created in the database.
+  \Drupal::service('entity.definition_update_manager')->applyUpdates();
+}

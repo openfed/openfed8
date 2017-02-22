@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - openfed_workflow.workbench_moderation.moderation_state.draft
+id: draft_draft
+label: 'Create New Draft'
+stateFrom: draft
+stateTo: draft
+weight: -11

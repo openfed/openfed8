@@ -1,0 +1,11 @@
+name: Openfed Workflow
+description: Tools to improve content workflow.
+package: Openfed
+
+type: module
+core: 8.x
+version: '8.x-0.4.3'
+
+dependencies:
+  - drupal:workbench_moderation
+

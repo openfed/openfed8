@@ -1,0 +1,9 @@
+entity.partial_date_format.collection:
+    route_name: entity.partial_date_format.collection
+    title: 'Partial date formats'
+    base_route: entity.partial_date_format.collection
+
+partial_date_format.settings:
+    route_name: partial_date_format.settings
+    title: 'Common settings'
+    base_route: entity.partial_date_format.collection

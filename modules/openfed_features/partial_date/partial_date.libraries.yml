@@ -1,0 +1,8 @@
+# JavaScript functionality to handle selected estimate into the actual fields.
+estimates:
+  js:
+    js/estimates.js: {}
+  # Build up our dependencies for this page as a library. 
+  dependencies:
+    - core/jquery
+#    - core/drupalSettings
