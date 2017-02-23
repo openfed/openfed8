@@ -196,6 +196,9 @@
       },
       "drupal/cshs": {
         "cshs_form_select_options does not work with mixed string and integer values": "https://www.drupal.org/files/issues/2852474-1.patch"
+      },
+      "drupal/colorbox": {
+        "Fixed composer.json issue in latest dev and 1.2.0": "https://www.drupal.org/files/issues/composer_json_issue_in-2814045-6.patch"
       }
     }
   }
