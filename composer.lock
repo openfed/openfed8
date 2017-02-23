@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "16ffeab27feed31cb069572bf1075794",
-    "content-hash": "ef17768c7c24e3ccd549afb99ae40f19",
+    "hash": "ac74ac45847d026017bf496cfd0a3df1",
+    "content-hash": "daca9822e213523de19168fb047cfe1a",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1535,21 +1535,14 @@
         },
         {
             "name": "drupal/colorbox",
-            "version": "1.2.0",
+            "version": "dev-1.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/colorbox",
-                "reference": "8.x-1.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/colorbox-8.x-1.2.zip",
-                "reference": null,
-                "shasum": "b45e5d230fd270876f55ed2fdbcda65640119458"
+                "reference": "bf511a8594ef69cbba37ef1ea0e72fb9727d15f6"
             },
             "require": {
-                "drupal/core": "*",
-                "jackmoore/colorbox": "master"
+                "drupal/core": "*"
             },
             "type": "drupal-module",
             "extra": {
@@ -1557,11 +1550,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.2",
-                    "datestamp": "1475750039"
-                },
-                "patches_applied": {
-                    "Fixed composer.json issue in latest dev and 1.2.0": "https://www.drupal.org/files/issues/composer_json_issue_in-2814045-6.patch"
+                    "version": "8.x-1.2+5-dev",
+                    "datestamp": "1483955042"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -1595,7 +1585,8 @@
             "support": {
                 "source": "https://cgit.drupalcode.org/colorbox",
                 "issues": "https://www.drupal.org/project/colorbox"
-            }
+            },
+            "time": "2017-01-09 09:39:17"
         },
         {
             "name": "drupal/components",
@@ -7255,17 +7246,6 @@
             "time": "2014-11-20 16:49:30"
         },
         {
-            "name": "jackmoore/colorbox",
-            "version": "master",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/jackmoore/colorbox/archive/master.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "drupal-library"
-        },
-        {
             "name": "jakub-onderka/php-console-color",
             "version": "0.1",
             "source": {
@@ -12097,6 +12077,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/colorbox": 20,
         "drupal/weight": 20
     },
     "prefer-stable": true,
