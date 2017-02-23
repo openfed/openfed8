@@ -1,0 +1,89 @@
+name: Openfed
+type: profile
+description: 'OpenFed base installation with modules and configurations needed for Fast2Web offer by Fedict.'
+core: 8.x
+
+distribution:
+  name: Openfed
+
+dependencies:
+  # openfed
+  - openfed_administration
+  # core
+  - block
+  - ckeditor
+  - config
+  - config_translation
+#  - content_translation
+  - contextual
+  - datetime
+  - dblog
+  - dynamic_page_cache
+  - editor
+  - entity_reference
+  - field_ui
+  - file
+  - help
+  - image
+  - language
+  - link
+  - locale
+  - menu_ui
+  - node
+  - options
+  - page_cache
+  - path
+  - rdf
+  - taxonomy
+  - toolbar
+  - user
+  - views
+  - views_ui
+  # contrib
+  - admin_toolbar
+  - admin_toolbar_tools
+  - admin_toolbar_content_languages
+  - ctools
+  - diff
+  - ds
+  - entity
+  - entity_browser
+  - entity_browser_entity_form
+  - entity_embed
+  - extlink
+  - field_formatter
+  - file_entity
+  - google_analytics
+  - honeypot
+  - imce
+  - link_attributes
+  - linkit
+  - m4032404
+  - media_entity
+  - media_entity_document
+  - media_entity_image
+  - menu_breadcrumb
+  - menu_trail_by_path
+  - metatag
+  - node_edit_redirect
+  - ofed_switcher
+  - override_node_options
+  - pathauto
+  - redirect
+  - role_delegation
+  - search_api
+  - search_api_attachments
+  - search_api_solr
+  - search_api_solr_multilingual
+  - seckit
+  - sharemessage
+  - smart_trim
+  - super_login
+  - toolbar_themes
+  - token
+  - username_enumeration_prevention
+  - workbench_moderation
+
+themes:
+  - adminimal_theme
+  - bootstrap

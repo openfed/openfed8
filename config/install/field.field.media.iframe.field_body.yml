@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_body
+    - media_entity.bundle.iframe
+  module:
+    - text
+id: media.iframe.field_body
+field_name: field_body
+entity_type: media
+bundle: iframe
+label: Body
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: ' '
+    format: embeddable_text
+default_value_callback: ''
+settings: {  }
+field_type: text_long

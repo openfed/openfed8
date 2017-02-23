@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.javascript
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: media.javascript
+target_entity_type_id: media
+target_bundle: javascript
+default_langcode: current_interface
+language_alterable: true

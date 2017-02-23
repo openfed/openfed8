@@ -1,0 +1,63 @@
+uuid: c1cdc64a-0983-454c-a113-aaf6a2de73ef
+langcode: en
+status: true
+dependencies: {  }
+id: short
+label: Short
+meridiem: a
+year_designation: sign
+display:
+  year: estimate_label
+  month: estimate_label
+  day: estimate_label
+  hour: estimate_label
+  minute: estimate_label
+  second: none
+  timezone: none
+components:
+  year:
+    weight: 0
+    format: 'Y'
+    empty: ''
+  month:
+    weight: 1
+    format: m
+    empty: ''
+  day:
+    weight: 2
+    format: d
+    empty: ''
+  hour:
+    weight: 3
+    format: G
+    empty: ''
+  minute:
+    weight: 4
+    format: i
+    empty: ''
+  second:
+    weight: 5
+    format: s
+    empty: ''
+  timezone:
+    weight: 6
+    format: T
+    empty: ''
+  c1:
+    weight: 7
+    value: ''
+  c2:
+    weight: 8
+    value: ''
+  c3:
+    weight: 9
+    value: ''
+  approx:
+    weight: -1
+    value: ''
+separator:
+  date: '/'
+  time: ':'
+  datetime: ' '
+  range: ' - '
+  other: ' '

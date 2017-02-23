@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.javascript
+id: media.javascript.created
+field_name: created
+entity_type: media
+bundle: javascript
+label: Created
+description: 'The time that the media was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

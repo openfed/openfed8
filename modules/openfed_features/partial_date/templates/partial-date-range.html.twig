@@ -1,0 +1,22 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a partial date.
+ *
+ * Available variables:
+ * - from: The formatted partial from date.
+ * - from_array: An array of partial from date components.
+ * - to: The formatted partial to date.
+ * - to_array: An array of partial to date components.
+ * - format: The partial date format.
+ *
+ * @see template_preprocess_partial_date_range()
+ *
+ * @ingroup themeable
+ */
+#}
+{% set from = render_var(from) %}
+{% set to = render_var(to) %}
+{% trans %}
+  {{ from }}{{ separator }}{{ to }}
+{% endtrans %}

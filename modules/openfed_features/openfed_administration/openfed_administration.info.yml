@@ -1,0 +1,10 @@
+name: Openfed Administration Improvements
+description: 'Improvements to the content administration overview, making it easier to manage.'
+package: Openfed
+
+type: module
+core: 8.x
+version: '8.x-0.4'
+
+dependencies:
+  - drupal:views

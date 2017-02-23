@@ -1,0 +1,203 @@
+{
+  "name": "openfed/openfed8",
+  "description": "OpenFed base installation with modules and configurations needed for Fast2Web service",
+  "type": "drupal-profile",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "rutiolma",
+      "role": "dev"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.drupal-composer.org"
+    },
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    },
+    {
+       "type": "package",
+       "package": {
+         "name": "jackmoore/colorbox",
+         "version": "master",
+         "type": "drupal-library",
+         "dist": {
+           "url": "https://github.com/jackmoore/colorbox/archive/master.zip",
+           "type": "zip"
+         }
+       }
+     }
+  ],
+  "require": {
+    "composer/installers": "^1.0.20",
+    "drupal-composer/drupal-scaffold": "^2.0.1",
+    "cweagans/composer-patches": "~1.0",
+    "drupal/core": "8.2.6",
+    "drush/drush": "~8.0",
+    "drupal/console": "~1.0",
+    "drupal/addanother": "8.1.0-rc1",
+    "drupal/admin_toolbar": "8.1.18",
+    "drupal/admin_toolbar_content_languages": "8.1.0-beta2",
+    "drupal/adminimal_theme": "8.1.3",
+    "drupal/alertbox": "8.1.0-beta2",
+    "drupal/back_to_top": "8.1.0-beta2",
+    "drupal/bootstrap": "8.3.1",
+    "drupal/colorbox": "8.1.2",
+    "drupal/components": "8.1.0",
+    "drupal/config_update": "8.1.3",
+    "drupal/contact_storage": "8.1.0-beta8",
+    "drupal/content_browser": "8.1.0-alpha4",
+    "drupal/context": "8.1.0-alpha1",
+    "drupal/country": "8.1-beta3",
+    "drupal/crop": "8.1.0",
+    "drupal/ctools": "8.3-alpha27",
+    "drupal/diff": "8.1.0-rc1",
+    "drupal/ds": "8.2.6",
+    "drupal/embed": "8.1.0-rc3",
+    "drupal/entity": "8.1.0-alpha4",
+    "drupal/entity_browser": "8.1.0-rc2",
+    "drupal/entity_embed": "8.1.0-beta2",
+    "drupal/entityqueue": "8.1.0-alpha6",
+    "drupal/eu_cookie_compliance": "8.1.0-beta7",
+    "drupal/extlink": "8.1.0",
+    "drupal/facets": "8.1.0-alpha7",
+    "drupal/fast_404": "8.1.0-alpha2",
+    "drupal/fences": "8.2.0-alpha1",
+    "drupal/field_formatter": "1.0",
+    "drupal/field_group": "8.1.0-rc6",
+    "drupal/file_entity": "8.2.0-beta3",
+    "drupal/focal_point": "8.1.0-beta4",
+    "drupal/google_analytics": "8.2.1",
+    "drupal/honeypot": "8.1.23",
+    "drupal/image_effects": "8.1.0-alpha5",
+    "drupal/imce": "8.1.5",
+    "drupal/inline_entity_form": "8.1.0-beta1",
+    "drupal/l10n_client": "8.1.0-alpha1",
+    "drupal/language_cookie": "8.1.0-beta1",
+    "drupal/language_selection_page": "8.2.0",
+    "drupal/layout_plugin": "8.1.0-alpha23",
+    "drupal/link_attributes": "8.1.0",
+    "drupal/linkit": "8.5.0-beta4",
+    "drupal/m4032404": "8.1.0-alpha3",
+    "drupal/media_entity": "8.1.6",
+    "drupal/media_entity_document": "8.1.1",
+    "drupal/media_entity_image": "8.1.2",
+    "drupal/menu_block": "8.1.4",
+    "drupal/menu_breadcrumb": "8.1.0",
+    "drupal/menu_trail_by_path": "8.1.1",
+    "drupal/metatag": "8.1.0",
+    "drupal/node_edit_redirect": "8.1.0-rc2",
+    "drupal/ofed_switcher": "8.1.1",
+    "drupal/override_node_options": "8.2.0",
+    "drupal/panels": "8.3.0-beta5",
+    "drupal/pathauto": "8.1.0-rc1",
+    "drupal/redirect": "8.1.0-alpha4",
+    "drupal/role_delegation": "8.1.0-alpha1",
+    "drupal/rules": "8.3.0-alpha2",
+    "drupal/search_api": "8.1.0-beta4",
+    "drupal/search_api_attachments": "8.1.0-alpha5",
+    "drupal/search_api_autocomplete": "8.1.0-alpha1",
+    "drupal/search_api_solr": "8.1.0-beta1",
+    "drupal/search_api_solr_multilingual": "8.1.0-alpha3",
+    "drupal/seckit": "8.1.0-alpha2",
+    "drupal/securelogin": "8.1.4",
+    "drupal/sharemessage": "8.1.0-beta2",
+    "drupal/shs": "8.1.0-alpha1",
+    "drupal/simple_gmap": "8.1.2",
+    "drupal/simple_sitemap": "8.2.8",
+    "drupal/smart_trim": "8.1.0",
+    "drupal/soundcloudfield": "8.1.0-alpha1",
+    "drupal/super_login": "8.1.0-beta2",
+    "drupal/tmgmt": "8.1.1",
+    "drupal/token": "8.1.0-rc1",
+    "drupal/toolbar_themes": "8.1.0-alpha4",
+    "drupal/twig_field_value": "8.1.1",
+    "drupal/twig_tweak": "8.1.5",
+    "drupal/twitter_block": "8.2.1",
+    "drupal/typed_data": "8.1.0-alpha1",
+    "drupal/url_embed": "8.1.0-alpha1",
+    "drupal/username_enumeration_prevention": "8.1.0-beta1",
+    "drupal/video_embed_field": "8.1.4",
+    "drupal/views_slideshow": "8.4.3",
+    "drupal/weight": "dev-8.x-3.x#0b710388b2033793be066e88a9bcd078aa01edb6",
+    "drupal/workbench_access": "8.1.0-alpha2",
+    "drupal/workbench_moderation": "8.1.2",
+    "drupal/xmlrpc": "8.1.0-beta1",
+    "drupal/yamlform": "8.1.0-beta29"
+  },
+  "require-dev": {
+    "behat/mink": "~1.7",
+    "behat/mink-goutte-driver": "~1.2",
+    "jcalderonzumba/gastonjs": "~1.0.2",
+    "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
+    "mikey179/vfsStream": "~1.2",
+    "phpunit/phpunit": "~4.8",
+    "symfony/css-selector": "~2.8",
+    "drupal/drupal-extension": "^3.2",
+    "drupal/coder": "8.*",
+    "drupal/devel": "8.1.0-rc1",
+    "drupal/features": "8.3.2"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "classmap": [
+      "scripts/composer/ScriptHandler.php"
+    ]
+  },
+  "scripts": {
+    "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+    "pre-install-cmd": [
+      "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+    ],
+    "pre-update-cmd": [
+      "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+    ],
+    "post-install-cmd": [
+      "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
+      "@composer drupal-scaffold"
+    ],
+    "post-update-cmd": [
+      "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+    ]
+  },
+  "extra": {
+    "installer-paths": {
+      "docroot/core": [
+        "type:drupal-core"
+      ],
+      "docroot/libraries/{$name}": [
+        "type:drupal-library"
+      ],
+      "docroot/modules/contrib/{$name}": [
+        "type:drupal-module"
+      ],
+      "docroot/profiles/contrib/{$name}": [
+        "type:drupal-profile"
+      ],
+      "docroot/themes/contrib/{$name}": [
+        "type:drupal-theme"
+      ],
+      "drush/contrib/{$name}": [
+        "type:drupal-drush"
+      ]
+    },
+    "drupal-scaffold": {
+      "initial": {
+        "sites/default/default.services.yml": "sites/default/services.yml",
+        "sites/default/default.settings.php": "sites/default/settings.php"
+      }
+    },
+    "patches": {
+      "drupal/username_enumeration_prevention": {
+        "Fix Broken Installation": "https://www.drupal.org/files/issues/fix_broken_installation-2483015-9.patch"
+      },
+      "drupal/soundcloudfield": {
+        "Fix fatal error occurs on all pages": "https://www.drupal.org/files/issues/soundcloudfield-fatal_error_occurs_on_all_pages-2760787-3.patch"
+      }
+    }
+  }
+}

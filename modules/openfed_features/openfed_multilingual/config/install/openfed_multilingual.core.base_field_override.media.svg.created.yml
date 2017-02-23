@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.svg
+id: media.svg.created
+field_name: created
+entity_type: media
+bundle: svg
+label: Created
+description: 'The time that the media was created.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

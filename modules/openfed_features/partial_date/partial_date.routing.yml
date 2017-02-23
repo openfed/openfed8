@@ -1,0 +1,7 @@
+partial_date_format.settings:
+    path: 'admin/config/regional/partial-date-format/settings'
+    defaults:
+        _form: '\Drupal\partial_date\Form\PartialDateSettingsForm'
+        _title: 'Manage partial date settings'
+    requirements:
+        _permission: 'administer site configuration'

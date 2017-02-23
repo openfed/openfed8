@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.javascript
+id: media.javascript.name
+field_name: name
+entity_type: media
+bundle: javascript
+label: 'Media name'
+description: 'The name of this media.'
+required: true
+translatable: true
+default_value:
+  -
+    value: ''
+default_value_callback: ''
+settings: {  }
+field_type: string
