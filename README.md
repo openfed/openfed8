@@ -18,25 +18,6 @@ root like:
 composer create-project openfed/openfed8-project MY_PROJECT
 ```
 
-When installing the given `composer.json` some tasks are taken care of:
-
-* Drupal will be installed in the `docroot`-directory.
-* Modules (packages of type `drupal-module`) will be placed in
-`docroot/modules/contrib/`
-* Theme (packages of type `drupal-theme`) will be placed in
-`docroot/themes/contrib/`
-* Profiles (packages of type `drupal-profile`) will be placed in
-`docroot/profiles/contrib/`
-* Downloads Drupal scaffold files such as `index.php`, or `.htaccess`
-* Creates `sites/default/files`-directory.
-* Set default configuration for some modules.
-
-
-Node that until the project gets published on drupal.org, the structure
-`docroot/profiles/contrib/openfed` will be created with a bash script, moving
-the Modules and Themes to this folder, as well as the *.make files and all the
-necessary files to install the Openfed profile.
-
 Now, with all the necessary files at `docroot`, it's possible to install
 Openfed, like you would with any other distribution.
 
