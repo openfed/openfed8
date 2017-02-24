@@ -15,6 +15,7 @@ projects[adminimal_theme][version] = "1.3"
 ;
 projects[addanother][version] = "1.0-rc1"
 projects[admin_toolbar][version] = "1.18"
+projects[admin_toolbar][patch][2855720] = "https://www.drupal.org/files/issues/admin_toolbar-bring-back-logout.patch"
 projects[admin_toolbar_content_languages][version] = "1.0-beta2"
 projects[alertbox][version] = "1.0-beta2"
 projects[back_to_top][version] = "1.0-beta2"

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6faed4db8b1ae047b5b833de96d7a296",
-    "content-hash": "2081ef8f2250b647d5284b7fb0f8b4a7",
+    "hash": "a138fa0f180f3890cd1868435518b9d0",
+    "content-hash": "eb485b8e51e4aaac1ab8c1d9202bd88a",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1203,6 +1203,9 @@
                 "drupal": {
                     "version": "8.x-1.18",
                     "datestamp": "1480614184"
+                },
+                "patches_applied": {
+                    "No logout link in admin toolbar anymore": "https://www.drupal.org/files/issues/admin_toolbar-bring-back-logout.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -6668,16 +6671,16 @@
         },
         {
             "name": "drush/drush",
-            "version": "8.1.9",
+            "version": "8.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "7c1887fbbe746ffbfba7575440a7b21cbfe21833"
+                "reference": "2192496b80aa9cdb0581a2d308623f950f747e94"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/7c1887fbbe746ffbfba7575440a7b21cbfe21833",
-                "reference": "7c1887fbbe746ffbfba7575440a7b21cbfe21833",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/2192496b80aa9cdb0581a2d308623f950f747e94",
+                "reference": "2192496b80aa9cdb0581a2d308623f950f747e94",
                 "shasum": ""
             },
             "require": {
@@ -6769,7 +6772,7 @@
             ],
             "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
             "homepage": "http://www.drush.org",
-            "time": "2017-01-14 17:17:30"
+            "time": "2017-02-23 20:46:12"
         },
         {
             "name": "easyrdf/easyrdf",
@@ -10821,7 +10824,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.2",
-                    "datestamp": "1481513884"
+                    "datestamp": "1487861884"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
