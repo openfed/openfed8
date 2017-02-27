@@ -254,7 +254,7 @@
         "ckeditor/plugins/uploadwidget",
         "ckeditor/plugins/filetools",
         "ckeditor/plugins/notification",
-        "ckeditor/plugins/notificationaggregator",
+        "ckeditor/plugins/notificationaggregator"
       ]
     },
     "drupal-scaffold": {
