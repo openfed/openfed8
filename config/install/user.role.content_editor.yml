@@ -50,3 +50,4 @@ permissions:
   - 'translate any entity'
   - 'translate media'
   - 'translate page node'
+  - 'administer menu'
