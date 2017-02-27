@@ -12,6 +12,11 @@ libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/arch
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][type] = "library"
 
+libraries[uploadimage][download][type] = "get"
+libraries[uploadimage][download][url] = "http://download.ckeditor.com/uploadimage/releases/uploadimage_4.6.2.zip"
+libraries[uploadimage][download][directory_name] = "ckeditor/plugins/uploadimage"
+libraries[uploadimage][download][type] = "library"
+
 libraries[uploadwidget][download][type] = "get"
 libraries[uploadwidget][download][url] = "http://download.ckeditor.com/uploadwidget/releases/uploadwidget_4.6.2.zip"
 libraries[uploadwidget][download][directory_name] = "ckeditor/plugins/uploadwidget"
