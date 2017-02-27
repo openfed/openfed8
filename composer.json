@@ -231,7 +231,9 @@
     ]
   },
   "extra": {
-    "installer-types": ["openfed-ckeditor-plugin"],
+    "installer-types": [
+       "openfed-ckeditor-plugin"
+    ],
     "installer-paths": {
       "docroot/core": [
         "type:drupal-core"
