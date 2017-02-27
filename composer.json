@@ -20,6 +20,9 @@
          "name": "jackmoore/colorbox",
          "version": "1.6.4",
          "type": "drupal-library",
+         "require": {
+           "oomphinc/composer-installers-extender": "^1.1"
+         },
          "dist": {
            "url": "https://github.com/jackmoore/colorbox/archive/1.6.4.zip",
            "type": "zip"
@@ -32,6 +35,9 @@
          "name": "openfed-ckeditor-plugins/uploadimage",
          "version": "4.6.2",
          "type": "openfed-ckeditor-plugin",
+         "require": {
+           "oomphinc/composer-installers-extender": "^1.1"
+         },
          "dist": {
            "url": "http://download.ckeditor.com/uploadimage/releases/uploadimage_4.6.2.zip",
            "type": "zip"
@@ -44,6 +50,9 @@
          "name": "openfed-ckeditor-plugins/uploadwidget",
          "version": "4.6.2",
          "type": "openfed-ckeditor-plugin",
+         "require": {
+           "oomphinc/composer-installers-extender": "^1.1"
+         },
          "dist": {
            "url": "http://download.ckeditor.com/uploadwidget/releases/uploadwidget_4.6.2.zip",
            "type": "zip"
@@ -56,6 +65,9 @@
          "name": "openfed-ckeditor-plugins/filetools",
          "version": "4.6.2",
          "type": "openfed-ckeditor-plugin",
+         "require": {
+           "oomphinc/composer-installers-extender": "^1.1"
+         },
          "dist": {
            "url": "http://download.ckeditor.com/filetools/releases/filetools_4.6.2.zip",
            "type": "zip"
@@ -68,6 +80,9 @@
          "name": "openfed-ckeditor-plugins/notification",
          "version": "4.6.2",
          "type": "openfed-ckeditor-plugin",
+         "require": {
+           "oomphinc/composer-installers-extender": "^1.1"
+         },
          "dist": {
            "url": "http://download.ckeditor.com/notification/releases/notification_4.6.2.zip",
            "type": "zip"
@@ -80,6 +95,9 @@
          "name": "openfed-ckeditor-plugins/notificationaggregator",
          "version": "4.6.2",
          "type": "openfed-ckeditor-plugin",
+         "require": {
+           "oomphinc/composer-installers-extender": "^1.1"
+         },
          "dist": {
            "url": "http://download.ckeditor.com/notificationaggregator/releases/notificationaggregator_4.6.2.zip",
            "type": "zip"
