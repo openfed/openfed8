@@ -137,7 +137,8 @@
   },
   "extra": {
     "installer-types": [
-       "openfed-ckeditor-plugin"
+       "openfed-ckeditor-plugin",
+       "library"
     ],
     "installer-paths": {
       "docroot/core": [
@@ -159,7 +160,12 @@
         "type:drupal-drush"
       ],
       "docroot/libraries/ckeditor/plugins/{$name}" : [
-        "type:openfed-ckeditor-plugin"
+        "type:openfed-ckeditor-plugin",
+        "openfed-ckeditor-plugins/notification",
+        "openfed-ckeditor-plugins/filetools",
+        "openfed-ckeditor-plugins/notificationaggregator",
+        "openfed-ckeditor-plugins/uploadwidget",
+        "openfed-ckeditor-plugins/uploadimage"
       ]
     },
     "drupal-scaffold": {
