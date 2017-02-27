@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "30480a4b3a867c985cfce0df966ecab8",
-    "content-hash": "a20801bee9b448487cead5b6e3923303",
+    "hash": "ae4e59c730a7c328192a35629ab9b064",
+    "content-hash": "01bdf368f8640ed50fd33082ffa64489",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -198,6 +198,17 @@
             "dist": {
                 "type": "zip",
                 "url": "http://download.ckeditor.com/notificationaggregator/releases/notificationaggregator_4.6.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "drupal-library"
+        },
+        {
+            "name": "ckeditor/plugins/uploadimage",
+            "version": "4.6.2",
+            "dist": {
+                "type": "zip",
+                "url": "http://download.ckeditor.com/uploadimage/releases/uploadimage_4.6.2.zip",
                 "reference": null,
                 "shasum": null
             },
