@@ -29,7 +29,7 @@
     {
        "type": "package",
        "package": {
-         "name": "ckeditor/plugins/uploadimage",
+         "name": "openfed-ckeditor-plugins/uploadimage",
          "version": "4.6.2",
          "type": "openfed-ckeditor-plugin",
          "dist": {
@@ -41,7 +41,7 @@
     {
        "type": "package",
        "package": {
-         "name": "ckeditor/plugins/uploadwidget",
+         "name": "openfed-ckeditor-plugins/uploadwidget",
          "version": "4.6.2",
          "type": "openfed-ckeditor-plugin",
          "dist": {
@@ -53,7 +53,7 @@
     {
        "type": "package",
        "package": {
-         "name": "ckeditor/plugins/filetools",
+         "name": "openfed-ckeditor-plugins/filetools",
          "version": "4.6.2",
          "type": "openfed-ckeditor-plugin",
          "dist": {
@@ -65,7 +65,7 @@
     {
        "type": "package",
        "package": {
-         "name": "ckeditor/plugins/notification",
+         "name": "openfed-ckeditor-plugins/notification",
          "version": "4.6.2",
          "type": "openfed-ckeditor-plugin",
          "dist": {
@@ -77,7 +77,7 @@
     {
        "type": "package",
        "package": {
-         "name": "ckeditor/plugins/notificationaggregator",
+         "name": "openfed-ckeditor-plugins/notificationaggregator",
          "version": "4.6.2",
          "type": "openfed-ckeditor-plugin",
          "dist": {
@@ -188,11 +188,11 @@
     "drupal/xmlrpc": "1.0-beta1",
     "drupal/yamlform": "1.0-beta29",
     "jackmoore/colorbox": "1.6.4",
-    "ckeditor/plugins/uploadwidget": "4.6.2",
-    "ckeditor/plugins/uploadimage": "4.6.2",
-    "ckeditor/plugins/filetools": "4.6.2",
-    "ckeditor/plugins/notification": "4.6.2",
-    "ckeditor/plugins/notificationaggregator": "4.6.2"
+    "openfed-ckeditor-plugins/uploadwidget": "4.6.2",
+    "openfed-ckeditor-plugins/uploadimage": "4.6.2",
+    "openfed-ckeditor-plugins/filetools": "4.6.2",
+    "openfed-ckeditor-plugins/notification": "4.6.2",
+    "openfed-ckeditor-plugins/notificationaggregator": "4.6.2"
   },
   "require-dev": {
     "behat/mink": "~1.7",

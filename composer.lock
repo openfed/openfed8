@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6c5843321662c71984e4269dd4879915",
-    "content-hash": "0617490465ebf0aff492fbc285e75344",
+    "hash": "0e11b0d3eee05e3784bd58d6252c4c64",
+    "content-hash": "aa6d4024624bc0c74da2bc563a213809",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -169,61 +169,6 @@
                 "html"
             ],
             "time": "2016-07-21 15:37:40"
-        },
-        {
-            "name": "ckeditor/plugins/filetools",
-            "version": "4.6.2",
-            "dist": {
-                "type": "zip",
-                "url": "http://download.ckeditor.com/filetools/releases/filetools_4.6.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "drupal-library"
-        },
-        {
-            "name": "ckeditor/plugins/notification",
-            "version": "4.6.2",
-            "dist": {
-                "type": "zip",
-                "url": "http://download.ckeditor.com/notification/releases/notification_4.6.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "drupal-library"
-        },
-        {
-            "name": "ckeditor/plugins/notificationaggregator",
-            "version": "4.6.2",
-            "dist": {
-                "type": "zip",
-                "url": "http://download.ckeditor.com/notificationaggregator/releases/notificationaggregator_4.6.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "drupal-library"
-        },
-        {
-            "name": "ckeditor/plugins/uploadimage",
-            "version": "4.6.2",
-            "dist": {
-                "type": "zip",
-                "url": "http://download.ckeditor.com/uploadimage/releases/uploadimage_4.6.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "drupal-library"
-        },
-        {
-            "name": "ckeditor/plugins/uploadwidget",
-            "version": "4.6.2",
-            "dist": {
-                "type": "zip",
-                "url": "http://download.ckeditor.com/uploadwidget/releases/uploadwidget_4.6.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "drupal-library"
         },
         {
             "name": "composer/installers",
@@ -7811,6 +7756,61 @@
             "description": "Extend the composer/installers plugin to accept any arbitrary package type.",
             "homepage": "http://www.oomphinc.com/",
             "time": "2016-07-05 15:00:34"
+        },
+        {
+            "name": "openfed-ckeditor-plugins/filetools",
+            "version": "4.6.2",
+            "dist": {
+                "type": "zip",
+                "url": "http://download.ckeditor.com/filetools/releases/filetools_4.6.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "openfed-ckeditor-plugin"
+        },
+        {
+            "name": "openfed-ckeditor-plugins/notification",
+            "version": "4.6.2",
+            "dist": {
+                "type": "zip",
+                "url": "http://download.ckeditor.com/notification/releases/notification_4.6.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "openfed-ckeditor-plugin"
+        },
+        {
+            "name": "openfed-ckeditor-plugins/notificationaggregator",
+            "version": "4.6.2",
+            "dist": {
+                "type": "zip",
+                "url": "http://download.ckeditor.com/notificationaggregator/releases/notificationaggregator_4.6.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "openfed-ckeditor-plugin"
+        },
+        {
+            "name": "openfed-ckeditor-plugins/uploadimage",
+            "version": "4.6.2",
+            "dist": {
+                "type": "zip",
+                "url": "http://download.ckeditor.com/uploadimage/releases/uploadimage_4.6.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "openfed-ckeditor-plugin"
+        },
+        {
+            "name": "openfed-ckeditor-plugins/uploadwidget",
+            "version": "4.6.2",
+            "dist": {
+                "type": "zip",
+                "url": "http://download.ckeditor.com/uploadwidget/releases/uploadwidget_4.6.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "openfed-ckeditor-plugin"
         },
         {
             "name": "paragonie/random_compat",
