@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fa4575da1c302d6067714776286c602a",
-    "content-hash": "ebdd4c864892d8585591c94e8cc1cad8",
+    "hash": "95b48a7dd4727bc02746e484f0836f41",
+    "content-hash": "5e83e107df2a813ac3f17f91aa7d68fc",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -341,16 +341,16 @@
         },
         {
             "name": "consolidation/annotated-command",
-            "version": "2.4.1",
+            "version": "2.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/annotated-command.git",
-                "reference": "81512473b0ac36747b87db2513f4771d9483a78d"
+                "reference": "4d25c0b0c4d59514b44323a8d069029494a8f3b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/81512473b0ac36747b87db2513f4771d9483a78d",
-                "reference": "81512473b0ac36747b87db2513f4771d9483a78d",
+                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/4d25c0b0c4d59514b44323a8d069029494a8f3b9",
+                "reference": "4d25c0b0c4d59514b44323a8d069029494a8f3b9",
                 "shasum": ""
             },
             "require": {
@@ -389,7 +389,7 @@
                 }
             ],
             "description": "Initialize Symfony Console commands from annotated command class methods.",
-            "time": "2017-02-13 21:12:55"
+            "time": "2017-02-27 04:11:20"
         },
         {
             "name": "consolidation/output-formatters",
@@ -1534,6 +1534,50 @@
             "homepage": "https://www.drupal.org/project/bootstrap",
             "support": {
                 "source": "http://cgit.drupalcode.org/bootstrap"
+            }
+        },
+        {
+            "name": "drupal/ckeditor_uploadimage",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/ckeditor_uploadimage",
+                "reference": "8.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ckeditor_uploadimage-8.x-1.3.zip",
+                "reference": null,
+                "shasum": "211365fad21c15c8514130e1004ae9ddeddec476"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.3",
+                    "datestamp": "1488000183"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Roland Michael dela Peña (arpeggio)",
+                    "homepage": "https://www.webfoobar.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Integrates CKEditor's Upload Image plugin to Drupal. This enables Drupal's default WYSIWYG text editor capable of uploading images that were dropped or pasted from clipboard into the editor as inline image.",
+            "homepage": "https://drupal.org/project/ckeditor_uploadimage",
+            "support": {
+                "source": "http://cgit.drupalcode.org/ckeditor_uploadimage"
             }
         },
         {
@@ -4963,11 +5007,11 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.1+4-dev",
-                    "datestamp": "1487758083"
+                    "version": "8.x-1.1+5-dev",
+                    "datestamp": "1487848384"
                 },
                 "patches_applied": {
-                    "https://www.drupal.org/files/issues/meta_support-2461695-164.patch": "https://www.drupal.org/files/issues/meta_support-2461695-164.patch"
+                    "Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/meta_support-2461695-164.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -9758,29 +9802,30 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.31.0",
+            "version": "v1.32.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "ddc9e3e20ee9c0b6908f401ac8353635b750eca7"
+                "reference": "9935b662e24d6e634da88901ab534cc12e8c728f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ddc9e3e20ee9c0b6908f401ac8353635b750eca7",
-                "reference": "ddc9e3e20ee9c0b6908f401ac8353635b750eca7",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/9935b662e24d6e634da88901ab534cc12e8c728f",
+                "reference": "9935b662e24d6e634da88901ab534cc12e8c728f",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.7"
             },
             "require-dev": {
+                "psr/container": "^1.0",
                 "symfony/debug": "~2.7",
                 "symfony/phpunit-bridge": "~3.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.31-dev"
+                    "dev-master": "1.32-dev"
                 }
             },
             "autoload": {
@@ -9815,7 +9860,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2017-01-11 19:36:15"
+            "time": "2017-02-27 00:07:03"
         },
         {
             "name": "webflo/drupal-finder",
@@ -11470,25 +11515,30 @@
         },
         {
             "name": "phpunit/php-timer",
-            "version": "1.0.8",
+            "version": "1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-timer.git",
-                "reference": "38e9124049cf1a164f1e4537caf19c99bf1eb260"
+                "reference": "3dcf38ca72b158baf0bc245e9184d3fdffa9c46f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/38e9124049cf1a164f1e4537caf19c99bf1eb260",
-                "reference": "38e9124049cf1a164f1e4537caf19c99bf1eb260",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/3dcf38ca72b158baf0bc245e9184d3fdffa9c46f",
+                "reference": "3dcf38ca72b158baf0bc245e9184d3fdffa9c46f",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": "^5.3.3 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4|~5"
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
             "autoload": {
                 "classmap": [
                     "src/"
@@ -11510,7 +11560,7 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2016-05-12 18:03:57"
+            "time": "2017-02-26 11:10:40"
         },
         {
             "name": "phpunit/php-token-stream",

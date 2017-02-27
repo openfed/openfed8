@@ -3,6 +3,36 @@ api = 2
 defaults[projects][subdir] = contrib
 
 ;
+; Libraries
+; Please fill the following out. Type may be one of get, git, bzr or svn, and url is the url of the download.
+;
+
+libraries[colorbox][download][type] = "get"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.6.3.zip"
+libraries[colorbox][directory_name] = "colorbox"
+libraries[colorbox][type] = "library"
+
+libraries[uploadwidget][download][type] = "get"
+libraries[uploadwidget][download][url] = "http://download.ckeditor.com/uploadwidget/releases/uploadwidget_4.6.2.zip"
+libraries[uploadwidget][download][directory_name] = "ckeditor/plugins/uploadwidget"
+libraries[uploadwidget][download][type] = "library"
+
+libraries[filetools][download][type] = "get"
+libraries[filetools][download][url] = "http://download.ckeditor.com/filetools/releases/filetools_4.6.2.zip"
+libraries[filetools][download][directory_name] = "ckeditor/plugins/filetools"
+libraries[filetools][download][type] = "library"
+
+libraries[notification][download][type] = "get"
+libraries[notification][download][url] = "http://download.ckeditor.com/notification/releases/notification_4.6.2.zip"
+libraries[notification][download][directory_name] = "ckeditor/plugins/notification"
+libraries[notification][download][type] = "library"
+
+libraries[notificationaggregator][download][type] = "get"
+libraries[notificationaggregator][download][url] = "http://download.ckeditor.com/notificationaggregator/releases/notificationaggregator_4.6.2.zip"
+libraries[notificationaggregator][download][directory_name] = "ckeditor/plugins/notificationaggregator"
+libraries[notificationaggregator][download][type] = "library"
+
+;
 ; Themes
 ; Please fill the following out. Type may be one of get, git, bzr or svn, and url is the url of the download.
 ;
@@ -19,6 +49,7 @@ projects[admin_toolbar][patch][2855720] = "https://www.drupal.org/files/issues/a
 projects[admin_toolbar_content_languages][version] = "1.0-beta2"
 projects[alertbox][version] = "1.0-beta2"
 projects[back_to_top][version] = "1.0-beta2"
+projects[ckeditor_uploadimage][version] = "1.3"
 projects[colorbox][download][type] = git
 projects[colorbox][download][revision] = bf511a8594ef69cbba37ef1ea0e72fb9727d15f6
 projects[colorbox][download][branch] = "8.x-1.x"
