@@ -260,5 +260,8 @@
         "Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/meta_support-2461695-164.patch"
       }
     }
+  },
+  "config": {
+    "secure-http": false
   }
 }
