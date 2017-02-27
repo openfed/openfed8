@@ -31,7 +31,7 @@
        "package": {
          "name": "ckeditor/plugins/uploadimage",
          "version": "4.6.2",
-         "type": "drupal-library",
+         "type": "openfed-ckeditor-plugin",
          "dist": {
            "url": "http://download.ckeditor.com/uploadimage/releases/uploadimage_4.6.2.zip",
            "type": "zip"
@@ -43,7 +43,7 @@
        "package": {
          "name": "ckeditor/plugins/uploadwidget",
          "version": "4.6.2",
-         "type": "drupal-library",
+         "type": "openfed-ckeditor-plugin",
          "dist": {
            "url": "http://download.ckeditor.com/uploadwidget/releases/uploadwidget_4.6.2.zip",
            "type": "zip"
@@ -55,7 +55,7 @@
        "package": {
          "name": "ckeditor/plugins/filetools",
          "version": "4.6.2",
-         "type": "drupal-library",
+         "type": "openfed-ckeditor-plugin",
          "dist": {
            "url": "http://download.ckeditor.com/filetools/releases/filetools_4.6.2.zip",
            "type": "zip"
@@ -67,7 +67,7 @@
        "package": {
          "name": "ckeditor/plugins/notification",
          "version": "4.6.2",
-         "type": "drupal-library",
+         "type": "openfed-ckeditor-plugin",
          "dist": {
            "url": "http://download.ckeditor.com/notification/releases/notification_4.6.2.zip",
            "type": "zip"
@@ -79,7 +79,7 @@
        "package": {
          "name": "ckeditor/plugins/notificationaggregator",
          "version": "4.6.2",
-         "type": "drupal-library",
+         "type": "openfed-ckeditor-plugin",
          "dist": {
            "url": "http://download.ckeditor.com/notificationaggregator/releases/notificationaggregator_4.6.2.zip",
            "type": "zip"
@@ -89,6 +89,7 @@
   ],
   "require": {
     "composer/installers": "^1.0.20",
+    "oomphinc/composer-installers-extender": "^1.1",
     "drupal-composer/drupal-scaffold": "^2.0.1",
     "cweagans/composer-patches": "~1.0",
     "drupal/core": "8.2.6",
@@ -230,6 +231,7 @@
     ]
   },
   "extra": {
+    "installer-types": ["openfed-ckeditor-plugin"],
     "installer-paths": {
       "docroot/core": [
         "type:drupal-core"
@@ -250,11 +252,7 @@
         "type:drupal-drush"
       ],
       "docroot/libraries/ckeditor/plugins/{$name}" : [
-        "ckeditor/plugins/uploadimage",
-        "ckeditor/plugins/uploadwidget",
-        "ckeditor/plugins/filetools",
-        "ckeditor/plugins/notification",
-        "ckeditor/plugins/notificationaggregator"
+        "type:openfed-ckeditor-plugin"
       ]
     },
     "drupal-scaffold": {
