@@ -7,3 +7,10 @@ weight: 7
 is_admin: null
 permissions:
   - 'use text format flexible_html'
+  - 'assign content_editor role'
+  - 'assign user_manager role'
+  - 'view the administration theme'
+  - 'access toolbar'
+  - 'administer users'
+  - 'access user profiles'
+  - 'access administration pages'
