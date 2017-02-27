@@ -43,6 +43,7 @@ dependencies:
   - admin_toolbar
   - admin_toolbar_tools
   - admin_toolbar_content_languages
+  - ckeditor_uploadimage
   - ctools
   - diff
   - ds
