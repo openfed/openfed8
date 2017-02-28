@@ -150,12 +150,15 @@ class Helper {
    */
   function _openfed_get_workflow_list() {
     $workflow_list = [
-      self::WORKFLOW_BASIC_CONFIG => t('Basic configuration: there will be "Draft" and "Published" states, 
-      and everyone can change transitions from one to another.'),
-      self::WORKFLOW_ADVANCED_CONFIG => t('Advanced configuration: in adition to the basic configuration, 
-      there will be a "Needs review" state and a new role "Content Author" will be created. 
-      The Content Author will be able only to promote the content from "Draft" to "Needs review". 
-      It\'s up to the Content Editor to manage transitions between all the states.'),
+      self::WORKFLOW_BASIC_CONFIG => t('Basic configuration: there will be
+      "Draft", "Archived" and "Published" states and content editor can change
+      transitions from one to another.'),
+      self::WORKFLOW_ADVANCED_CONFIG => t('Advanced configuration: in adition
+      to the basic configuration, there will be a "Needs review" state and a
+      new role "Content Author" will be created. The Content Author will be
+      able only to promote the content from "Draft" to "Needs review" and from
+      "Archived" to "Draft". It\'s up to the Content Editor to manage
+      transitions between all the states.'),
     ];
     return $workflow_list;
   }
