@@ -41,7 +41,7 @@ libraries[notificationaggregator][download][type] = "library"
 ; Themes
 ; Please fill the following out. Type may be one of get, git, bzr or svn, and url is the url of the download.
 ;
-projects[bootstrap][version] = "3.1"
+projects[bootstrap][version] = "3.2"
 projects[adminimal_theme][version] = "1.3"
 
 ;
@@ -108,7 +108,7 @@ projects[metatag][version] = "1.0"
 projects[node_edit_redirect][version] = "1.0-rc2"
 projects[ofed_switcher][version] = "1.2"
 projects[override_node_options][version] = "2.0"
-projects[panels][version] = "3.0-beta5"
+projects[panels][version] = "3.0-beta6"
 projects[paragraphs][download][type] = git
 projects[paragraphs][download][revision] = a0b7747a7141ae19686c0d5d226c82e44ac51c7f
 projects[paragraphs][download][branch] = "8.x-1.x"
