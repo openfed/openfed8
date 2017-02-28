@@ -168,7 +168,7 @@
     "drupal/menu_trail_by_path": "1.1",
     "drupal/metatag": "1.0",
     "drupal/node_edit_redirect": "1.0-rc2",
-    "drupal/ofed_switcher": "1.1",
+    "drupal/ofed_switcher": "1.2",
     "drupal/override_node_options": "2.0",
     "drupal/panels": "3.0-beta5",
     "drupal/paragraphs": "dev-1.x#a0b7747a7141ae19686c0d5d226c82e44ac51c7f",
@@ -292,7 +292,8 @@
         "cshs_form_select_options does not work with mixed string and integer values": "https://www.drupal.org/files/issues/2852474-1.patch"
       },
       "drupal/admin_toolbar": {
-        "No logout link in admin toolbar anymore": "https://www.drupal.org/files/issues/admin_toolbar-bring-back-logout.patch"
+        "No logout link in admin toolbar anymore": "https://www.drupal.org/files/issues/admin_toolbar-bring-back-logout.patch",
+        "Menu items that link to an empty administration page are not hidden": "https://www.drupal.org/files/issues/admin_toolbar-hide-items-with-empty-subtrees.patch"
       },
       "drupal/paragraphs": {
         "Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/meta_support-2461695-164.patch"

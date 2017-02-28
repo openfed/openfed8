@@ -51,3 +51,5 @@ permissions:
   - 'translate media'
   - 'translate page node'
   - 'administer menu'
+  - 'administer url aliases'
+  - 'create url aliases'

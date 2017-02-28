@@ -1,6 +1,8 @@
 langcode: en
 status: true
 dependencies:
+  config:
+    - views.view.media_entity_browser
   module:
     - entity_browser_entity_form
     - views
