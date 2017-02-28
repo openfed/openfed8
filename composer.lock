@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "86367a1350f8c70089553fd0019d80d9",
-    "content-hash": "34386e8fd1d8930d271434c1a415548f",
+    "hash": "6bb032be6b4f0975d922c2354fab1446",
+    "content-hash": "c2555eaef04fc17be888ac768f3eb203",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1205,8 +1205,7 @@
                     "datestamp": "1480614184"
                 },
                 "patches_applied": {
-                    "No logout link in admin toolbar anymore": "https://www.drupal.org/files/issues/admin_toolbar-bring-back-logout.patch",
-                    "Menu items that link to an empty administration page are not hidden": "https://www.drupal.org/files/issues/admin_toolbar-hide-items-with-empty-subtrees.patch"
+                    "Apply admin_toolbar patches 2855720 and 2855786": "https://www.drupal.org/files/issues/2856735-1.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

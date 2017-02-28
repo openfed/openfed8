@@ -292,8 +292,7 @@
         "cshs_form_select_options does not work with mixed string and integer values": "https://www.drupal.org/files/issues/2852474-1.patch"
       },
       "drupal/admin_toolbar": {
-        "No logout link in admin toolbar anymore": "https://www.drupal.org/files/issues/admin_toolbar-bring-back-logout.patch",
-        "Menu items that link to an empty administration page are not hidden": "https://www.drupal.org/files/issues/admin_toolbar-hide-items-with-empty-subtrees.patch"
+        "Apply admin_toolbar patches 2855720 and 2855786": "https://www.drupal.org/files/issues/2856735-1.patch"
       },
       "drupal/paragraphs": {
         "Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/meta_support-2461695-164.patch"
