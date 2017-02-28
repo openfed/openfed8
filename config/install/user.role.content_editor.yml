@@ -48,6 +48,8 @@ permissions:
   - 'delete content translations'
   - 'update content translations'
   - 'administer menu'
+  - 'administer url aliases'
+  - 'create url aliases'
   - 'translate any entity'
   - 'translate media'
   - 'translate page node'
