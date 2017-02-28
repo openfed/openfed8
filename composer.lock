@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4ccb50657dfbb0fe3f6bdfc2e9b855a4",
-    "content-hash": "fc7e4e47c846eb70f6d03591f5781e60",
+    "hash": "61ebe291da51377b1779d7165cc7de8b",
+    "content-hash": "31d4af494db6d46a218469b5ce22ae95",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -341,16 +341,16 @@
         },
         {
             "name": "consolidation/annotated-command",
-            "version": "2.4.3",
+            "version": "2.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/annotated-command.git",
-                "reference": "4d25c0b0c4d59514b44323a8d069029494a8f3b9"
+                "reference": "ccff73e46582a885ce4bb2c57bbd8ba4415dbd24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/4d25c0b0c4d59514b44323a8d069029494a8f3b9",
-                "reference": "4d25c0b0c4d59514b44323a8d069029494a8f3b9",
+                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/ccff73e46582a885ce4bb2c57bbd8ba4415dbd24",
+                "reference": "ccff73e46582a885ce4bb2c57bbd8ba4415dbd24",
                 "shasum": ""
             },
             "require": {
@@ -389,7 +389,7 @@
                 }
             ],
             "description": "Initialize Symfony Console commands from annotated command class methods.",
-            "time": "2017-02-27 04:11:20"
+            "time": "2017-02-27 18:29:21"
         },
         {
             "name": "consolidation/output-formatters",
@@ -1205,7 +1205,8 @@
                     "datestamp": "1480614184"
                 },
                 "patches_applied": {
-                    "No logout link in admin toolbar anymore": "https://www.drupal.org/files/issues/admin_toolbar-bring-back-logout.patch"
+                    "No logout link in admin toolbar anymore": "https://www.drupal.org/files/issues/admin_toolbar-bring-back-logout.patch",
+                    "Menu items that link to an empty administration page are not hidden": "https://www.drupal.org/files/issues/admin_toolbar-hide-items-with-empty-subtrees.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -7814,16 +7815,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.4",
+            "version": "v2.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e"
+                "reference": "b5ea1ef3d8ff10c307ba8c5945c2f134e503278f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e",
-                "reference": "a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/b5ea1ef3d8ff10c307ba8c5945c2f134e503278f",
+                "reference": "b5ea1ef3d8ff10c307ba8c5945c2f134e503278f",
                 "shasum": ""
             },
             "require": {
@@ -7858,7 +7859,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-11-07 23:38:38"
+            "time": "2017-02-27 17:11:23"
         },
         {
             "name": "pear/console_table",
