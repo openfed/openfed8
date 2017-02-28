@@ -2,10 +2,10 @@ langcode: en
 status: true
 dependencies:
   config:
-    - workbench_moderation.moderation_state.draft
+    - workbench_moderation.moderation_state.archived
     - workbench_moderation.moderation_state.published
-id: draft_published
-label: Publish
-stateFrom: draft
+id: re_publish
+label: Re-publish
+stateFrom: archived
 stateTo: published
-weight: -8
+weight: -2

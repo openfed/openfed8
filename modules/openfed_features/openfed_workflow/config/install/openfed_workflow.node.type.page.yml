@@ -3,11 +3,17 @@ status: true
 dependencies:
   module:
     - workbench_moderation
+    - menu_ui
 third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
   workbench_moderation:
     enabled: true
     allowed_moderation_states:
       - published
+      - archived
       - draft
       - needs_review
     default_moderation_state: draft

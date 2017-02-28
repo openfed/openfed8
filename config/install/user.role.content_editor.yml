@@ -3,7 +3,7 @@ status: true
 dependencies: {  }
 id: content_editor
 label: 'Content Editor'
-weight: 6
+weight: 4
 is_admin: null
 permissions:
   - 'use published_draft transition'
@@ -47,9 +47,12 @@ permissions:
   - 'create content translations'
   - 'delete content translations'
   - 'update content translations'
-  - 'translate any entity'
-  - 'translate media'
-  - 'translate page node'
   - 'administer menu'
   - 'administer url aliases'
   - 'create url aliases'
+  - 'translate any entity'
+  - 'translate media'
+  - 'translate page node'
+  - 'use archive transition'
+  - 'use re_publish transition'
+  - 'use send_back_to_draft transition'
