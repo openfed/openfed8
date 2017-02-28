@@ -13,6 +13,7 @@ third_party_settings:
     enabled: true
     allowed_moderation_states:
       - published
+      - archived
       - draft
     default_moderation_state: draft
 name: 'Basic page'

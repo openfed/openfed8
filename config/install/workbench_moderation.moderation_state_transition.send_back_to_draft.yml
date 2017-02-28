@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - workbench_moderation.moderation_state.archived
+    - workbench_moderation.moderation_state.draft
+id: send_back_to_draft
+label: 'Send Back to Draft'
+stateFrom: archived
+stateTo: draft
+weight: -1
