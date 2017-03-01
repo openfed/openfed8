@@ -4,7 +4,7 @@ package: Openfed
 
 type: module
 core: 8.x
-version: '8.x-0.4'
+version: '8.x-1.0-rc1'
 
 dependencies:
   - drupal:content_translation

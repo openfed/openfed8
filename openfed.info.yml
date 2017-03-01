@@ -88,3 +88,5 @@ dependencies:
 themes:
   - adminimal_theme
   - bootstrap
+
+version: '8.x-1.0-rc1'
