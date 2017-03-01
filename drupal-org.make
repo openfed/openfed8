@@ -41,7 +41,7 @@ libraries[notificationaggregator][download][type] = "library"
 ; Themes
 ; Please fill the following out. Type may be one of get, git, bzr or svn, and url is the url of the download.
 ;
-projects[bootstrap][version] = "3.1"
+projects[bootstrap][version] = "3.2"
 projects[adminimal_theme][version] = "1.3"
 
 ;
@@ -50,8 +50,7 @@ projects[adminimal_theme][version] = "1.3"
 ;
 projects[addanother][version] = "1.0-rc1"
 projects[admin_toolbar][version] = "1.18"
-projects[admin_toolbar][patch][2855720] = "https://www.drupal.org/files/issues/admin_toolbar-bring-back-logout.patch"
-projects[admin_toolbar][patch][2855786] = "https://www.drupal.org/files/issues/admin_toolbar-hide-items-with-empty-subtrees.patch"
+projects[admin_toolbar][patch][2856735] = "https://www.drupal.org/files/issues/2856735-1.patch"
 projects[admin_toolbar_content_languages][version] = "1.0-beta2"
 projects[alertbox][version] = "1.0-beta2"
 projects[back_to_top][version] = "1.0-beta2"
@@ -108,7 +107,7 @@ projects[metatag][version] = "1.0"
 projects[node_edit_redirect][version] = "1.0-rc2"
 projects[ofed_switcher][version] = "1.2"
 projects[override_node_options][version] = "2.0"
-projects[panels][version] = "3.0-beta5"
+projects[panels][version] = "3.0-beta6"
 projects[paragraphs][download][type] = git
 projects[paragraphs][download][revision] = a0b7747a7141ae19686c0d5d226c82e44ac51c7f
 projects[paragraphs][download][branch] = "8.x-1.x"
