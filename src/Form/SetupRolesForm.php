@@ -103,9 +103,6 @@ class SetupRolesForm extends FormBase {
     else {
       // We don't need to keep the default Archive and Need Review state.
       $mod_state = \Drupal::entityTypeManager()->getStorage('moderation_state');
-      if ($archive_state = $mod_state->load('archived')) {
-        $archive_state->delete();
-      }
       if ($needs_review = $mod_state->load('needs_review')) {
         $needs_review->delete();
       }

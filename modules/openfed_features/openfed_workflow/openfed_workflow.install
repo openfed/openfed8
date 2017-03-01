@@ -29,13 +29,6 @@ function openfed_workflow_install() {
     }
   }
 
-  // We don't need to keep the default Archive state, so let's remove it.
-  $mod_state = \Drupal::entityTypeManager()->getStorage('moderation_state');
-  if ($archive_state = $mod_state->load('archived')) {
-    $archive_state->delete();
-  }
-
-
   // We don't need to keep the default needs_review_needs_review transition, so
   // let's remove it.
   $mod_state_transit = \Drupal::entityTypeManager()
