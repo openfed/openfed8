@@ -283,19 +283,22 @@
     },
     "patches": {
       "drupal/username_enumeration_prevention": {
-        "Fix Broken Installation": "https://www.drupal.org/files/issues/fix_broken_installation-2483015-9.patch"
+        "Issue #2483015: Fix Broken Installation": "https://www.drupal.org/files/issues/fix_broken_installation-2483015-9.patch"
       },
       "drupal/soundcloudfield": {
-        "Fix fatal error occurs on all pages": "https://www.drupal.org/files/issues/soundcloudfield-fatal_error_occurs_on_all_pages-2760787-3.patch"
+        "Issue #2760787: Fix fatal error occurs on all pages": "https://www.drupal.org/files/issues/soundcloudfield-fatal_error_occurs_on_all_pages-2760787-3.patch"
       },
       "drupal/cshs": {
-        "cshs_form_select_options does not work with mixed string and integer values": "https://www.drupal.org/files/issues/2852474-1.patch"
+        "Issue #2852474: cshs_form_select_options does not work with mixed string and integer values": "https://www.drupal.org/files/issues/2852474-1.patch"
       },
       "drupal/admin_toolbar": {
-        "Apply admin_toolbar patches 2855720 and 2855786": "https://www.drupal.org/files/issues/2856735-1.patch"
+        "Issue #2856735: Apply admin_toolbar patches 2855720 and 2855786": "https://www.drupal.org/files/issues/2856735-1.patch"
       },
       "drupal/paragraphs": {
-        "Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/meta_support-2461695-164.patch"
+        "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/meta_support-2461695-164.patch"
+      },
+      "drupal/toolbar_themes": {
+        "Issue #2856979: Add a permission for configuring toolbar themes": "https://www.drupal.org/files/issues/toolbar_themes-permission.patch"
       }
     }
   },
