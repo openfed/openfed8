@@ -51,6 +51,6 @@ permissions:
   - 'translate any entity'
   - 'translate media'
   - 'translate page node'
-  - 'use archive transition'
-  - 'use re_publish transition'
   - 'use send_back_to_draft transition'
+  - 'use published_archived transition'
+  - 'use archived_published transition'

@@ -3,7 +3,7 @@ status: true
 dependencies:
   config:
     - openfed_workflow.workbench_moderation.moderation_state.needs_review
-    - openfed_workflow.workbench_moderation.moderation_state.published
+    - workbench_moderation.moderation_state.published
 id: needs_review_published
 label: Publish
 stateFrom: needs_review

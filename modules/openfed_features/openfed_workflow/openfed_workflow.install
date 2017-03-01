@@ -29,6 +29,20 @@ function openfed_workflow_install() {
     }
   }
 
+  // For content editors, we just need to add a new permission for Needs Review
+  // new state.
+  $editor_role_conf = 'user.role.content_editor';
+  $editor_new_permissions = array(
+    'use needs_review_published transition',
+    'use draft_needs_review transition',
+    'use needs_review_draft transition',
+  );
+  $config = \Drupal::configFactory()->getEditable($editor_role_conf);
+  $config->set(
+    'permissions',
+    array_merge($config->get('permissions'), $editor_new_permissions)
+  );
+
   // We don't need to keep the default needs_review_needs_review transition, so
   // let's remove it.
   $mod_state_transit = \Drupal::entityTypeManager()
