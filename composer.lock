@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a814985b76f4a38fb4e3ea3254e2153a",
-    "content-hash": "25d785511bf6aa5d6c8c4b7ebca791e4",
+    "hash": "17608304280b22c56884ac0421ab30b4",
+    "content-hash": "f6f5e0bf6dd2bfaf2f3267c82dffa298",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -393,27 +393,27 @@
         },
         {
             "name": "consolidation/output-formatters",
-            "version": "3.1.7",
+            "version": "3.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/output-formatters.git",
-                "reference": "da39a0f14d5aaaee06732bb7cef2aea1de056b40"
+                "reference": "0b50ba1134d581fd55376f3e21508dab009ced47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/output-formatters/zipball/da39a0f14d5aaaee06732bb7cef2aea1de056b40",
-                "reference": "da39a0f14d5aaaee06732bb7cef2aea1de056b40",
+                "url": "https://api.github.com/repos/consolidation/output-formatters/zipball/0b50ba1134d581fd55376f3e21508dab009ced47",
+                "reference": "0b50ba1134d581fd55376f3e21508dab009ced47",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
-                "symfony/console": "~2.5|~3.0",
+                "symfony/console": "^2.8|~3",
                 "symfony/finder": "~2.5|~3.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.*",
+                "phpunit/phpunit": "^4.8",
                 "satooshi/php-coveralls": "^1.0",
-                "squizlabs/php_codesniffer": "2.*",
+                "squizlabs/php_codesniffer": "^2.7",
                 "victorjonsson/markdowndocs": "^1.3"
             },
             "type": "library",
@@ -438,7 +438,7 @@
                 }
             ],
             "description": "Format text by applying transformations provided by plug-in formatters.",
-            "time": "2017-01-21 06:26:40"
+            "time": "2017-03-01 20:54:45"
         },
         {
             "name": "cweagans/composer-patches",
@@ -6088,7 +6088,7 @@
                     "datestamp": "1474198439"
                 },
                 "patches_applied": {
-                    "Issue #2856979: Add a permission for configuring toolbar themes": "https://www.drupal.org/files/issues/toolbar_themes-permission.patch"
+                    "Issue #2856979: Add a permission for configuring toolbar themes": "https://www.drupal.org/files/issues/config_permission-2856979-6.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -7425,6 +7425,9 @@
                 "reference": null,
                 "shasum": null
             },
+            "require": {
+                "oomphinc/composer-installers-extender": "^1.1"
+            },
             "type": "drupal-library"
         },
         {
@@ -7770,6 +7773,9 @@
                 "reference": null,
                 "shasum": null
             },
+            "require": {
+                "oomphinc/composer-installers-extender": "^1.1"
+            },
             "type": "openfed-ckeditor-plugin"
         },
         {
@@ -7780,6 +7786,9 @@
                 "url": "http://download.ckeditor.com/notification/releases/notification_4.6.2.zip",
                 "reference": null,
                 "shasum": null
+            },
+            "require": {
+                "oomphinc/composer-installers-extender": "^1.1"
             },
             "type": "openfed-ckeditor-plugin"
         },
@@ -7792,6 +7801,9 @@
                 "reference": null,
                 "shasum": null
             },
+            "require": {
+                "oomphinc/composer-installers-extender": "^1.1"
+            },
             "type": "openfed-ckeditor-plugin"
         },
         {
@@ -7803,6 +7815,9 @@
                 "reference": null,
                 "shasum": null
             },
+            "require": {
+                "oomphinc/composer-installers-extender": "^1.1"
+            },
             "type": "openfed-ckeditor-plugin"
         },
         {
@@ -7813,6 +7828,9 @@
                 "url": "http://download.ckeditor.com/uploadwidget/releases/uploadwidget_4.6.2.zip",
                 "reference": null,
                 "shasum": null
+            },
+            "require": {
+                "oomphinc/composer-installers-extender": "^1.1"
             },
             "type": "openfed-ckeditor-plugin"
         },
@@ -10833,28 +10851,28 @@
         },
         {
             "name": "drupal/coder",
-            "version": "8.2.10",
+            "version": "8.2.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/klausi/coder.git",
-                "reference": "c835ff5c1733676fe0d3f3b861e814d570baaa6f"
+                "reference": "564a361274d8234d36385766f063ca89c4184479"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/klausi/coder/zipball/c835ff5c1733676fe0d3f3b861e814d570baaa6f",
-                "reference": "c835ff5c1733676fe0d3f3b861e814d570baaa6f",
+                "url": "https://api.github.com/repos/klausi/coder/zipball/564a361274d8234d36385766f063ca89c4184479",
+                "reference": "564a361274d8234d36385766f063ca89c4184479",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
                 "php": ">=5.4.0",
-                "squizlabs/php_codesniffer": ">=2.7.0 <3.0",
+                "squizlabs/php_codesniffer": ">=2.8.1 <3.0",
                 "symfony/yaml": ">=2.0.0"
             },
             "require-dev": {
-                "phpunit/phpunit": ">=3.7"
+                "phpunit/phpunit": ">=3.7 <6"
             },
-            "type": "library",
+            "type": "phpcodesniffer-standard",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0+"
@@ -10866,7 +10884,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2016-12-09 21:57:53"
+            "time": "2017-03-02 08:57:31"
         },
         {
             "name": "drupal/devel",
@@ -12225,16 +12243,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.8.0",
+            "version": "2.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "86dd55a522238211f9f3631e3361703578941d9a"
+                "reference": "d7cf0d894e8aa4c73712ee4a331cc1eaa37cdc7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/86dd55a522238211f9f3631e3361703578941d9a",
-                "reference": "86dd55a522238211f9f3631e3361703578941d9a",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/d7cf0d894e8aa4c73712ee4a331cc1eaa37cdc7d",
+                "reference": "d7cf0d894e8aa4c73712ee4a331cc1eaa37cdc7d",
                 "shasum": ""
             },
             "require": {
@@ -12299,7 +12317,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2017-02-02 03:30:00"
+            "time": "2017-03-01 22:17:45"
         },
         {
             "name": "symfony/browser-kit",

@@ -7,3 +7,4 @@ weight: 3
 is_admin: null
 permissions:
   - 'use text format flexible_html'
+  - 'configure toolbar_themes'

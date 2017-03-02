@@ -1,8 +1,7 @@
 langcode: en
 status: true
-dependencies: {  }
-_core:
-  default_config_hash: 51ZOBBwRVuqI-LIBfpvM34qygF71yqDcdq433zrqFcg
+dependencies:
+  - 'toolbar_themes.settings'
 id: authenticated
 label: 'Authenticated user'
 weight: 1

@@ -298,7 +298,7 @@
         "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/meta_support-2461695-164.patch"
       },
       "drupal/toolbar_themes": {
-        "Issue #2856979: Add a permission for configuring toolbar themes": "https://www.drupal.org/files/issues/toolbar_themes-permission.patch"
+        "Issue #2856979: Add a permission for configuring toolbar themes": "https://www.drupal.org/files/issues/config_permission-2856979-6.patch"
       }
     }
   },
