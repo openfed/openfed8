@@ -1,5 +1,9 @@
 CHANGELOG
 =========
+2 March 2017 - Version 1.0-rc2
+----------------------------
+  Release candidate.
+
 1 March 2017 - Version 1.0-rc1
 ----------------------------
   Release candidate.
