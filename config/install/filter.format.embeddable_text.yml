@@ -7,7 +7,7 @@ _core:
   default_config_hash: l-tOOTy-xdk1sdzGKKclRwkFRAgVkwUG1k5qksGQ5DE
 name: 'Embeddable Text'
 format: embeddable_text
-weight: 0
+weight: 5
 filters:
   filter_htmlcorrector:
     id: filter_htmlcorrector
