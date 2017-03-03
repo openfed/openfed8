@@ -14,6 +14,7 @@ permissions:
   - 'use draft_published transition'
   - 'use ready_for_review transition'
   - 'use text format flexible_html'
+  - 'use text format embeddable_text'
   - 'access content overview'
   - 'view all revisions'
   - 'create page content'
