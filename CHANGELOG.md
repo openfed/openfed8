@@ -1,5 +1,12 @@
 CHANGELOG
 =========
+3 March 2017 - Version 1.0-rc3
+----------------------------
+  Issue #6: removed Basic HTML; set Flexible HTML as default input format
+  Issue #10: Fixed toolbar_theme installation issue and set permissions…
+  Issue #12: Removed extra Field menu tab; Renamed Media menu tab @ con…
+  Issue #13: Added Page Body field to the display
+
 2 March 2017 - Version 1.0-rc2
 ----------------------------
   Release candidate.
