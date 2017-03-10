@@ -299,6 +299,9 @@
       },
       "drupal/toolbar_themes": {
         "Issue #2856979: Add a permission for configuring toolbar themes": "https://www.drupal.org/files/issues/config_permission-2856979-6.patch"
+      },
+      "drupal/ctools": {
+        "Issue #2831521: Avoid unserialization of blockPluginCollection in BlockDisplayVariant": "https://www.drupal.org/files/issues/ctools-unserialize-plugin-collection-2831521-1.patch"
       }
     }
   },
