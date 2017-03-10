@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b03f3a67fe7838662f60507d47accf7a",
-    "content-hash": "ebe24a6199ee707f03ed133f661f80ec",
+    "hash": "d391cc83e3b6df603456619f0a3c32da",
+    "content-hash": "8f87f3255c1040fd0428f1280ed6bef9",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -4550,6 +4550,9 @@
                 "drupal": {
                     "version": "8.x-1.4",
                     "datestamp": "1473063239"
+                },
+                "patches_applied": {
+                    "Issue #2756675: Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/2811337-13_0.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
