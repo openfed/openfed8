@@ -170,6 +170,7 @@
     "drupal/node_edit_redirect": "1.0-rc2",
     "drupal/ofed_switcher": "1.2",
     "drupal/override_node_options": "2.0",
+    "drupal/page_manager": "dev-1.x#292cddfeca17bea8b95fbcad2ba09b534a913d03",
     "drupal/panels": "3.0-beta6",
     "drupal/paragraphs": "dev-1.x#a0b7747a7141ae19686c0d5d226c82e44ac51c7f",
     "drupal/pathauto": "1.0-rc1",
