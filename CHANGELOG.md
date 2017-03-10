@@ -1,5 +1,15 @@
 CHANGELOG
 =========
+10 March 2017 - Version 1.0-rc4
+----------------------------
+  Issue #14: added page_manager module
+  Issue #17: Removed menus from basic page config
+  Issue #18: Added Flexible HTML missing buttons
+  Issue #19: Make Menu Block to follow active trail
+  Issue #20: Update search_api_solr and search_api_solr_multilingual to…
+  Issue #21: Prevent ctools fatal error
+  Issue #23: Upgraded to Drupal 8.3-rc1
+
 3 March 2017 - Version 1.0-rc3
 ----------------------------
   Issue #6: removed Basic HTML; set Flexible HTML as default input format
