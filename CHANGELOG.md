@@ -1,5 +1,10 @@
 CHANGELOG
 =========
+
+13 March 2017 - Version 1.0-rc5
+----------------------------
+  Fixes a problem with the drupal.org 1.0-rc4 release.
+
 10 March 2017 - Version 1.0-rc4
 ----------------------------
   Issue #14: added page_manager module
