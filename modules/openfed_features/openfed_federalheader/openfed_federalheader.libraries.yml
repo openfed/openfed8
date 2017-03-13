@@ -1,0 +1,5 @@
+header:
+  version: VERSION
+  css:
+    theme:
+      assets/styles/openfed_federalheader.css: {}

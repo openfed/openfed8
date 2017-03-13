@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+#block-openfed-federal-header-federal-header h2 {
+  display:none;
+}
+
+#openfed-federal-header-wrapper {
+  background: url(../images/federalheader_bg.gif) repeat-x right bottom scroll;
+  position: relative;
+}
+
+.ie7 #openfed-federal-header-wrapper,
+.ie8 #openfed-federal-header-wrapper {
+	padding: 10px 0 0 0;
+}
+
+#openfed-federal-header-wrapper #openfed-federal-header-link {
+  color: #333333;
+  font-family: arial, verdana, sans-serif;
+  font-size: 0.8125em;
+  text-align: right;
+  padding: 0.9em 4em 0.8em 0;
+  line-height: 1.22em;
+}
+
+#openfed-federal-header-wrapper #openfed-federal-header-logo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 32px;
+  height: 23px;
+}

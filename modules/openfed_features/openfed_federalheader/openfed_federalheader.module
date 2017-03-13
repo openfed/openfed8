@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function openfed_federalheader_theme($existing, $type, $theme, $path) {
+  return [
+    'federalheader_block' => [
+      'variables' => ['module_path' => NULL, 'other_information' => NULL]
+    ],
+  ];
+}

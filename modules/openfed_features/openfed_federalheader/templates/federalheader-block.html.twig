@@ -1,0 +1,21 @@
+{#
+/**
+ * @file
+ * Default theme implementation for the federal header block.
+ *
+ * Available variables:
+ * - module_path: The relative path to the openfed_federalheader module.
+ * - other_information: The translatable string linking to belgium.be for other
+ *   information.
+ *
+ * @ingroup themeable
+ */
+#}
+<div id="openfed-federal-header-wrapper">
+  <div id="openfed-federal-header-link">
+   {{ other_information }}
+  </div>
+  <div id="openfed-federal-header-logo">
+    <img src="{{ module_path }}/assets/images/federalheader_logo.png" alt="{{ 'Logo of the Belgian Federal Authorities' | t }}" width="32" height="23" />
+  </div>
+</div>

@@ -1,0 +1,7 @@
+name: Federal Header
+description: 'Provide the official Belgian Federal Authorities header'
+package: Openfed
+
+type: module
+core: 8.x
+version: '8.x-1.0-rc1'
