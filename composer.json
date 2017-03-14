@@ -144,6 +144,7 @@
     "drupal/facets": "1.0-alpha7",
     "drupal/fast_404": "1.0-alpha2",
     "drupal/fences": "2.0-alpha1",
+    "drupal/field_default_token": "dev-1.x#cec380512962857e62a1c050fde77eb8d27652dc",
     "drupal/field_formatter": "1.0",
     "drupal/field_group": "1.0-rc6",
     "drupal/file_entity": "2.0-beta3",
@@ -306,6 +307,9 @@
       },
       "drupal/menu_block": {
         "Issue #2756675: Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/2811337-13_0.patch"
+      },
+      "drupal/field_default_token": {
+        "Issue #2860580: Apply field_default_token patches 2841292 and 2854384": "https://www.drupal.org/files/issues/2841292-7-and-2854384-4.patch"
       }
     }
   },
