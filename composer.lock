@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2999dfa50f2c35321592d7b206799bf8",
-    "content-hash": "85e26acef479f220ecd08840cc38b615",
+    "hash": "c8fd911f769321d8c93ea57c0c103c84",
+    "content-hash": "2481bee8e61c0a8743d2ed31fd5b1b0c",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1386,17 +1386,17 @@
         },
         {
             "name": "drupal/alertbox",
-            "version": "1.0.0-beta2",
+            "version": "1.0.0-beta3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/alertbox",
-                "reference": "8.x-1.0-beta2"
+                "reference": "8.x-1.0-beta3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/alertbox-8.x-1.0-beta2.zip",
+                "url": "https://ftp.drupal.org/files/projects/alertbox-8.x-1.0-beta3.zip",
                 "reference": null,
-                "shasum": "3c40b5c73f62b3a91985eed13cbaa248cfc75592"
+                "shasum": "320522b3f4b782072c8dd97f7088936e4fc3a5f6"
             },
             "require": {
                 "drupal/core": "*"
@@ -1407,8 +1407,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-beta2",
-                    "datestamp": "1485787983"
+                    "version": "8.x-1.0-beta3",
+                    "datestamp": "1488877382"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -6561,17 +6561,17 @@
         },
         {
             "name": "drupal/views_slideshow",
-            "version": "4.3.0",
+            "version": "4.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/views_slideshow",
-                "reference": "8.x-4.3"
+                "reference": "8.x-4.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/views_slideshow-8.x-4.3.zip",
+                "url": "https://ftp.drupal.org/files/projects/views_slideshow-8.x-4.4.zip",
                 "reference": null,
-                "shasum": "a257ba2ff45897c8f8ffac5e2739cb5f7cdd68b4"
+                "shasum": "8ace751cf5f9ef316c397fc8f6cb012f58c32a5c"
             },
             "require": {
                 "drupal/core": "*"
@@ -6582,8 +6582,8 @@
                     "dev-4.x": "4.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-4.3",
-                    "datestamp": "1484870284"
+                    "version": "8.x-4.4",
+                    "datestamp": "1488919683"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -6676,17 +6676,17 @@
         },
         {
             "name": "drupal/workbench_access",
-            "version": "1.0.0-alpha2",
+            "version": "1.0.0-alpha3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/workbench_access",
-                "reference": "8.x-1.0-alpha2"
+                "reference": "8.x-1.0-alpha3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/workbench_access-8.x-1.0-alpha2.zip",
+                "url": "https://ftp.drupal.org/files/projects/workbench_access-8.x-1.0-alpha3.zip",
                 "reference": null,
-                "shasum": "369d14f9b67d0590483f84df85b02487ffb06e46"
+                "shasum": "65ee8ce62de26dcd544aefb1fd433b05051d19c0"
             },
             "require": {
                 "drupal/core": "*"
@@ -6697,8 +6697,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha2",
-                    "datestamp": "1477429076"
+                    "version": "8.x-1.0-alpha3",
+                    "datestamp": "1489345683"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
