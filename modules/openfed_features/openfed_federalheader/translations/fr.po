@@ -1,48 +1,48 @@
+# $Id$
 #
-# French translation of ofed_federalheader
+# LANGUAGE translation of Drupal (general)
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 # Generated from files:
-#  ofed_federalheader.info: n/a
-#  includes/ofed_federalheader.blocks.inc: n/a
-#  templates/blocks/ofed_federalheader_block_content.tpl.php: n/a
+#  modules/openfed_features/openfed_federalheader/openfed_federalheader.info.yml: n/a
+#  modules/openfed_features/openfed_federalheader/src/Plugin/Block/FederalHeaderBlock.php: n/a
+#  modules/openfed_features/openfed_federalheader/templates/federalheader-block.html.twig: n/a
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2012-11-08 15:59+0100\n"
-"PO-Revision-Date: 2012-11-08 16:22+0100\n"
+"POT-Creation-Date: 2017-03-16 14:33+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
-"Language-Team: French <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: ofed_federalheader.info:0
+#: modules/openfed_features/openfed_federalheader/openfed_federalheader.info.yml:0
+msgid "Federal Header"
+msgstr ""
+
+#: modules/openfed_features/openfed_federalheader/openfed_federalheader.info.yml:0
+msgid "Provide the official Belgian Federal Authorities header"
+msgstr ""
+
+#: modules/openfed_features/openfed_federalheader/openfed_federalheader.info.yml:0
+msgid "Openfed"
+msgstr ""
+
+#: modules/openfed_features/openfed_federalheader/src/Plugin/Block/FederalHeaderBlock.php:25
+msgid "Other information and services: <span><a href=\":link\">www.belgium.be</a></span>"
+msgstr ""
+"Autres informations et services officiels : <span><a "
+"href=\":link\">www.belgium.be</a></span>"
+
+#: modules/openfed_features/openfed_federalheader/src/Plugin/Block/FederalHeaderBlock.php:7
 msgid "Federal header"
 msgstr "En-tête fédéral"
 
-#: ofed_federalheader.info:0
-msgid "Provide the official Belgian Federal Authorities header."
-msgstr "Fournit l'entête officiel des autorités fédérales belges."
-
-#: ofed_federalheader.info:0
-msgid "OpenFed"
-msgstr "OpenFed"
-
-#: includes/ofed_federalheader.blocks.inc:9
-msgid "Belgian Federal header"
-msgstr "En-tête fédéral belge"
-
-#: templates/blocks/ofed_federalheader_block_content.tpl.php:6
-msgid "www.belgium.be"
-msgstr "www.belgium.be"
-
-#: templates/blocks/ofed_federalheader_block_content.tpl.php:9
-msgid "Other information and services: <span><a href=":link">www.belgium.be</a></span>"
-msgstr "Autres informations et services officiels : <span><a href=":link">www.belgium.be</a></span>"
-
-#: templates/blocks/ofed_federalheader_block_content.tpl.php:17
+#: modules/openfed_features/openfed_federalheader/templates/federalheader-block.html.twig:19
 msgid "Logo of the Belgian Federal Authorities"
 msgstr "Logo des autorités fédérales belges"
+
