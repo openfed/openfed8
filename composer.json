@@ -284,32 +284,32 @@
       }
     },
     "patches": {
-      "drupal/username_enumeration_prevention": {
-        "Issue #2483015: Fix Broken Installation": "https://www.drupal.org/files/issues/fix_broken_installation-2483015-9.patch"
-      },
-      "drupal/soundcloudfield": {
-        "Issue #2760787: Fix fatal error occurs on all pages": "https://www.drupal.org/files/issues/soundcloudfield-fatal_error_occurs_on_all_pages-2760787-3.patch"
+      "drupal/admin_toolbar": {
+        "Issue #2855786: Menu items that link to an empty administration page are not hidden": "https://www.drupal.org/files/issues/admin_toolbar-hide-items-with-empty-subtrees.patch"
       },
       "drupal/cshs": {
         "Issue #2852474: cshs_form_select_options does not work with mixed string and integer values": "https://www.drupal.org/files/issues/2852474-1.patch"
       },
-      "drupal/admin_toolbar": {
-        "Issue #2855786: Menu items that link to an empty administration page are not hidden": "https://www.drupal.org/files/issues/admin_toolbar-hide-items-with-empty-subtrees.patch"
-      },
-      "drupal/paragraphs": {
-        "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/meta_support-2461695-164.patch"
-      },
-      "drupal/toolbar_themes": {
-        "Issue #2856979: Add a permission for configuring toolbar themes": "https://www.drupal.org/files/issues/config_permission-2856979-6.patch"
-      },
       "drupal/ctools": {
         "Issue #2831521: Avoid unserialization of blockPluginCollection in BlockDisplayVariant": "https://www.drupal.org/files/issues/ctools-unserialize-plugin-collection-2831521-1.patch"
+      },
+      "drupal/field_default_token": {
+        "Issue #2860580: Apply field_default_token patches 2841292 and 2854384": "https://www.drupal.org/files/issues/2841292-7-and-2854384-4.patch"
       },
       "drupal/menu_block": {
         "Issue #2756675: Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/2811337-13_0.patch"
       },
-      "drupal/field_default_token": {
-        "Issue #2860580: Apply field_default_token patches 2841292 and 2854384": "https://www.drupal.org/files/issues/2841292-7-and-2854384-4.patch"
+      "drupal/paragraphs": {
+        "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/meta_support-2461695-164.patch"
+      },
+      "drupal/soundcloudfield": {
+        "Issue #2760787: Fix fatal error occurs on all pages": "https://www.drupal.org/files/issues/soundcloudfield-fatal_error_occurs_on_all_pages-2760787-3.patch"
+      },
+      "drupal/toolbar_themes": {
+        "Issue #2856979: Add a permission for configuring toolbar themes": "https://www.drupal.org/files/issues/config_permission-2856979-6.patch"
+      },
+      "drupal/username_enumeration_prevention": {
+        "Issue #2483015: Fix Broken Installation": "https://www.drupal.org/files/issues/fix_broken_installation-2483015-9.patch"
       }
     }
   },
