@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+20 April 2017 - Version 1.0-rc6
+----------------------------
+  Added federal header module
+  Upgraded Drupal modules and Drupal core to 8.3.1
+
 13 March 2017 - Version 1.0-rc5
 ----------------------------
   Fixes a problem with the drupal.org 1.0-rc4 release.
