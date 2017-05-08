@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "565880881e101e7f5084c59fb5415d6a",
+    "content-hash": "dd54b088e80c62bc767fca355213fd2d",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -5373,6 +5373,50 @@
             "homepage": "https://www.drupal.org/project/rules",
             "support": {
                 "source": "http://cgit.drupalcode.org/rules"
+            }
+        },
+        {
+            "name": "drupal/scheduled_updates",
+            "version": "1.0.0-alpha6",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/scheduled_updates",
+                "reference": "8.x-1.0-alpha6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/scheduled_updates-8.x-1.0-alpha6.zip",
+                "reference": null,
+                "shasum": "3746c71d480fb62c5c55db7e08be41370edb4d03"
+            },
+            "require": {
+                "drupal/core": "*",
+                "drupal/inline_entity_form": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha6",
+                    "datestamp": "1489190883"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "tedbow",
+                    "homepage": "https://www.drupal.org/user/240860"
+                }
+            ],
+            "description": "Create scheduled updates to field values on entities such content, users, and terms.",
+            "homepage": "https://www.drupal.org/project/scheduled_updates",
+            "support": {
+                "source": "http://cgit.drupalcode.org/scheduled_updates"
             }
         },
         {
