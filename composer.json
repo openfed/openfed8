@@ -204,7 +204,7 @@
     "drupal/video_embed_field": "1.5",
     "drupal/views_slideshow": "4.4",
     "drupal/webform": "5.0-beta12",
-    "drupal/weight": "dev-3.x#0b710388b2033793be066e88a9bcd078aa01edb6",
+    "drupal/weight": "3.0-alpha1",
     "drupal/workbench_access": "1.0-alpha4",
     "drupal/workbench_moderation": "1.2",
     "drupal/xmlrpc": "1.0-beta1",
