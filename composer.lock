@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa9a9549aecd85d86e27a61c8e018475",
+    "content-hash": "95430fddc26ef6a39c3388b84c1dde1b",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3358,7 +3358,10 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-alpha9",
-                    "datestamp": "1491851643"
+                    "datestamp": "1492681579"
+                },
+                "patches_applied": {
+                    "Issue #2869850: Undefined index: active in facets_system_breadcrumb_alter()": "https://www.drupal.org/files/issues/undefIndexActive_2869850.2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -5037,7 +5040,10 @@
                 },
                 "drupal": {
                     "version": "8.x-4.0-beta1",
-                    "datestamp": "1492546142"
+                    "datestamp": "1493410443"
+                },
+                "patches_applied": {
+                    "Issue #2820218: Page manager does not respect existing route defaults for title callbacks": "https://www.drupal.org/files/issues/2820218-30.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -5178,8 +5184,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.1+19-dev",
-                    "datestamp": "1494327785"
+                    "version": "8.x-1.1+20-dev",
+                    "datestamp": "1494338288"
                 },
                 "patches_applied": {
                     "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/meta_support-2461695-164.patch"

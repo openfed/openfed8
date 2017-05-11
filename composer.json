@@ -309,6 +309,12 @@
       },
       "drupal/username_enumeration_prevention": {
         "Issue #2483015: Fix Broken Installation": "https://www.drupal.org/files/issues/fix_broken_installation-2483015-9.patch"
+      },
+      "drupal/facets": {
+        "Issue #2869850: Undefined index: active in facets_system_breadcrumb_alter()": "https://www.drupal.org/files/issues/undefIndexActive_2869850.2.patch"
+      },
+      "drupal/page_manager": {
+        "Issue #2820218: Page manager does not respect existing route defaults for title callbacks": "https://www.drupal.org/files/issues/2820218-30.patch"
       }
     }
   },
