@@ -42,7 +42,7 @@ libraries[notificationaggregator][destination] = "libraries/ckeditor/plugins"
 ; Themes
 ; Please fill the following out. Type may be one of get, git, bzr or svn, and url is the url of the download.
 ;
-projects[bootstrap][version] = "3.3"
+projects[bootstrap][version] = "3.4"
 projects[adminimal_theme][version] = "1.3"
 
 ;
@@ -125,7 +125,7 @@ projects[redirect][version] = "1.0-alpha5"
 projects[role_delegation][version] = "1.0-alpha1"
 projects[rules][version] = "3.0-alpha2"
 projects[scheduled_updates][version] = "1.0-alpha6"
-projects[search_api][version] = "1.0"
+projects[search_api][version] = "1.1"
 projects[search_api_attachments][version] = "1.0-beta2"
 projects[search_api_autocomplete][version] = "1.0-alpha1"
 projects[search_api_solr][version] = "1.0-beta2"
@@ -133,7 +133,7 @@ projects[search_api_solr_multilingual][version] = "1.0-beta1"
 projects[seckit][version] = "1.0-alpha2"
 projects[securelogin][version] = "1.4"
 projects[sharemessage][version] = "1.0-beta2"
-projects[simple_gmap][version] = "1.2"
+projects[simple_gmap][version] = "1.3"
 projects[simple_sitemap][version] = "2.9"
 projects[smart_trim][version] = "1.0"
 projects[soundcloudfield][version] = "1.0-alpha1"

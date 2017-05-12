@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "95430fddc26ef6a39c3388b84c1dde1b",
+    "content-hash": "4f47e723c7fb68cc9c4c4ed3cacb1676",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1551,17 +1551,17 @@
         },
         {
             "name": "drupal/bootstrap",
-            "version": "3.3.0",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/bootstrap",
-                "reference": "8.x-3.3"
+                "reference": "8.x-3.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/bootstrap-8.x-3.3.zip",
+                "url": "https://ftp.drupal.org/files/projects/bootstrap-8.x-3.4.zip",
                 "reference": null,
-                "shasum": "008a0c795bc4ad20987fa34a456524740030d77b"
+                "shasum": "c901189b26475c4d0820e4dd84d697ef4d0f8790"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1572,8 +1572,8 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.3",
-                    "datestamp": "1491860942"
+                    "version": "8.x-3.4",
+                    "datestamp": "1494553689"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -5184,8 +5184,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.1+20-dev",
-                    "datestamp": "1494338288"
+                    "version": "8.x-1.1+22-dev",
+                    "datestamp": "1494548285"
                 },
                 "patches_applied": {
                     "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/meta_support-2461695-164.patch"
@@ -5473,17 +5473,17 @@
         },
         {
             "name": "drupal/search_api",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/search_api",
-                "reference": "8.x-1.0"
+                "reference": "8.x-1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/search_api-8.x-1.0.zip",
+                "url": "https://ftp.drupal.org/files/projects/search_api-8.x-1.1.zip",
                 "reference": null,
-                "shasum": "f95109c2038bdf01f144da2b97170e8a2eb2bf4d"
+                "shasum": "896d21a8b0dee0bea6e49fb0b2ac38315f4b52fe"
             },
             "require": {
                 "drupal/core": "^8.2"
@@ -5497,8 +5497,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0",
-                    "datestamp": "1493201342"
+                    "version": "8.x-1.1",
+                    "datestamp": "1494495709"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -5889,17 +5889,17 @@
         },
         {
             "name": "drupal/simple_gmap",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/simple_gmap",
-                "reference": "8.x-1.2"
+                "reference": "8.x-1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/simple_gmap-8.x-1.2.zip",
+                "url": "https://ftp.drupal.org/files/projects/simple_gmap-8.x-1.3.zip",
                 "reference": null,
-                "shasum": "7843f8364a3579c832947e29b751b4a845677ffc"
+                "shasum": "c14c6f8eb6f546370424a3ee962448c513ec9712"
             },
             "require": {
                 "drupal/core": "*"
@@ -5910,8 +5910,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.2",
-                    "datestamp": "1485532684"
+                    "version": "8.x-1.3",
+                    "datestamp": "1494362585"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
