@@ -1,5 +1,10 @@
 CHANGELOG
 =========
+
+15 May 2017 - Version 1.0-rc10
+----------------------------
+  Upgraded Drupal modules
+
 15 May 2017 - Version 1.0-rc9
 ----------------------------
   Added allowed_formats module
@@ -8,7 +13,7 @@ CHANGELOG
 
 14 May 2017 - Version 1.0-rc8
 ----------------------------
-  --
+  Upgraded Drupal modules
 
 14 May 2017 - Version 1.0-rc7
 ----------------------------
