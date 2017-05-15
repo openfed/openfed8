@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c8e94ca5e64b4c1d68de0b29802dba84",
-    "content-hash": "f9633f514cd56e28843a4fc9196e80f5",
+    "hash": "abfafab7eba55a3c45a844051f1764d4",
+    "content-hash": "9085b78e6d86b94be99be4f19f3b17bb",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2200,6 +2200,51 @@
             }
         },
         {
+            "name": "drupal/content_translation_workflow",
+            "version": "1.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/content_translation_workflow",
+                "reference": "8.x-1.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/content_translation_workflow-8.x-1.0-alpha1.zip",
+                "reference": null,
+                "shasum": "272602534b66d71d93ba331968116877ccbbd33b"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha1",
+                    "datestamp": "1490104684"
+                },
+                "patches_applied": {
+                    "Issue #2878504: fix a problem when publishing translations": "https://www.drupal.org/files/issues/2878504-1.patch"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "dawehner",
+                    "homepage": "https://www.drupal.org/user/99340"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/content_translation_workflow",
+            "support": {
+                "source": "http://cgit.drupalcode.org/content_translation_workflow"
+            }
+        },
+        {
             "name": "drupal/context",
             "version": "1.0.0-alpha1",
             "source": {
@@ -2803,21 +2848,20 @@
         },
         {
             "name": "drupal/ds",
-            "version": "2.6.0",
+            "version": "3.0.0-rc1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/ds",
-                "reference": "8.x-2.6"
+                "reference": "8.x-3.0-rc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ds-8.x-2.6.zip",
+                "url": "https://ftp.drupal.org/files/projects/ds-8.x-3.0-rc1.zip",
                 "reference": null,
-                "shasum": "6cec63a526b31f90b57d8958348280fb05ff8bec"
+                "shasum": "36c397a2d67aab3e376322c65a003f9fcc3642da"
             },
             "require": {
-                "drupal/core": "~8.0",
-                "drupal/layout_plugin": "*"
+                "drupal/core": "^8.3"
             },
             "require-dev": {
                 "drupal/devel": "*",
@@ -2826,11 +2870,11 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-2.x": "2.x-dev"
+                    "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.6",
-                    "datestamp": "1475152439"
+                    "version": "8.x-3.0-rc1",
+                    "datestamp": "1493926384"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
