@@ -316,7 +316,7 @@
         "Issue #2869850: Undefined index: active in facets_system_breadcrumb_alter()": "https://www.drupal.org/files/issues/undefIndexActive_2869850.2.patch"
       },
       "drupal/page_manager": {
-        "Issue #2820218: Page manager does not respect existing route defaults for title callbacks": "https://www.drupal.org/files/issues/2820218-30.patch"
+        "Issue #2820218: Page manager does not respect existing route defaults for title callbacks": "https://www.drupal.org/files/issues/2820218-31.patch"
       },
       "drupal/content_translation_workflow": {
         "Issue #2878504: fix a problem when publishing translations": "https://www.drupal.org/files/issues/2878504-1.patch"
