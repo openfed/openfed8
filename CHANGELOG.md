@@ -1,6 +1,14 @@
 CHANGELOG
 =========
 
+2 June 2017 - Version 1.0
+----------------------------
+  No changes
+
+1 June 2017 - Version 1.0-rc11
+----------------------------
+  Upgraded Drupal modules
+
 15 May 2017 - Version 1.0-rc10
 ----------------------------
   Upgraded Drupal modules
