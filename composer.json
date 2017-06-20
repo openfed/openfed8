@@ -132,7 +132,7 @@
     "drupal/context": "1.0-alpha1",
     "drupal/country": "1-beta3",
     "drupal/crop": "1.2",
-    "drupal/cshs": "1.0-beta3",
+    "drupal/cshs": "1.0-beta4",
     "drupal/ctools": "3.0",
     "drupal/diff": "1.0-rc1",
     "drupal/ds": "3.1",
@@ -290,9 +290,6 @@
     "patches": {
       "drupal/admin_toolbar": {
         "Issue #2855786: Menu items that link to an empty administration page are not hidden": "https://www.drupal.org/files/issues/admin_toolbar-hide-items-with-empty-subtrees.patch"
-      },
-      "drupal/cshs": {
-        "Issue #2852474: cshs_form_select_options does not work with mixed string and integer values": "https://www.drupal.org/files/issues/2852474-1.patch"
       },
       "drupal/field_default_token": {
         "Issue #2860580: Apply field_default_token patches 2841292 and 2854384": "https://www.drupal.org/files/issues/2841292-7-and-2854384-4.patch"
