@@ -118,6 +118,7 @@ projects[override_node_options][version] = "2.0"
 projects[page_manager][version] = "4.0-beta2"
 projects[page_manager][patch] = "https://www.drupal.org/files/issues/2820218-31.patch"
 projects[panels][version] = "4.1"
+projects[panels][patch] = "https://www.drupal.org/files/issues/2869412-2-page_title_does_not_show_in_panels.patch"
 projects[paragraphs][download][type] = git
 projects[paragraphs][download][revision] = a0b7747a7141ae19686c0d5d226c82e44ac51c7f
 projects[paragraphs][download][branch] = "8.x-1.x"
