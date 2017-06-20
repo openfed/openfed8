@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "70b4b511bb3ee5d42df03b764f754849",
+    "content-hash": "29faaa4e527cc59b005a79f881bc8b22",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -4774,17 +4774,17 @@
         },
         {
             "name": "drupal/menu_breadcrumb",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/menu_breadcrumb",
-                "reference": "8.x-1.1"
+                "reference": "8.x-1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/menu_breadcrumb-8.x-1.1.zip",
+                "url": "https://ftp.drupal.org/files/projects/menu_breadcrumb-8.x-1.2.zip",
                 "reference": null,
-                "shasum": "1199afa6c4c43ffb5dfb600b96237819610e6de6"
+                "shasum": "4f823c2a761fe39f6fe89bc805d657565bf5c5ec"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -4795,8 +4795,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.1",
-                    "datestamp": "1493982485"
+                    "version": "8.x-1.2",
+                    "datestamp": "1496654043"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
