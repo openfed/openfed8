@@ -110,7 +110,7 @@
     "oomphinc/composer-installers-extender": "^1.1",
     "drupal-composer/drupal-scaffold": "^2.0.1",
     "cweagans/composer-patches": "~1.0",
-    "drupal/core": "8.3.2",
+    "drupal/core": "8.3.5",
     "drush/drush": "~8.0",
     "drupal/console": "~1.0",
     "drupal/addanother": "1.0-rc1",

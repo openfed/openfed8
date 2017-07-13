@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+13 July 2017 - Version 1.1
+----------------------------
+  Issue #2888362: updated Drupal core to 8.3.5
+
 2 June 2017 - Version 1.0
 ----------------------------
   No changes
