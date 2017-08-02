@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c778c731a77a1283e074bfb7e839c307",
+    "content-hash": "83dbe32bd99bc4350e52f77475bcf62a",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1644,6 +1644,49 @@
             "homepage": "https://www.drupal.org/project/bootstrap",
             "support": {
                 "source": "http://cgit.drupalcode.org/bootstrap"
+            }
+        },
+        {
+            "name": "drupal/ckeditor_templates",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/ckeditor_templates",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ckeditor_templates-8.x-1.0.zip",
+                "reference": null,
+                "shasum": "706be94033bb2babf6fd0fb499c6aa326914b7ff"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1490206982"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "lucaslg",
+                    "homepage": "https://www.drupal.org/user/3128975"
+                }
+            ],
+            "description": "Integrates the CKEdito templates plugin",
+            "homepage": "https://www.drupal.org/project/ckeditor_templates",
+            "support": {
+                "source": "http://cgit.drupalcode.org/ckeditor_templates"
             }
         },
         {

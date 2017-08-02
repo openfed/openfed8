@@ -123,6 +123,7 @@
     "drupal/back_to_top": "1.0-beta2",
     "drupal/bootstrap": "3.5",
     "drupal/ckeditor_uploadimage": "1.4",
+    "drupal/ckeditor_templates": "1.0",
     "drupal/colorbox": "1.4",
     "drupal/components": "1.0",
     "drupal/config_update": "1.3",
