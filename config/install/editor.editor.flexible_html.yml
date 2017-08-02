@@ -42,7 +42,7 @@ settings:
           name: Media
           items:
             - Blockquote
-            - ImceImage
+            - DrupalImage
         -
           name: Tools
           items:
@@ -57,7 +57,7 @@ settings:
     stylescombo:
       styles: ''
 image_upload:
-  status: true
+  status: false
   scheme: public
   directory: inline-images
   max_size: ''
