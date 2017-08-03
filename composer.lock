@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "83dbe32bd99bc4350e52f77475bcf62a",
+    "content-hash": "eb5d016dd4a55a325e01d177451c8f7c",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -4387,61 +4387,6 @@
                 "source": "https://cgit.drupalcode.org/language_selection_page",
                 "issues": "https://drupal.org/project/issues/language_selection_page",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
-            }
-        },
-        {
-            "name": "drupal/layout_plugin",
-            "version": "1.0.0-alpha23",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/layout_plugin",
-                "reference": "8.x-1.0-alpha23"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/layout_plugin-8.x-1.0-alpha23.zip",
-                "reference": null,
-                "shasum": "c79992e2f52ac6a7c8dc0706512f2c70fc9f5e11"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.0-alpha23",
-                    "datestamp": "1476269960"
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "David Snopek",
-                    "homepage": "https://www.drupal.org/user/172527"
-                },
-                {
-                    "name": "Bram Goffings",
-                    "homepage": "https://www.drupal.org/user/266527"
-                },
-                {
-                    "name": "Fredrik Lassen",
-                    "homepage": "https://www.drupal.org/user/243377"
-                }
-            ],
-            "description": "An API module to hold the Drupal 8 plugin manager for layouts.",
-            "homepage": "https://www.drupal.org/project/layout_plugin",
-            "keywords": [
-                "layout",
-                "php"
-            ],
-            "support": {
-                "source": "http://cgit.drupalcode.org/layout_plugin"
             }
         },
         {
