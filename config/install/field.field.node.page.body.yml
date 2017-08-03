@@ -5,7 +5,13 @@ dependencies:
     - field.storage.node.body
     - node.type.page
   module:
+    - allowed_formats
     - text
+third_party_settings:
+  allowed_formats:
+    flexible_html: flexible_html
+    embeddable_text: '0'
+    plain_text: '0'
 id: node.page.body
 field_name: body
 entity_type: node
