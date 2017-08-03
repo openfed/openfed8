@@ -1,0 +1,11 @@
+entity.media.collection:
+  title: 'Embeddables'
+  parent: system.admin_content
+  description: 'Find and manage embeddables.'
+  route_name: view.media.media_page_list
+
+entity.media.add:
+  title: 'Add a new embeddable'
+  parent: entity.media.collection
+  description: 'Add a new embeddable entity.'
+  route_name: entity.media.add_page
