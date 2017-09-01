@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "493cb1d4eab0a92167458fd1e107136f",
+    "content-hash": "949032dd492d767d52dcb5fc02c8e7b9",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -5279,7 +5279,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/paragraphs",
-                "reference": "e907f6d57c44e81d65e8c1e7247dccd0eae92258"
+                "reference": "a0aa28bcfc0529e2b7a333009a214f30995a3208"
             },
             "require": {
                 "drupal/core": "*",
@@ -5307,7 +5307,7 @@
                     }
                 },
                 "patches_applied": {
-                    "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/meta_support-2461695-206.patch"
+                    "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/2461695-220.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -5341,7 +5341,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/paragraphs"
             },
-            "time": "2017-07-31 17:27:58"
+            "time": "2017-08-21 09:17:18"
         },
         {
             "name": "drupal/pathauto",
