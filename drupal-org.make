@@ -41,7 +41,7 @@ libraries[notificationaggregator][destination] = "libraries/ckeditor/plugins"
 libraries[templates][download][type] = "get"
 libraries[templates][download][url] = "http://download.ckeditor.com/templates/releases/templates_4.6.2.zip"
 libraries[templates][directory_name] = "templates"
-libraries[templates][destination] = "libraries/ckeditor/plugins"
+libraries[templates][destination] = "libraries"
 
 ;
 ; Themes

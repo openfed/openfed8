@@ -107,9 +107,9 @@
     {
        "type": "package",
        "package": {
-         "name": "openfed-ckeditor-plugins/templates",
+         "name": "openfed-ckeditor-templates/templates",
          "version": "4.6.2",
-         "type": "openfed-ckeditor-plugin",
+         "type": "openfed-ckeditor-template",
          "require": {
            "oomphinc/composer-installers-extender": "^1.1"
          },
@@ -232,7 +232,7 @@
     "openfed-ckeditor-plugins/filetools": "4.6.2",
     "openfed-ckeditor-plugins/notification": "4.6.2",
     "openfed-ckeditor-plugins/notificationaggregator": "4.6.2",
-    "openfed-ckeditor-plugins/templates": "4.6.2"
+    "openfed-ckeditor-templates/templates": "4.6.2"
   },
   "require-dev": {
     "behat/mink": "~1.7",
@@ -272,7 +272,8 @@
   },
   "extra": {
     "installer-types": [
-       "openfed-ckeditor-plugin"
+       "openfed-ckeditor-plugin",
+       "openfed-ckeditor-template"
     ],
     "installer-paths": {
       "docroot/core": [
@@ -295,6 +296,9 @@
       ],
       "docroot/libraries/ckeditor/plugins/{$name}" : [
         "type:openfed-ckeditor-plugin"
+      ],
+      "docroot/libraries/{$name}" : [
+        "type:openfed-ckeditor-template"
       ]
     },
     "drupal-scaffold": {

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e409da322e41aabcd78013e18d3aed68",
+    "content-hash": "42dff892945032c356d60819b3dc3e99",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -8198,20 +8198,6 @@
             "type": "openfed-ckeditor-plugin"
         },
         {
-            "name": "openfed-ckeditor-plugins/templates",
-            "version": "4.6.2",
-            "dist": {
-                "type": "zip",
-                "url": "http://download.ckeditor.com/templates/releases/templates_4.6.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "oomphinc/composer-installers-extender": "^1.1"
-            },
-            "type": "openfed-ckeditor-plugin"
-        },
-        {
             "name": "openfed-ckeditor-plugins/uploadimage",
             "version": "4.6.2",
             "dist": {
@@ -8238,6 +8224,20 @@
                 "oomphinc/composer-installers-extender": "^1.1"
             },
             "type": "openfed-ckeditor-plugin"
+        },
+        {
+            "name": "openfed-ckeditor-templates/templates",
+            "version": "4.6.2",
+            "dist": {
+                "type": "zip",
+                "url": "http://download.ckeditor.com/templates/releases/templates_4.6.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "oomphinc/composer-installers-extender": "^1.1"
+            },
+            "type": "openfed-ckeditor-template"
         },
         {
             "name": "paragonie/random_compat",
