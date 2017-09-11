@@ -191,7 +191,7 @@
     "drupal/override_node_options": "2.1",
     "drupal/page_manager": "4.0-beta2",
     "drupal/panels": "4.2",
-    "drupal/paragraphs": "dev-1.x#a0aa28bcfc0529e2b7a333009a214f30995a3208",
+    "drupal/paragraphs": "dev-1.x#abd9a871f6390a7e6b24985635ecc90db5179e15",
     "drupal/pathauto": "1.0",
     "drupal/redirect": "1.0-beta1",
     "drupal/role_delegation": "1.0-alpha1",
@@ -318,7 +318,7 @@
         "Issue #2756675: Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/2811337-13_0.patch"
       },
       "drupal/paragraphs": {
-        "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/2461695-220.patch"
+        "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/meta_support-2461695-222.patch"
       },
       "drupal/soundcloudfield": {
         "Issue #2760787: Fix fatal error occurs on all pages": "https://www.drupal.org/files/issues/soundcloudfield-fatal_error_occurs_on_all_pages-2760787-3.patch"
