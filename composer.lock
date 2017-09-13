@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e0d8fd6d718d98b2782e169b2d401e2c",
+    "content-hash": "9c81fec342b3ca1f9ce4908885d3ad49",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -5438,7 +5438,7 @@
                     }
                 },
                 "patches_applied": {
-                    "Issue #2820218: Page manager does not respect existing route defaults for title callbacks": "https://www.drupal.org/files/issues/2820218-31.patch"
+                    "Issue #2820218: Page manager does not respect existing route defaults for title callbacks": "https://www.drupal.org/files/issues/page_manager_does_not-2820218-33.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

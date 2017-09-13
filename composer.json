@@ -330,7 +330,7 @@
         "Issue #2483015: Fix Broken Installation": "https://www.drupal.org/files/issues/fix_broken_installation-2483015-9.patch"
       },
       "drupal/page_manager": {
-        "Issue #2820218: Page manager does not respect existing route defaults for title callbacks": "https://www.drupal.org/files/issues/2820218-31.patch"
+        "Issue #2820218: Page manager does not respect existing route defaults for title callbacks": "https://www.drupal.org/files/issues/page_manager_does_not-2820218-33.patch"
       },
       "drupal/content_translation_workflow": {
         "Issue #2878504: fix a problem when publishing translations": "https://www.drupal.org/files/issues/2878504-1.patch"
