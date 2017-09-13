@@ -337,6 +337,9 @@
       },
       "drupal/panels": {
         "Issue #2869412: Page title does not display on panels": "https://www.drupal.org/files/issues/2869412-2-page_title_does_not_show_in_panels.patch"
+      },
+      "drupal/entity_browser": {
+        "Issue #2902831: Entity browser views that do not have use_ajax explicitly enabled are broken": "https://www.drupal.org/files/issues/d8_entity_browser-2902831.patch"
       }
     }
   },

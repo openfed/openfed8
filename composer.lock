@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "dabe6106a52cbf66986ef51d6d7ea537",
+    "content-hash": "e0d8fd6d718d98b2782e169b2d401e2c",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3275,6 +3275,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Issue #2902831: Entity browser views that do not have use_ajax explicitly enabled are broken": "https://www.drupal.org/files/issues/d8_entity_browser-2902831.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
