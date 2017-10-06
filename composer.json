@@ -191,7 +191,7 @@
     "drupal/override_node_options": "2.1",
     "drupal/page_manager": "4.0-beta2",
     "drupal/panels": "4.2",
-    "drupal/paragraphs": "dev-1.x#abd9a871f6390a7e6b24985635ecc90db5179e15",
+    "drupal/paragraphs": "1.2",
     "drupal/pathauto": "1.0",
     "drupal/redirect": "1.0-beta1",
     "drupal/role_delegation": "1.0-alpha1",
@@ -344,6 +344,9 @@
       },
       "drupal/role_delegation": {
         "Issue #2862360: Lock down assignable permissions in the VBO action": "https://www.drupal.org/files/issues/2862360-Lock-down-assignable-permissions-in-the-VBO-action-12.patch"
+      },
+      "drupal/core": {
+        "Issue #2737619: Views entity reference relationships must join on langcode for translatable entities": "https://www.drupal.org/files/issues/language_aware_relationship-2737619-19.patch"
       }
     }
   },
