@@ -1,11 +1,18 @@
 CHANGELOG
 =========
 
+26 October 2017 - Version 1.3
+----------------------------
+  Drupal update to version 8.3.7
+  Module updates
+  New patches
+
 25 October 2017 - Version 1.2
 ----------------------------
   Drupal update to version 8.3.5
   Module updates
   New patches
+  -- Not releasead due to a .make file error
 
 13 July 2017 - Version 1.1
 ----------------------------
