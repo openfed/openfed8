@@ -112,6 +112,7 @@ projects[menu_block][patch][2833076] = "https://www.drupal.org/files/issues/clea
 projects[menu_breadcrumb][version] = "1.4"
 projects[menu_link][version] = "1.0-alpha1"
 projects[menu_link][patch][2907989] = "https://www.drupal.org/files/issues/wrong_joined_paths-2907989-2.patch"
+projects[menu_link_weight][version] = "2.0-alpha2"
 projects[menu_trail_by_path][version] = "1.1"
 projects[metatag][version] = "1.3"
 projects[node_edit_redirect][version] = "1.0-rc2"
