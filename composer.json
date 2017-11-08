@@ -319,7 +319,8 @@
       "drupal/core": {
         "Issue #2597830: View contextual filter error when using date": "https://www.drupal.org/files/issues/datetime_needs_an-2597830-6.patch",
         "Issue #2737619: Views entity reference relationships must join on langcode for translatable entities": "https://www.drupal.org/files/issues/language_aware_relationship-2737619-19.patch",
-        "Issue #2786577: The Views integration Datetime Range fields should extend the views integration for regular Datetime fields": "https://www.drupal.org/files/issues/2786577-184-8-3-x-test-do-not-test.patch"
+        "Issue #2786577: The Views integration Datetime Range fields should extend the views integration for regular Datetime fields": "https://www.drupal.org/files/issues/2786577-184-8-3-x-test-do-not-test.patch",
+        "ISsue #2707879: Contextual Links do not respect pathPrefix": "https://www.drupal.org/files/issues/contextual_links_do_not-2707879-12.patch"
       },
       "drupal/field_default_token": {
         "Issue #2860580: Apply field_default_token patches 2841292 and 2854384": "https://www.drupal.org/files/issues/2841292-7-and-2854384-4.patch"
