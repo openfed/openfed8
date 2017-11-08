@@ -125,7 +125,7 @@
     "oomphinc/composer-installers-extender": "^1.1",
     "drupal-composer/drupal-scaffold": "^2.0.1",
     "cweagans/composer-patches": "~1.0",
-    "drupal/core": "8.3.7",
+    "drupal/core": "8.4.2",
     "drush/drush": "~8.0",
     "drupal/console": "~1.0",
     "drupal/addanother": "1.0-rc1",
@@ -323,6 +323,9 @@
       },
       "drupal/field_default_token": {
         "Issue #2860580: Apply field_default_token patches 2841292 and 2854384": "https://www.drupal.org/files/issues/2841292-7-and-2854384-4.patch"
+      },
+      "drupal/focal_point": {
+        "Issue #2920265: Add IMCE support": "https://www.drupal.org/files/issues/add_imce_support-2920265-10.patch"
       },
       "drupal/menu_block": {
         "Issue #2756675: Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/2811337-13_0.patch",
