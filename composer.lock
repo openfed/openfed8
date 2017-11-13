@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7a52f1a57b630378d4ce3b29d6053827",
+    "content-hash": "4eee6c92e7c24c77b86b8a708e1abfb3",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -5229,7 +5229,7 @@
                     }
                 },
                 "patches_applied": {
-                    "Issue #2907989: Problem creating pathauto joined paths": "https://www.drupal.org/files/issues/wrong_joined_paths-2907989-2.patch"
+                    "Issue #2907989: Problem creating pathauto joined paths": "https://www.drupal.org/files/issues/wrong_joined_paths-2907989-3.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
