@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+13 November 2017 - Version 1.4
+----------------------------
+  New modile append_file_info
+  Updated File Entity Module
+  Added patches to core and focal point
+  Updated flexible HTML allowed tags
+
 26 October 2017 - Version 1.3
 ----------------------------
   Drupal update to version 8.3.7
