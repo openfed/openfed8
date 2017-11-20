@@ -4,3 +4,4 @@ roles_profiles:
     public: admin
 _core:
   default_config_hash: 6Wk4BLqlH9PdR3lPJohO4Ek3-uRJAgdfrVT4qWYXVMY
+admin_theme: true
