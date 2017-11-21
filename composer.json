@@ -325,6 +325,9 @@
       "drupal/field_default_token": {
         "Issue #2860580: Apply field_default_token patches 2841292 and 2854384": "https://www.drupal.org/files/issues/2841292-7-and-2854384-4.patch"
       },
+      "drupal/inline_entity_form": {
+        "Issue #2822764: Support adding new entities when translating": "https://www.drupal.org/files/issues/support_adding_and_removing-2822764.patch"
+      },
       "drupal/menu_block": {
         "Issue #2756675: Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/2811337-13_0.patch",
         "Issue #2833076: Clearing cache when a menu link is added or deleted": "https://www.drupal.org/files/issues/clearing_cache_when_a-2833076-2_0.patch"
