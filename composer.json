@@ -361,7 +361,7 @@
         "Issue #2856979: Add a permission for configuring toolbar themes": "https://www.drupal.org/files/issues/config_permission-2856979-6.patch"
       },
       "drupal/username_enumeration_prevention": {
-        "Issue #2483015: Fix Broken Installation": "https://www.drupal.org/files/issues/fix_broken_installation-2483015-9.patch"
+        "Issue #2871931: Fix Broken Installation": "https://www.drupal.org/files/issues/username_enumeration_prevention-check_phase_runtime-2871931-5.patch"
       }
     }
   },
