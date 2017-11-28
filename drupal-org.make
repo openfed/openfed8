@@ -50,7 +50,7 @@ projects[adminimal_theme][version] = "1.3"
 ; Please fill the following out. Type may be one of get, git, bzr or svn, and url is the url of the download.
 ;
 projects[addanother][version] = "1.0-rc1"
-projects[admin_toolbar][version] = "1.21"
+projects[admin_toolbar][version] = "1.20"
 projects[admin_toolbar][patch][2855786] = "https://www.drupal.org/files/issues/2855786-26-hide_empty_menu_items_0.patch"
 projects[admin_toolbar_content_languages][version] = "1.0-beta2"
 projects[alertbox][version] = "1.0-beta7"

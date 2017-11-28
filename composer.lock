@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9045c2788bbffc4b653f05246eb56037",
+    "content-hash": "57cf3ce3c20a0a949de95e5a56b6f024",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1206,17 +1206,17 @@
         },
         {
             "name": "drupal/admin_toolbar",
-            "version": "1.21.0",
+            "version": "1.20.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/admin_toolbar",
-                "reference": "8.x-1.21"
+                "reference": "8.x-1.20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.21.zip",
-                "reference": "8.x-1.21",
-                "shasum": "af3213bd3f1c73a710e0c594ec2f97968d217dee"
+                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-8.x-1.20.zip",
+                "reference": "8.x-1.20",
+                "shasum": "ebeb6b630c0c614b36263ac4a024b269113b6a99"
             },
             "require": {
                 "drupal/core": "*"
@@ -1227,8 +1227,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.21",
-                    "datestamp": "1511191054",
+                    "version": "8.x-1.20",
+                    "datestamp": "1511190785",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1333,7 +1333,7 @@
         },
         {
             "name": "drupal/admin_toolbar_tools",
-            "version": "1.21.0",
+            "version": "1.20.0",
             "require": {
                 "drupal/admin_toolbar": "self.version",
                 "drupal/core": "~8.0"
@@ -1344,8 +1344,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.21",
-                    "datestamp": "1511191054",
+                    "version": "8.x-1.20",
+                    "datestamp": "1511190785",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -12893,16 +12893,16 @@
         },
         {
             "name": "phpunit/php-file-iterator",
-            "version": "1.4.4",
+            "version": "1.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
-                "reference": "3d478c5f9e8bb02b484a3fdc82693a460d7ee268"
+                "reference": "730b01bc3e867237eaac355e06a36b85dd93a8b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/3d478c5f9e8bb02b484a3fdc82693a460d7ee268",
-                "reference": "3d478c5f9e8bb02b484a3fdc82693a460d7ee268",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/730b01bc3e867237eaac355e06a36b85dd93a8b4",
+                "reference": "730b01bc3e867237eaac355e06a36b85dd93a8b4",
                 "shasum": ""
             },
             "require": {
@@ -12936,7 +12936,7 @@
                 "filesystem",
                 "iterator"
             ],
-            "time": "2017-11-27T07:49:00+00:00"
+            "time": "2017-11-27T13:52:08+00:00"
         },
         {
             "name": "phpunit/php-text-template",
