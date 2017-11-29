@@ -283,7 +283,8 @@
         "type:drupal-core"
       ],
       "docroot/libraries/{$name}": [
-        "type:drupal-library"
+        "type:drupal-library",
+        "type:openfed-ckeditor-template"
       ],
       "docroot/modules/contrib/{$name}": [
         "type:drupal-module"
@@ -299,9 +300,6 @@
       ],
       "docroot/libraries/ckeditor/plugins/{$name}" : [
         "type:openfed-ckeditor-plugin"
-      ],
-      "docroot/libraries/{$name}" : [
-        "type:openfed-ckeditor-template"
       ]
     },
     "drupal-scaffold": {
