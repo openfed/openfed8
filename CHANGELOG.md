@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+29 November 2017 - Version 1.5
+----------------------------
+  Small bug fixes
+  Updated patches
+  Updated modules
+  Updated flexible HTML allowed tags
+
 13 November 2017 - Version 1.4
 ----------------------------
   New modile append_file_info
