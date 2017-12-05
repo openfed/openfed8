@@ -1,6 +1,0 @@
-id: other
-label: Other
-description: 'Any <em>File</em>.'
-status: true
-mimetypes:
-  - '*'
