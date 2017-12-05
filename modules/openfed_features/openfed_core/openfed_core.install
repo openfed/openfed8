@@ -1,8 +1,0 @@
-<?php
-
-/**
- * OpenFed - Initial release.
- */
-function openfed_core_update_8201(&$sandbox) {
-
-}
