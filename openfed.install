@@ -1,0 +1,63 @@
+<?php
+/**
+ * @file
+ * Install, uninstall and update hooks for Openfed.
+ */
+
+use Drupal\Core\Database\Database;
+
+/**
+ * Implements hook_install().
+ */
+function openfed_install() {
+  // Issue with file entity module.
+  // Read more at https://www.drupal.org/project/file_entity/issues/2914935#comment-12355272
+  $params = [
+    ':param1' => '"not null";b:0',
+    ':param2' => '"not null";b:1',
+  ];
+  $db = Database::getConnection();
+  $db->schema()->changeField('file_managed', 'type', 'type', ['type'=>'varchar', 'length' => '32', 'not null' => TRUE, 'description' => 'The ID of the target entity.']);
+  $db->query("update key_value set value = replace (value, :param1, :param2) where name='file.field_schema_data.type'", $params);
+
+  return t('File table was updated successfully.');
+  throw new DrupalUpdateException('Something went wrong; File table was not updated successfully.');
+}
+
+/**
+ * Fixes the problem with file_entity module when upgrading from 8.3.x to 8.4.x.
+ */
+function openfed_update_8201(&$sandbox) {
+
+  // Issue with file entity module.
+  // Read more at https://www.drupal.org/project/file_entity/issues/2914935#comment-12355272
+  $params = [
+    ':param1' => '"not null";b:0',
+    ':param2' => '"not null";b:1',
+  ];
+  $db = Database::getConnection();
+  $db->schema()->changeField('file_managed', 'type', 'type', ['type'=>'varchar', 'length' => '32', 'not null' => TRUE, 'description' => 'The ID of the target entity.']);
+  $db->query("update key_value set value = replace (value, :param1, :param2) where name='file.field_schema_data.type'", $params);
+
+  return t('File table was updated successfully.');
+  throw new DrupalUpdateException('Something went wrong; File table was not updated successfully.');
+}
+
+/**
+ * Updates file entity configuration with a new generic file entity.
+ * Read more: http://drupal.org/node/2927468
+ */
+function openfed_update_8202(&$sandbox) {
+  $message = NULL;
+
+  // Only create if the redirect view doesn't exist and views is enabled.
+  if (\Drupal::moduleHandler()->moduleExists('file_entity')) {
+    $config_path = drupal_get_path('profile', 'openfed') . '/config/install/file_entity.type.other.yml';
+    $data = Yaml::parse(file_get_contents($config_path));
+    \Drupal::configFactory()->getEditable('file_entity.type.other')->setData($data)->save(TRUE);
+    $message = 'The new file entity type has been created.';
+  }
+  return $message;
+  throw new DrupalUpdateException('Something went wrong; File entity was not updated successfully.');
+
+}
