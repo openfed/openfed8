@@ -33,13 +33,13 @@
        "type": "package",
        "package": {
          "name": "openfed-ckeditor-plugins/uploadimage",
-         "version": "4.6.2",
+         "version": "4.7.2",
          "type": "openfed-ckeditor-plugin",
          "require": {
            "oomphinc/composer-installers-extender": "^1.1"
          },
          "dist": {
-           "url": "http://download.ckeditor.com/uploadimage/releases/uploadimage_4.6.2.zip",
+           "url": "http://download.ckeditor.com/uploadimage/releases/uploadimage_4.7.2.zip",
            "type": "zip"
          }
        }
@@ -48,13 +48,13 @@
        "type": "package",
        "package": {
          "name": "openfed-ckeditor-plugins/uploadwidget",
-         "version": "4.6.2",
+         "version": "4.7.2",
          "type": "openfed-ckeditor-plugin",
          "require": {
            "oomphinc/composer-installers-extender": "^1.1"
          },
          "dist": {
-           "url": "http://download.ckeditor.com/uploadwidget/releases/uploadwidget_4.6.2.zip",
+           "url": "http://download.ckeditor.com/uploadwidget/releases/uploadwidget_4.7.2.zip",
            "type": "zip"
          }
        }
@@ -63,13 +63,13 @@
        "type": "package",
        "package": {
          "name": "openfed-ckeditor-plugins/filetools",
-         "version": "4.6.2",
+         "version": "4.7.2",
          "type": "openfed-ckeditor-plugin",
          "require": {
            "oomphinc/composer-installers-extender": "^1.1"
          },
          "dist": {
-           "url": "http://download.ckeditor.com/filetools/releases/filetools_4.6.2.zip",
+           "url": "http://download.ckeditor.com/filetools/releases/filetools_4.7.2.zip",
            "type": "zip"
          }
        }
@@ -78,13 +78,13 @@
        "type": "package",
        "package": {
          "name": "openfed-ckeditor-plugins/notification",
-         "version": "4.6.2",
+         "version": "4.7.2",
          "type": "openfed-ckeditor-plugin",
          "require": {
            "oomphinc/composer-installers-extender": "^1.1"
          },
          "dist": {
-           "url": "http://download.ckeditor.com/notification/releases/notification_4.6.2.zip",
+           "url": "http://download.ckeditor.com/notification/releases/notification_4.7.2.zip",
            "type": "zip"
          }
        }
@@ -93,13 +93,13 @@
        "type": "package",
        "package": {
          "name": "openfed-ckeditor-plugins/notificationaggregator",
-         "version": "4.6.2",
+         "version": "4.7.2",
          "type": "openfed-ckeditor-plugin",
          "require": {
            "oomphinc/composer-installers-extender": "^1.1"
          },
          "dist": {
-           "url": "http://download.ckeditor.com/notificationaggregator/releases/notificationaggregator_4.6.2.zip",
+           "url": "http://download.ckeditor.com/notificationaggregator/releases/notificationaggregator_4.7.2.zip",
            "type": "zip"
          }
        }
@@ -108,13 +108,13 @@
        "type": "package",
        "package": {
          "name": "openfed-ckeditor-templates/templates",
-         "version": "4.6.2",
+         "version": "4.7.2",
          "type": "openfed-ckeditor-template",
          "require": {
            "oomphinc/composer-installers-extender": "^1.1"
          },
          "dist": {
-           "url": "http://download.ckeditor.com/templates/releases/templates_4.6.2.zip",
+           "url": "http://download.ckeditor.com/templates/releases/templates_4.7.2.zip",
            "type": "zip"
          }
        }
@@ -148,7 +148,7 @@
     "drupal/content_translation_workflow": "1.0-alpha1",
     "drupal/context": "1.0-alpha1",
     "drupal/country": "1-beta3",
-    "drupal/crop": "1.2",
+    "drupal/crop": "1.3",
     "drupal/cshs": "1.0-beta4",
     "drupal/ctools": "3.0",
     "drupal/diff": "1.0-rc1",
@@ -166,7 +166,7 @@
     "drupal/fences": "2.0-alpha1",
     "drupal/field_default_token": "dev-1.x#cec380512962857e62a1c050fde77eb8d27652dc",
     "drupal/field_formatter": "1.1",
-    "drupal/field_group": "1.0-rc6",
+    "drupal/field_group": "1.0",
     "drupal/file_entity": "2.0-beta4",
     "drupal/focal_point": "1.0-beta5",
     "drupal/google_analytics": "2.2",
@@ -180,11 +180,11 @@
     "drupal/link_attributes": "1.1",
     "drupal/linkit": "5.0-beta6",
     "drupal/m4032404": "1.0-alpha3",
-    "drupal/media_entity": "1.6",
+    "drupal/media_entity": "1.7",
     "drupal/media_entity_document": "1.1",
     "drupal/media_entity_image": "1.2",
     "drupal/menu_block": "1.4",
-    "drupal/menu_breadcrumb": "1.4",
+    "drupal/menu_breadcrumb": "1.5",
     "drupal/menu_link": "1.0-alpha1",
     "drupal/menu_link_weight": "2.0-alpha2",
     "drupal/menu_trail_by_path": "1.1",
@@ -224,18 +224,18 @@
     "drupal/username_enumeration_prevention": "1.0-beta1",
     "drupal/video_embed_field": "1.5",
     "drupal/views_slideshow": "4.5",
-    "drupal/webform": "5.0-beta19",
+    "drupal/webform": "5.0-beta24",
     "drupal/weight": "3.1-alpha1",
     "drupal/workbench_access": "1.0-alpha5",
     "drupal/workbench_moderation": "1.2",
     "drupal/xmlrpc": "1.0-beta1",
     "jackmoore/colorbox": "1.6.4",
-    "openfed-ckeditor-plugins/uploadwidget": "4.6.2",
-    "openfed-ckeditor-plugins/uploadimage": "4.6.2",
-    "openfed-ckeditor-plugins/filetools": "4.6.2",
-    "openfed-ckeditor-plugins/notification": "4.6.2",
-    "openfed-ckeditor-plugins/notificationaggregator": "4.6.2",
-    "openfed-ckeditor-templates/templates": "4.6.2"
+    "openfed-ckeditor-plugins/uploadwidget": "4.7.2",
+    "openfed-ckeditor-plugins/uploadimage": "4.7.2",
+    "openfed-ckeditor-plugins/filetools": "4.7.2",
+    "openfed-ckeditor-plugins/notification": "4.7.2",
+    "openfed-ckeditor-plugins/notificationaggregator": "4.7.2",
+    "openfed-ckeditor-templates/templates": "4.7.2"
   },
   "require-dev": {
     "behat/mink": "~1.7",
@@ -283,7 +283,8 @@
         "type:drupal-core"
       ],
       "docroot/libraries/{$name}": [
-        "type:drupal-library"
+        "type:drupal-library",
+        "type:openfed-ckeditor-template"
       ],
       "docroot/modules/contrib/{$name}": [
         "type:drupal-module"
@@ -299,9 +300,6 @@
       ],
       "docroot/libraries/ckeditor/plugins/{$name}" : [
         "type:openfed-ckeditor-plugin"
-      ],
-      "docroot/libraries/{$name}" : [
-        "type:openfed-ckeditor-template"
       ]
     },
     "drupal-scaffold": {
@@ -324,6 +322,12 @@
       },
       "drupal/field_default_token": {
         "Issue #2860580: Apply field_default_token patches 2841292 and 2854384": "https://www.drupal.org/files/issues/2841292-7-and-2854384-4.patch"
+      },
+      "drupal/focal_point": {
+        "Issue #2920265: Add IMCE support": "https://www.drupal.org/files/issues/add_imce_support-2920265-10.patch"
+      },
+      "drupal/imce": {
+        "Issue #2858430: no browser tab in user profile in drupal 8": "https://www.drupal.org/files/issues/imce_no_browser_tab-2858430-4.patch"
       },
       "drupal/inline_entity_form": {
         "Issue #2822764: Support adding new entities when translating": "https://www.drupal.org/files/issues/support_adding_and_removing-2822764.patch"
@@ -354,8 +358,7 @@
         "Issue #2856979: Add a permission for configuring toolbar themes": "https://www.drupal.org/files/issues/config_permission-2856979-6.patch"
       },
       "drupal/username_enumeration_prevention": {
-        "Issue #2483015: Fix Broken Installation": "https://www.drupal.org/files/issues/fix_broken_installation-2483015-9.patch",
-        "Issue #2871940: Undefined variable in hook_requirements": "https://www.drupal.org/files/issues/username_enumeration_prevention-add_requirement_ok_constant-2871940-2.patch"
+        "Issue #2871931: Fix Broken Installation": "https://www.drupal.org/files/issues/username_enumeration_prevention-check_phase_runtime-2871931-5.patch"
       }
     }
   },
