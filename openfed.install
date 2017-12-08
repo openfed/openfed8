@@ -5,6 +5,7 @@
  */
 
 use Drupal\Core\Database\Database;
+use Symfony\Component\Yaml\Yaml;
 
 /**
  * Implements hook_install().
@@ -21,7 +22,6 @@ function openfed_install() {
   $db->query("update key_value set value = replace (value, :param1, :param2) where name='file.field_schema_data.type'", $params);
 
   return t('File table was updated successfully.');
-  throw new DrupalUpdateException('Something went wrong; File table was not updated successfully.');
 }
 
 /**
@@ -40,7 +40,6 @@ function openfed_update_8201(&$sandbox) {
   $db->query("update key_value set value = replace (value, :param1, :param2) where name='file.field_schema_data.type'", $params);
 
   return t('File table was updated successfully.');
-  throw new DrupalUpdateException('Something went wrong; File table was not updated successfully.');
 }
 
 /**
@@ -58,6 +57,4 @@ function openfed_update_8202(&$sandbox) {
     $message = 'The new file entity type has been created.';
   }
   return $message;
-  throw new DrupalUpdateException('Something went wrong; File entity was not updated successfully.');
-
 }
