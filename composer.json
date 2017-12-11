@@ -120,12 +120,132 @@
        }
     }
   ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "classmap": [
+      "scripts/composer/ScriptHandler.php"
+    ]
+  },
+  "scripts": {
+    "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+    "pre-install-cmd": [
+      "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+    ],
+    "pre-update-cmd": [
+      "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+    ],
+    "post-install-cmd": [
+      "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
+      "@composer drupal-scaffold"
+    ],
+    "post-update-cmd": [
+      "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+    ]
+  },
+  "extra": {
+    "installer-types": [
+       "openfed-ckeditor-plugin",
+       "openfed-ckeditor-template"
+    ],
+    "installer-paths": {
+      "docroot/core": [
+        "type:drupal-core"
+      ],
+      "docroot/libraries/{$name}": [
+        "type:drupal-library",
+        "type:openfed-ckeditor-template"
+      ],
+      "docroot/modules/contrib/{$name}": [
+        "type:drupal-module"
+      ],
+      "docroot/profiles/contrib/{$name}": [
+        "type:drupal-profile"
+      ],
+      "docroot/themes/contrib/{$name}": [
+        "type:drupal-theme"
+      ],
+      "drush/contrib/{$name}": [
+        "type:drupal-drush"
+      ],
+      "docroot/libraries/ckeditor/plugins/{$name}" : [
+        "type:openfed-ckeditor-plugin"
+      ]
+    },
+    "drupal-scaffold": {
+      "initial": {
+        "sites/default/default.services.yml": "sites/default/services.yml",
+        "sites/default/default.settings.php": "sites/default/settings.php"
+      }
+    },
+    "patches": {
+      "drupal/admin_toolbar": {
+        "Issue #2855786: Menu items that link to an empty administration page are not hidden": "https://www.drupal.org/files/issues/2855786-26-hide_empty_menu_items_0.patch"
+      },
+      "drupal/content_translation_workflow": {
+        "Issue #2878504: fix a problem when publishing translations": "https://www.drupal.org/files/issues/2878504-1.patch"
+      },
+      "drupal/core": {
+        "Issue #2325899: UI fatal caused by views argument handlers no longer can provide their own default argument handling": "https://www.drupal.org/files/issues/2325899-106.patch",
+        "Issue #2597830: View contextual filter error when using date": "https://www.drupal.org/files/issues/datetime_needs_an-2597830-6.patch",
+        "Issue #2737619: Views entity reference relationships must join on langcode for translatable entities": "https://www.drupal.org/files/issues/language_aware_relationship-2737619-19.patch",
+        "Issue #2786577: The Views integration Datetime Range fields should extend the views integration for regular Datetime fields": "https://www.drupal.org/files/issues/2786577-184-8-3-x-test-do-not-test.patch"
+      },
+      "drupal/entity_embed": {
+        "Issue #2882866: Provide a preview display setting for use in WYSIWYG editors": "https://www.drupal.org/files/issues/entity_embed-preview_display_plugin-2882866-2.patch"
+      },
+      "drupal/field_default_token": {
+        "Issue #2860580: Apply field_default_token patches 2841292 and 2854384": "https://www.drupal.org/files/issues/2841292-7-and-2854384-4.patch"
+      },
+      "drupal/focal_point": {
+        "Issue #2920265: Add IMCE support": "https://www.drupal.org/files/issues/add_imce_support-2920265-10.patch"
+      },
+      "drupal/imce": {
+        "Issue #2858430: no browser tab in user profile in drupal 8": "https://www.drupal.org/files/issues/imce_no_browser_tab-2858430-4.patch"
+      },
+      "drupal/inline_entity_form": {
+        "Issue #2822764: Support adding new entities when translating": "https://www.drupal.org/files/issues/support_adding_and_removing-2822764.patch"
+      },
+      "drupal/menu_block": {
+        "Issue #2756675: Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/2811337-13_0.patch",
+        "Issue #2833076: Clearing cache when a menu link is added or deleted": "https://www.drupal.org/files/issues/clearing_cache_when_a-2833076-2_0.patch"
+      },
+      "drupal/menu_link": {
+          "Issue #2907989: Problem creating pathauto joined paths": "https://www.drupal.org/files/issues/wrong_joined_paths-2907989-3.patch"
+      },
+      "drupal/page_manager": {
+        "Issue #2820218: Page manager does not respect existing route defaults for title callbacks": "https://www.drupal.org/files/issues/page_manager_does_not-2820218-36.patch"
+      },
+      "drupal/panels": {
+        "Issue #2869412: Page title does not display on panels": "https://www.drupal.org/files/issues/2869412-2-page_title_does_not_show_in_panels.patch"
+      },
+      "drupal/paragraphs": {
+        "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/meta_support-2461695-222.patch"
+      },
+      "drupal/role_delegation": {
+        "Issue #2862360: Lock down assignable permissions in the VBO action": "https://www.drupal.org/files/issues/2862360-Lock-down-assignable-permissions-in-the-VBO-action-12.patch"
+      },
+      "drupal/soundcloudfield": {
+        "Issue #2760787: Fix fatal error occurs on all pages": "https://www.drupal.org/files/issues/soundcloudfield-fatal_error_occurs_on_all_pages-2760787-3.patch"
+      },
+      "drupal/toolbar_themes": {
+        "Issue #2856979: Add a permission for configuring toolbar themes": "https://www.drupal.org/files/issues/config_permission-2856979-6.patch"
+      },
+      "drupal/username_enumeration_prevention": {
+        "Issue #2871931: Fix Broken Installation": "https://www.drupal.org/files/issues/username_enumeration_prevention-check_phase_runtime-2871931-5.patch"
+      }
+    },
+    "enable-patching": true
+  },
+  "config": {
+    "secure-http": false
+  },
   "require": {
     "composer/installers": "^1.0.20",
     "oomphinc/composer-installers-extender": "^1.1",
     "drupal-composer/drupal-scaffold": "^2.0.1",
     "cweagans/composer-patches": "~1.0",
-    "drupal/core": "8.4.2",
+    "drupal/core": "8.4.3",
     "drush/drush": "~8.0",
     "drupal/console": "~1.0",
     "drupal/addanother": "1.0-rc1",
@@ -249,120 +369,5 @@
     "drupal/coder": "8.*",
     "drupal/devel": "1.2",
     "drupal/features": "3.2"
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "autoload": {
-    "classmap": [
-      "scripts/composer/ScriptHandler.php"
-    ]
-  },
-  "scripts": {
-    "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-    "pre-install-cmd": [
-      "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
-    ],
-    "pre-update-cmd": [
-      "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
-    ],
-    "post-install-cmd": [
-      "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
-      "@composer drupal-scaffold"
-    ],
-    "post-update-cmd": [
-      "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
-    ]
-  },
-  "extra": {
-    "installer-types": [
-       "openfed-ckeditor-plugin",
-       "openfed-ckeditor-template"
-    ],
-    "installer-paths": {
-      "docroot/core": [
-        "type:drupal-core"
-      ],
-      "docroot/libraries/{$name}": [
-        "type:drupal-library",
-        "type:openfed-ckeditor-template"
-      ],
-      "docroot/modules/contrib/{$name}": [
-        "type:drupal-module"
-      ],
-      "docroot/profiles/contrib/{$name}": [
-        "type:drupal-profile"
-      ],
-      "docroot/themes/contrib/{$name}": [
-        "type:drupal-theme"
-      ],
-      "drush/contrib/{$name}": [
-        "type:drupal-drush"
-      ],
-      "docroot/libraries/ckeditor/plugins/{$name}" : [
-        "type:openfed-ckeditor-plugin"
-      ]
-    },
-    "drupal-scaffold": {
-      "initial": {
-        "sites/default/default.services.yml": "sites/default/services.yml",
-        "sites/default/default.settings.php": "sites/default/settings.php"
-      }
-    },
-    "patches": {
-      "drupal/admin_toolbar": {
-        "Issue #2855786: Menu items that link to an empty administration page are not hidden": "https://www.drupal.org/files/issues/2855786-26-hide_empty_menu_items_0.patch"
-      },
-      "drupal/content_translation_workflow": {
-        "Issue #2878504: fix a problem when publishing translations": "https://www.drupal.org/files/issues/2878504-1.patch"
-      },
-      "drupal/core": {
-        "Issue #2325899: UI fatal caused by views argument handlers no longer can provide their own default argument handling": "https://www.drupal.org/files/issues/2325899-106.patch",
-        "Issue #2737619: Views entity reference relationships must join on langcode for translatable entities": "https://www.drupal.org/files/issues/language_aware_relationship-2737619-19.patch",
-        "Issue #2786577: The Views integration Datetime Range fields should extend the views integration for regular Datetime fields": "https://www.drupal.org/files/issues/2786577-184-8-3-x-test-do-not-test.patch"
-      },
-      "drupal/field_default_token": {
-        "Issue #2860580: Apply field_default_token patches 2841292 and 2854384": "https://www.drupal.org/files/issues/2841292-7-and-2854384-4.patch"
-      },
-      "drupal/focal_point": {
-        "Issue #2920265: Add IMCE support": "https://www.drupal.org/files/issues/add_imce_support-2920265-10.patch"
-      },
-      "drupal/imce": {
-        "Issue #2858430: no browser tab in user profile in drupal 8": "https://www.drupal.org/files/issues/imce_no_browser_tab-2858430-4.patch"
-      },
-      "drupal/inline_entity_form": {
-        "Issue #2822764: Support adding new entities when translating": "https://www.drupal.org/files/issues/support_adding_and_removing-2822764.patch"
-      },
-      "drupal/menu_block": {
-        "Issue #2756675: Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/2811337-13_0.patch",
-        "Issue #2833076: Clearing cache when a menu link is added or deleted": "https://www.drupal.org/files/issues/clearing_cache_when_a-2833076-2_0.patch"
-      },
-      "drupal/menu_link": {
-          "Issue #2907989: Problem creating pathauto joined paths": "https://www.drupal.org/files/issues/wrong_joined_paths-2907989-3.patch"
-      },
-      "drupal/page_manager": {
-        "Issue #2820218: Page manager does not respect existing route defaults for title callbacks": "https://www.drupal.org/files/issues/page_manager_does_not-2820218-36.patch"
-      },
-      "drupal/panels": {
-        "Issue #2869412: Page title does not display on panels": "https://www.drupal.org/files/issues/2869412-2-page_title_does_not_show_in_panels.patch"
-      },
-      "drupal/paragraphs": {
-        "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/meta_support-2461695-222.patch"
-      },
-      "drupal/role_delegation": {
-        "Issue #2862360: Lock down assignable permissions in the VBO action": "https://www.drupal.org/files/issues/2862360-Lock-down-assignable-permissions-in-the-VBO-action-12.patch"
-      },
-      "drupal/soundcloudfield": {
-        "Issue #2760787: Fix fatal error occurs on all pages": "https://www.drupal.org/files/issues/soundcloudfield-fatal_error_occurs_on_all_pages-2760787-3.patch"
-      },
-      "drupal/toolbar_themes": {
-        "Issue #2856979: Add a permission for configuring toolbar themes": "https://www.drupal.org/files/issues/config_permission-2856979-6.patch"
-      },
-      "drupal/username_enumeration_prevention": {
-        "Issue #2871931: Fix Broken Installation": "https://www.drupal.org/files/issues/username_enumeration_prevention-check_phase_runtime-2871931-5.patch"
-      }
-    }
-  },
-  "config": {
-    "secure-http": false
   }
 }
