@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+12 December 2017 - Version 4.1
+----------------------------
+  Update modules, including a config_update due to a security issue.
+  Update Bootstrap theme due to Drupal 8.4.x update issues.
+
 11 December 2017 - Version 4.0
 ----------------------------
   Update Core to version 8.4.3
