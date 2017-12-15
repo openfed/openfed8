@@ -223,7 +223,7 @@
         "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/meta_support-2461695-222.patch"
       },
       "drupal/redirect": {
-        "Issue #2922534: Ignore Language Neutral Nodes and error pages": "https://www.drupal.org/files/issues/ignore_language_neutral_nodes-2922534-2.patch"
+        "Issue #2922534: Ignore Language Neutral Nodes and error pages": "https://www.drupal.org/files/issues/ignore_language_neutral_nodes-2922534-3.patch"
       },
       "drupal/role_delegation": {
         "Issue #2862360: Lock down assignable permissions in the VBO action": "https://www.drupal.org/files/issues/2862360-Lock-down-assignable-permissions-in-the-VBO-action-12.patch"
@@ -319,7 +319,7 @@
     "drupal/panels": "4.2",
     "drupal/paragraphs": "1.2",
     "drupal/pathauto": "1.0",
-    "drupal/redirect": "1.0-beta1",
+    "drupal/redirect": "dev-1.x#345e9555ca74911ba7b0b3be00f3117083063434",
     "drupal/role_delegation": "1.0-alpha1",
     "drupal/rules": "3.0-alpha3",
     "drupal/search_api": "1.5",

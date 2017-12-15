@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5445670aeb24add5faf22b9b3ed2b3b7",
+    "content-hash": "dcaf32fdbf854b78bb181f796590aea0",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -5910,17 +5910,11 @@
         },
         {
             "name": "drupal/redirect",
-            "version": "1.0.0-beta1",
+            "version": "dev-1.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/redirect",
-                "reference": "8.x-1.0-beta1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/redirect-8.x-1.0-beta1.zip",
-                "reference": "8.x-1.0-beta1",
-                "shasum": "0be21502538afc193a6817089476e7f6ddae2f6d"
+                "reference": "345e9555ca74911ba7b0b3be00f3117083063434"
             },
             "require": {
                 "drupal/core": "~8"
@@ -5931,15 +5925,15 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-beta1",
-                    "datestamp": "1501443542",
+                    "version": "8.x-1.0-beta1+9-dev",
+                    "datestamp": "1510523584",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
                     }
                 },
                 "patches_applied": {
-                    "Issue #2922534: Ignore Language Neutral Nodes and error pages": "https://www.drupal.org/files/issues/ignore_language_neutral_nodes-2922534-2.patch"
+                    "Issue #2922534: Ignore Language Neutral Nodes and error pages": "https://www.drupal.org/files/issues/ignore_language_neutral_nodes-2922534-3.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -5960,7 +5954,8 @@
             "homepage": "https://www.drupal.org/project/redirect",
             "support": {
                 "source": "http://cgit.drupalcode.org/redirect"
-            }
+            },
+            "time": "2017-11-13 08:23:39"
         },
         {
             "name": "drupal/role_delegation",
@@ -13651,7 +13646,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/field_default_token": 20
+        "drupal/field_default_token": 20,
+        "drupal/redirect": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
