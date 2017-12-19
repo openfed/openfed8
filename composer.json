@@ -128,7 +128,6 @@
     ]
   },
   "scripts": {
-    "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
     "pre-install-cmd": [
       "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
     ],
@@ -136,10 +135,11 @@
       "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
     ],
     "post-install-cmd": [
-      "DrupalProject\\composer\\ScriptHandler::createRequiredFiles",
-      "@composer drupal-scaffold"
+      "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+      "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
     ],
     "post-update-cmd": [
+      "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
       "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
     ]
   },
@@ -211,7 +211,7 @@
         "Issue #2833076: Clearing cache when a menu link is added or deleted": "https://www.drupal.org/files/issues/clearing_cache_when_a-2833076-2_0.patch"
       },
       "drupal/menu_link": {
-          "Issue #2907989: Problem creating pathauto joined paths": "https://www.drupal.org/files/issues/wrong_joined_paths-2907989-3.patch"
+          "Issue #2907989: Problem creating pathauto joined paths": "https://www.drupal.org/files/issues/wrong_joined_paths-2907989-4.patch"
       },
       "drupal/page_manager": {
         "Issue #2820218: Page manager does not respect existing route defaults for title callbacks": "https://www.drupal.org/files/issues/page_manager_does_not-2820218-36.patch"
@@ -236,6 +236,9 @@
       },
       "drupal/username_enumeration_prevention": {
         "Issue #2871931: Fix Broken Installation": "https://www.drupal.org/files/issues/username_enumeration_prevention-check_phase_runtime-2871931-5.patch"
+      },
+      "drupal/workbench_moderation_actions": {
+        "Issue #2891765: Core Publish/Unpublish actions are deleted on install, but not re-created on uninstall": "https://www.drupal.org/files/issues/restore_publish_actions_after_uninstall-2891765-10.patch"
       }
     },
     "enable-patching": true
@@ -351,6 +354,7 @@
     "drupal/weight": "3.1-alpha1",
     "drupal/workbench_access": "1.0-alpha5",
     "drupal/workbench_moderation": "1.2",
+    "drupal/workbench_moderation_actions": "1.0-alpha1",
     "drupal/xmlrpc": "1.0-beta1",
     "jackmoore/colorbox": "1.6.4",
     "openfed-ckeditor-plugins/uploadwidget": "4.7.2",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "dcaf32fdbf854b78bb181f796590aea0",
+    "content-hash": "0a1db97f923d98c5a37ba3c12ee5430c",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1470,7 +1470,7 @@
                     "datestamp": "1504627443",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
+                        "message": "Beta releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -1565,7 +1565,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.5",
-                    "datestamp": "1497280742",
+                    "datestamp": "1509961084",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1851,6 +1851,10 @@
                     "name": "Roland Michael dela Peña (arpeggio)",
                     "homepage": "https://www.webfoobar.com",
                     "role": "Maintainer"
+                },
+                {
+                    "name": "mertres",
+                    "homepage": "https://www.drupal.org/user/3513520"
                 }
             ],
             "description": "Integrates CKEditor's Upload Image plugin to Drupal. This enables Drupal's default WYSIWYG text editor capable of uploading images that were dropped or pasted from clipboard into the editor as inline image.",
@@ -2930,8 +2934,8 @@
                     "homepage": "https://www.drupal.org/user/2802285"
                 },
                 {
-                    "name": "jkempff",
-                    "homepage": "https://www.drupal.org/user/1394922"
+                    "name": "purushotam.rai",
+                    "homepage": "https://www.drupal.org/user/3193859"
                 },
                 {
                     "name": "valderama",
@@ -5238,7 +5242,7 @@
                     }
                 },
                 "patches_applied": {
-                    "Issue #2907989: Problem creating pathauto joined paths": "https://www.drupal.org/files/issues/wrong_joined_paths-2907989-3.patch"
+                    "Issue #2907989: Problem creating pathauto joined paths": "https://www.drupal.org/files/issues/wrong_joined_paths-2907989-4.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -5417,7 +5421,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.3",
-                    "datestamp": "1506715150",
+                    "datestamp": "1507021979",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5925,11 +5929,11 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-beta1+9-dev",
-                    "datestamp": "1510523584",
+                    "version": "8.x-1.0+3-dev",
+                    "datestamp": "1513438985",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
+                        "message": "Dev releases are not covered by Drupal security advisories."
                     }
                 },
                 "patches_applied": {
@@ -6512,14 +6516,6 @@
             ],
             "authors": [
                 {
-                    "name": "avf",
-                    "homepage": "https://www.drupal.org/user/145245"
-                },
-                {
-                    "name": "kbahey",
-                    "homepage": "https://www.drupal.org/user/4063"
-                },
-                {
                     "name": "mfb",
                     "homepage": "https://www.drupal.org/user/12302"
                 }
@@ -6659,7 +6655,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.10",
-                    "datestamp": "1506805827",
+                    "datestamp": "1513114985",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7427,7 +7423,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x",
-                    "datestamp": "1493246342",
+                    "datestamp": "1510132373",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7692,7 +7688,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-alpha5",
-                    "datestamp": "1500562742",
+                    "datestamp": "1513611185",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -7832,6 +7828,56 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/workbench_moderation",
                 "issues": "http://drupal.org/project/issues/workbench_moderation"
+            }
+        },
+        {
+            "name": "drupal/workbench_moderation_actions",
+            "version": "1.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/workbench_moderation_actions",
+                "reference": "8.x-1.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/workbench_moderation_actions-8.x-1.0-alpha1.zip",
+                "reference": "8.x-1.0-alpha1",
+                "shasum": "78765eb2e1fb8db2818dac1c777277eb865cd0b6"
+            },
+            "require": {
+                "drupal/core": "~8.0",
+                "drupal/workbench_moderation": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha1",
+                    "datestamp": "1511792585",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                },
+                "patches_applied": {
+                    "Issue #2891765: Core Publish/Unpublish actions are deleted on install, but not re-created on uninstall": "https://www.drupal.org/files/issues/restore_publish_actions_after_uninstall-2891765-10.patch"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "nicrodgers",
+                    "homepage": "https://www.drupal.org/user/194371"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/workbench_moderation_actions",
+            "support": {
+                "source": "http://cgit.drupalcode.org/workbench_moderation_actions"
             }
         },
         {
@@ -10577,16 +10623,16 @@
         },
         {
             "name": "symfony/psr-http-message-bridge",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/psr-http-message-bridge.git",
-                "reference": "b2098405d8644f6dc4c36febcee6a77c0fdecdff"
+                "reference": "c2b757934f2d9681a287e662efbc27c41fe8ef86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/psr-http-message-bridge/zipball/b2098405d8644f6dc4c36febcee6a77c0fdecdff",
-                "reference": "b2098405d8644f6dc4c36febcee6a77c0fdecdff",
+                "url": "https://api.github.com/repos/symfony/psr-http-message-bridge/zipball/c2b757934f2d9681a287e662efbc27c41fe8ef86",
+                "reference": "c2b757934f2d9681a287e662efbc27c41fe8ef86",
                 "shasum": ""
             },
             "require": {
@@ -10633,7 +10679,7 @@
                 "http-message",
                 "psr-7"
             ],
-            "time": "2017-07-23T09:13:43+00:00"
+            "time": "2017-12-19T00:31:44+00:00"
         },
         {
             "name": "symfony/routing",
@@ -12068,12 +12114,6 @@
                 "type": "git",
                 "url": "https://git.drupal.org/project/coder.git",
                 "reference": "984c54a7b1e8f27ff1c32348df69712afd86b17f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/klausi/coder/zipball/984c54a7b1e8f27ff1c32348df69712afd86b17f",
-                "reference": "984c54a7b1e8f27ff1c32348df69712afd86b17f",
-                "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
