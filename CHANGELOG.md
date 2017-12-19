@@ -1,7 +1,13 @@
 CHANGELOG
 =========
 
-12 December 2017 - Version 4.1
+19 December 2017 - Version 4.2
+----------------------------
+  Update installation procedure.
+  Added workbench_moderation_actions module
+  Updated patches
+
+12 December 2017 - Version 4.1 (Drupal.org Failure)
 ----------------------------
   Update modules, including a config_update due to a security issue.
   Update Bootstrap theme due to Drupal 8.4.x update issues.
