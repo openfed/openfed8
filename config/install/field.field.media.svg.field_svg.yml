@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_svg
+    - media_entity.bundle.svg
+  module:
+    - openfed_svg_file
+id: media.svg.field_svg
+field_name: field_svg
+entity_type: media
+bundle: svg
+label: 'SVG FIle'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: svg
+  max_filesize: ''
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: openfed_svg_file

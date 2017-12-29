@@ -3,17 +3,16 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.media.embed_entity
-    - field.field.media.svg.field_body
+    - field.field.media.svg.field_svg
     - media_entity.bundle.svg
   module:
     - ds
-    - text
+    - openfed_svg_file
 third_party_settings:
   ds:
     layout:
       id: ds_1col
-      path: profiles/contrib/openfed/modules/contrib/ds
-      library: ''
+      library: null
       disable_css: false
       entity_classes: all_classes
       settings:
@@ -27,21 +26,25 @@ third_party_settings:
           layout_class: {  }
     regions:
       ds_content:
-        - field_body
+        - field_svg
+_core:
+  default_config_hash: JvEUxsN6VkU9vJpOquW3BV4PXOJDs9uGpTlQlW02gwc
 id: media.svg.embed_entity
 targetEntityType: media
 bundle: svg
 mode: embed_entity
 content:
-  field_body:
-    weight: 2
+  field_svg:
+    type: openfed_svg_file_formatter
+    weight: 0
+    region: ds_content
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    type: text_default
 hidden:
   created: true
   langcode: true
   name: true
   thumbnail: true
   uid: true
+  workbench_moderation_control: true

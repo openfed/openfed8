@@ -2,28 +2,26 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.media.svg.field_body
+    - field.field.media.svg.field_svg
     - media_entity.bundle.svg
   module:
+    - openfed_svg_file
+    - path
     - workbench_moderation
-    - text
+_core:
+  default_config_hash: yCgRMsdGAxNXvd2XaPwqgx3lV5iMrYPzfZ5hHU_ME4w
 id: media.svg.default
 targetEntityType: media
 bundle: svg
 mode: default
 content:
-  field_body:
-    weight: 3
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea
-  langcode:
-    type: language_select
+  field_svg:
     weight: 1
-    settings: {  }
+    settings:
+      progress_indicator: throbber
     third_party_settings: {  }
+    type: openfed_svg_file_widget
+    region: content
   name:
     type: string_textfield
     weight: 0
@@ -31,10 +29,15 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-  translation:
+    region: content
+  path:
+    type: path
     weight: 2
+    region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
   created: true
+  langcode: true
+  translation: true
   uid: true

@@ -1,0 +1,5 @@
+<object type="image/svg+xml" data="{{ file_url(uri) }}" {{ attributes }}>
+  <param name="src" value="{{ file_url(uri) }}">
+  {% if(alt_text) %}<p>{{ alt_text }}</p>{% endif %}
+
+</object>

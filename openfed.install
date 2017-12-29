@@ -58,3 +58,46 @@ function openfed_update_8202(&$sandbox) {
   }
   return $message;
 }
+
+/**
+ * Update default config due to the new Openfed SVG File field.
+ */
+function openfed_update_8203(&$sandbox) {
+  $message = '';
+
+  \Drupal::service('module_installer')->install(['openfed_svg_file']);
+
+  $configs = [
+    'create' => [
+      'field.field.media.svg.field_svg',
+      'field.storage.media.field_svg',
+    ],
+    'update' => [
+      'core.entity_form_display.media.svg.default',
+      'core.entity_view_display.media.svg.default',
+      'core.entity_view_display.media.svg.embed_entity',
+    ],
+    'delete' => [
+      'field.field.media.svg.field_body',
+    ],
+  ];
+
+  $profile_path = drupal_get_path('profile', 'openfed');
+  foreach ($configs as $action => $files) {
+    foreach ($files as $file) {
+      $config_path = $profile_path . '/config/install/' . $file . '.yml';
+
+      if($action == 'update' || $action == 'create') {
+        $data = Yaml::parse(file_get_contents($config_path));
+        \Drupal::configFactory()->getEditable($file)->setData($data)->save(TRUE);
+      } elseif ($action == 'delete') {
+        \Drupal::configFactory()->getEditable($file)->delete();
+      }
+    }
+    $message = 'Configs were ' . $action . 'd.';
+  }
+
+  \Drupal::entityDefinitionUpdateManager()->applyUpdates();
+
+  return $message;
+}

@@ -9,6 +9,7 @@ distribution:
 dependencies:
   # openfed
   - openfed_administration
+  - openfed_svg_file
   # core
   - block
   - ckeditor

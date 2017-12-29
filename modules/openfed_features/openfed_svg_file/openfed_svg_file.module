@@ -1,0 +1,56 @@
+<?php
+
+/**
+ * @file
+ * Contains openfed_svg_file.module.
+ */
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function openfed_svg_file_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the svg_formatter module.
+    case 'help.page.openfed_svg_file':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Add SVG field, widget, formatter.') . '</p>';
+      return $output;
+    default: return '';
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function openfed_svg_file_theme() {
+  $theme = [];
+  foreach (get_output_types() as $type => $label) {
+    $theme += [
+      'openfed_svg_file__' . $type => [
+        'variables' => [
+          'svg_data' => NULL,
+          'attributes' => NULL,
+          'alt_text' => NULL,
+          'uri' => NULL,
+        ],
+      ],
+    ];
+  }
+
+  return $theme;
+}
+
+/**
+  * Pre-defined SVG output types.
+  */
+function get_output_types() {
+  return [
+    'image' => t('Image'),
+    'embed' => t('Embed'),
+    'object' => t('Object'),
+    'iframe' => t('Iframe'),
+    'inline' => t('Inline'),
+  ];
+}
