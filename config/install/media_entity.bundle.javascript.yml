@@ -1,6 +1,18 @@
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - workbench_moderation
+third_party_settings:
+  workbench_moderation:
+    enabled: 1
+    allowed_moderation_states:
+      - published
+      - archived
+      - draft
+    default_moderation_state: draft
+_core:
+  default_config_hash: 6vzDg6XCHAH8TILeIJWtZPGuUypLue4k3gsxuxodyGs
 id: javascript
 label: Javascript
 description: ''
