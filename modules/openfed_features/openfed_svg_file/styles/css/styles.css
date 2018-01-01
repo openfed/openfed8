@@ -1,0 +1,12 @@
+.flex-container {
+    display: flex;
+}
+
+.flex-container > div {
+    padding-right: 40px;
+    min-width: 200px;
+}
+
+.openfed_svg_file_image_preview {
+    text-align: center;
+}
