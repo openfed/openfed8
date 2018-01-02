@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a1db97f923d98c5a37ba3c12ee5430c",
+    "content-hash": "3027aea56ce5b344227ffcf3d3db4489",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2490,17 +2490,17 @@
         },
         {
             "name": "drupal/context",
-            "version": "1.0.0-alpha1",
+            "version": "4.0.0-beta2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/context",
-                "reference": "8.x-1.0-alpha1"
+                "reference": "8.x-4.0-beta2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/context-8.x-1.0-alpha1.zip",
-                "reference": "8.x-1.0-alpha1",
-                "shasum": "42472037794f8ae9a6c128837dceb2cea8353a58"
+                "url": "https://ftp.drupal.org/files/projects/context-8.x-4.0-beta2.zip",
+                "reference": "8.x-4.0-beta2",
+                "shasum": "e41bc912e1ec73bc4d08a3cf730dc2405a9213d3"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -2508,14 +2508,14 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-1.x": "1.x-dev"
+                    "dev-4.x": "4.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha1",
-                    "datestamp": "1460041522",
+                    "version": "8.x-4.0-beta2",
+                    "datestamp": "1505378944",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
+                        "message": "Beta releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -2583,8 +2583,15 @@
                     "homepage": "https://www.drupal.org/user/264833"
                 }
             ],
-            "description": "Set conditions and configure reactions that should be implemented when conditions pass.",
+            "description": "Manage contextual conditions and reactions for different portions of your site.",
             "homepage": "https://github.com/oddhill/context",
+            "keywords": [
+                "Drupal",
+                "block",
+                "conditions",
+                "context",
+                "visibility"
+            ],
             "support": {
                 "source": "https://github.com/oddhill/context",
                 "issues": "https://github.com/oddhill/context/issues",
@@ -4729,7 +4736,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.1",
-                    "datestamp": "1500846243",
+                    "datestamp": "1514787185",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5917,11 +5924,17 @@
         },
         {
             "name": "drupal/redirect",
-            "version": "dev-1.x",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/redirect",
-                "reference": "345e9555ca74911ba7b0b3be00f3117083063434"
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/redirect-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "93021b77f225a3035fbee361a21850a36a8cd684"
             },
             "require": {
                 "drupal/core": "~8"
@@ -5932,11 +5945,11 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0+5-dev",
-                    "datestamp": "1513767185",
+                    "version": "8.x-1.0",
+                    "datestamp": "1513767485",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 },
                 "patches_applied": {
@@ -5961,8 +5974,7 @@
             "homepage": "https://www.drupal.org/project/redirect",
             "support": {
                 "source": "http://cgit.drupalcode.org/redirect"
-            },
-            "time": "2017-11-13 08:23:39"
+            }
         },
         {
             "name": "drupal/role_delegation",
@@ -13689,8 +13701,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/field_default_token": 20,
-        "drupal/redirect": 20
+        "drupal/field_default_token": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
