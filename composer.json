@@ -2,7 +2,7 @@
   "name": "openfed/openfed8",
   "description": "OpenFed base installation with modules and configurations needed for Fast2Web service",
   "type": "drupal-profile",
-  "license": "GPL-2.0+",
+  "license": "GPL-2.0-or-later",
   "authors": [
     {
       "name": "rutiolma",
@@ -252,7 +252,7 @@
     "oomphinc/composer-installers-extender": "^1.1",
     "drupal-composer/drupal-scaffold": "^2.0.1",
     "cweagans/composer-patches": "~1.0",
-    "drupal/core": "8.4.3",
+    "drupal/core": "8.4.4",
     "drush/drush": "~8.0",
     "drupal/console": "~1.0",
     "drupal/addanother": "1.0-rc1",
