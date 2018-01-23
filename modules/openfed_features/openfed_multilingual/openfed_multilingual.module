@@ -1,0 +1,28 @@
+<?php
+
+/**
+ * @file
+ * Contains openfed_multilingual.module.
+ */
+
+/**
+ * Implements hook_language_switch_links_alter();
+ *
+ * This will override language switch block links, removing the link and
+ * setting a "disabled" class on non-translated content.
+ */
+function openfed_multilingual_language_switch_links_alter(array &$links, $type, $path) {
+  /** @var Drupal\node\Entity\Node $node */
+  if ($node = \Drupal::routeMatch()->getParameter('node')) {
+    foreach ($links as $langcode => $link) {
+      if ($node && !array_key_exists($langcode, $node->getTranslationLanguages(TRUE)) || ($node->getTranslation($langcode) && !$node->getTranslation($langcode)
+            ->access('view'))
+      ) {
+        //There is no translation in that language, disable url
+        unset($links[$langcode]['url']);
+        //And do something with attributes (eg. add class)
+        $links[$langcode]['attributes']['class'][] = 'disabled';
+      }
+    }
+  }
+}
