@@ -1,6 +1,16 @@
 CHANGELOG
 =========
 
+01 February 2018 - Version 4.4
+----------------------------
+  Issue #2936485 by yo30, rutiolma: Fix dependency declaration
+  Issue #2938850 by rutiolma: Add Block visibility conditions
+  Enabled admin_toolbar:admin_toolbar_links_access_filter module by default
+  Make file: fix typo and updated libraries versions
+  Core Bug Fix: Unable to save a translation if the path alias changes
+  Wrong active trail with multiple menu items with the same path
+  Update core and modules
+
 02 January 2018 - Version 4.3
 ----------------------------
   Updated Redirect module to a stable version
