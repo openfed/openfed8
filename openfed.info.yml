@@ -8,8 +8,8 @@ distribution:
 
 dependencies:
   # openfed
-  - openfed: openfed_administration
-  - openfed: openfed_svg_file
+  - openfed:openfed_administration
+  - openfed:openfed_svg_file
   # core
   - drupal:block
   - drupal:ckeditor
