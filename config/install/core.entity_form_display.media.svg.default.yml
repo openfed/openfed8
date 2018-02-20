@@ -8,8 +8,6 @@ dependencies:
     - openfed_svg_file
     - path
     - workbench_moderation
-_core:
-  default_config_hash: yCgRMsdGAxNXvd2XaPwqgx3lV5iMrYPzfZ5hHU_ME4w
 id: media.svg.default
 targetEntityType: media
 bundle: svg
