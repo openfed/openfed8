@@ -101,3 +101,16 @@ function openfed_update_8203(&$sandbox) {
 
   return $message;
 }
+
+/**
+ * Fix entity.definitions.bundle_field_map key store with old bundles.
+ */
+function openfed_update_8401(&$sandbox) {
+  /** @var \Drupal\Core\KeyValueStore\KeyValueFactoryInterface $key_value_factory */
+  $key_value_factory = \Drupal::service('keyvalue');
+  $field_map_kv_store = $key_value_factory->get('entity.definitions.bundle_field_map');
+  $node_map = $field_map_kv_store->get('media');
+  // Remove the field_body field from the bundle field map for the svg bundle.
+  unset($node_map['field_body']['bundles']['svg']);
+  $field_map_kv_store->set('media', $node_map);
+}
