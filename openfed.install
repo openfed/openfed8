@@ -112,5 +112,11 @@ function openfed_update_8401(&$sandbox) {
   $node_map = $field_map_kv_store->get('media');
   // Remove the field_body field from the bundle field map for the svg bundle.
   unset($node_map['field_body']['bundles']['svg']);
+  $node_map['field_svg'] = [
+    'type' => 'openfed_svg_file',
+    'bundles' => [
+      'svg' => 'svg'
+    ],
+  ];
   $field_map_kv_store->set('media', $node_map);
 }
