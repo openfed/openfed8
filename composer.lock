@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c08c03d908a171ea4323baa4cae8d0a6",
+    "content-hash": "313302207ff6f8e1feaa2fc1add116b9",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -7828,17 +7828,17 @@
         },
         {
             "name": "drupal/workbench_access",
-            "version": "1.0.0-alpha7",
+            "version": "1.0.0-alpha6",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/workbench_access",
-                "reference": "8.x-1.0-alpha7"
+                "reference": "8.x-1.0-alpha6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/workbench_access-8.x-1.0-alpha7.zip",
-                "reference": "8.x-1.0-alpha7",
-                "shasum": "1df088c64bac3a116a23eb35ac3c6560057b8687"
+                "url": "https://ftp.drupal.org/files/projects/workbench_access-8.x-1.0-alpha6.zip",
+                "reference": "8.x-1.0-alpha6",
+                "shasum": "953e4fa9badc0a0001e3de48dec0c044fa6cb9df"
             },
             "require": {
                 "drupal/core": "*"
@@ -7849,7 +7849,7 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha7",
+                    "version": "8.x-1.0-alpha6",
                     "datestamp": "1518445981",
                     "security-coverage": {
                         "status": "not-covered",
