@@ -1,6 +1,14 @@
 CHANGELOG
 =========
 
+21 February 2018 - Version 4.5
+----------------------------
+  Update modules
+  Added Workbench Access Menu Link module
+  Added patch to EU Cookie Compliance
+  Small config updates
+  Improved update path for path 4.3
+
 01 February 2018 - Version 4.4
 ----------------------------
   Issue #2936485 by yo30, rutiolma: Fix dependency declaration
