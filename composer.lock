@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "38495c4586721d102638134ea64ddce3",
+    "content-hash": "165532718dc872dc48746fa39c613769",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1709,17 +1709,17 @@
         },
         {
             "name": "drupal/bootstrap",
-            "version": "3.9.0",
+            "version": "3.10.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/bootstrap",
-                "reference": "8.x-3.9"
+                "reference": "8.x-3.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/bootstrap-8.x-3.9.zip",
-                "reference": "8.x-3.9",
-                "shasum": "2095ebf22b147a096d34ebbc428dfb62ea01f89b"
+                "url": "https://ftp.drupal.org/files/projects/bootstrap-8.x-3.10.zip",
+                "reference": "8.x-3.10",
+                "shasum": "1e7c45906fa3fe990868da53a336e702113cd66a"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -1730,7 +1730,7 @@
                     "dev-3.x": "3.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-3.9",
+                    "version": "8.x-3.10",
                     "datestamp": "1519144980",
                     "security-coverage": {
                         "status": "covered",
@@ -1821,17 +1821,17 @@
         },
         {
             "name": "drupal/ckeditor_uploadimage",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/ckeditor_uploadimage",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ckeditor_uploadimage-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "ca8cdbd314beb6488f89bd7ada8321f9f127df06"
+                "url": "https://ftp.drupal.org/files/projects/ckeditor_uploadimage-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "dc427fcf73b956409e7a22d46d6d2bfb67b040c3"
             },
             "require": {
                 "drupal/core": "*"
@@ -1842,8 +1842,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1493618345",
+                    "version": "8.x-1.5",
+                    "datestamp": "1519240443",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2792,7 +2792,8 @@
                     "Issue #2325899: UI fatal caused by views argument handlers no longer can provide their own default argument handling": "https://www.drupal.org/files/issues/2325899-106.patch",
                     "Issue #2597830: View contextual filter error when using date": "https://www.drupal.org/files/issues/datetime_needs_an-2597830-6.patch",
                     "Issue #2737619: Views entity reference relationships must join on langcode for translatable entities": "https://www.drupal.org/files/issues/language_aware_relationship-2737619-19.patch",
-                    "Issue #2786577: The Views integration Datetime Range fields should extend the views integration for regular Datetime fields": "https://www.drupal.org/files/issues/2786577-184-8-3-x-test-do-not-test.patch"
+                    "Issue #2786577: The Views integration Datetime Range fields should extend the views integration for regular Datetime fields": "https://www.drupal.org/files/issues/2786577-184-8-3-x-test-do-not-test.patch",
+                    "Issue #2930599: Unable to save a translation if the path alias changes": "https://www.drupal.org/files/issues/content_moderation-path_alias-2930599-09.patch"
                 }
             },
             "autoload": {

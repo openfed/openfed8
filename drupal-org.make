@@ -42,7 +42,7 @@ libraries[notificationaggregator][destination] = "libraries/ckeditor/plugins"
 ; Themes
 ; Please fill the following out. Type may be one of get, git, bzr or svn, and url is the url of the download.
 ;
-projects[bootstrap][version] = "3.9"
+projects[bootstrap][version] = "3.10"
 projects[adminimal_theme][version] = "1.3"
 
 ;
@@ -57,7 +57,7 @@ projects[allowed_formats][version] = "1.1"
 projects[anchor_link][version] = "1.6"
 projects[append_file_info][version] = "1.0-rc2"
 projects[back_to_top][version] = "1.0-beta2"
-projects[ckeditor_uploadimage][version] = "1.4"
+projects[ckeditor_uploadimage][version] = "1.5"
 projects[ckeditor_templates][version] = "1.0"
 projects[colorbox][version] = "1.4"
 projects[components][version] = "1.0"
