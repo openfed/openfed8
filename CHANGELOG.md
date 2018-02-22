@@ -4,6 +4,8 @@ CHANGELOG
 22 February 2018 - Version 4.6
 ----------------------------
   Update to Drupal Core 8.4.5
+  Update CKEditor Upload Image to version 1.5
+  Update Bootstrap theme to version 3.10
 
 21 February 2018 - Version 4.5
 ----------------------------
