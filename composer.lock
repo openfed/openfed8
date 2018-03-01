@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "01105a27b08e75c142d880afffcab7bd",
+    "content-hash": "933629173d7584ac0487482cb468551d",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -5760,7 +5760,7 @@
                 "patches_applied": {
                     "Issue #2820218: Page manager does not respect existing route defaults for title callbacks": "https://www.drupal.org/files/issues/page_manager_does_not-2820218-36.patch",
                     "Issue #2858877: Allow for block visibility rules": "https://www.drupal.org/files/issues/page_manager-block_visibility_conditions-2858877-27-D8.patch",
-                    "Issue #2918564: Update 'page_manager.variant_route_filter' service according to core changes": "https://www.drupal.org/files/issues/2918564-22.patch"
+                    "Issue #2918564: Update page_manager variant_route_filter service according to core changes": "https://www.drupal.org/files/issues/2918564-22.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
