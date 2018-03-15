@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a3aca5f6921c3499eab567d3eb06aa36",
+    "content-hash": "ad15662f5c055eee53aca539af3ef702",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3150,20 +3150,20 @@
         },
         {
             "name": "drupal/disable_route_normalizer",
-            "version": "1.0.0-alpha2",
+            "version": "1.0.0-alpha3",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/disable_route_normalizer",
-                "reference": "8.x-1.0-alpha2"
+                "reference": "8.x-1.0-alpha3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/disable_route_normalizer-8.x-1.0-alpha2.zip",
-                "reference": "8.x-1.0-alpha2",
-                "shasum": "e366c44076d5317b1cf4e8bc65ddee73061daaf0"
+                "url": "https://ftp.drupal.org/files/projects/disable_route_normalizer-8.x-1.0-alpha3.zip",
+                "reference": "8.x-1.0-alpha3",
+                "shasum": "fb170e7d2032a7782086eabd5ae7308ad86b6528"
             },
             "require": {
-                "drupal/core": "~8.0",
+                "drupal/core": "^8.5.0",
                 "drupal/redirect": "*"
             },
             "type": "drupal-module",
@@ -3172,8 +3172,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-alpha2",
-                    "datestamp": "1520432284",
+                    "version": "8.x-1.0-alpha3",
+                    "datestamp": "1521112385",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
