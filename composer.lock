@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "35858c050423e23b7d9b2adf36e3b794",
+    "content-hash": "57925a00f3e7073dadb00d770b0c5177",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3128,7 +3128,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-alpha2",
-                    "datestamp": "1520432284",
+                    "datestamp": "1521112385",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -6153,6 +6153,9 @@
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
                     }
+                },
+                "patches_applied": {
+                    "Issue #2952011: Fix error on FieldUiRouteEnhancer::enhance": "https://www.drupal.org/files/issues/2018-03-12/2952011-2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

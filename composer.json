@@ -225,6 +225,9 @@
       "drupal/role_delegation": {
         "Issue #2862360: Lock down assignable permissions in the VBO action": "https://www.drupal.org/files/issues/2862360-Lock-down-assignable-permissions-in-the-VBO-action-12.patch"
       },
+      "drupal/scheduled_updates": {
+        "Issue #2952011: Fix error on FieldUiRouteEnhancer::enhance": "https://www.drupal.org/files/issues/2018-03-12/2952011-2.patch"
+      },
       "drupal/soundcloudfield": {
         "Issue #2760787: Fix fatal error occurs on all pages": "https://www.drupal.org/files/issues/soundcloudfield-fatal_error_occurs_on_all_pages-2760787-3.patch"
       },
