@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+29 March 2018 - Version 4.7
+----------------------------
+  Update to Drupal Core 8.4.6 (SA-CORE-2018-002)
+
 22 February 2018 - Version 4.6
 ----------------------------
   Update to Drupal Core 8.4.5
