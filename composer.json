@@ -187,7 +187,8 @@
         "Issue #2597830: View contextual filter error when using date": "https://www.drupal.org/files/issues/datetime_needs_an-2597830-6.patch",
         "Issue #2737619: Views entity reference relationships must join on langcode for translatable entities": "https://www.drupal.org/files/issues/language_aware_relationship-2737619-19.patch",
         "Issue #2786577: The Views integration Datetime Range fields should extend the views integration for regular Datetime fields": "https://www.drupal.org/files/issues/2786577-184-8-3-x-test-do-not-test.patch",
-        "Issue #2930599: Unable to save a translation if the path alias changes": "https://www.drupal.org/files/issues/content_moderation-path_alias-2930599-09.patch"
+        "Issue #2930599: Unable to save a translation if the path alias changes": "https://www.drupal.org/files/issues/content_moderation-path_alias-2930599-09.patch",
+        "Issue #2626716: Edit Summary link not showing if Help Text is set": "https://www.drupal.org/files/issues/2626716-33.patch"
       },
       "drupal/entity_embed": {
         "Issue #2882866: Provide a preview display setting for use in WYSIWYG editors": "https://www.drupal.org/files/issues/entity_embed-preview_display_plugin-2882866-2.patch"
@@ -251,7 +252,7 @@
     "oomphinc/composer-installers-extender": "^1.1",
     "drupal-composer/drupal-scaffold": "^2.0.1",
     "cweagans/composer-patches": "~1.0",
-    "drupal/core": "8.5.1",
+    "drupal/core": "8.5.2",
     "drush/drush": "~8.0",
     "drupal/console": "~1.0",
     "drupal/addanother": "1.0-rc1",
