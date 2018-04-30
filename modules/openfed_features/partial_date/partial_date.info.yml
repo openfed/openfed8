@@ -3,7 +3,7 @@ type: module
 description: 'Simple datetime field that allows partial dates.'
 package: Field types
 core: 8.x
-version: '8.x-1.0'
+version: '8.x-5.0'
 dependencies:
   - field
 

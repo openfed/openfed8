@@ -1,6 +1,32 @@
 CHANGELOG
 =========
 
+30 April 2018 - Version 5.0
+----------------------------
+  First release of Openfed 5.x
+
+30 April 2018 - Version 4.8
+----------------------------
+  Update to Drupal Core 8.4.8 (SA-CORE-2018-004)
+
+29 March 2018 - Version 4.7
+----------------------------
+  Update to Drupal Core 8.4.6 (SA-CORE-2018-002)
+
+22 February 2018 - Version 4.6
+----------------------------
+  Update to Drupal Core 8.4.5
+  Update CKEditor Upload Image to version 1.5
+  Update Bootstrap theme to version 3.10
+
+21 February 2018 - Version 4.5
+----------------------------
+  Update modules
+  Added Workbench Access Menu Link module
+  Added patch to EU Cookie Compliance
+  Small config updates
+  Improved update path for path 4.3
+
 01 February 2018 - Version 4.4
 ----------------------------
   Issue #2936485 by yo30, rutiolma: Fix dependency declaration
