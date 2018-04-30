@@ -4,9 +4,52 @@
  * Install, uninstall and update hooks for Openfed.
  */
 
+use Drupal\Core\Database\Database;
+use Symfony\Component\Yaml\Yaml;
+
 /**
  * Implements hook_install().
  */
 function openfed_install() {
+}
 
+/**
+ * Removed in Openfed 8.x-5.0.
+ *
+ * Formely fixed the problem with file_entity module when upgrading from 8.3.x to 8.4.x.
+ *
+ * @deprecated
+ */
+function openfed_update_8201(&$sandbox) {
+}
+
+/**
+ * Removed in Openfed 8.x-5.0.
+ *
+ * Formely updated file entity configuration with a new generic file entity.
+ * Read more: http://drupal.org/node/2927468.
+ *
+ * @deprecated
+ */
+function openfed_update_8202(&$sandbox) {
+}
+
+/**
+ * Removed in Openfed 8.x-5.0.
+ *
+ * Formely updated default config due to the new Openfed SVG File field.
+ *
+ * @deprecated
+ */
+function openfed_update_8203(&$sandbox) {
+}
+
+/**
+ * Removed in Openfed 8.x-5.0.
+ *
+ * Formely fixed entity.definitions.bundle_field_map key store with old bundles.
+ *
+ * @deprecated
+ */
+function openfed_update_8401(&$sandbox) {
 }
