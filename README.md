@@ -8,22 +8,21 @@ part of the Fast2Web offering.
 
 ## Installation
 
-The recommended way to install Openfed is by using
+The recommended way to install Openfed is using
 [Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
 
-You should clone this repository and run the following command on the project
-root like:
+You can use our [Openfed Project](https://github.com/openfed/openfed8-project/tree/5.x) template like:
 
 ```
 composer create-project openfed/openfed8-project MY_PROJECT
 ```
 
-Now, with all the necessary files at `docroot`, it's possible to install
-Openfed, like you would with any other distribution.
+After that you can just install Openfed like any other distribution.
 
-There is still a problem when trying to add Openfed8 to your own GIT
-repository due to the use of DEV versions of some modules (like field_default_token module).
-When adding Openfed8 project to a GIT repo, we advise to remove the ".git"
-folder from the project directory.
-Remove .git folders from the following modules:
-- field_default_token: [root]/profiles/openfed/modules/contrib/field_default_token/.git
+### Important note
+
+Make sure you are running the latest Openfed 4.x version before updating to Openfed 5.x
+
+## Bug Report
+
+You should use, preferably, Drupal.org [Openfed issue queue](https://www.drupal.org/project/issues/openfed). 
