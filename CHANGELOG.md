@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+04 May 2018 - Version 5.1
+----------------------------
+  Updated Menu Block and updated patch
+
 30 April 2018 - Version 5.0
 ----------------------------
   First release of Openfed 5.x
