@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4436a19df7dcda041248c60e7fab3312",
+    "content-hash": "61a20d3f03ec7db807c4937d6b92f101",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -5172,11 +5172,17 @@
         },
         {
             "name": "drupal/menu_block",
-            "version": "dev-1.x",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/menu_block",
-                "reference": "cc5fc5132e764484af004d9d75a2bd2537bf08b4"
+                "reference": "8.x-1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/menu_block-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "b3ac3e23e426f702974d88cc8bf93bf2a0b6236b"
             },
             "require": {
                 "drupal/core": "*"
@@ -5187,15 +5193,15 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.4+5-dev",
-                    "datestamp": "1525144385",
+                    "version": "8.x-1.5",
+                    "datestamp": "1525200184",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 },
                 "patches_applied": {
-                    "Issue #2811337: Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/menu_block-active-parent-2811337-60.patch"
+                    "Issue #2756675: Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/2018-05-02/menu_block_follow-2756675-45.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -5228,8 +5234,7 @@
             "homepage": "https://www.drupal.org/project/menu_block",
             "support": {
                 "source": "http://cgit.drupalcode.org/menu_block"
-            },
-            "time": "2018-02-13T22:45:01+00:00"
+            }
         },
         {
             "name": "drupal/menu_breadcrumb",
@@ -12436,8 +12441,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/field_default_token": 20,
-        "drupal/menu_block": 20
+        "drupal/field_default_token": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
