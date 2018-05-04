@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+04 May 2018 - Version 4.9
+----------------------------
+  Updated Menu Block and updated patch
+
 30 April 2018 - Version 4.8
 ----------------------------
   Update to Drupal Core 8.4.8 (SA-CORE-2018-004)
