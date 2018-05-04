@@ -208,8 +208,7 @@
         "Issue #2822764: Support adding new entities when translating": "https://www.drupal.org/files/issues/support_adding_and_removing-2822764.patch"
       },
       "drupal/menu_block": {
-        "Issue #2756675: Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/2811337-13_0.patch",
-        "Issue #2833076: Clearing cache when a menu link is added or deleted": "https://www.drupal.org/files/issues/clearing_cache_when_a-2833076-2_0.patch"
+        "Issue #2756675: Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/2018-05-02/menu_block_follow-2756675-45.patch"
       },
       "drupal/menu_link": {
           "Issue #2907989: Problem creating pathauto joined paths": "https://www.drupal.org/files/issues/wrong_joined_paths-2907989-4.patch"
@@ -315,7 +314,7 @@
     "drupal/media_entity": "1.7",
     "drupal/media_entity_document": "1.1",
     "drupal/media_entity_image": "1.2",
-    "drupal/menu_block": "1.4",
+    "drupal/menu_block": "1.5",
     "drupal/menu_breadcrumb": "1.5",
     "drupal/menu_link": "1.0-alpha1",
     "drupal/menu_link_weight": "2.0-alpha2",
