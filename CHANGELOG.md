@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+15 May 2018 - Version 5.2
+----------------------------
+  Updated Disable Route Normalizer module, fixing a Panels related issue
+
 04 May 2018 - Version 5.1
 ----------------------------
   Updated Menu Block and updated patch
