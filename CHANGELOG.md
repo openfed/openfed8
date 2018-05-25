@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+24 May 2018 - Version 5.3
+----------------------------
+  Updates filter format config, allowing a title attribute on a abbr HTML tag
+  Added core patch due to issue 2877994
+
 15 May 2018 - Version 5.2
 ----------------------------
   Updated Disable Route Normalizer module, fixing a Panels related issue
