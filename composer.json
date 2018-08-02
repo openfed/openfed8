@@ -283,7 +283,7 @@
     "drupal/entity_embed": "1.0-beta2",
     "drupal/entity_reference_revisions": "1.4",
     "drupal/entityqueue": "1.0-alpha7",
-    "drupal/eu_cookie_compliance": "1.0",
+    "drupal/eu_cookie_compliance": "1.2",
     "drupal/extlink": "1.1",
     "drupal/facets": "1.0-beta2",
     "drupal/fast_404": "1.0-alpha2",
