@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+02 August 2018 - Version 5.4
+----------------------------
+  Update to Drupal Core 8.5.6 (SA-CORE-2018-005)
+  Fixed module versions on the .make file
+  Updated EU Cookie Compliance module to version 1.2
+
 24 May 2018 - Version 5.3
 ----------------------------
   Updates filter format config, allowing a title attribute on a abbr HTML tag
