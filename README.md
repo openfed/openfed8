@@ -11,7 +11,7 @@ part of the Fast2Web offering.
 The recommended way to install Openfed is using
 [Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
 
-You can use our [Openfed Project](https://github.com/openfed/openfed8-project/tree/5.x) template like:
+You can use our [Openfed Project](https://github.com/openfed/openfed8-project/tree/6.x) template like:
 
 ```
 composer create-project openfed/openfed8-project MY_PROJECT
@@ -21,7 +21,7 @@ After that you can just install Openfed like any other distribution.
 
 ### Important note
 
-Make sure you are running the latest Openfed 4.x version before updating to Openfed 5.x
+Make sure you are running the latest Openfed 4.x version before updating to Openfed 6.x
 
 ## Bug Report
 
