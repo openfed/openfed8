@@ -4,6 +4,7 @@ CHANGELOG
 18 October 2018 - Version 5.5
 ----------------------------
   Update to Drupal Core 8.5.8 (SA-CORE-2018-006)
+  Update to Workbench Moderation 8.x-1.4 (SA-CONTRIB-2018-067)
 
 02 August 2018 - Version 5.4
 ----------------------------
