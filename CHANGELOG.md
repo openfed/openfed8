@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+18 October 2018 - Version 6.0-beta2
+----------------------------
+  Update to Drupal Core 8.6.2 (SA-CORE-2018-006)
+  Update to Workbench Moderation 8.x-1.4 (SA-CONTRIB-2018-067)
+
 02 August 2018 - Version 5.4
 ----------------------------
   Update to Drupal Core 8.5.6 (SA-CORE-2018-005)
