@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   module:
+    - media_entity_generic
     - workbench_moderation
 third_party_settings:
   workbench_moderation:
@@ -12,12 +13,13 @@ third_party_settings:
       - draft
     default_moderation_state: draft
 _core:
-  default_config_hash: H1uahjeySpr6O9OjLzAAYdgOI-mU0jYEV5wvTHr_KmU
+  default_config_hash: NVUgGuKyK5dlroQlMnluqYuHisnlqe1symnA9lbeIy4
 id: iframe
 label: Iframe
 description: ''
-type: generic
+source: generic
 queue_thumbnail_downloads: false
 new_revision: true
-type_configuration: {  }
+source_configuration:
+  source_field: field_media_generic
 field_map: {  }

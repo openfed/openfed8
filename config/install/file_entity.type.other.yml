@@ -1,7 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _c96qVuc-xdkasQpgpv5nund0H18mTMXrOx9O3Cj71c
 id: other
 label: Other
 description: 'Any <em>File</em>.'
-status: true
 mimetypes:
   - '*'
-

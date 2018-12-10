@@ -2,8 +2,10 @@ langcode: en
 status: true
 dependencies:
   module:
-    - media_entity
+    - media
     - text
+_core:
+  default_config_hash: TaoAU_hNeerAWe8SkPAAIbW4s6LeQ1K_MsyB_TBbQ04
 id: media.field_body
 field_name: field_body
 entity_type: media

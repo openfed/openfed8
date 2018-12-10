@@ -2,7 +2,9 @@ langcode: en
 status: true
 dependencies:
   module:
-    - media_entity
+    - media
+_core:
+  default_config_hash: yApjfso2OFBk3RM2BjxMmcjJnqVCUp0fPd7LB4wex_E
 id: media.embed_entity
 label: 'Embed Entity'
 targetEntityType: media

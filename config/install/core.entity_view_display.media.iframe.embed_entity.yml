@@ -4,7 +4,7 @@ dependencies:
   config:
     - core.entity_view_mode.media.embed_entity
     - field.field.media.iframe.field_body
-    - media_entity.bundle.iframe
+    - media.type.iframe
   module:
     - ds
     - text
@@ -28,6 +28,8 @@ third_party_settings:
     regions:
       ds_content:
         - field_body
+_core:
+  default_config_hash: AkY4hHYkNqqHUKGIZqR0CWmfa7RHJnq_2067ALmqziQ
 id: media.iframe.embed_entity
 targetEntityType: media
 bundle: iframe
@@ -39,6 +41,12 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: text_default
+    region: content
+  workbench_moderation_control:
+    weight: -20
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   created: true
   langcode: true

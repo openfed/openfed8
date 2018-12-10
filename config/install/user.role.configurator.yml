@@ -1,11 +1,13 @@
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: wUTQzeLHm6QFoHacGvme_81tvCOqdcikZgIMuWZtFyg
 id: configurator
 label: Configurator
 weight: 4
 is_admin: null
 permissions:
-  - 'use text format flexible_html'
-  - 'use text format embeddable_text'
   - 'configure toolbar_themes'
+  - 'use text format embeddable_text'
+  - 'use text format flexible_html'

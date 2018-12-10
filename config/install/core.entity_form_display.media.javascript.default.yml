@@ -3,13 +3,13 @@ status: true
 dependencies:
   config:
     - field.field.media.javascript.field_body
-    - media_entity.bundle.javascript
+    - media.type.javascript
   module:
     - path
     - text
     - workbench_moderation
 _core:
-  default_config_hash: V02z1RsuuIQnjZ2333xm6UTnCwPREBPrvrikSj3bCk0
+  default_config_hash: UJPt0S5VBo5CgcOI4aDx9I1a6D9-V8N6m3hLkHDf0Hk
 id: media.javascript.default
 targetEntityType: media
 bundle: javascript

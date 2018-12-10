@@ -28,3 +28,47 @@ function openfed_administration_install() {
     }
   }
 }
+
+/**
+ * Implements hook_update_dependencies().
+ */
+function openfed_update_dependencies() {
+  $dependencies = [];
+
+  // Ensure that media_entity_update_8201() runs before the openfed update.
+  $dependencies['openfed'][8601] = [
+    'media_entity' => 8201
+  ];
+
+  return $dependencies;
+}
+
+/**
+ * Formely updated configs related to core.base_field_override.media.* with the new
+ * default_value_callback when upgrading from 8.5.x to 8.6.x, since media is now
+ * part of the core.
+ */
+function openfed_update_8601(&$sandbox) {
+  // Gets the Config Factory service.
+  $config_factory = \Drupal::configFactory();
+  // Gets the list of media entity bundles.
+  /** @var \Drupal\Core\Entity\EntityTypeBundleInfo $media_bundles_info */
+  $media_bundles_info = \Drupal::service('entity_type.bundle.info')->getBundleInfo('media');
+
+  // Make sure there are media bundles.
+  if (!empty($media_bundles_info)) {
+
+    foreach (array_keys($media_bundles_info) as $bundle_name) {
+
+      // Make sure the configuration exists.
+      if (in_array("core.base_field_override.media.{$bundle_name}.uid", $config_factory->listAll("core.base_field_override.media"))) {
+        // Gets the editable configuration.
+        $config = $config_factory->getEditable("core.base_field_override.media.{$bundle_name}.uid");
+        // Sets the new default_value_callback method.
+        $config->set('default_value_callback', 'Drupal\media\Entity\Media::getCurrentUserId');
+        // Saves the configuration.
+        $config->save(TRUE);
+      }
+    }
+  }
+}

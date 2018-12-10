@@ -2,15 +2,16 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+  default_config_hash: TwY_UbxwElMadBSBPAb04NcPLZMxMwTL2Tx3eSYr-nk
 id: anonymous
 label: 'Anonymous user'
 weight: 0
 is_admin: false
 permissions:
-  - 'access content'
   - 'access comments'
+  - 'access content'
   - 'access site-wide contact form'
   - 'search content'
   - 'view files'
+  - 'view media'
   - 'view sharemessages'

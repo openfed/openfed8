@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - media_entity.bundle.iframe
-    - media_entity.bundle.javascript
-    - media_entity.bundle.svg
+    - media.type.iframe
+    - media.type.javascript
+    - media.type.svg
   module:
     - entity_embed
-    - media_entity
+    - media
 _core:
-  default_config_hash: WQk3xRlEyfiZyA8ZQ5LzEenO0NsZJbvaqJd8vKQ7fO8
+  default_config_hash: blFPqlWoUdTcs5pd0juCtKW6JMObFkLMYr02SghMnss
 label: 'Special Content'
 id: special_content
 type_id: entity

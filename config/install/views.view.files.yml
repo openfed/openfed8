@@ -1,4 +1,3 @@
-target: views.view.files
 langcode: en
 status: true
 dependencies:
@@ -6,6 +5,8 @@ dependencies:
     - file
     - file_entity
     - user
+_core:
+  default_config_hash: Hk9GCd4AUcGEH1NM-It-o1pPske4KpaCCk2dmESu6gE
 id: files
 label: Files
 module: file
@@ -567,7 +568,7 @@ display:
           decimal: .
           separator: ','
           format_plural: true
-          format_plural_string: "1 place\x03@count places"
+          format_plural_string: !!binary MSBwbGFjZQNAY291bnQgcGxhY2Vz
           prefix: ''
           suffix: ''
           plugin_id: numeric
@@ -725,7 +726,7 @@ display:
         - url
         - url.query_args
         - user.permissions
-      max-age: 0
+      max-age: -1
       tags: {  }
   page_1:
     display_plugin: page
@@ -763,7 +764,7 @@ display:
         - url
         - url.query_args
         - user.permissions
-      max-age: 0
+      max-age: -1
       tags: {  }
   page_2:
     display_plugin: page
@@ -1010,7 +1011,7 @@ display:
           decimal: .
           separator: ','
           format_plural: false
-          format_plural_string: "1\x03@count"
+          format_plural_string: !!binary MQNAY291bnQ=
           prefix: ''
           suffix: ''
           plugin_id: numeric
@@ -1121,5 +1122,5 @@ display:
         - url
         - url.query_args
         - user.permissions
-      max-age: 0
+      max-age: -1
       tags: {  }

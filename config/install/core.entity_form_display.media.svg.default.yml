@@ -3,13 +3,13 @@ status: true
 dependencies:
   config:
     - field.field.media.svg.field_svg
-    - media_entity.bundle.svg
+    - media.type.svg
   module:
     - openfed_svg_file
     - path
     - workbench_moderation
 _core:
-  default_config_hash: yCgRMsdGAxNXvd2XaPwqgx3lV5iMrYPzfZ5hHU_ME4w
+  default_config_hash: z0fqmAZBTEA6wVMAcLMd_JiFruC1rtd4WHxDH0mXFgQ
 id: media.svg.default
 targetEntityType: media
 bundle: svg

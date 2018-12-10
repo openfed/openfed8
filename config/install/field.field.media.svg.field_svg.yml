@@ -3,9 +3,11 @@ status: true
 dependencies:
   config:
     - field.storage.media.field_svg
-    - media_entity.bundle.svg
+    - media.type.svg
   module:
     - openfed_svg_file
+_core:
+  default_config_hash: ylfR_Qf1kpm_oGBENXvfbsLL8ZU_P0FBRtT_CjJS7Go
 id: media.svg.field_svg
 field_name: field_svg
 entity_type: media

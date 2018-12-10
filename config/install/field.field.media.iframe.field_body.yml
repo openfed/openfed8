@@ -3,9 +3,11 @@ status: true
 dependencies:
   config:
     - field.storage.media.field_body
-    - media_entity.bundle.iframe
+    - media.type.iframe
   module:
     - text
+_core:
+  default_config_hash: 66GBOtz9pXUaeenYIPcPzQzOLjn5YlEoN2sMgSbDPPA
 id: media.iframe.field_body
 field_name: field_body
 entity_type: media

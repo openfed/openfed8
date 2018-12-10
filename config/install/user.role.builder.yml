@@ -1,11 +1,13 @@
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: 29iBmtRuD_jxLSn6nunc7q2dTjc47Lu_7sFRigbdJOc
 id: builder
 label: Builder
 weight: 3
 is_admin: null
 permissions:
-  - 'use text format flexible_html'
-  - 'use text format embeddable_text'
   - 'configure toolbar_themes'
+  - 'use text format embeddable_text'
+  - 'use text format flexible_html'

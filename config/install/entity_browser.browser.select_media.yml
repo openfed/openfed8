@@ -7,7 +7,7 @@ dependencies:
     - entity_browser_entity_form
     - views
 _core:
-  default_config_hash: W_xXNMSEf-uh7BSptT0dl38Cy420L4P8qqQS_TZwOn4
+  default_config_hash: NryhtubI4TV1DHxR_cBr_HdPepcw3pLkt1v6QpX0Wr4
 name: select_media
 label: 'Select Media'
 display: iframe
@@ -28,6 +28,7 @@ widgets:
       view: media_entity_browser
       view_display: entity_browser_1
       submit_text: 'Select entities'
+      auto_select: false
     uuid: 1e221fcc-218c-4ba9-b5e5-67829a4cf7e9
     weight: 1
     label: 'Select Media'

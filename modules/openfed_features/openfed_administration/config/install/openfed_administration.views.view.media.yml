@@ -6,7 +6,6 @@ dependencies:
     - image.style.thumbnail
   module:
     - image
-    - media_entity
     - openfed_administration
     - user
 id: media

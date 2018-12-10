@@ -9,7 +9,7 @@ third_party_settings:
     use: true
     scheme: public
 _core:
-  default_config_hash: Tt8DtxZ3Nooo0PoWPpJvszA3R_5d8MmpUW7LM_R-BzY
+  default_config_hash: m-eRT87Th4IYRYTzVdGoCTulAcF-WxxbzSRWqaDUttU
 id: default
 label: Default
 description: 'A default Linkit profile'

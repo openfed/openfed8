@@ -5,6 +5,8 @@ dependencies:
     - editor
     - entity_embed
     - linkit
+_core:
+  default_config_hash: NFUSoWKmiJltxOLCvgZenE26bRG4xbMR93jJsOgX88Y
 name: 'Flexible HTML'
 format: flexible_html
 weight: 0

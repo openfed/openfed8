@@ -1,6 +1,8 @@
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: TLfznmLT-nZrMsGSm4xg6FN_Ks8INIVzZpCdhGPHWsY
 id: openfed_default
 label: 'Openfed Default'
 title: ''

@@ -40,6 +40,7 @@ dependencies:
   - user
   - views
   - views_ui
+  - media
   # contrib
   - admin_toolbar
   - admin_toolbar_tools
@@ -63,9 +64,7 @@ dependencies:
   - link_attributes
   - linkit
   - m4032404
-  - media_entity
-  - media_entity_document
-  - media_entity_image
+  - media_entity_generic
   - menu_breadcrumb
   - menu_trail_by_path
   - metatag

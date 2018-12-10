@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_generic
+    - media.type.iframe
+id: media.iframe.field_media_generic
+field_name: field_media_generic
+entity_type: media
+bundle: iframe
+label: 'Generic media'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -3,6 +3,8 @@ status: true
 dependencies:
   module:
     - entity_embed
+_core:
+  default_config_hash: wh-1plT85eTzybaA3MClJ2ZJzo-8fFgoHlNUSLFoRJ4
 name: 'Embeddable Text'
 format: embeddable_text
 weight: 5

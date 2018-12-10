@@ -1,17 +1,19 @@
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: '-FllBQFSKuBN3MRrupegNJ1mWqzOf4uHCGu_SRrk0-k'
 id: user_manager
 label: 'User Manager'
 weight: 7
 is_admin: null
 permissions:
-  - 'use text format flexible_html'
-  - 'use text format embeddable_text'
+  - 'access administration pages'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer users'
   - 'assign content_editor role'
   - 'assign user_manager role'
+  - 'use text format embeddable_text'
+  - 'use text format flexible_html'
   - 'view the administration theme'
-  - 'access toolbar'
-  - 'administer users'
-  - 'access user profiles'
-  - 'access administration pages'

@@ -4,7 +4,7 @@ dependencies:
   config:
     - field.field.media.iframe.field_body
     - image.style.thumbnail
-    - media_entity.bundle.iframe
+    - media.type.iframe
   module:
     - ds
     - image
@@ -34,6 +34,8 @@ third_party_settings:
         - created
         - thumbnail
         - field_body
+_core:
+  default_config_hash: A83w2vxvSNYnKXQ7--LQ2u68qZUE2OO2VmmDDUDTvMk
 id: media.iframe.default
 targetEntityType: media
 bundle: iframe
@@ -48,12 +50,14 @@ content:
       custom_date_format: ''
       timezone: ''
     third_party_settings: {  }
+    region: content
   field_body:
     weight: 2
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
+    region: content
   name:
     label: hidden
     type: string
@@ -61,6 +65,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
+    region: content
   thumbnail:
     type: image
     weight: 1
@@ -69,10 +74,17 @@ content:
       image_style: thumbnail
       image_link: ''
     third_party_settings: {  }
+    region: content
   uid:
     label: hidden
     type: author
     weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  workbench_moderation_control:
+    weight: -20
+    region: content
     settings: {  }
     third_party_settings: {  }
 hidden:

@@ -2,15 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - media_entity.bundle.iframe
-    - media_entity.bundle.javascript
-    - media_entity.bundle.svg
+    - media.type.iframe
+    - media.type.javascript
+    - media.type.svg
   module:
     - entity_browser
-    - media_entity
+    - media
     - user
 _core:
-  default_config_hash: AAP3Akz21bmybui-seU1cQ4skge7Ab41d899BJi-yTI
+  default_config_hash: REP4meqIfRiMbmhDah0BaWwsHKpSenZvSJ2vazl1ii8
 id: media_entity_browser
 label: 'Media entity browser'
 module: views
@@ -670,7 +670,7 @@ display:
         groups:
           1: AND
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
@@ -687,7 +687,7 @@ display:
       display_extenders: {  }
       display_description: ''
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'

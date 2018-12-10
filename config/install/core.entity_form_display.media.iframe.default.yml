@@ -3,13 +3,13 @@ status: true
 dependencies:
   config:
     - field.field.media.iframe.field_body
-    - media_entity.bundle.iframe
+    - media.type.iframe
   module:
     - path
     - text
     - workbench_moderation
 _core:
-  default_config_hash: Kx9mOaFrK-VU02LCpPATNjeNZmpSJNlImjL6vCyfcJo
+  default_config_hash: xqK92alqFJ0flvIwGoNeS3OZFePqIpyyWjUdeL9Rsgk
 id: media.iframe.default
 targetEntityType: media
 bundle: iframe

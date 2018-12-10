@@ -1,19 +1,22 @@
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: cuFzhNNrbdST1n6-SSLmSKn9cQiFRdN2p7nZaxVfUjM
 id: authenticated
 label: 'Authenticated user'
 weight: 1
 is_admin: false
 permissions:
-  - 'access content'
   - 'access comments'
-  - 'post comments'
-  - 'skip comment approval'
-  - 'access site-wide contact form'
+  - 'access content'
   - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'post comments'
   - 'search content'
-  - 'view files'
-  - 'view sharemessages'
-  - 'use text format flexible_html'
+  - 'skip comment approval'
   - 'use text format embeddable_text'
+  - 'use text format flexible_html'
+  - 'view files'
+  - 'view media'
+  - 'view sharemessages'

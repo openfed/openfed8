@@ -3,6 +3,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: Ijil9X7JnvPHoWYiIzTBhz0qYsat0EgFqfJdAoKdnn8
 id: based_on_menu_for_basic_pages
 label: 'Based on menu for Basic Pages'
 type: 'canonical_entities:node'

@@ -4,7 +4,7 @@ dependencies:
   config:
     - core.entity_view_mode.media.embed_entity
     - field.field.media.svg.field_svg
-    - media_entity.bundle.svg
+    - media.type.svg
   module:
     - ds
     - openfed_svg_file
@@ -28,7 +28,7 @@ third_party_settings:
       ds_content:
         - field_svg
 _core:
-  default_config_hash: JvEUxsN6VkU9vJpOquW3BV4PXOJDs9uGpTlQlW02gwc
+  default_config_hash: 2vQfGtoAb3n8XiddYggSyAuNLdjY9tO4pQjp1Rq-mC8
 id: media.svg.embed_entity
 targetEntityType: media
 bundle: svg
