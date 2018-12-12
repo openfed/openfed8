@@ -118,6 +118,24 @@
            "type": "zip"
          }
        }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "ckeditor/find",
+        "version": "4.8.0",
+        "type": "openfed-ckeditor-plugin",
+        "require": {
+           "oomphinc/composer-installers-extender": "^1.1"
+         },
+        "extra": {
+          "installer-name": "find"
+        },
+        "dist": {
+          "url": "https://download.ckeditor.com/find/releases/find_4.8.0.zip",
+          "type": "zip"
+        }
+      }
     }
   ],
   "minimum-stability": "dev",
@@ -263,8 +281,10 @@
     "drupal/append_file_info": "1.0-rc2",
     "drupal/back_to_top": "1.0",
     "drupal/bootstrap": "3.13",
-    "drupal/ckeditor_uploadimage": "1.5",
+    "drupal/ckeditor_abbreviation": "1.4",
+    "drupal/ckeditor_find": "1.0-beta1",
     "drupal/ckeditor_templates": "1.0",
+    "drupal/ckeditor_uploadimage": "1.5",
     "drupal/colorbox": "1.4",
     "drupal/components": "1.0",
     "drupal/config_update": "1.5",
