@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b0f97fe6b1ac55ad65f9e05f52187209",
+    "content-hash": "a857556b2280e6d1c080c928b40e38df",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1503,7 +1503,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.24",
-                    "datestamp": "1527523080",
+                    "datestamp": "1542915180",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1626,7 +1626,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.24",
-                    "datestamp": "1527523080",
+                    "datestamp": "1542915180",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2021,7 +2021,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.13",
-                    "datestamp": "1536786480",
+                    "datestamp": "1543447542",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3618,7 +3618,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.1",
-                    "datestamp": "1495660084",
+                    "datestamp": "1544537280",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3931,8 +3931,16 @@
                     "homepage": "https://www.drupal.org/user/3260690"
                 },
                 {
+                    "name": "Wim Leers",
+                    "homepage": "https://www.drupal.org/user/99777"
+                },
+                {
                     "name": "cs_shadow",
                     "homepage": "https://www.drupal.org/user/2828287"
+                },
+                {
+                    "name": "phenaproxima",
+                    "homepage": "https://www.drupal.org/user/205645"
                 },
                 {
                     "name": "slashrsm",
@@ -4884,7 +4892,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.1",
-                    "datestamp": "1524304384",
+                    "datestamp": "1543322281",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4935,7 +4943,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.6",
-                    "datestamp": "1499898842",
+                    "datestamp": "1540559280",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5172,7 +5180,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.2",
-                    "datestamp": "1527085685",
+                    "datestamp": "1543915380",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5188,6 +5196,14 @@
                     "name": "Pol Dellaiera (@drupol)",
                     "homepage": "https://www.drupal.org/u/pol",
                     "role": "Maintainer"
+                },
+                {
+                    "name": "ademarco",
+                    "homepage": "https://www.drupal.org/user/186696"
+                },
+                {
+                    "name": "richardcanoe",
+                    "homepage": "https://www.drupal.org/user/21102"
                 },
                 {
                     "name": "svendecabooter",
@@ -6322,7 +6338,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.2",
-                    "datestamp": "1527502684",
+                    "datestamp": "1541009695",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7187,7 +7203,7 @@
                 },
                 "drupal": {
                     "version": "8.x-2.12",
-                    "datestamp": "1523203180",
+                    "datestamp": "1542505221",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -8101,26 +8117,32 @@
         },
         {
             "name": "drupal/webform",
-            "version": "5.0.0-rc12",
+            "version": "5.0.0-rc29",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/webform",
-                "reference": "8.x-5.0-rc12"
+                "reference": "8.x-5.0-rc29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/webform-8.x-5.0-rc12.zip",
-                "reference": "8.x-5.0-rc12",
-                "shasum": "d677eb59bf2084267476fa482b5fbccb0dc8afb9"
+                "url": "https://ftp.drupal.org/files/projects/webform-8.x-5.0-rc29.zip",
+                "reference": "8.x-5.0-rc29",
+                "shasum": "f96e42f54b1cd69f0d67c4a88f32c5a8a570e50d"
             },
             "require": {
                 "drupal/core": "*"
             },
             "require-dev": {
+                "drupal/address": "~1.4",
+                "drupal/chosen": "~2.6",
                 "drupal/devel": "*",
-                "drupal/token": "*",
+                "drupal/jsonapi": "~2.0",
+                "drupal/select2": "~1.1",
+                "drupal/token": "~1.3",
+                "drupal/webform_access": "*",
                 "drupal/webform_node": "*",
-                "drupal/webform_scheduled_email": "*"
+                "drupal/webform_scheduled_email": "*",
+                "drupal/webform_ui": "*"
             },
             "type": "drupal-module",
             "extra": {
@@ -8128,8 +8150,8 @@
                     "dev-5.x": "5.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-5.0-rc12",
-                    "datestamp": "1528137480",
+                    "version": "8.x-5.0-rc29",
+                    "datestamp": "1544223180",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -8222,7 +8244,7 @@
                 },
                 "drupal": {
                     "version": "8.x-3.1-alpha1",
-                    "datestamp": "1494422285",
+                    "datestamp": "1543423380",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -9401,7 +9423,7 @@
             "version": "4.7.2",
             "dist": {
                 "type": "zip",
-                "url": "http://download.ckeditor.com/filetools/releases/filetools_4.7.2.zip",
+                "url": "https://download.ckeditor.com/filetools/releases/filetools_4.7.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -9415,7 +9437,7 @@
             "version": "4.7.2",
             "dist": {
                 "type": "zip",
-                "url": "http://download.ckeditor.com/notification/releases/notification_4.7.2.zip",
+                "url": "https://download.ckeditor.com/notification/releases/notification_4.7.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -9429,7 +9451,7 @@
             "version": "4.7.2",
             "dist": {
                 "type": "zip",
-                "url": "http://download.ckeditor.com/notificationaggregator/releases/notificationaggregator_4.7.2.zip",
+                "url": "https://download.ckeditor.com/notificationaggregator/releases/notificationaggregator_4.7.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -9443,7 +9465,7 @@
             "version": "4.7.2",
             "dist": {
                 "type": "zip",
-                "url": "http://download.ckeditor.com/uploadimage/releases/uploadimage_4.7.2.zip",
+                "url": "https://download.ckeditor.com/uploadimage/releases/uploadimage_4.7.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -9457,7 +9479,7 @@
             "version": "4.7.2",
             "dist": {
                 "type": "zip",
-                "url": "http://download.ckeditor.com/uploadwidget/releases/uploadwidget_4.7.2.zip",
+                "url": "https://download.ckeditor.com/uploadwidget/releases/uploadwidget_4.7.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -9471,7 +9493,7 @@
             "version": "4.7.2",
             "dist": {
                 "type": "zip",
-                "url": "http://download.ckeditor.com/templates/releases/templates_4.7.2.zip",
+                "url": "https://download.ckeditor.com/templates/releases/templates_4.7.2.zip",
                 "reference": null,
                 "shasum": null
             },
