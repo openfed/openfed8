@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a857556b2280e6d1c080c928b40e38df",
+    "content-hash": "9c7009dde490cf678b113461a753915b",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -179,21 +179,46 @@
             "time": "2018-03-15T21:23:44+00:00"
         },
         {
-            "name": "ckeditor/find",
-            "version": "4.8.0",
+            "name": "ckeditor/fakeobjects",
+            "version": "4.7.3",
             "dist": {
                 "type": "zip",
-                "url": "https://download.ckeditor.com/find/releases/find_4.8.0.zip",
+                "url": "https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.7.3.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
                 "oomphinc/composer-installers-extender": "^1.1"
             },
-            "type": "openfed-ckeditor-plugin",
-            "extra": {
-                "installer-name": "find"
-            }
+            "type": "drupal-library"
+        },
+        {
+            "name": "ckeditor/find",
+            "version": "4.7.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://download.ckeditor.com/find/releases/find_4.7.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "oomphinc/composer-installers-extender": "^1.1"
+            },
+            "type": "openfed-ckeditor-plugin"
+        },
+        {
+            "name": "ckeditor/link",
+            "version": "4.7.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://download.ckeditor.com/link/releases/link_4.7.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "oomphinc/composer-installers-extender": "^1.1"
+            },
+            "type": "openfed-ckeditor-plugin"
         },
         {
             "name": "composer/installers",
@@ -1834,32 +1859,34 @@
         },
         {
             "name": "drupal/anchor_link",
-            "version": "1.6.0",
+            "version": "2.0.0-alpha2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/anchor_link",
-                "reference": "8.x-1.6"
+                "reference": "8.x-2.0-alpha2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/anchor_link-8.x-1.6.zip",
-                "reference": "8.x-1.6",
-                "shasum": "89c436f459e62dbdfdaf52a92f9f9265eec1df13"
+                "url": "https://ftp.drupal.org/files/projects/anchor_link-8.x-2.0-alpha2.zip",
+                "reference": "8.x-2.0-alpha2",
+                "shasum": "0da1de26d4367a9c360bae9f57b7a8ac9064e96b"
             },
             "require": {
-                "drupal/core": "*"
+                "drupal/core": "*",
+                "drupal/fakeobjects": "*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-1.x": "1.x-dev"
+                    "dev-2.x": "2.x-dev",
+                    "dev-8.x-2.x": "8.2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.6",
-                    "datestamp": "1509961084",
+                    "version": "8.x-2.0-alpha2",
+                    "datestamp": "1530956624",
                     "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -1869,18 +1896,20 @@
             ],
             "authors": [
                 {
-                    "name": "Mohammed J. Razem",
-                    "homepage": "https://www.drupal.org/user/255384"
+                    "name": "Vardot",
+                    "homepage": "https://www.drupal.org/vardot",
+                    "role": "Maintainer"
                 },
                 {
                     "name": "RajabNatshah",
                     "homepage": "https://www.drupal.org/user/1414312"
                 }
             ],
-            "description": "This plugin module adds the better link dialog and anchor related features to CKEditor in Drupal 8",
+            "description": "This plugin module adds the better link dialog and anchor related features to CKEditor in Drupal 8.",
             "homepage": "https://www.drupal.org/project/anchor_link",
             "support": {
-                "source": "http://cgit.drupalcode.org/anchor_link"
+                "source": "http://cgit.drupalcode.org/anchor_link",
+                "issues": "https://www.drupal.org/project/issues/anchor_link"
             }
         },
         {
@@ -4280,6 +4309,58 @@
                 "source": "git://git.drupal.org/project/facets.git",
                 "issues": "https://www.drupal.org/project/issues/facets",
                 "irc": "irc://irc.freenode.org/drupal-search-api"
+            }
+        },
+        {
+            "name": "drupal/fakeobjects",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/fakeobjects",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/fakeobjects-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "b1ebbd4ad2026f99c0204ad513cea74fb2692ff8"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1474470239",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Quillen (kevinquillen)",
+                    "homepage": "https://www.drupal.org/u/kevinquillen",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Adds the FakeObjects plugin to CKEditor. This plugin is a utility plugin that is required by certain user-facing CKEditor plugins.",
+            "homepage": "http://drupal.org/project/fakeobjects",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/fakeobjects",
+                "issues": "http://drupal.org/project/issues/fakeobjects"
             }
         },
         {
@@ -8117,32 +8198,26 @@
         },
         {
             "name": "drupal/webform",
-            "version": "5.0.0-rc29",
+            "version": "5.0.0-rc12",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/webform",
-                "reference": "8.x-5.0-rc29"
+                "reference": "8.x-5.0-rc12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/webform-8.x-5.0-rc29.zip",
-                "reference": "8.x-5.0-rc29",
-                "shasum": "f96e42f54b1cd69f0d67c4a88f32c5a8a570e50d"
+                "url": "https://ftp.drupal.org/files/projects/webform-8.x-5.0-rc12.zip",
+                "reference": "8.x-5.0-rc12",
+                "shasum": "d677eb59bf2084267476fa482b5fbccb0dc8afb9"
             },
             "require": {
                 "drupal/core": "*"
             },
             "require-dev": {
-                "drupal/address": "~1.4",
-                "drupal/chosen": "~2.6",
                 "drupal/devel": "*",
-                "drupal/jsonapi": "~2.0",
-                "drupal/select2": "~1.1",
-                "drupal/token": "~1.3",
-                "drupal/webform_access": "*",
+                "drupal/token": "*",
                 "drupal/webform_node": "*",
-                "drupal/webform_scheduled_email": "*",
-                "drupal/webform_ui": "*"
+                "drupal/webform_scheduled_email": "*"
             },
             "type": "drupal-module",
             "extra": {
@@ -8150,8 +8225,8 @@
                     "dev-5.x": "5.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-5.0-rc29",
-                    "datestamp": "1544223180",
+                    "version": "8.x-5.0-rc12",
+                    "datestamp": "1528137480",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
