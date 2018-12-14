@@ -39,6 +39,7 @@ CHANGELOG
     anchor_link
     abbreviation
   Several small improvements
+  Updated Paragraphs and patch necessary for translations.
 
 18 October 2018 - Version 6.0-beta2
 ----------------------------
