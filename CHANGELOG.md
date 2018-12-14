@@ -1,6 +1,45 @@
 CHANGELOG
 =========
 
+14 December 2018 - Version 6.0-beta3
+----------------------------
+  Update to Drupal Core 8.6.4
+  Updated Several modules:
+    bootstrap (3.13.0 => 3.16.0)
+    ds (3.1.0 => 3.2.0)
+    entity (1.0.0-beta4 => 1.0.0-rc1)
+    entity_browser (1.4.0 => 1.6.0)
+    entity_reference_revisions (1.4.0 => 1.6.0)
+    entityqueue (1.0.0-alpha7 => 1.0.0-alpha8)
+    facets (1.0.0-beta2 => 1.2.0)
+    fast_404 (1.0.0-alpha2 => 1.0.0-alpha3)
+    field_formatter (1.1.0 => 1.2.0)
+    google_analytics (2.2.0 => 2.3.0)
+    honeypot (1.27.0 => 1.29.0)
+    image_effects (1.1.0 => 1.2.0)
+    imce (1.6.0 => 1.7.0)
+    language_selection_page (2.2.0 => 2.3.0)
+    link_attributes (1.3.0 => 1.5.0)
+    m4032404 (1.0.0-alpha3 => 1.0.0-alpha4)
+    menu_breadcrumb (1.5.0 => 1.7.0)
+    token (1.1.0 => 1.5.0)
+    metatag (1.5.0 => 1.7.0)
+    pathauto (1.2.0 => 1.3.0)
+    redirect (1.1.0 => 1.3.0)
+    typed_data (1.0.0-alpha1 => 1.0.0-alpha2)
+    rules (3.0.0-alpha3 => 3.0.0-alpha4)
+    seckit (1.0.0-alpha2 => 1.1.0)
+    super_login (1.0.0 => 1.2.0)
+    username_enumeration_prevention (1.0.0-beta1 => 1.0.0-beta2)
+    webform (5.0.0-rc12 => 5.0.0-rc29)
+    weight (3.1.0-alpha1 => 3.1.0-alpha2)
+    admin_toolbar (1.24.0 => 1.25.0)
+  Added some ckeditor plugins:
+    find
+    anchor_link
+    abbreviation
+  Several small improvements
+
 18 October 2018 - Version 6.0-beta2
 ----------------------------
   Update to Drupal Core 8.6.2 (SA-CORE-2018-006)
