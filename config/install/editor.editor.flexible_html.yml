@@ -48,6 +48,7 @@ settings:
         -
           name: Tools
           items:
+            - abbr
             - Source
             - special_content
   plugins:
@@ -56,6 +57,23 @@ settings:
       linkit_profile: default
     language:
       language_list: un
+    codemirror:
+      enable: true
+      startupMode: wysiwyg
+      mode: htmlmixed
+      theme: default
+      options:
+        lineNumbers: true
+        lineWrapping: true
+        matchBrackets: true
+        autoCloseTags: true
+        autoCloseBrackets: true
+        enableSearchTools: true
+        enableCodeFolding: true
+        enableCodeFormatting: true
+        autoFormatOnStart: true
+        autoFormatOnModeChange: true
+        autoFormatOnUncomment: true
     stylescombo:
       styles: ''
 image_upload:

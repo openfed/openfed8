@@ -139,7 +139,7 @@
       "package": {
         "name": "ckeditor/link",
         "version": "4.7.3",
-        "type": "openfed-ckeditor-plugin",
+        "type": "drupal-library",
         "require": {
            "oomphinc/composer-installers-extender": "^1.1"
         },

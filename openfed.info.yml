@@ -47,6 +47,8 @@ dependencies:
   - admin_toolbar_links_access_filter
   - admin_toolbar_content_languages
   - allowed_formats
+  - ckeditor_abbreviation
+  - ckeditor_codemirror
   - ckeditor_uploadimage
   - ctools
   - diff
