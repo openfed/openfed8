@@ -32,7 +32,7 @@
     {
        "type": "package",
        "package": {
-         "name": "openfed-ckeditor-plugins/uploadimage",
+         "name": "ckeditor/uploadimage",
          "version": "4.7.2",
          "type": "openfed-ckeditor-plugin",
          "require": {
@@ -47,7 +47,7 @@
     {
        "type": "package",
        "package": {
-         "name": "openfed-ckeditor-plugins/uploadwidget",
+         "name": "ckeditor/uploadwidget",
          "version": "4.7.2",
          "type": "openfed-ckeditor-plugin",
          "require": {
@@ -62,7 +62,7 @@
     {
        "type": "package",
        "package": {
-         "name": "openfed-ckeditor-plugins/filetools",
+         "name": "ckeditor/filetools",
          "version": "4.7.2",
          "type": "openfed-ckeditor-plugin",
          "require": {
@@ -77,7 +77,7 @@
     {
        "type": "package",
        "package": {
-         "name": "openfed-ckeditor-plugins/notification",
+         "name": "ckeditor/notification",
          "version": "4.7.2",
          "type": "openfed-ckeditor-plugin",
          "require": {
@@ -92,7 +92,7 @@
     {
        "type": "package",
        "package": {
-         "name": "openfed-ckeditor-plugins/notificationaggregator",
+         "name": "ckeditor/notificationaggregator",
          "version": "4.7.2",
          "type": "openfed-ckeditor-plugin",
          "require": {
@@ -107,7 +107,7 @@
     {
        "type": "package",
        "package": {
-         "name": "openfed-ckeditor-templates/templates",
+         "name": "ckeditor/templates",
          "version": "4.7.2",
          "type": "openfed-ckeditor-template",
          "require": {
@@ -167,7 +167,7 @@
     {
       "type": "package",
       "package": {
-        "name": "ckeditor/codemirror",
+        "name": "w8tcha/codemirror",
         "version": "1.17.8",
         "type": "drupal-library",
         "require": {
@@ -422,16 +422,16 @@
     "drupal/workbench_moderation_actions": "1.0-alpha1",
     "drupal/xmlrpc": "1.0-beta1",
     "jackmoore/colorbox": "1.6.4",
-    "openfed-ckeditor-plugins/uploadwidget": "4.7.2",
-    "openfed-ckeditor-plugins/uploadimage": "4.7.2",
-    "openfed-ckeditor-plugins/filetools": "4.7.2",
-    "openfed-ckeditor-plugins/notification": "4.7.2",
-    "openfed-ckeditor-plugins/notificationaggregator": "4.7.2",
-    "openfed-ckeditor-templates/templates": "4.7.2",
+    "ckeditor/uploadwidget": "4.7.2",
+    "ckeditor/uploadimage": "4.7.2",
+    "ckeditor/filetools": "4.7.2",
+    "ckeditor/notification": "4.7.2",
+    "ckeditor/notificationaggregator": "4.7.2",
+    "ckeditor/templates": "4.7.2",
     "ckeditor/find": "4.7.3",
     "ckeditor/link": "4.7.3",
     "ckeditor/fakeobjects": "4.7.3",
-    "ckeditor/codemirror": "1.17.8"
+    "w8tcha/codemirror": "1.17.8"
   },
   "require-dev": {
     "drupal/drupal-extension": "^3.2",
