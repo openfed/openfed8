@@ -163,6 +163,24 @@
           "type": "zip"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "ckeditor/codemirror",
+        "version": "1.17.8",
+        "type": "drupal-library",
+        "require": {
+           "oomphinc/composer-installers-extender": "^1.1"
+        },
+        "extra": {
+          "installer-name": "ckeditor_codemirror"
+        },
+        "dist": {
+          "url": "https://github.com/w8tcha/CKEditor-CodeMirror-Plugin/archive/untagged-f790a6bee2e01b538b13.zip",
+          "type": "zip"
+        }
+      }
     }
   ],
   "minimum-stability": "dev",
@@ -306,6 +324,7 @@
     "drupal/back_to_top": "1.0",
     "drupal/bootstrap": "3.13",
     "drupal/ckeditor_abbreviation": "1.4",
+    "drupal/ckeditor_codemirror": "2.1",
     "drupal/ckeditor_find": "1.0-beta1",
     "drupal/ckeditor_templates": "1.0",
     "drupal/ckeditor_uploadimage": "1.5",
@@ -411,7 +430,8 @@
     "openfed-ckeditor-templates/templates": "4.7.2",
     "ckeditor/find": "4.7.3",
     "ckeditor/link": "4.7.3",
-    "ckeditor/fakeobjects": "4.7.3"
+    "ckeditor/fakeobjects": "4.7.3",
+    "ckeditor/codemirror": "1.17.8"
   },
   "require-dev": {
     "drupal/drupal-extension": "^3.2",
