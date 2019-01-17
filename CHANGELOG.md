@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+17 January 2019 - Version 6.0-beta4
+----------------------------
+  Update to Drupal Core 8.6.7 (SA-CORE-2019-001 and SA-CORE-2019-002)
+  Fixed Openfed installation issues.
+
 14 December 2018 - Version 6.0-beta3
 ----------------------------
   Update to Drupal Core 8.6.4
