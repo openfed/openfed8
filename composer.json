@@ -299,6 +299,9 @@
         "Issue #2891765: Core Publish/Unpublish actions are deleted on install, but not re-created on uninstall": "https://www.drupal.org/files/issues/restore_publish_actions_after_uninstall-2891765-10.patch"
       }
     },
+    "patchLevel": {
+       "drupal/core": "-p2"
+    },
     "enable-patching": true
   },
   "require": {
