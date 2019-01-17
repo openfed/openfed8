@@ -245,6 +245,9 @@
       "drupal/content_translation_workflow": {
         "Issue #2878504: fix a problem when publishing translations": "https://www.drupal.org/files/issues/2878504-1.patch"
       },
+      "drupal/ckeditor_codemirror": {
+        "Issue #3026647: hook_requirements return FALSE, should return array instead": "https://www.drupal.org/files/issues/2019-01-17/fix_installation_requirements_issue-3026647-2.patch"
+      },
       "drupal/core": {
         "Issue #2325899: UI fatal caused by views argument handlers no longer can provide their own default argument handling": "https://www.drupal.org/files/issues/2018-04-22/2325899-111.patch",
         "Issue #2737619: Views entity reference relationships must join on langcode for translatable entities": "https://www.drupal.org/files/issues/language_aware_relationship-2737619-19.patch",
@@ -370,6 +373,7 @@
     "drupal/m4032404": "1.0-alpha4",
     "drupal/media_entity": "1.7",
     "drupal/media_entity_document": "1.1",
+    "drupal/media_entity_generic": "1.0-alpha1",
     "drupal/media_entity_image": "1.2",
     "drupal/menu_block": "1.5",
     "drupal/menu_breadcrumb": "1.7",
@@ -429,8 +433,7 @@
     "ckeditor/find": "4.7.3",
     "ckeditor/link": "4.7.3",
     "ckeditor/fakeobjects": "4.7.3",
-    "w8tcha/codemirror": "1.17.8",
-    "drupal/media_entity_generic": "^1.0@alpha"
+    "w8tcha/codemirror": "1.17.8"
   },
   "require-dev": {
     "drupal/drupal-extension": "^3.2",
