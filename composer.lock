@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "7376c616395789b9c00701384e07e088",
+    "content-hash": "afe61d73a6ced11ab060371d13b6a251",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3555,6 +3555,9 @@
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
                     }
+                },
+                "patches_applied": {
+                    "Issue #2912428: Illegal offset": "https://www.drupal.org/files/issues/cshs-illegal_value_errors-2912428.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
