@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c4f85d26b8cd7cb772d7e04393218bb",
+    "content-hash": "7376c616395789b9c00701384e07e088",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3393,7 +3393,8 @@
                 "patches_applied": {
                     "Issue #2325899: UI fatal caused by views argument handlers no longer can provide their own default argument handling": "https://www.drupal.org/files/issues/2018-04-22/2325899-111.patch",
                     "Issue #2737619: Views entity reference relationships must join on langcode for translatable entities": "https://www.drupal.org/files/issues/language_aware_relationship-2737619-19.patch",
-                    "Issue #2877994: Entity Links fields does not have translation support": "https://www.drupal.org/files/issues/2018-05-23/2877994-42.patch"
+                    "Issue #2877994: Entity Links fields does not have translation support": "https://www.drupal.org/files/issues/2018-05-23/2877994-42.patch",
+                    "Issue #2664016: Adding a new batch set while the batch is running breaks batch order": "https://www.drupal.org/files/issues/2018-06-06/2664016-58.patch"
                 }
             },
             "autoload": {
@@ -10233,16 +10234,16 @@
         },
         {
             "name": "stecman/symfony-console-completion",
-            "version": "0.8.0",
+            "version": "0.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stecman/symfony-console-completion.git",
-                "reference": "cd738867503477e91dbe84173dfabd431c883431"
+                "reference": "bd07a24190541de2828c1d6469a8ddce599d3c5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stecman/symfony-console-completion/zipball/cd738867503477e91dbe84173dfabd431c883431",
-                "reference": "cd738867503477e91dbe84173dfabd431c883431",
+                "url": "https://api.github.com/repos/stecman/symfony-console-completion/zipball/bd07a24190541de2828c1d6469a8ddce599d3c5a",
+                "reference": "bd07a24190541de2828c1d6469a8ddce599d3c5a",
                 "shasum": ""
             },
             "require": {
@@ -10274,7 +10275,7 @@
                 }
             ],
             "description": "Automatic BASH completion for Symfony Console Component based applications.",
-            "time": "2018-02-10T04:28:01+00:00"
+            "time": "2019-01-19T21:25:25+00:00"
         },
         {
             "name": "symfony-cmf/routing",
