@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "dd5ed7b16f9f4616b67de4fcf4abec77",
+    "content-hash": "4e9128b03a7b776c839273c9017d1106",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -8614,6 +8614,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Issue #2952717: Incompatible declaration of EditTab::getTitle()": "https://www.drupal.org/files/issues/2018-04-16/workbench_moderation_incompatible-declaration_2952717_4.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

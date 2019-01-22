@@ -301,6 +301,9 @@
       "drupal/wba_menu_link": {
         "Issue #2965926: Make the module compatible with the newest version of Workbench Moderation Actions.": "https://www.drupal.org/files/issues/2018-04-25/module_update-2965926-1.patch"
       },
+      "drupal/workbench_moderation": {
+        "Issue #2952717: Incompatible declaration of EditTab::getTitle()": "https://www.drupal.org/files/issues/2018-04-16/workbench_moderation_incompatible-declaration_2952717_4.patch"
+      },
       "drupal/workbench_moderation_actions": {
         "Issue #2891765: Core Publish/Unpublish actions are deleted on install, but not re-created on uninstall": "https://www.drupal.org/files/issues/restore_publish_actions_after_uninstall-2891765-10.patch"
       }
