@@ -24,9 +24,10 @@ function openfed_update_dependencies() {
     'media_entity' => 8201
   ];
 
-  // Ensure that openfed_update_8602() runs before media_entity_update_8201().
+  // Ensure that openfed_update_8602() and openfed_update_8603() runs before 
+  // media_entity_update_8201().
   $dependencies['media_entity'][8201] = [
-    'openfed' => 8602
+    'openfed' => 8603
   ];
 
   return $dependencies;
@@ -110,7 +111,8 @@ function openfed_update_8601(&$sandbox) {
 }
 
 /**
- * This update will make sure that media_entity_document is uninstalled before starting media updates.
+ * This update will make sure that media_entity_document is uninstalled before 
+ * starting media updates.
  */
 function openfed_update_8602(&$sandbox) {
   $message = '';
@@ -124,6 +126,27 @@ function openfed_update_8602(&$sandbox) {
       ->condition('name', 'media_entity_document')
       ->execute();
     $message .= 'Media Entity Document was removed.';
+  }
+
+  return $message;
+}
+
+/**
+ * This update will make sure that media_entity_image is uninstalled before
+ * starting media updates.
+ */
+function openfed_update_8603(&$sandbox) {
+  $message = '';
+
+  $uninstall_status = \Drupal::service('module_installer')->uninstall(['media_entity_image']);
+  if ($uninstall_status) {
+    $message .= 'Media Entity Image was uninstalled successfully';
+  } else {
+    \Drupal::database()->delete('key_value')
+      ->condition('collection', 'system.schema')
+      ->condition('name', 'media_entity_image')
+      ->execute();
+    $message .= 'Media Entity Image was removed.';
   }
 
   return $message;
