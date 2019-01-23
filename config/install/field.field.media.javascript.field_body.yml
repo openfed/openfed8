@@ -6,8 +6,6 @@ dependencies:
     - media.type.javascript
   module:
     - text
-_core:
-  default_config_hash: oKQt6TD0LNUVvpR9uoEaPrObz2_eDCIkwa5c3rEHYBo
 id: media.javascript.field_body
 field_name: field_body
 entity_type: media

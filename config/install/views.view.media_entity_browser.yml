@@ -9,8 +9,6 @@ dependencies:
     - entity_browser
     - media
     - user
-_core:
-  default_config_hash: REP4meqIfRiMbmhDah0BaWwsHKpSenZvSJ2vazl1ii8
 id: media_entity_browser
 label: 'Media entity browser'
 module: views

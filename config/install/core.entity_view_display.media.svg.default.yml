@@ -27,8 +27,6 @@ third_party_settings:
       ds_content:
         - field_svg
         - created
-_core:
-  default_config_hash: 2ajGl6usZMUHut4tx2f9zkaqrdpjepzEbT7Djj9Sl3Y
 id: media.svg.default
 targetEntityType: media
 bundle: svg

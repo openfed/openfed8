@@ -5,8 +5,6 @@ dependencies:
     - editor
     - entity_embed
     - linkit
-_core:
-  default_config_hash: 8ZtLEUOGqt-t_44oIVAl4mnM0-Wt628NE954LWcFpdg
 name: 'Basic HTML'
 format: basic_html
 weight: 10

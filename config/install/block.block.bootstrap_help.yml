@@ -5,8 +5,6 @@ dependencies:
     - help
   theme:
     - bootstrap
-_core:
-  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
 id: bootstrap_help
 theme: bootstrap
 region: help

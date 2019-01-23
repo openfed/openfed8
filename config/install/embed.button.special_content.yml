@@ -8,8 +8,6 @@ dependencies:
   module:
     - entity_embed
     - media
-_core:
-  default_config_hash: blFPqlWoUdTcs5pd0juCtKW6JMObFkLMYr02SghMnss
 label: 'Special Content'
 id: special_content
 type_id: entity

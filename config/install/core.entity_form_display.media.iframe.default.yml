@@ -8,8 +8,6 @@ dependencies:
     - path
     - text
     - workbench_moderation
-_core:
-  default_config_hash: xqK92alqFJ0flvIwGoNeS3OZFePqIpyyWjUdeL9Rsgk
 id: media.iframe.default
 targetEntityType: media
 bundle: iframe

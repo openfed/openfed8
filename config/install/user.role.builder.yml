@@ -1,8 +1,6 @@
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: 29iBmtRuD_jxLSn6nunc7q2dTjc47Lu_7sFRigbdJOc
 id: builder
 label: Builder
 weight: 3

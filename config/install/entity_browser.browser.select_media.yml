@@ -6,8 +6,6 @@ dependencies:
   module:
     - entity_browser_entity_form
     - views
-_core:
-  default_config_hash: NryhtubI4TV1DHxR_cBr_HdPepcw3pLkt1v6QpX0Wr4
 name: select_media
 label: 'Select Media'
 display: iframe

@@ -1,8 +1,6 @@
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: wUTQzeLHm6QFoHacGvme_81tvCOqdcikZgIMuWZtFyg
 id: configurator
 label: Configurator
 weight: 4

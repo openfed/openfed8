@@ -7,8 +7,6 @@ dependencies:
   enforced:
     module:
       - file_entity
-_core:
-  default_config_hash: V78_pEpA5_K6bXc7Z2UTpvPKBl7PRXJXK51QbVsKL40
 id: file.image.field_image_title_text
 field_name: field_image_title_text
 entity_type: file

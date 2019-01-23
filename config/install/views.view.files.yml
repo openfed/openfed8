@@ -5,8 +5,6 @@ dependencies:
     - file
     - file_entity
     - user
-_core:
-  default_config_hash: Hk9GCd4AUcGEH1NM-It-o1pPske4KpaCCk2dmESu6gE
 id: files
 label: Files
 module: file

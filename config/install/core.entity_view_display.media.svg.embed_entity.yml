@@ -27,8 +27,6 @@ third_party_settings:
     regions:
       ds_content:
         - field_svg
-_core:
-  default_config_hash: 2vQfGtoAb3n8XiddYggSyAuNLdjY9tO4pQjp1Rq-mC8
 id: media.svg.embed_entity
 targetEntityType: media
 bundle: svg

@@ -5,8 +5,6 @@ dependencies:
     - filter.format.flexible_html
   module:
     - ckeditor
-_core:
-  default_config_hash: Mv2ypDT1B5mIzFmlfGoiPQX8yB7xNuVFLC5hZ0s8MVA
 format: flexible_html
 editor: ckeditor
 settings:

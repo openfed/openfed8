@@ -12,8 +12,6 @@ third_party_settings:
     flexible_html: flexible_html
     embeddable_text: '0'
     plain_text: '0'
-_core:
-  default_config_hash: 7acpUFdAn76Ox4MergkFIo_bORm-76afH40l_3KY5Z0
 id: node.page.body
 field_name: body
 entity_type: node

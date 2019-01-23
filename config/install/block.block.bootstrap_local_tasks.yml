@@ -3,8 +3,6 @@ status: true
 dependencies:
   theme:
     - bootstrap
-_core:
-  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
 id: bootstrap_local_tasks
 theme: bootstrap
 region: header

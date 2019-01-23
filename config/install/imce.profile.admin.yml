@@ -1,8 +1,6 @@
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: 3n7CiO7aC2QF3qm_V5FXEmy_jF1JACetiNu6H4iUQ8M
 id: admin
 label: 'Admin profile'
 description: 'Configuration for site administrators'

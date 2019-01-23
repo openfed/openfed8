@@ -5,8 +5,6 @@ dependencies:
     - file
     - media
     - openfed_svg_file
-_core:
-  default_config_hash: 0wvrRek3hTZhq4_eMlw-6cXBXuk8-IE1BSmHiswCG-s
 id: media.field_svg
 field_name: field_svg
 entity_type: media

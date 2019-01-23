@@ -1,8 +1,6 @@
 langcode: en
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: '-FllBQFSKuBN3MRrupegNJ1mWqzOf4uHCGu_SRrk0-k'
 id: user_manager
 label: 'User Manager'
 weight: 7

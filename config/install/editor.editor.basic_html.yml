@@ -5,8 +5,6 @@ dependencies:
     - filter.format.basic_html
   module:
     - ckeditor
-_core:
-  default_config_hash: 1Wx9AhgwV-ZNUPkA8eqOWXjLWXr4JcnG1NWC4-joM7c
 format: basic_html
 editor: ckeditor
 settings:

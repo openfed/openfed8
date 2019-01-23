@@ -15,8 +15,6 @@ third_party_settings:
       - archived
       - draft
     default_moderation_state: draft
-_core:
-  default_config_hash: KFYSCKd8r2yjt4zgJoBsbt5tzIhynY00sqrlBPCcczg
 name: 'Basic page'
 type: page
 description: 'Use <em>basic pages</em> for your static content, such as an ''About us'' page.'

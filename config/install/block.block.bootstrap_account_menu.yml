@@ -7,8 +7,6 @@ dependencies:
     - system
   theme:
     - bootstrap
-_core:
-  default_config_hash: R2K_qX0ZUMbUL6ie_-S9tZVjvqmlWKlscikgeRv9vhw
 id: bootstrap_account_menu
 theme: bootstrap
 region: navigation_collapsible

@@ -10,5 +10,3 @@ services:
   google_plusone_share: google_plusone_share
   linkedin: linkedin
   twitter: twitter
-_core:
-  default_config_hash: VuYEHbadQ8YGnkaaEFWiMvYcRbXIIQAXEkeKLYkAV1U

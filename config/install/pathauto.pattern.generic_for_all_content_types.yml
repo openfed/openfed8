@@ -3,8 +3,6 @@ status: true
 dependencies:
   module:
     - node
-_core:
-  default_config_hash: S83iUjXgfxeu0EquNRu6VuLP_m9KwQ7puCDXy5qrFvM
 id: generic_for_all_content_types
 label: 'Generic for all Content Types'
 type: 'canonical_entities:node'

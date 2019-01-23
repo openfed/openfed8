@@ -28,8 +28,6 @@ third_party_settings:
     regions:
       ds_content:
         - field_body
-_core:
-  default_config_hash: AkY4hHYkNqqHUKGIZqR0CWmfa7RHJnq_2067ALmqziQ
 id: media.iframe.embed_entity
 targetEntityType: media
 bundle: iframe

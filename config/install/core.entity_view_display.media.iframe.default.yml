@@ -34,8 +34,6 @@ third_party_settings:
         - created
         - thumbnail
         - field_body
-_core:
-  default_config_hash: A83w2vxvSNYnKXQ7--LQ2u68qZUE2OO2VmmDDUDTvMk
 id: media.iframe.default
 targetEntityType: media
 bundle: iframe

@@ -6,6 +6,4 @@ roles_profiles:
     public: admin
   content_author:
     public: admin
-_core:
-  default_config_hash: hy3mF5yYnovma0FSSoaF_k_NHV1qr3ZjqfaTfXdQwaE
 admin_theme: true

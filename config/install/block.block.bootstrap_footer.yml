@@ -7,8 +7,6 @@ dependencies:
     - system
   theme:
     - bootstrap
-_core:
-  default_config_hash: h06zhb3xV9_2_3Zy9NsyylL7YBaEDlMwMEqNwAn8kMo
 id: bootstrap_footer
 theme: bootstrap
 region: footer

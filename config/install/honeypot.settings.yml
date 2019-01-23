@@ -15,5 +15,3 @@ form_settings:
   webforms: false
   feedback_contact_message_form: false
   _contact_message_form: false
-_core:
-  default_config_hash: DrDGyxbPmuU0IreHbAzmNn7SpOO4t30c3fG_p7gCEuM

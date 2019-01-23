@@ -8,8 +8,6 @@ third_party_settings:
   imce:
     use: true
     scheme: public
-_core:
-  default_config_hash: m-eRT87Th4IYRYTzVdGoCTulAcF-WxxbzSRWqaDUttU
 id: default
 label: Default
 description: 'A default Linkit profile'

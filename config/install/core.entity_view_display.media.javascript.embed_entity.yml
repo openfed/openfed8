@@ -28,8 +28,6 @@ third_party_settings:
     regions:
       ds_content:
         - field_body
-_core:
-  default_config_hash: M4twNd3GyGvAPzBGeAelgPI5EbHzaPsYSD0DPK0MHj0
 id: media.javascript.embed_entity
 targetEntityType: media
 bundle: javascript
