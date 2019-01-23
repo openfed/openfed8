@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+23 January 2019 - Version 6.0-beta6
+----------------------------
+  Update several Media modules.
+  Fixed Media related errors during installation.
+  Fixed Openfed update hooks related with media updates.
+
 17 January 2019 - Version 6.0-beta4 (same as 6.0-beta5)
 ----------------------------
   Update to Drupal Core 8.6.7 (SA-CORE-2019-001 and SA-CORE-2019-002)
