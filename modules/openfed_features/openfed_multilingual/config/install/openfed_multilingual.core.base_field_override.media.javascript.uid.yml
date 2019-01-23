@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - media_entity.bundle.javascript
+    - media.type.javascript
 id: media.javascript.uid
 field_name: uid
 entity_type: media
@@ -12,7 +12,7 @@ description: 'The user ID of the media publisher.'
 required: false
 translatable: true
 default_value: {  }
-default_value_callback: 'Drupal\media_entity\Entity\Media::getCurrentUserId'
+default_value_callback: 'Drupal\media\Entity\Media::getCurrentUserId'
 settings:
   handler: default
   handler_settings: {  }

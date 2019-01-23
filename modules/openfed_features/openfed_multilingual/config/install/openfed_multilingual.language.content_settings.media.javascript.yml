@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - media_entity.bundle.javascript
+    - media.type.javascript
   module:
     - content_translation
 third_party_settings:

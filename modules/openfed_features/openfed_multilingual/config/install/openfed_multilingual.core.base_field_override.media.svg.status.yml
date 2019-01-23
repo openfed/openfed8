@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - media_entity.bundle.svg
+    - media.type.svg
 id: media.svg.status
 field_name: status
 entity_type: media

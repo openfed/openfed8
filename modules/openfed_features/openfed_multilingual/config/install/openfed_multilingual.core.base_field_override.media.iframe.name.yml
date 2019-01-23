@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - media_entity.bundle.iframe
+    - media.type.iframe
 id: media.iframe.name
 field_name: name
 entity_type: media

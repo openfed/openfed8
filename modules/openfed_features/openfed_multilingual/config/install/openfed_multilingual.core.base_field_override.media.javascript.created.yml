@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - media_entity.bundle.javascript
+    - media.type.javascript
 id: media.javascript.created
 field_name: created
 entity_type: media
