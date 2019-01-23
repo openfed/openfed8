@@ -7,9 +7,6 @@ dependencies:
   module:
     - path
     - text
-    - workbench_moderation
-_core:
-  default_config_hash: '-UtLhjKt0Mvtfyweiq3ldaqJpW-9xongUh7T09F9goI'
 id: node.page.default
 targetEntityType: node
 bundle: page
