@@ -438,7 +438,8 @@
     "ckeditor/find": "4.7.3",
     "ckeditor/link": "4.7.3",
     "ckeditor/fakeobjects": "4.7.3",
-    "w8tcha/codemirror": "1.17.8"
+    "w8tcha/codemirror": "1.17.8",
+    "drupal/wbm2cm": "^2.0@beta"
   },
   "require-dev": {
     "drupal/drupal-extension": "^3.2",
