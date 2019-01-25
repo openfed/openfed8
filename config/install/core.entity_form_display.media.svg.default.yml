@@ -2,12 +2,12 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.media.svg.field_media_generic_2
     - field.field.media.svg.field_svg
     - media.type.svg
   module:
     - openfed_svg_file
     - path
-    - workbench_moderation
 id: media.svg.default
 targetEntityType: media
 bundle: svg
@@ -34,8 +34,16 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 100
+    region: content
+    third_party_settings: {  }
 hidden:
   created: true
+  field_media_generic_2: true
   langcode: true
   translation: true
   uid: true

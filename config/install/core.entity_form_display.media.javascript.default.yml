@@ -3,11 +3,11 @@ status: true
 dependencies:
   config:
     - field.field.media.javascript.field_body
+    - field.field.media.javascript.field_media_generic_1
     - media.type.javascript
   module:
     - path
     - text
-    - workbench_moderation
 id: media.javascript.default
 targetEntityType: media
 bundle: javascript
@@ -35,8 +35,16 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 100
+    region: content
+    third_party_settings: {  }
 hidden:
   created: true
+  field_media_generic_1: true
   langcode: true
   translation: true
   uid: true

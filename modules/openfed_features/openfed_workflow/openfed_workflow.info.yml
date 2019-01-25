@@ -7,5 +7,4 @@ core: 8.x
 version: '8.x-6.0'
 
 dependencies:
-  - drupal:workbench_moderation
-
+  - drupal:content_moderation

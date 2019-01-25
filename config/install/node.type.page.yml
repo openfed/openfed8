@@ -2,19 +2,11 @@ langcode: en
 status: true
 dependencies:
   module:
-    - menu_ui
-    - workbench_moderation
+  - menu_ui
 third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
-  workbench_moderation:
-    enabled: true
-    allowed_moderation_states:
-      - published
-      - archived
-      - draft
-    default_moderation_state: draft
 name: 'Basic page'
 type: page
 description: 'Use <em>basic pages</em> for your static content, such as an ''About us'' page.'

@@ -33,9 +33,9 @@ function openfed_workflow_install() {
   // new state.
   $editor_role_conf = 'user.role.content_editor';
   $editor_new_permissions = array(
-    'use needs_review_published transition',
-    'use draft_needs_review transition',
-    'use needs_review_draft transition',
+    'use openfed_workflow transition draft_needs_review',
+    'use openfed_workflow transition needs_review_draft',
+    'use openfed_workflow transition needs_review_published',
   );
   $config = \Drupal::configFactory()->getEditable($editor_role_conf);
   $config->set(
@@ -45,10 +45,10 @@ function openfed_workflow_install() {
 
   // We don't need to keep the default needs_review_needs_review transition, so
   // let's remove it.
-  $mod_state_transit = \Drupal::entityTypeManager()
-    ->getStorage('moderation_state_transition');
-  if ($needs_review = $mod_state_transit->load('needs_review_needs_review')) {
-    $needs_review->delete();
-  }
+//  $mod_state_transit = \Drupal::entityTypeManager()
+//    ->getStorage('moderation_state_transition');
+//  if ($needs_review = $mod_state_transit->load('needs_review_needs_review')) {
+//    $needs_review->delete();
+//  }
 
 }

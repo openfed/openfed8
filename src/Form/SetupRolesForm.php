@@ -101,10 +101,41 @@ class SetupRolesForm extends FormBase {
       \Drupal::service('module_installer')->install(['openfed_workflow']);
     }
     else {
-      // We don't need to keep the default Archive and Need Review state.
-      $mod_state = \Drupal::entityTypeManager()->getStorage('moderation_state');
-      if ($needs_review = $mod_state->load('needs_review')) {
-        $needs_review->delete();
+      /**
+       * Gets the workflow storage.
+       *
+       * @var \Drupal\Core\Config\Entity\ConfigEntityStorageInterface $workflow_storage
+       */
+      $workflow_storage = \Drupal::entityTypeManager()->getStorage('workflow');
+      /**
+       * Gets the openfed_workflow entity.
+       *
+       * @var \Drupal\workflows\WorkflowInterface $workflow
+       */
+      $workflow = $workflow_storage->load('openfed_workflow');
+      /*
+       * Removes each state and transition that we don't need to keep.
+       */
+      foreach (['needs_review'] as $state) {
+        /*
+         * Gets all the state transitions for the current state.
+         */
+        $state_transitions = $workflow->getTypePlugin()->getTransitionsForState($state);
+        /*
+         * Deletes each transition.
+         */
+        foreach ($state_transitions as $transition) {
+          /** @var \Drupal\workflows\TransitionInterface $transition */
+          $workflow->getTypePlugin()->deleteTransition($transition->id());
+        }
+        /*
+         * Deletes the state.
+         */
+        $workflow->getTypePlugin()->deleteState($state);
+        /*
+         * Saves the workflow.
+         */
+        $workflow->save();
       }
     }
 

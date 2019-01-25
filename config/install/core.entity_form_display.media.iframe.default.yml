@@ -3,11 +3,11 @@ status: true
 dependencies:
   config:
     - field.field.media.iframe.field_body
+    - field.field.media.iframe.field_media_generic
     - media.type.iframe
   module:
     - path
     - text
-    - workbench_moderation
 id: media.iframe.default
 targetEntityType: media
 bundle: iframe
@@ -35,8 +35,16 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 100
+    region: content
+    third_party_settings: {  }
 hidden:
   created: true
+  field_media_generic: true
   langcode: true
   translation: true
   uid: true

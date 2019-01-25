@@ -41,6 +41,7 @@ dependencies:
   - views
   - views_ui
   - media
+  - content_moderation
   # contrib
   - admin_toolbar
   - admin_toolbar_tools
@@ -87,7 +88,6 @@ dependencies:
   - toolbar_themes
   - token
   - username_enumeration_prevention
-  - workbench_moderation
 
 themes:
   - adminimal_theme

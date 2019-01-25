@@ -1,0 +1,96 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.page
+  module:
+    - content_moderation
+id: openfed_workflow
+label: 'Workflow 1'
+type: content_moderation
+type_settings:
+  states:
+    archived:
+      label: Archived
+      published: false
+      default_revision: true
+      weight: 1
+    draft:
+      label: Draft
+      published: false
+      default_revision: false
+      weight: 2
+    needs_review:
+      label: 'Needs Review'
+      published: false
+      default_revision: false
+      weight: 3
+    published:
+      label: Published
+      published: true
+      default_revision: true
+      weight: 4
+  transitions:
+    archived_published:
+      label: Un-archive
+      from:
+        - archived
+      to: published
+      weight: 1
+    draft_draft:
+      label: 'Create New Draft'
+      from:
+        - draft
+      to: draft
+      weight: 2
+    draft_needs_review:
+      label: 'Request Review'
+      from:
+        - draft
+      to: needs_review
+      weight: 3
+    draft_published:
+      label: Publish
+      from:
+        - draft
+      to: published
+      weight: 4
+    needs_review_draft:
+      label: 'Send Back to Draft'
+      from:
+        - needs_review
+      to: draft
+      weight: 5
+    needs_review_published:
+      label: Publish
+      from:
+        - needs_review
+      to: published
+      weight: 6
+    published_archived:
+      label: Archive
+      from:
+        - published
+      to: archived
+      weight: 7
+    published_draft:
+      label: 'Create New Draft'
+      from:
+        - published
+      to: draft
+      weight: 8
+    published_published:
+      label: Publish
+      from:
+        - published
+      to: published
+      weight: 9
+    send_back_to_draft:
+      label: 'Send Back to Draft'
+      from:
+        - archived
+      to: draft
+      weight: 10
+  entity_types:
+    node:
+      - page
