@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+21 February 2019 - Version 5.6
+----------------------------
+  Update to Drupal Core 8.5.11 (SA-CORE-2019-003)
+  Update to Metatag 8.x-1.8 (SA-CONTRIB-2019-021)
+  Update to Paragraphs Tool 8.x-1.6 (SA-CONTRIB-2019-023)
+  Update to Translation Management Tool 8.x-1.7 (SA-CONTRIB-2019-024)
+
 18 October 2018 - Version 5.5
 ----------------------------
   Update to Drupal Core 8.5.8 (SA-CORE-2018-006)
