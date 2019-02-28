@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+28 February 2019 - Version 5.7
+----------------------------
+  Update to Facets 8.x-1.3 (SA-CONTRIB-2019-030)
+
 21 February 2019 - Version 5.6
 ----------------------------
   Update to Drupal Core 8.5.11 (SA-CORE-2019-003)
