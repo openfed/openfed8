@@ -1,6 +1,14 @@
 CHANGELOG
 =========
 
+28 February 2019 - Version 6.0-beta7
+----------------------------
+  Update to Drupal Core 8.6.10 (SA-CORE-2019-003)
+  Update to Facets 8.x-1.3 (SA-CONTRIB-2019-030)
+  Update to Metatag 8.x-1.8 (SA-CONTRIB-2019-021)
+  Update to Paragraphs Tool 8.x-1.6 (SA-CONTRIB-2019-023)
+  Update to Translation Management Tool 8.x-1.7 (SA-CONTRIB-2019-024)
+
 23 January 2019 - Version 6.0-beta6
 ----------------------------
   Update several Media modules.
