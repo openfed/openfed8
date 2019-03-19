@@ -32,8 +32,6 @@ permissions:
   - 'use openfed_workflow transition needs_review_draft'
   - 'use openfed_workflow transition published_draft'
   - 'use openfed_workflow transition send_back_to_draft'
-  - 'use draft_not_approved transition'
-  - 'use ready_for_review transition'
   - 'use text format embeddable_text'
   - 'use text format flexible_html'
   - 'view all revisions'
