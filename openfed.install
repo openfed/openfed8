@@ -19,16 +19,19 @@ function openfed_install() {
 function openfed_update_dependencies() {
   $dependencies = [];
 
-  // Ensure that media_entity_update_8201() runs before openfed_update_8601().
-  $dependencies['openfed'][8601] = [
-    'media_entity' => 8201
-  ];
+  if (\Drupal::moduleHandler()->moduleExists('media_entity')) {
+    // Ensure that media_entity_update_8201() runs before openfed_update_8601().
+    $dependencies['openfed'][8601] = [
+      'media_entity' => 8201
+    ];
 
-  // Ensure that openfed_update_8602() and openfed_update_8603() runs before 
-  // media_entity_update_8201().
-  $dependencies['media_entity'][8201] = [
-    'openfed' => 8603
-  ];
+    // Ensure that openfed_update_8602() and openfed_update_8603() runs before 
+    // media_entity_update_8201().
+    $dependencies['media_entity'][8201] = [
+      'openfed' => 8603
+    ];
+  }
+
 
   return $dependencies;
 }
