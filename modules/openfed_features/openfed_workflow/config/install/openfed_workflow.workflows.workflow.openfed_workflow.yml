@@ -34,66 +34,38 @@ type_settings:
       default_revision: true
       weight: 4
   transitions:
-    archived_published:
-      label: Un-archive
-      from:
-        - archived
-      to: published
-      weight: 1
-    draft_draft:
-      label: 'Create New Draft'
+    archive:
+      label: Archive
       from:
         - draft
+        - needs_review
+        - published
+      to: archived
+      weight: -2
+    drafting:
+      label: Drafting
+      from:
+        - archived
+        - draft
+        - needs_review
+        - published
       to: draft
-      weight: 2
-    draft_needs_review:
-      label: 'Request Review'
+      weight: -1
+    publish:
+      label: Publish
+      from:
+        - archived
+        - draft
+        - needs_review
+        - published
+      to: published
+      weight: 1
+    review:
+      label: Review
       from:
         - draft
       to: needs_review
-      weight: 3
-    draft_published:
-      label: Publish
-      from:
-        - draft
-      to: published
-      weight: 4
-    needs_review_draft:
-      label: 'Send Back to Draft'
-      from:
-        - needs_review
-      to: draft
-      weight: 5
-    needs_review_published:
-      label: Publish
-      from:
-        - needs_review
-      to: published
-      weight: 6
-    published_archived:
-      label: Archive
-      from:
-        - published
-      to: archived
-      weight: 7
-    published_draft:
-      label: 'Create New Draft'
-      from:
-        - published
-      to: draft
-      weight: 8
-    published_published:
-      label: Publish
-      from:
-        - published
-      to: published
-      weight: 9
-    send_back_to_draft:
-      label: 'Send Back to Draft'
-      from:
-        - archived
-      to: draft
-      weight: 10
+      weight: 0
   entity_types:
     media:
       - iframe

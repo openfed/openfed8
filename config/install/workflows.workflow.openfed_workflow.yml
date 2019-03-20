@@ -27,50 +27,31 @@ type_settings:
       label: Published
       published: true
       default_revision: true
-      weight: 3
+      weight: 4
   transitions:
-    archived_published:
-      label: Un-archive
-      from:
-        - archived
-      to: published
-      weight: 1
-    draft_draft:
-      label: 'Create New Draft'
-      from:
-        - draft
-      to: draft
-      weight: 2
-    draft_published:
-      label: Publish
-      from:
-        - draft
-      to: published
-      weight: 3
-    published_archived:
+    archive:
       label: Archive
       from:
+        - draft
         - published
       to: archived
-      weight: 4
-    published_draft:
-      label: 'Create New Draft'
-      from:
-        - published
-      to: draft
-      weight: 5
-    published_published:
-      label: Publish
-      from:
-        - published
-      to: published
-      weight: 6
-    send_back_to_draft:
-      label: 'Send Back to Draft'
+      weight: -2
+    drafting:
+      label: Drafting
       from:
         - archived
+        - draft
+        - published
       to: draft
-      weight: 7
+      weight: -1
+    publish:
+      label: Publish
+      from:
+        - archived
+        - draft
+        - published
+      to: published
+      weight: 0
   entity_types:
     media:
       - iframe
