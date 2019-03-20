@@ -40,5 +40,6 @@ function openfed_workflow_install() {
     'permissions',
     array_merge($config->get('permissions'), $editor_new_permissions)
   );
+  $config->save();
 
 }

@@ -82,7 +82,7 @@ class SetupRolesForm extends FormBase {
 
     // Check selected workflow options to enable role and set configuration.
     if (!empty($workflow_option) && $workflow_option == Helper::WORKFLOW_ADVANCED_CONFIG) {
-      // Enable Content Editor role.
+      // Enable Content Author role.
       $content_author_role_id = Helper::CONTENT_AUTHOR_ROLE_ID;
       $content_author_role = [
         'id' => $content_author_role_id,
@@ -99,44 +99,6 @@ class SetupRolesForm extends FormBase {
 
       // Enable Advanced Workflow configuration.
       \Drupal::service('module_installer')->install(['openfed_workflow']);
-    }
-    else {
-      /**
-       * Gets the workflow storage.
-       *
-       * @var \Drupal\Core\Config\Entity\ConfigEntityStorageInterface $workflow_storage
-       */
-      $workflow_storage = \Drupal::entityTypeManager()->getStorage('workflow');
-      /**
-       * Gets the openfed_workflow entity.
-       *
-       * @var \Drupal\workflows\WorkflowInterface $workflow
-       */
-      $workflow = $workflow_storage->load('openfed_workflow');
-      /*
-       * Removes each state and transition that we don't need to keep.
-       */
-      foreach (['needs_review'] as $state) {
-        /*
-         * Gets all the state transitions for the current state.
-         */
-        $state_transitions = $workflow->getTypePlugin()->getTransitionsForState($state);
-        /*
-         * Deletes each transition.
-         */
-        foreach ($state_transitions as $transition) {
-          /** @var \Drupal\workflows\TransitionInterface $transition */
-          $workflow->getTypePlugin()->deleteTransition($transition->id());
-        }
-        /*
-         * Deletes the state.
-         */
-        $workflow->getTypePlugin()->deleteState($state);
-        /*
-         * Saves the workflow.
-         */
-        $workflow->save();
-      }
     }
 
     // It's required that user 1 is set with Administratior role.
