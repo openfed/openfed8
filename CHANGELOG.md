@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+21 March 2019 - Version 5.8
+----------------------------
+  Update to Drupal Core 8.5.14 (SA-CORE-2019-004)
+  Update to EU Cookie Compliance 8.x-1.5 (SA-CONTRIB-2019-033)
+
 28 February 2019 - Version 5.7
 ----------------------------
   Update to Facets 8.x-1.3 (SA-CONTRIB-2019-030)
