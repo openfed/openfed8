@@ -19,7 +19,7 @@ composer create-project openfed/openfed8-project MY_PROJECT
 
 After that you can just install Openfed like any other distribution.
 
-### Important note
+### Important note before update
 
 Make sure you are running the latest Openfed 4.x version before updating to Openfed 6.x
 

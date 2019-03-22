@@ -1,6 +1,16 @@
 CHANGELOG
 =========
 
+22 March 2019 - Version 6.0
+----------------------------
+  Security updates:
+    Update to EU Cookie Compliance 8.x-1.5 (SA-CONTRIB-2019-033)
+
+  Other updates:
+    Drupal Core updates
+    Contrib modules and themes updates
+    Config updates to start using core Content Moderation instead of Workbench Moderation
+
 28 February 2019 - Version 6.0-beta7
 ----------------------------
   Update to Drupal Core 8.6.10 (SA-CORE-2019-003)
