@@ -43,6 +43,7 @@ libraries[notificationaggregator][destination] = "libraries/ckeditor/plugins"
 ; Please fill the following out. Type may be one of get, git, bzr or svn, and url is the url of the download.
 ;
 projects[bootstrap][version] = "3.17"
+projects[bootstrap][patch][3027569] = "https://www.drupal.org/files/issues/2019-01-24/3027569-8.x-3.x-8.patch"
 projects[adminimal_theme][version] = "1.4"
 
 ;
@@ -131,6 +132,7 @@ projects[page_manager][patch][2820218] = "https://www.drupal.org/files/issues/20
 projects[page_manager][patch][2858877] = "https://www.drupal.org/files/issues/page_manager-block_visibility_conditions-2858877-27-D8.patch"
 projects[panels][version] = "4.2"
 projects[panels][patch][2869412] = "https://www.drupal.org/files/issues/2869412-2-page_title_does_not_show_in_panels.patch"
+projects[panels][patch][2923286] = "https://www.drupal.org/files/issues/2923286-13.patch"
 projects[panels][patch][2938850] = "https://www.drupal.org/files/issues/panels-block_visibility_conditions_apply_after_issue_2869412_2-2938850-2.patch"
 projects[paragraphs][version] = "1.6"
 projects[paragraphs][patch][2461695] = "https://www.drupal.org/files/issues/2018-12-06/2461695-263.patch"

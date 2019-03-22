@@ -242,12 +242,16 @@
       }
     },
     "patches": {
+      "drupal/bootstrap": {
+        "Issue #3027569: JsDelivr operand not supported error patch": "https://www.drupal.org/files/issues/2019-01-24/3027569-8.x-3.x-8.patch" 
+      },
       "drupal/content_translation_workflow": {
         "Issue #2878504: fix a problem when publishing translations": "https://www.drupal.org/files/issues/2878504-1.patch"
       },
       "drupal/core": {
         "Issue #2325899: UI fatal caused by views argument handlers no longer can provide their own default argument handling": "https://www.drupal.org/files/issues/2018-04-22/2325899-111.patch",
         "Issue #2664016: Adding a new batch set while the batch is running breaks batch order": "https://www.drupal.org/files/issues/2018-06-06/2664016-58.patch",
+        "Issue #2730631: Node revision routes don't convert {node} param": "https://www.drupal.org/files/issues/2018-12-03/node_revision_route_object-2730631-D8-77.patch",
         "Issue #2737619: Views entity reference relationships must join on langcode for translatable entities": "https://www.drupal.org/files/issues/language_aware_relationship-2737619-19.patch",
         "Issue #2771837: drupalimage CKEditor plugin should not require data-entity-uuid and data-entity-type when image upload is disabled": "https://www.drupal.org/files/issues/2018-09-13/drupalimage_ckeditor-2771837-34.patch",
         "Issue #2877994: Entity Links fields does not have translation support": "https://www.drupal.org/files/issues/2018-05-23/2877994-42.patch"
@@ -282,6 +286,7 @@
       },
       "drupal/panels": {
         "Issue #2869412: Page title does not display on panels": "https://www.drupal.org/files/issues/2869412-2-page_title_does_not_show_in_panels.patch",
+        "Issue #2923286: Fatal error in Drupal\\panels\\Form\\PanelsAddBlockForm::buildForm() with PHP 7.2": "https://www.drupal.org/files/issues/2923286-13.patch",
         "Issue #2938850: Add Block visibility conditions": "https://www.drupal.org/files/issues/panels-block_visibility_conditions_apply_after_issue_2869412_2-2938850-2.patch"
       },
       "drupal/paragraphs": {
