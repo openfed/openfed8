@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+10 May 2019 - Version 6.1
+----------------------------
+  Update to Drupal Core 8.6.16 (SA-CORE-2019-007)
+
 22 March 2019 - Version 6.0
 ----------------------------
   Security updates:
