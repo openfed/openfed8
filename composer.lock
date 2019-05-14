@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b4582e29f87a017d5c4ce79ebfdfd16",
+    "content-hash": "6510b9c5a8adb4d29cd5539fd2bd2242",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1713,7 +1713,7 @@
             "description": "Presents users with an option to create another node of the same type after a node is added.",
             "homepage": "https://www.drupal.org/project/addanother",
             "support": {
-                "source": "http://cgit.drupalcode.org/addanother"
+                "source": "https://git.drupalcode.org/project/addanother"
             }
         },
         {
@@ -1846,7 +1846,7 @@
             "description": "Provides a dropdown menu with available languages when adding content for all content types that default to the current language in the Administration toolbar.",
             "homepage": "https://www.drupal.org/project/admin_toolbar_content_languages",
             "support": {
-                "source": "http://cgit.drupalcode.org/admin_toolbar_content_languages"
+                "source": "https://git.drupalcode.org/project/admin_toolbar_content_languages"
             }
         },
         {
@@ -1972,7 +1972,7 @@
             "description": "Drupal administration theme with modern minimalist design.",
             "homepage": "https://www.drupal.org/project/adminimal_theme",
             "support": {
-                "source": "http://cgit.drupalcode.org/adminimal_theme",
+                "source": "https://git.drupalcode.org/project/adminimal_theme",
                 "issues": "https://www.drupal.org/project/issues/adminimal_theme"
             }
         },
@@ -2024,7 +2024,7 @@
             "description": "Creates alertboxes to display information across the site.",
             "homepage": "https://www.drupal.org/project/alertbox",
             "support": {
-                "source": "http://cgit.drupalcode.org/alertbox"
+                "source": "https://git.drupalcode.org/project/alertbox"
             }
         },
         {
@@ -2071,7 +2071,7 @@
             "description": "Limit which text formats are available for each field instance.",
             "homepage": "https://www.drupal.org/project/allowed_formats",
             "support": {
-                "source": "http://cgit.drupalcode.org/allowed_formats"
+                "source": "https://git.drupalcode.org/project/allowed_formats"
             }
         },
         {
@@ -2181,7 +2181,7 @@
             "description": "Appends file info (extension, size) to links to local managed files.",
             "homepage": "http://drupal.org/project/append_file_info",
             "support": {
-                "source": "http://cgit.drupalcode.org/append_file_info"
+                "source": "https://git.drupalcode.org/project/append_file_info"
             }
         },
         {
@@ -2240,7 +2240,7 @@
             "description": "Back To Top adds a button that hovers in the bottom of your screen and allow users to smoothly scroll up the page using jQuery.",
             "homepage": "https://www.drupal.org/project/back_to_top",
             "support": {
-                "source": "http://cgit.drupalcode.org/back_to_top"
+                "source": "https://git.drupalcode.org/project/back_to_top"
             }
         },
         {
@@ -2296,10 +2296,6 @@
                     "name": "Fabiano Sant'Ana (wundo)",
                     "homepage": "https://www.drupal.org/u/wundo",
                     "role": "Co-maintainer"
-                },
-                {
-                    "name": "wundo",
-                    "homepage": "https://www.drupal.org/user/25523"
                 }
             ],
             "description": "Built to use Bootstrap, a sleek, intuitive, and powerful front-end framework for faster and easier web development.",
@@ -2493,8 +2489,8 @@
                     "version": "8.x-1.1",
                     "datestamp": "1552809780",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -2511,7 +2507,7 @@
             "description": "Integrates the CKEdito templates plugin",
             "homepage": "https://www.drupal.org/project/ckeditor_templates",
             "support": {
-                "source": "http://cgit.drupalcode.org/ckeditor_templates"
+                "source": "https://git.drupalcode.org/project/ckeditor_templates"
             }
         },
         {
@@ -2538,7 +2534,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.5",
-                    "datestamp": "1519351726",
+                    "datestamp": "1553856781",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2563,7 +2559,7 @@
             "description": "Integrates CKEditor's Upload Image plugin to Drupal. This enables Drupal's default WYSIWYG text editor capable of uploading images that were dropped or pasted from clipboard into the editor as inline image.",
             "homepage": "https://drupal.org/project/ckeditor_uploadimage",
             "support": {
-                "source": "http://cgit.drupalcode.org/ckeditor_uploadimage"
+                "source": "https://git.drupalcode.org/project/ckeditor_uploadimage"
             }
         },
         {
@@ -2654,7 +2650,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0",
-                    "datestamp": "1461060840",
+                    "datestamp": "1556870881",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2678,7 +2674,7 @@
             "description": "Registers “component libraries” defined in modules and themes with the Twig system",
             "homepage": "https://www.drupal.org/project/components",
             "support": {
-                "source": "http://cgit.drupalcode.org/components"
+                "source": "https://git.drupalcode.org/project/components"
             }
         },
         {
@@ -2729,7 +2725,7 @@
             "description": "Provides basic revert and update functionality for other modules",
             "homepage": "https://www.drupal.org/project/config_update",
             "support": {
-                "source": "http://cgit.drupalcode.org/config_update"
+                "source": "https://git.drupalcode.org/project/config_update"
             }
         },
         {
@@ -3013,7 +3009,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta9",
-                    "datestamp": "1497478742",
+                    "datestamp": "1556703480",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -3049,7 +3045,7 @@
             "description": "Provides storage and edit capability for contact messages.",
             "homepage": "https://www.drupal.org/project/contact_storage",
             "support": {
-                "source": "http://cgit.drupalcode.org/contact_storage"
+                "source": "https://git.drupalcode.org/project/contact_storage"
             }
         },
         {
@@ -3098,7 +3094,7 @@
             "description": "Provides a default Entity Browser for default Content Entity types, using Masonry.",
             "homepage": "https://www.drupal.org/project/content_browser",
             "support": {
-                "source": "http://cgit.drupalcode.org/content_browser"
+                "source": "https://git.drupalcode.org/project/content_browser"
             }
         },
         {
@@ -3147,7 +3143,7 @@
             ],
             "homepage": "https://www.drupal.org/project/content_translation_workflow",
             "support": {
-                "source": "http://cgit.drupalcode.org/content_translation_workflow"
+                "source": "https://git.drupalcode.org/project/content_translation_workflow"
             }
         },
         {
@@ -3613,7 +3609,7 @@
             "description": "Provides storage and API for image crops.",
             "homepage": "https://www.drupal.org/project/crop",
             "support": {
-                "source": "http://cgit.drupalcode.org/crop",
+                "source": "https://git.drupalcode.org/project/crop",
                 "issues": "https://www.drupal.org/project/issues/crop"
             }
         },
@@ -3672,7 +3668,7 @@
             "description": "A simple client-side hierarchical select widget for taxonomy terms.",
             "homepage": "https://www.drupal.org/project/cshs",
             "support": {
-                "source": "http://cgit.drupalcode.org/cshs"
+                "source": "https://git.drupalcode.org/project/cshs"
             }
         },
         {
@@ -3899,7 +3895,7 @@
             "description": "Disable route normalizer on language neutral nodes.",
             "homepage": "https://www.drupal.org/project/disable_route_normalizer",
             "support": {
-                "source": "http://cgit.drupalcode.org/disable_route_normalizer"
+                "source": "https://git.drupalcode.org/project/disable_route_normalizer"
             }
         },
         {
@@ -4035,7 +4031,7 @@
             "description": "Provide a framework for various different types of embeds in WYSIWYG editors, common functionality, interfaces, and standards.",
             "homepage": "https://www.drupal.org/project/embed",
             "support": {
-                "source": "http://cgit.drupalcode.org/embed",
+                "source": "https://git.drupalcode.org/project/embed",
                 "issues": "https://www.drupal.org/project/issues/embed",
                 "irc": "irc://irc.freenode.org/drupal-media"
             }
@@ -4064,7 +4060,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-rc1",
-                    "datestamp": "1539272769",
+                    "datestamp": "1553254684",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -4100,7 +4096,7 @@
             "description": "Provides expanded entity APIs, which will be moved to Drupal core one day.",
             "homepage": "http://drupal.org/project/entity",
             "support": {
-                "source": "http://cgit.drupalcode.org/entity"
+                "source": "https://git.drupalcode.org/project/entity"
             }
         },
         {
@@ -4222,7 +4218,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta2",
-                    "datestamp": "1476698339",
+                    "datestamp": "1556906881",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -4269,7 +4265,7 @@
             "description": "Allows any entity to be embedded within a text area using a WYSIWYG editor.",
             "homepage": "https://www.drupal.org/project/entity_embed",
             "support": {
-                "source": "http://cgit.drupalcode.org/entity_embed",
+                "source": "https://git.drupalcode.org/project/entity_embed",
                 "issues": "https://www.drupal.org/project/issues/entity_embed",
                 "irc": "irc://irc.freenode.org/drupal-media"
             }
@@ -4329,7 +4325,7 @@
             "description": "Adds a Entity Reference field type with revision support.",
             "homepage": "https://www.drupal.org/project/entity_reference_revisions",
             "support": {
-                "source": "http://cgit.drupalcode.org/entity_reference_revisions"
+                "source": "https://git.drupalcode.org/project/entity_reference_revisions"
             }
         },
         {
@@ -4356,7 +4352,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-alpha8",
-                    "datestamp": "1536140284",
+                    "datestamp": "1553597280",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -4542,7 +4538,7 @@
             "description": "Modify behavior and appearance of external links.",
             "homepage": "https://www.drupal.org/project/extlink",
             "support": {
-                "source": "http://cgit.drupalcode.org/extlink"
+                "source": "https://git.drupalcode.org/project/extlink"
             }
         },
         {
@@ -4572,7 +4568,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.3",
-                    "datestamp": "1551291083",
+                    "datestamp": "1556645881",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4716,7 +4712,7 @@
             ],
             "homepage": "https://www.drupal.org/project/fast_404",
             "support": {
-                "source": "http://cgit.drupalcode.org/fast_404"
+                "source": "https://git.drupalcode.org/project/fast_404"
             }
         },
         {
@@ -4783,7 +4779,7 @@
             "description": "Alter wrapping markup of fields.",
             "homepage": "https://www.drupal.org/project/fences",
             "support": {
-                "source": "http://cgit.drupalcode.org/fences"
+                "source": "https://git.drupalcode.org/project/fences"
             }
         },
         {
@@ -4827,7 +4823,7 @@
             "description": "Enables to use tokens as field default values.",
             "homepage": "https://www.drupal.org/project/field_default_token",
             "support": {
-                "source": "http://cgit.drupalcode.org/field_default_token"
+                "source": "https://git.drupalcode.org/project/field_default_token"
             },
             "time": "2016-10-28T17:34:32+00:00"
         },
@@ -4895,7 +4891,7 @@
             "description": "Collection of general formatters that display a single field from the referenced entity.",
             "homepage": "https://www.drupal.org/project/field_formatter",
             "support": {
-                "source": "http://cgit.drupalcode.org/field_formatter"
+                "source": "https://git.drupalcode.org/project/field_formatter"
             }
         },
         {
@@ -4958,7 +4954,7 @@
             "description": "Provides the field_group module.",
             "homepage": "https://www.drupal.org/project/field_group",
             "support": {
-                "source": "http://cgit.drupalcode.org/field_group"
+                "source": "https://git.drupalcode.org/project/field_group"
             }
         },
         {
@@ -4992,7 +4988,7 @@
                     "datestamp": "1522617782",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
+                        "message": "Beta releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -5050,6 +5046,10 @@
                     "homepage": "https://www.drupal.org/user/266527"
                 },
                 {
+                    "name": "dsutter",
+                    "homepage": "https://www.drupal.org/user/3357810"
+                },
+                {
                     "name": "effulgentsia",
                     "homepage": "https://www.drupal.org/user/78040"
                 },
@@ -5060,6 +5060,10 @@
                 {
                     "name": "mpotter",
                     "homepage": "https://www.drupal.org/user/616192"
+                },
+                {
+                    "name": "mxr576",
+                    "homepage": "https://www.drupal.org/user/315522"
                 },
                 {
                     "name": "robeano",
@@ -5073,7 +5077,7 @@
             "description": "Extends Drupal file entities to be fieldable and viewable.",
             "homepage": "https://www.drupal.org/project/file_entity",
             "support": {
-                "source": "http://cgit.drupalcode.org/file_entity"
+                "source": "https://git.drupalcode.org/project/file_entity"
             }
         },
         {
@@ -5104,7 +5108,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta6",
-                    "datestamp": "1519932484",
+                    "datestamp": "1553270584",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -5124,7 +5128,7 @@
             "description": "Allows users to specify the focal point of an image for use during cropping.",
             "homepage": "https://www.drupal.org/project/focal_point",
             "support": {
-                "source": "http://cgit.drupalcode.org/focal_point"
+                "source": "https://git.drupalcode.org/project/focal_point"
             }
         },
         {
@@ -5221,8 +5225,16 @@
             "authors": [
                 {
                     "name": "Jeff Geerling",
-                    "homepage": "https://www.drupal.org/user/389011",
+                    "homepage": "https://www.drupal.org/user/213194",
                     "email": "geerlingguy@mac.com"
+                },
+                {
+                    "name": "geerlingguy",
+                    "homepage": "https://www.drupal.org/user/389011"
+                },
+                {
+                    "name": "vijaycs85",
+                    "homepage": "https://www.drupal.org/user/93488"
                 }
             ],
             "description": "Mitigates spam form submissions using the honeypot method.",
@@ -5236,7 +5248,7 @@
                 "spam"
             ],
             "support": {
-                "source": "http://cgit.drupalcode.org/honeypot"
+                "source": "https://git.drupalcode.org/project/honeypot"
             }
         },
         {
@@ -5267,7 +5279,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.3",
-                    "datestamp": "1547998080",
+                    "datestamp": "1547998137",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5291,7 +5303,7 @@
             "description": "Provides effects and operations for the Image API.",
             "homepage": "https://www.drupal.org/project/image_effects",
             "support": {
-                "source": "http://cgit.drupalcode.org/image_effects"
+                "source": "https://git.drupalcode.org/project/image_effects"
             }
         },
         {
@@ -5345,7 +5357,7 @@
             "description": "Provides a file manager supporting personal folders.",
             "homepage": "https://drupal.org/project/imce",
             "support": {
-                "source": "http://cgit.drupalcode.org/imce"
+                "source": "https://git.drupalcode.org/project/imce"
             }
         },
         {
@@ -5399,6 +5411,14 @@
                     "homepage": "https://www.drupal.org/user/99340"
                 },
                 {
+                    "name": "joachim",
+                    "homepage": "https://www.drupal.org/user/107701"
+                },
+                {
+                    "name": "kaythay",
+                    "homepage": "https://www.drupal.org/user/2182186"
+                },
+                {
                     "name": "rszrama",
                     "homepage": "https://www.drupal.org/user/49344"
                 },
@@ -5414,7 +5434,7 @@
             "description": "Provides a widget for inline management (creation, modification, removal) of referenced entities.",
             "homepage": "https://www.drupal.org/project/inline_entity_form",
             "support": {
-                "source": "http://cgit.drupalcode.org/inline_entity_form"
+                "source": "https://git.drupalcode.org/project/inline_entity_form"
             }
         },
         {
@@ -5475,7 +5495,7 @@
             ],
             "homepage": "https://www.drupal.org/project/l10n_client",
             "support": {
-                "source": "http://cgit.drupalcode.org/l10n_client"
+                "source": "https://git.drupalcode.org/project/l10n_client"
             }
         },
         {
@@ -5621,7 +5641,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.5",
-                    "datestamp": "1537173781",
+                    "datestamp": "1554334381",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5641,7 +5661,7 @@
             "description": "Provides a widget to allow settings of link attributes for menu links.",
             "homepage": "https://www.drupal.org/project/link_attributes",
             "support": {
-                "source": "http://cgit.drupalcode.org/link_attributes"
+                "source": "https://git.drupalcode.org/project/link_attributes"
             }
         },
         {
@@ -5749,7 +5769,7 @@
             "description": "Emit a 404 response for access denied pages",
             "homepage": "https://www.drupal.org/project/m4032404",
             "support": {
-                "source": "http://cgit.drupalcode.org/m4032404"
+                "source": "https://git.drupalcode.org/project/m4032404"
             }
         },
         {
@@ -5845,7 +5865,7 @@
             "description": "Media entity API.",
             "homepage": "https://www.drupal.org/project/media_entity",
             "support": {
-                "source": "http://cgit.drupalcode.org/media_entity"
+                "source": "https://git.drupalcode.org/project/media_entity"
             }
         },
         {
@@ -5872,10 +5892,10 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-alpha1",
-                    "datestamp": "1508311145",
+                    "datestamp": "1554383285",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
+                        "message": "Alpha releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -5908,7 +5928,7 @@
             "description": "Provides a generic Media source plugin.",
             "homepage": "https://www.drupal.org/project/media_entity_generic",
             "support": {
-                "source": "http://cgit.drupalcode.org/media_entity_generic"
+                "source": "https://git.drupalcode.org/project/media_entity_generic"
             }
         },
         {
@@ -5974,22 +5994,22 @@
             "description": "Provides configurable blocks of menu links.",
             "homepage": "https://www.drupal.org/project/menu_block",
             "support": {
-                "source": "http://cgit.drupalcode.org/menu_block"
+                "source": "https://git.drupalcode.org/project/menu_block"
             }
         },
         {
             "name": "drupal/menu_breadcrumb",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/menu_breadcrumb.git",
-                "reference": "8.x-1.8"
+                "reference": "8.x-1.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/menu_breadcrumb-8.x-1.8.zip",
-                "reference": "8.x-1.8",
-                "shasum": "db3aee3edd5e34a750297709d74b61c0c7c432f7"
+                "url": "https://ftp.drupal.org/files/projects/menu_breadcrumb-8.x-1.9.zip",
+                "reference": "8.x-1.9",
+                "shasum": "c68782d805b12b1d15d4e0bea2e16a76dac89bd2"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -6000,8 +6020,8 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.8",
-                    "datestamp": "1549606384",
+                    "version": "8.x-1.9",
+                    "datestamp": "1554988685",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6041,7 +6061,7 @@
             "description": "Create breadcrumbs from nested menu titles and/or taxonomy membership.",
             "homepage": "https://www.drupal.org/project/menu_breadcrumb",
             "support": {
-                "source": "http://cgit.drupalcode.org/menu_breadcrumb"
+                "source": "https://git.drupalcode.org/project/menu_breadcrumb"
             }
         },
         {
@@ -6107,7 +6127,7 @@
             "description": "Defines a menu link field type",
             "homepage": "https://www.drupal.org/project/menu_link",
             "support": {
-                "source": "http://cgit.drupalcode.org/menu_link"
+                "source": "https://git.drupalcode.org/project/menu_link"
             }
         },
         {
@@ -6165,7 +6185,7 @@
             "description": "Replaces the menu link weight dropdown with a tabledrag widget",
             "homepage": "https://www.drupal.org/project/menu_link_weight",
             "support": {
-                "source": "http://cgit.drupalcode.org/menu_link_weight"
+                "source": "https://git.drupalcode.org/project/menu_link_weight"
             }
         },
         {
@@ -6223,7 +6243,7 @@
             "description": "Expand menus and set active-trail according to the current path.",
             "homepage": "https://www.drupal.org/project/menu_trail_by_path",
             "support": {
-                "source": "http://cgit.drupalcode.org/menu_trail_by_path"
+                "source": "https://git.drupalcode.org/project/menu_trail_by_path"
             }
         },
         {
@@ -6410,7 +6430,7 @@
             "description": "Add a block to switch between public website and administration<br/>Contains a <strong>block</strong> and an <strong>admin interface</strong>",
             "homepage": "https://www.drupal.org/project/ofed_switcher",
             "support": {
-                "source": "http://cgit.drupalcode.org/ofed_switcher"
+                "source": "https://git.drupalcode.org/project/ofed_switcher"
             }
         },
         {
@@ -6458,7 +6478,7 @@
             "description": "Allows permissions to be set on each node option such as published and authoring information.",
             "homepage": "https://www.drupal.org/project/override_node_options",
             "support": {
-                "source": "http://cgit.drupalcode.org/override_node_options"
+                "source": "https://git.drupalcode.org/project/override_node_options"
             }
         },
         {
@@ -6516,8 +6536,8 @@
                     "homepage": "https://www.drupal.org/user/45640"
                 },
                 {
-                    "name": "tim.plunkett",
-                    "homepage": "https://www.drupal.org/user/241634"
+                    "name": "manuel.adan",
+                    "homepage": "https://www.drupal.org/user/516420"
                 }
             ],
             "description": "Provides a way to place blocks on a custom page.",
@@ -6590,6 +6610,10 @@
                     "homepage": "https://www.drupal.org/user/45640"
                 },
                 {
+                    "name": "joelpittet",
+                    "homepage": "https://www.drupal.org/user/160302"
+                },
+                {
                     "name": "merlinofchaos",
                     "homepage": "https://www.drupal.org/user/26979"
                 },
@@ -6600,10 +6624,6 @@
                 {
                     "name": "samuel.mortenson",
                     "homepage": "https://www.drupal.org/user/2582268"
-                },
-                {
-                    "name": "sdboyer",
-                    "homepage": "https://www.drupal.org/user/146719"
                 },
                 {
                     "name": "tim.plunkett",
@@ -6698,7 +6718,7 @@
             "description": "Enables the creation of Paragraphs entities.",
             "homepage": "https://www.drupal.org/project/paragraphs",
             "support": {
-                "source": "http://cgit.drupalcode.org/paragraphs"
+                "source": "https://git.drupalcode.org/project/paragraphs"
             }
         },
         {
@@ -6727,7 +6747,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.3",
-                    "datestamp": "1536407884",
+                    "datestamp": "1554239887",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6759,7 +6779,7 @@
             "description": "Provides a mechanism for modules to automatically generate aliases for the content they manage.",
             "homepage": "https://www.drupal.org/project/pathauto",
             "support": {
-                "source": "http://cgit.drupalcode.org/pathauto"
+                "source": "https://git.drupalcode.org/project/pathauto"
             }
         },
         {
@@ -6814,7 +6834,7 @@
             "description": "Allows users to redirect from old URLs to new URLs.",
             "homepage": "https://www.drupal.org/project/redirect",
             "support": {
-                "source": "http://cgit.drupalcode.org/redirect"
+                "source": "https://git.drupalcode.org/project/redirect"
             }
         },
         {
@@ -6841,7 +6861,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-alpha1",
-                    "datestamp": "1459597139",
+                    "datestamp": "1556903887",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -6857,12 +6877,8 @@
             ],
             "authors": [
                 {
-                    "name": "Andrew Schulman",
-                    "homepage": "https://www.drupal.org/user/279446"
-                },
-                {
-                    "name": "David Lesieur",
-                    "homepage": "https://www.drupal.org/user/17157"
+                    "name": "JeroenT",
+                    "homepage": "https://www.drupal.org/user/2228934"
                 },
                 {
                     "name": "benjy",
@@ -6872,7 +6888,7 @@
             "description": "Allows site administrators to grant some roles the authority to assign selected roles to users.",
             "homepage": "https://www.drupal.org/project/role_delegation",
             "support": {
-                "source": "http://cgit.drupalcode.org/role_delegation"
+                "source": "https://git.drupalcode.org/project/role_delegation"
             }
         },
         {
@@ -6933,7 +6949,7 @@
             "description": "React on events and conditionally evaluate actions.",
             "homepage": "https://www.drupal.org/project/rules",
             "support": {
-                "source": "http://cgit.drupalcode.org/rules"
+                "source": "https://git.drupalcode.org/project/rules"
             }
         },
         {
@@ -6981,7 +6997,7 @@
             "description": "Create scheduled updates to field values on entities such content, users, and terms.",
             "homepage": "https://www.drupal.org/project/scheduled_updates",
             "support": {
-                "source": "http://cgit.drupalcode.org/scheduled_updates"
+                "source": "https://git.drupalcode.org/project/scheduled_updates"
             }
         },
         {
@@ -7017,7 +7033,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.12",
-                    "datestamp": "1552334285",
+                    "datestamp": "1557244685",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7100,7 +7116,7 @@
             "description": "Extract and index file fields content.",
             "homepage": "https://www.drupal.org/project/search_api_attachments",
             "support": {
-                "source": "http://cgit.drupalcode.org/search_api_attachments"
+                "source": "https://git.drupalcode.org/project/search_api_attachments"
             }
         },
         {
@@ -7292,7 +7308,7 @@
             "description": "Offers an implementation of the Search API that uses an Apache Solr server for indexing content.",
             "homepage": "https://www.drupal.org/project/search_api_solr_multilingual",
             "support": {
-                "source": "http://cgit.drupalcode.org/search_api_solr_multilingual"
+                "source": "https://git.drupalcode.org/project/search_api_solr_multilingual"
             }
         },
         {
@@ -7403,7 +7419,7 @@
             "description": "Enables user login and other forms to be submitted securely via HTTPS and enforces secure authenticated sessions.",
             "homepage": "https://www.drupal.org/project/securelogin",
             "support": {
-                "source": "http://cgit.drupalcode.org/securelogin"
+                "source": "https://git.drupalcode.org/project/securelogin"
             }
         },
         {
@@ -7457,7 +7473,7 @@
             "description": "Sharing module using AddThis widgets and entity based storage.",
             "homepage": "https://www.drupal.org/project/sharemessage",
             "support": {
-                "source": "http://cgit.drupalcode.org/sharemessage"
+                "source": "https://git.drupalcode.org/project/sharemessage"
             }
         },
         {
@@ -7508,7 +7524,7 @@
             "description": "Provides a Google Maps link/map formatter for simple Text fields.",
             "homepage": "https://www.drupal.org/project/simple_gmap",
             "support": {
-                "source": "http://cgit.drupalcode.org/simple_gmap"
+                "source": "https://git.drupalcode.org/project/simple_gmap"
             }
         },
         {
@@ -7688,7 +7704,7 @@
             "description": "Field for SoundCloud tracks and sets.",
             "homepage": "https://www.drupal.org/project/soundcloudfield",
             "support": {
-                "source": "http://cgit.drupalcode.org/soundcloudfield"
+                "source": "https://git.drupalcode.org/project/soundcloudfield"
             }
         },
         {
@@ -7735,7 +7751,7 @@
             "description": "Improves the Drupal login and registration forms.",
             "homepage": "https://www.drupal.org/project/super_login",
             "support": {
-                "source": "http://cgit.drupalcode.org/super_login"
+                "source": "https://git.drupalcode.org/project/super_login"
             }
         },
         {
@@ -7772,7 +7788,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.7",
-                    "datestamp": "1550692533",
+                    "datestamp": "1556745486",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7820,7 +7836,7 @@
             "description": "Translation Management Tool",
             "homepage": "https://www.drupal.org/project/tmgmt",
             "support": {
-                "source": "http://cgit.drupalcode.org/tmgmt"
+                "source": "https://git.drupalcode.org/project/tmgmt"
             }
         },
         {
@@ -7887,7 +7903,7 @@
             "description": "Provides a user interface for the Token API and some missing core tokens.",
             "homepage": "https://www.drupal.org/project/token",
             "support": {
-                "source": "http://cgit.drupalcode.org/token"
+                "source": "https://git.drupalcode.org/project/token"
             }
         },
         {
@@ -7937,7 +7953,7 @@
             "description": "Apply themes to the toolbar.",
             "homepage": "https://www.drupal.org/project/toolbar_themes",
             "support": {
-                "source": "http://cgit.drupalcode.org/toolbar_themes"
+                "source": "https://git.drupalcode.org/project/toolbar_themes"
             }
         },
         {
@@ -7984,7 +8000,7 @@
             "description": "Twig filters for value(s) and label.",
             "homepage": "https://www.drupal.org/project/twig_field_value",
             "support": {
-                "source": "http://cgit.drupalcode.org/twig_field_value"
+                "source": "https://git.drupalcode.org/project/twig_field_value"
             }
         },
         {
@@ -8102,7 +8118,7 @@
             "description": "Provides configurable blocks for a Twitter feed.",
             "homepage": "http://drupal.org/project/twitter_block",
             "support": {
-                "source": "http://cgit.drupalcode.org/twitter_block"
+                "source": "https://git.drupalcode.org/project/twitter_block"
             }
         },
         {
@@ -8135,7 +8151,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-alpha2",
-                    "datestamp": "1536437580",
+                    "datestamp": "1554612486",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -8159,7 +8175,7 @@
             "description": "Extends the core Typed Data API with new APIS and features.",
             "homepage": "https://www.drupal.org/project/typed_data",
             "support": {
-                "source": "http://cgit.drupalcode.org/typed_data"
+                "source": "https://git.drupalcode.org/project/typed_data"
             }
         },
         {
@@ -8224,7 +8240,7 @@
             "description": "Allows embedding of URLs using the Drupal 8 WYSIWYG or link fields.",
             "homepage": "https://www.drupal.org/project/url_embed",
             "support": {
-                "source": "http://cgit.drupalcode.org/url_embed",
+                "source": "https://git.drupalcode.org/project/url_embed",
                 "issues": "https://www.drupal.org/project/issues/url_embed",
                 "irc": "irc://irc.freenode.org/drupal-media"
             }
@@ -8273,7 +8289,7 @@
             "description": "Prevents username enumeration on password reset and user pages.",
             "homepage": "https://www.drupal.org/project/username_enumeration_prevention",
             "support": {
-                "source": "http://cgit.drupalcode.org/username_enumeration_prevention"
+                "source": "https://git.drupalcode.org/project/username_enumeration_prevention"
             }
         },
         {
@@ -8334,7 +8350,7 @@
             "description": "A pluggable field type for storing videos from external video hosts such as Vimeo and YouTube.",
             "homepage": "https://www.drupal.org/project/video_embed_field",
             "support": {
-                "source": "http://cgit.drupalcode.org/video_embed_field"
+                "source": "https://git.drupalcode.org/project/video_embed_field"
             }
         },
         {
@@ -8447,7 +8463,7 @@
             "description": "Workbench Access Menu Link",
             "homepage": "https://www.drupal.org/project/wba_menu_link",
             "support": {
-                "source": "http://cgit.drupalcode.org/wba_menu_link"
+                "source": "https://git.drupalcode.org/project/wba_menu_link"
             }
         },
         {
@@ -8546,7 +8562,7 @@
             "description": "Migrating Workbench Moderation's configuration to Workflows, because I'm a sucker for pain.",
             "homepage": "https://www.drupal.org/project/wbm2cm",
             "support": {
-                "source": "http://cgit.drupalcode.org/wbm2cm"
+                "source": "https://git.drupalcode.org/project/wbm2cm"
             }
         },
         {
@@ -8588,7 +8604,7 @@
                 },
                 "drupal": {
                     "version": "8.x-5.2-rc3",
-                    "datestamp": "1552733285",
+                    "datestamp": "1553768585",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -8730,7 +8746,7 @@
             "description": "Allows arbitrary ordering of entities.",
             "homepage": "https://www.drupal.org/project/weight",
             "support": {
-                "source": "http://cgit.drupalcode.org/weight"
+                "source": "https://git.drupalcode.org/project/weight"
             }
         },
         {
@@ -8793,7 +8809,7 @@
             "description": "Hierarchical access control for content.",
             "homepage": "https://www.drupal.org/project/workbench_access",
             "support": {
-                "source": "http://cgit.drupalcode.org/workbench_access"
+                "source": "https://git.drupalcode.org/project/workbench_access"
             }
         },
         {
@@ -8946,7 +8962,7 @@
             ],
             "homepage": "https://www.drupal.org/project/workbench_moderation_actions",
             "support": {
-                "source": "http://cgit.drupalcode.org/workbench_moderation_actions"
+                "source": "https://git.drupalcode.org/project/workbench_moderation_actions"
             }
         },
         {
@@ -8993,7 +9009,7 @@
             "description": "Provides XML-RPC functionality.",
             "homepage": "https://www.drupal.org/project/xmlrpc",
             "support": {
-                "source": "http://cgit.drupalcode.org/xmlrpc"
+                "source": "https://git.drupalcode.org/project/xmlrpc"
             }
         },
         {
@@ -13305,7 +13321,7 @@
             "description": "Enables administrators to package configuration into modules.",
             "homepage": "https://www.drupal.org/project/features",
             "support": {
-                "source": "http://cgit.drupalcode.org/features"
+                "source": "https://git.drupalcode.org/project/features"
             }
         },
         {
