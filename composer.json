@@ -262,6 +262,9 @@
       "drupal/entity_embed": {
         "Issue #2882866: Provide a preview display setting for use in WYSIWYG editors": "https://www.drupal.org/files/issues/entity_embed-preview_display_plugin-2882866-2.patch"
       },
+      "drupal/facets": {
+        "Issue #3052574: Facets with AJAX not working in most of situations": "https://www.drupal.org/files/issues/2019-05-14/facets-ajax-3052574-13.patch"
+      },
       "drupal/field_default_token": {
         "Issue #2860580: Apply field_default_token patches 2841292 and 2854384": "https://www.drupal.org/files/issues/2841292-7-and-2854384-4.patch"
       },
@@ -358,7 +361,7 @@
     "drupal/entityqueue": "1.0-alpha8",
     "drupal/eu_cookie_compliance": "1.5",
     "drupal/extlink": "1.1",
-    "drupal/facets": "1.3",
+    "drupal/facets": "1.4",
     "drupal/fakeobjects": "1.0",
     "drupal/fast_404": "1.0-alpha4",
     "drupal/fences": "2.0-alpha1",
@@ -392,6 +395,7 @@
     "drupal/page_manager": "4.0-beta3",
     "drupal/panels": "4.2",
     "drupal/paragraphs": "1.6",
+    "drupal/paragraphs_asymmetric_translation_widgets": "1.0-beta1",
     "drupal/pathauto": "1.3",
     "drupal/redirect": "1.3",
     "drupal/role_delegation": "1.0-alpha1",
