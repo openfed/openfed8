@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+09 July 2019 - Version 6.2
+----------------------------
+  Updated Menu Breadcrumb to version 1.9 since, due to core changes, breadcrumbs were broken in some situations.
+  Updated Facets to 1.4, with a patch, to fix special cases where views were getting broken.
+  Added paragraphs_asymmetric_translation_widgets to add a functionality not supported by paragraphs module.
+
 10 May 2019 - Version 6.1
 ----------------------------
   Update to Drupal Core 8.6.16 (SA-CORE-2019-007)
