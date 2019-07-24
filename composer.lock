@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bdcadb1c54d2758c02c5a1473459ac45",
+    "content-hash": "f3c008cb45ffe7a52b210403915dcab6",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -6121,6 +6121,7 @@
                     }
                 },
                 "patches_applied": {
+                    "Issue #2894298: Attempt to create field storage menu_link which is reserved by entity type node.": "https://www.drupal.org/files/issues/2019-07-23/menu_link-field-storage-2894298-11.patch",
                     "Issue #2907989: Problem creating pathauto joined paths": "https://www.drupal.org/files/issues/wrong_joined_paths-2907989-4.patch"
                 }
             },

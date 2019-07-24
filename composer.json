@@ -281,6 +281,7 @@
         "Issue #2756675: Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/2018-05-02/menu_block_follow-2756675-45.patch"
       },
       "drupal/menu_link": {
+	  "Issue #2894298: Attempt to create field storage menu_link which is reserved by entity type node.": "https://www.drupal.org/files/issues/2019-07-23/menu_link-field-storage-2894298-11.patch",
           "Issue #2907989: Problem creating pathauto joined paths": "https://www.drupal.org/files/issues/wrong_joined_paths-2907989-4.patch"
       },
       "drupal/menu_trail_by_path": {
