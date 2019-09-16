@@ -16,4 +16,4 @@ default_value_callback: ''
 settings:
   handler: default
   handler_settings: {  }
-field_type: entity_reference
+field_type: string
