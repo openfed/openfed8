@@ -1,12 +1,13 @@
 langcode: en
 status: true
 dependencies:
-  config:
-    - sharemessage.sharemessage.openfed_default
-  module:
-    - sharemessage
-  theme:
-    - bootstrap
+  enforced:
+    config:
+      - sharemessage.sharemessage.openfed_default
+    module:
+      - sharemessage
+    theme:
+      - bootstrap
 id: sharemessage
 theme: bootstrap
 region: content
