@@ -1,0 +1,10 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - file_entity.type.other
+id: file.other
+target_entity_type_id: file
+target_bundle: other
+default_langcode: site_default
+language_alterable: false
