@@ -35,6 +35,4 @@ function openfed_multilingual_install() {
     ->set('url.prefixes.en', 'en')
     ->save(TRUE);
 
-  // Ensure the translation fields are created in the database.
-  \Drupal::service('entity.definition_update_manager')->applyUpdates();
 }
