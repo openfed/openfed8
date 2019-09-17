@@ -6,8 +6,6 @@ dependencies:
     - node
     - openfed_administration
     - user
-_core:
-  default_config_hash: YIwhIF9MSP1E_HMam6MrYeti_UqMXQiLDMjDsPFKK8s
 id: content
 label: Content
 module: node

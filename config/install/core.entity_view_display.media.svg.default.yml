@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.media.svg.field_media_generic_2
     - field.field.media.svg.field_svg
     - media.type.svg
   module:
@@ -50,6 +51,7 @@ content:
     type: openfed_svg_file_formatter
     region: ds_content
 hidden:
+  field_media_generic_2: true
   langcode: true
   name: true
   thumbnail: true

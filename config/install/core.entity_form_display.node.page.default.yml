@@ -4,7 +4,9 @@ dependencies:
   config:
     - field.field.node.page.body
     - node.type.page
+    - workflows.workflow.openfed_workflow
   module:
+    - content_moderation
     - path
     - text
 id: node.page.default
@@ -14,7 +16,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 0
+    weight: 1
     settings:
       rows: 9
       summary_rows: 3
@@ -23,19 +25,19 @@ content:
     region: content
   created:
     type: datetime_timestamp
-    weight: 10
+    weight: 3
     settings: {  }
     third_party_settings: {  }
     region: content
-  langcode:
-    type: language_select
-    weight: 2
+  moderation_state:
+    type: moderation_state_default
+    weight: 8
     settings: {  }
-    third_party_settings: {  }
     region: content
+    third_party_settings: {  }
   path:
     type: path
-    weight: 30
+    weight: 6
     settings: {  }
     third_party_settings: {  }
     region: content
@@ -43,26 +45,26 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 15
+    weight: 4
     third_party_settings: {  }
     region: content
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 120
+    weight: 9
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 16
+    weight: 5
     third_party_settings: {  }
     region: content
   title:
     type: string_textfield
-    weight: -5
+    weight: 0
     settings:
       size: 60
       placeholder: ''
@@ -70,12 +72,12 @@ content:
     region: content
   translation:
     weight: 10
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
   uid:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 2
     settings:
       match_operator: CONTAINS
       size: 60
@@ -83,8 +85,9 @@ content:
     third_party_settings: {  }
     region: content
   url_redirects:
-    weight: 50
+    weight: 7
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  langcode: true

@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.media.embed_entity
+    - field.field.media.svg.field_media_generic_2
     - field.field.media.svg.field_svg
     - media.type.svg
   module:
@@ -41,6 +42,7 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  field_media_generic_2: true
   langcode: true
   name: true
   thumbnail: true

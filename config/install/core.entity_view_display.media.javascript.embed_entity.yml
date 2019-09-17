@@ -4,6 +4,7 @@ dependencies:
   config:
     - core.entity_view_mode.media.embed_entity
     - field.field.media.javascript.field_body
+    - field.field.media.javascript.field_media_generic_1
     - media.type.javascript
   module:
     - ds
@@ -42,6 +43,7 @@ content:
     region: content
 hidden:
   created: true
+  field_media_generic_1: true
   langcode: true
   name: true
   thumbnail: true

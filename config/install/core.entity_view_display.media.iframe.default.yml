@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.media.iframe.field_body
+    - field.field.media.iframe.field_media_generic
     - image.style.thumbnail
     - media.type.iframe
   module:
@@ -81,4 +82,5 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_media_generic: true
   langcode: true

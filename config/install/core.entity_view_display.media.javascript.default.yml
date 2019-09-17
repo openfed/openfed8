@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.media.javascript.field_body
+    - field.field.media.javascript.field_media_generic_1
     - image.style.thumbnail
     - media.type.javascript
   module:
@@ -81,4 +82,5 @@ content:
     third_party_settings: {  }
     region: content
 hidden:
+  field_media_generic_1: true
   langcode: true
