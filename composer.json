@@ -362,7 +362,7 @@
     "drupal/field_default_token": "dev-1.x#cec380512962857e62a1c050fde77eb8d27652dc",
     "drupal/field_formatter": "1.2",
     "drupal/field_group": "1.0",
-    "drupal/file_entity": "2.0-beta6",
+    "drupal/file_entity": "2.0-beta7",
     "drupal/focal_point": "1.0",
     "drupal/google_analytics": "2.4",
     "drupal/honeypot": "1.29",
