@@ -1,6 +1,17 @@
 CHANGELOG
 =========
 
+18 September 2019 - Version 6.3
+----------------------------
+  Several module updates.
+  Core update.
+  Fixed compatibility issue with paragraphs and field_groups.
+  Added paragraphs asymmetric translation widget module.
+  Fixed menu_link issue when attempting to create a field storage menu_link.
+  Updated install configurations due to the conversion from workbench to content moderation.
+  Update to Metatag 8.x-1.10 (SA-CONTRIB-2019-058)
+  Update to Super Login 8.x-1.3 (SA-CONTRIB-2019-062)
+
 09 July 2019 - Version 6.2
 ----------------------------
   Updated Menu Breadcrumb to version 1.9 since, due to core changes, breadcrumbs were broken in some situations.
