@@ -262,6 +262,9 @@
       "drupal/field_default_token": {
         "Issue #2860580: Apply field_default_token patches 2841292 and 2854384": "https://www.drupal.org/files/issues/2841292-7-and-2854384-4.patch"
       },
+      "drupal/field_group": {
+        "Issue #2986704: Incompatibility with inline entity form": "https://www.drupal.org/files/issues/2018-10-30/field_group-inline_entity_form_compatibility-2986704-3.patch"
+      },
       "drupal/imce": {
         "Issue #2858430: no browser tab in user profile in drupal 8": "https://www.drupal.org/files/issues/imce_no_browser_tab-2858430-4.patch"
       },
@@ -272,10 +275,11 @@
         "Issue #2756675: Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/2018-05-02/menu_block_follow-2756675-45.patch"
       },
       "drupal/menu_link": {
-          "Issue #2907989: Problem creating pathauto joined paths": "https://www.drupal.org/files/issues/wrong_joined_paths-2907989-4.patch"
+        "Issue #2894298: Attempt to create field storage menu_link which is reserved by entity type node.": "https://www.drupal.org/files/issues/2019-07-23/menu_link-field-storage-2894298-11.patch",
+        "Issue #2907989: Problem creating pathauto joined paths": "https://www.drupal.org/files/issues/wrong_joined_paths-2907989-4.patch"
       },
       "drupal/menu_trail_by_path": {
-          "Issue #2870738: Wrong active trail with multiple menu items with the same path": "https://www.drupal.org/files/issues/multiple-menu-links-2870738-6.patch"
+        "Issue #2870738: Wrong active trail with multiple menu items with the same path": "https://www.drupal.org/files/issues/multiple-menu-links-2870738-6.patch"
       },
       "drupal/page_manager": {
         "Issue #2820218: Page manager does not respect existing route defaults for title callbacks": "https://www.drupal.org/files/issues/2018-03-21/2820218-50.patch",
@@ -287,7 +291,8 @@
         "Issue #2938850: Add Block visibility conditions": "https://www.drupal.org/files/issues/panels-block_visibility_conditions_apply_after_issue_2869412_2-2938850-2.patch"
       },
       "drupal/paragraphs": {
-        "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/2018-12-06/2461695-263.patch"
+        "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/2018-12-06/2461695-263.patch",
+        "Issue #2907094: Make paragraphs module working with field_group version 3.x with support for the field_layout module": "https://www.drupal.org/files/issues/2019-07-05/2907094_65_0.patch"
       },
       "drupal/soundcloudfield": {
         "Issue #2760787: Fix fatal error occurs on all pages": "https://www.drupal.org/files/issues/soundcloudfield-fatal_error_occurs_on_all_pages-2760787-3.patch"
@@ -358,7 +363,7 @@
     "drupal/fences": "2.0-alpha2",
     "drupal/field_default_token": "dev-1.x#cec380512962857e62a1c050fde77eb8d27652dc",
     "drupal/field_formatter": "1.2",
-    "drupal/field_group": "1.0",
+    "drupal/field_group": "3.0-rc1",
     "drupal/file_entity": "2.0-beta7",
     "drupal/focal_point": "1.1",
     "drupal/google_analytics": "2.4",
@@ -386,6 +391,7 @@
     "drupal/page_manager": "4.0-beta3",
     "drupal/panels": "4.2",
     "drupal/paragraphs": "1.6",
+    "drupal/paragraphs_asymmetric_translation_widgets": "1.0-beta2",
     "drupal/pathauto": "1.4",
     "drupal/redirect": "1.4",
     "drupal/role_delegation": "1.0",
