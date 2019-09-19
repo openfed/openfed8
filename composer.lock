@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fb40ff59c71468da150b63a0fe975de6",
+    "content-hash": "dd3da99e0744ca3ed5d7608cd8922c1e",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -6119,6 +6119,54 @@
             "homepage": "https://www.drupal.org/project/m4032404",
             "support": {
                 "source": "https://git.drupalcode.org/project/m4032404"
+            }
+        },
+        {
+            "name": "drupal/measuremail",
+            "version": "1.0.0-beta3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/measuremail.git",
+                "reference": "8.x-1.0-beta3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/measuremail-8.x-1.0-beta3.zip",
+                "reference": "8.x-1.0-beta3",
+                "shasum": "e44fe76a4fb97152ede3b7c179198a7e6fbaa2f5"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta3",
+                    "datestamp": "1554975181",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Ruben Marques (rutiolma)",
+                    "homepage": "https://www.drupal.org/u/rutiolma",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Add a subscription form to measuremail contact list.",
+            "homepage": "https://www.drupal.org/project/measuremail",
+            "support": {
+                "source": "https://git.drupalcode.org/project/measuremail"
             }
         },
         {
