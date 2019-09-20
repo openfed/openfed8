@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+20 September 2019 - Version 6.4
+----------------------------
+  Reverted Ctools due to incompatibilities with page_manager module.
+
 18 September 2019 - Version 6.3
 ----------------------------
   Several module updates.
