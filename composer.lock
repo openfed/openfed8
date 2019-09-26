@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0170054d36ba239da5d0ab7925a12a17",
+    "content-hash": "c0c82a83f535be4b58650be80c5a72eb",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -7166,17 +7166,17 @@
         },
         {
             "name": "drupal/search_api_attachments",
-            "version": "1.0.0-beta14",
+            "version": "1.0.0-beta13",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/search_api_attachments.git",
-                "reference": "8.x-1.0-beta14"
+                "reference": "8.x-1.0-beta13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/search_api_attachments-8.x-1.0-beta14.zip",
-                "reference": "8.x-1.0-beta14",
-                "shasum": "ced89509f2660fc5c0c6fc0ceddac8cf54d341c7"
+                "url": "https://ftp.drupal.org/files/projects/search_api_attachments-8.x-1.0-beta13.zip",
+                "reference": "8.x-1.0-beta13",
+                "shasum": "14835458d83b66adb499a020d41dbaa1c1e27800"
             },
             "require": {
                 "drupal/core": "~8.0",
@@ -7188,7 +7188,7 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.0-beta14",
+                    "version": "8.x-1.0-beta13",
                     "datestamp": "1562252286",
                     "security-coverage": {
                         "status": "not-covered",

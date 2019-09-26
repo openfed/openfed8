@@ -406,7 +406,7 @@
     "drupal/role_delegation": "1.0-alpha1",
     "drupal/rules": "3.0-alpha4",
     "drupal/search_api": "1.12",
-    "drupal/search_api_attachments": "1.0-beta14",
+    "drupal/search_api_attachments": "1.0-beta13",
     "drupal/search_api_autocomplete": "1.2",
     "drupal/search_api_solr": "1.2",
     "drupal/search_api_solr_multilingual": "1.1",
