@@ -131,6 +131,7 @@ projects[menu_trail_by_path][patch][2870738] = "https://www.drupal.org/files/iss
 projects[metatag][version] = "1.10"
 projects[node_edit_redirect][version] = "1.0-rc2"
 projects[ofed_switcher][version] = "1.3"
+projects[openfed_social][version] = "1.0-beta1"
 projects[override_node_options][version] = "2.4"
 projects[page_manager][version] = "4.0-beta3"
 projects[page_manager][patch][2820218] = "https://www.drupal.org/files/issues/2018-03-21/2820218-50.patch"

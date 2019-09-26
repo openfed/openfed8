@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3a29fdcdca547002b996b1a314c8b047",
+    "content-hash": "8cc20ef3fc453b51b3c90407e6d707ad",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -6627,6 +6627,57 @@
             "homepage": "https://www.drupal.org/project/ofed_switcher",
             "support": {
                 "source": "https://git.drupalcode.org/project/ofed_switcher"
+            }
+        },
+        {
+            "name": "drupal/openfed_social",
+            "version": "1.0.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/openfed_social.git",
+                "reference": "8.x-1.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/openfed_social-8.x-1.0-beta1.zip",
+                "reference": "8.x-1.0-beta1",
+                "shasum": "5e0c26df8d71cdcd14bc2f942aa3332a46cc0559"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta1",
+                    "datestamp": "1560443885",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "dolu",
+                    "homepage": "https://www.drupal.org/user/374670"
+                },
+                {
+                    "name": "rutiolma",
+                    "homepage": "https://www.drupal.org/user/757938"
+                }
+            ],
+            "description": "Provide links to share content on social networks.",
+            "homepage": "https://www.drupal.org/project/openfed_social",
+            "support": {
+                "source": "https://git.drupalcode.org/project/openfed_social"
             }
         },
         {
