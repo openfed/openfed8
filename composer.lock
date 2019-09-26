@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b351552b46d33138bb18b93530e9ed5",
+    "content-hash": "c7d05c974953d494fc79a15e7b079359",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -5502,6 +5502,7 @@
                     }
                 },
                 "patches_applied": {
+                    "Issue #2653574: Unable to keep nested IEF data separate with multivalue fields": "https://www.drupal.org/files/issues/2018-05-30/multivalue-complex-and-simple-ief-fix-2653574-100.patch",
                     "Issue #2822764: Support adding new entities when translating": "https://www.drupal.org/files/issues/2018-12-12/inline_entity_form-support_adding_new_entities_when_translating-2822764-42.patch"
                 }
             },
