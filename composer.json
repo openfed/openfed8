@@ -452,5 +452,10 @@
     "drupal/coder": "8.*",
     "drupal/devel": "1.2",
     "drupal/features": "3.2"
+  },
+  "config": {
+      "platform": {
+          "php": "7.1"
+      }
   }
 }
