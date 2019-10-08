@@ -154,3 +154,107 @@ function openfed_update_8603(&$sandbox) {
 
   return $message;
 }
+
+
+/**
+ * Update menu_block configs due to patch update.
+ */
+function menu_block_update_8701() {
+  // Update used to change the config created with a previous patch. This new
+  // config is still not in a stable release but it was already commited to
+  // menu_block dev branch.
+  if (\Drupal::moduleHandler()->moduleExists('menu_block')) {
+    $config_factory = \Drupal::configFactory();
+    $count_custom_trails = 0;
+
+    // This piece will work for block configs.
+    foreach ($config_factory->listAll('block.block.') as $block_config_name) {
+      $block = $config_factory->getEditable($block_config_name);
+
+      // Check if this is a menu_block.
+      $plugin = $block->get('plugin');
+      if (strpos($plugin, 'menu_block:') === 0) {
+        // Do the updates.
+        $settings = $block->get('settings');
+
+        if (strpos($settings['parent'], 'active_trail')) {
+          $settings['parent'] = str_replace('active_trail', '', $settings['parent']);
+          $settings['follow'] = 1;
+          $settings['follow_parent'] = 'active';
+        } else if (strpos($settings['parent'], 'active_trail_parent')) {
+          $settings['parent'] = str_replace('active_trail', '', $settings['parent']);
+          $settings['follow'] = 1;
+          $settings['follow_parent'] = 'child';
+        } else if (strpos($settings['parent'], 'active_trail_custom')) {
+          // This is a fallback since the new patch doesn't really have this option.
+          $settings['parent'] = str_replace('active_trail', '', $settings['parent']);
+          $settings['follow'] = 1;
+          $settings['follow_parent'] = 'child';
+          $count_custom_trails ++;
+          unset($settings['custom_level']);
+        }
+
+        unset($settings['custom_level']);
+        unset($settings['hide_children']);
+        unset($settings['expand_only_active_trails']);
+
+        $block->set('settings', $settings);
+        // Mark the resulting configuration as trusted data. This avoids issues with
+        // future schema changes.
+        $block->save(TRUE);
+      }
+    }
+
+    // This piece will work for page_variants.
+    // This piece will work for block configs.
+    foreach ($config_factory->listAll('page_manager.page_variant.') as $variant_config_name) {
+      $variant = $config_factory->getEditable($variant_config_name);
+
+      // Check if this is a menu_block.
+      $variant_settings = $variant->get('variant_settings');
+      if (isset($variant_settings['blocks'])) {
+
+        foreach ($variant_settings['blocks'] as &$panel_block) {
+          if ($panel_block['provider'] == 'menu_block') {
+
+            if (strpos($panel_block['parent'], 'active_trail')) {
+              $panel_block['parent'] = str_replace('active_trail', '', $panel_block['parent']);
+              $panel_block['follow'] = 1;
+              $panel_block['follow_parent'] = 'active';
+            } else if (strpos($panel_block['parent'], 'active_trail_parent')) {
+              $panel_block['parent'] = str_replace('active_trail', '', $panel_block['parent']);
+              $panel_block['follow'] = 1;
+              $panel_block['follow_parent'] = 'child';
+            } else if (strpos($panel_block['parent'], 'active_trail_custom')) {
+              // This is a fallback since the new patch doesn't really have this option.
+              $panel_block['parent'] = str_replace('active_trail', '', $panel_block['parent']);
+              $panel_block['follow'] = 1;
+              $panel_block['follow_parent'] = 'child';
+              $count_custom_trails ++;
+              unset($panel_block['custom_level']);
+            }
+
+            unset($panel_block['custom_level']);
+            unset($panel_block['hide_children']);
+            unset($panel_block['expand_only_active_trails']);
+
+          }
+        }
+
+        $variant->set('variant_settings', $variant_settings);
+        // Mark the resulting configuration as trusted data. This avoids issues
+        // with future schema changes.
+        $variant->save(TRUE);
+
+      }
+    }
+
+    if ($count_custom_trails > 0) {
+      $count_custom_trails_message = t('There were %count custom active trails updated.');
+    }
+    return t('Block settings updated.') + $count_custom_trails_message;
+  }
+
+  return t('Menu Block is not installed.');
+
+}
