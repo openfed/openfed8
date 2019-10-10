@@ -160,7 +160,7 @@ function openfed_update_8603(&$sandbox) {
 /**
  * Update menu_block configs due to patch update.
  */
-function menu_block_update_8701() {
+function openfed_update_8701() {
   // Update used to change the config created with a previous patch. This new
   // config is still not in a stable release but it was already commited to
   // menu_block dev branch.
