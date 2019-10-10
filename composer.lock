@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4825a6dc79844a9ee69514495b3a64d8",
+    "content-hash": "462aeaa6048efb076a8d8cf1bb1f495d",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -4767,6 +4767,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Issue #3086327: Show translated entity label": "https://www.drupal.org/files/issues/2019-10-07/entity_browser-show_translated_entity_label-3086327-2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

@@ -259,6 +259,9 @@
       "drupal/entity_embed": {
         "Issue #2882866: Provide a preview display setting for use in WYSIWYG editors": "https://www.drupal.org/files/issues/2019-05-03/entity_embed-preview_display_plugin-2882866-14.patch"
       },
+      "drupal/entity_browser": {
+        "Issue #3086327: Show translated entity label": "https://www.drupal.org/files/issues/2019-10-07/entity_browser-show_translated_entity_label-3086327-2.patch"
+      },
       "drupal/field_default_token": {
         "Issue #2860580: Apply field_default_token patches 2841292 and 2854384": "https://www.drupal.org/files/issues/2841292-7-and-2854384-4.patch"
       },
