@@ -1,6 +1,20 @@
 CHANGELOG
 =========
 
+10 May 2019 - Version 7.0
+----------------------------
+  Stable version 7.0.
+  This includes Core, several contrib module updates and:
+    Upgrade to Drush 9
+    Compatibility with PHP 7.3
+    Added Taxonomy Access Fix module
+    Added Leaflet and Maptiler modules
+    Added Kiso as a required Theme
+    Added Measuremail module
+    Added Openfed Social module.
+    Removed Media Entity module - check install notes.
+  This version also fixes issues with IEF, Entity Browser and bulk actions.
+
 10 May 2019 - Version 7.0-beta1
 ----------------------------
   Releasing the fist beta for 8.7.x
