@@ -156,6 +156,7 @@ function openfed_update_8603(&$sandbox) {
 }
 
 
+
 /**
  * Update menu_block configs due to patch update.
  */
@@ -177,23 +178,30 @@ function menu_block_update_8701() {
         // Do the updates.
         $settings = $block->get('settings');
 
+        // The following code will update from the old settings, provided by a 
+        // previous patch, to new settings matching the latest dev version.
         if (strpos($settings['parent'], 'active_trail')) {
           $settings['parent'] = str_replace('active_trail', '', $settings['parent']);
           $settings['follow'] = 1;
           $settings['follow_parent'] = 'active';
-        } else if (strpos($settings['parent'], 'active_trail_parent')) {
-          $settings['parent'] = str_replace('active_trail', '', $settings['parent']);
-          $settings['follow'] = 1;
-          $settings['follow_parent'] = 'child';
-        } else if (strpos($settings['parent'], 'active_trail_custom')) {
-          // This is a fallback since the new patch doesn't really have this option.
-          $settings['parent'] = str_replace('active_trail', '', $settings['parent']);
-          $settings['follow'] = 1;
-          $settings['follow_parent'] = 'child';
-          $count_custom_trails ++;
-          unset($settings['custom_level']);
         }
-
+        else {
+          if (strpos($settings['parent'], 'active_trail_parent')) {
+            $settings['parent'] = str_replace('active_trail', '', $settings['parent']);
+            $settings['follow'] = 1;
+            $settings['follow_parent'] = 'child';
+          }
+          else {
+            if (strpos($settings['parent'], 'active_trail_custom')) {
+              // This is a fallback since the new patch doesn't really have this option.
+              $settings['parent'] = str_replace('active_trail', '', $settings['parent']);
+              $settings['follow'] = 1;
+              $settings['follow_parent'] = 'child';
+              $count_custom_trails++;
+              unset($settings['custom_level']);
+            }
+          }
+        }
         unset($settings['custom_level']);
         unset($settings['hide_children']);
         unset($settings['expand_only_active_trails']);
@@ -217,27 +225,35 @@ function menu_block_update_8701() {
         foreach ($variant_settings['blocks'] as &$panel_block) {
           if ($panel_block['provider'] == 'menu_block') {
 
+            // The following code will update from the old settings, provided by
+            // a previous patch, to new settings matching the latest dev 
+            // version.
             if (strpos($panel_block['parent'], 'active_trail')) {
               $panel_block['parent'] = str_replace('active_trail', '', $panel_block['parent']);
               $panel_block['follow'] = 1;
               $panel_block['follow_parent'] = 'active';
-            } else if (strpos($panel_block['parent'], 'active_trail_parent')) {
-              $panel_block['parent'] = str_replace('active_trail', '', $panel_block['parent']);
-              $panel_block['follow'] = 1;
-              $panel_block['follow_parent'] = 'child';
-            } else if (strpos($panel_block['parent'], 'active_trail_custom')) {
-              // This is a fallback since the new patch doesn't really have this option.
-              $panel_block['parent'] = str_replace('active_trail', '', $panel_block['parent']);
-              $panel_block['follow'] = 1;
-              $panel_block['follow_parent'] = 'child';
-              $count_custom_trails ++;
-              unset($panel_block['custom_level']);
+            }
+            else {
+              if (strpos($panel_block['parent'], 'active_trail_parent')) {
+                $panel_block['parent'] = str_replace('active_trail', '', $panel_block['parent']);
+                $panel_block['follow'] = 1;
+                $panel_block['follow_parent'] = 'child';
+              }
+              else {
+                if (strpos($panel_block['parent'], 'active_trail_custom')) {
+                  // This is a fallback since the new patch doesn't really have this option.
+                  $panel_block['parent'] = str_replace('active_trail', '', $panel_block['parent']);
+                  $panel_block['follow'] = 1;
+                  $panel_block['follow_parent'] = 'child';
+                  $count_custom_trails++;
+                  unset($panel_block['custom_level']);
+                }
+              }
             }
 
             unset($panel_block['custom_level']);
             unset($panel_block['hide_children']);
             unset($panel_block['expand_only_active_trails']);
-
           }
         }
 
@@ -245,7 +261,6 @@ function menu_block_update_8701() {
         // Mark the resulting configuration as trusted data. This avoids issues
         // with future schema changes.
         $variant->save(TRUE);
-
       }
     }
 
@@ -258,3 +273,4 @@ function menu_block_update_8701() {
   return t('Menu Block is not installed.');
 
 }
+
