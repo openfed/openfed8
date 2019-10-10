@@ -323,7 +323,7 @@
     "cweagans/composer-patches": "~1.0",
     "openfed/kiso": "2.2",
     "drupal/core": "8.7.7",
-    "drush/drush": "~8.0",
+    "drush/drush": "~9.0",
     "drupal/console": "~1.0",
     "drupal/addanother": "1.0-rc1",
     "drupal/admin_toolbar": "1.27",
