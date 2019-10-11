@@ -264,13 +264,34 @@ function openfed_update_8701() {
       }
     }
 
+    $message = t('Block settings updated.');
     if ($count_custom_trails > 0) {
-      $count_custom_trails_message = t('There were %count custom active trails updated.');
+      $message .= ' ' . t('There were %count custom active trails updated.');
     }
-    return t('Block settings updated.') + $count_custom_trails_message;
+    return $message;
   }
 
   return t('Menu Block is not installed.');
 
 }
 
+/**
+ * This update will make sure that media_entity is uninstalled, avoiding errors 
+ * on some installations.
+ */
+function openfed_update_8702(&$sandbox) {
+  $message = '';
+
+  $uninstall_status = \Drupal::service('module_installer')->uninstall(['media_entity']);
+  if ($uninstall_status) {
+    $message .= 'Media Entity was uninstalled successfully';
+  } else {
+    \Drupal::database()->delete('key_value')
+      ->condition('collection', 'system.schema')
+      ->condition('name', 'media_entity')
+      ->execute();
+    $message .= 'Media Entity was removed.';
+  }
+
+  return $message;
+}
