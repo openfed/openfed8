@@ -242,9 +242,11 @@ function openfed_update_8701() {
               else {
                 if (strpos($panel_block['parent'], 'active_trail_custom')) {
                   // This is a fallback since the new patch doesn't really have this option.
+                  // The following options seem to be the less intrusive.
                   $panel_block['parent'] = str_replace('active_trail', '', $panel_block['parent']);
-                  $panel_block['follow'] = 1;
-                  $panel_block['follow_parent'] = 'child';
+                  $panel_block['expand'] = 0;
+                  $panel_block['follow'] = 0;
+                  $panel_block['follow_parent'] = 'child'; // this is not important
                   $count_custom_trails++;
                   unset($panel_block['custom_level']);
                 }
