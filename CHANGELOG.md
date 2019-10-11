@@ -1,7 +1,14 @@
 CHANGELOG
 =========
 
-10 May 2019 - Version 7.0
+11 October 2019 - Version 7.1
+----------------------------
+  Since version 7.0:
+    * Reverted to Ctools 3.0
+    * Re-added Media Entity module due to uninstall problems
+    * Improved the update mechanism
+
+10 October 2019 - Version 7.0
 ----------------------------
   Stable version 7.0.
   This includes Core, several contrib module updates and:
