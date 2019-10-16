@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+16 October 2019 - Version 7.2
+----------------------------
+  Removed unnecessary config, which caused installation problems
+
 11 October 2019 - Version 7.1
 ----------------------------
   Since version 7.0:
