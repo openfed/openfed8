@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+19 November 2019 - Version 7.3
+----------------------------
+  Update Kiso to version 2.3
+
 16 October 2019 - Version 7.2
 ----------------------------
   Removed unnecessary config, which caused installation problems

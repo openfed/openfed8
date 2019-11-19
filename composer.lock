@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "58a9be9a94793315d84195aa3b8692f5",
+    "content-hash": "c514da5bb16445f13d898dd614bfe610",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2674,7 +2674,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.1",
-                    "datestamp": "1492709942",
+                    "datestamp": "1573747386",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2955,7 +2955,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.5",
-                    "datestamp": "1564594686",
+                    "datestamp": "1570908184",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4228,6 +4228,10 @@
                     "homepage": "https://www.drupal.org/user/3260690"
                 },
                 {
+                    "name": "phenaproxima",
+                    "homepage": "https://www.drupal.org/user/205645"
+                },
+                {
                     "name": "slashrsm",
                     "homepage": "https://www.drupal.org/user/744628"
                 },
@@ -4459,6 +4463,10 @@
                 {
                     "name": "miro_dietiker",
                     "homepage": "https://www.drupal.org/user/227761"
+                },
+                {
+                    "name": "phenaproxima",
+                    "homepage": "https://www.drupal.org/user/205645"
                 },
                 {
                     "name": "realityloop",
@@ -6448,7 +6456,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta4",
-                    "datestamp": "1561627091",
+                    "datestamp": "1571214786",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -6553,7 +6561,7 @@
                 },
                 "drupal": {
                     "version": "8.x-5.0-beta9",
-                    "datestamp": "1562194985",
+                    "datestamp": "1573783085",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -7029,6 +7037,14 @@
                 {
                     "name": "dawehner",
                     "homepage": "https://www.drupal.org/user/99340"
+                },
+                {
+                    "name": "jnicola",
+                    "homepage": "https://www.drupal.org/user/224754"
+                },
+                {
+                    "name": "johndevman",
+                    "homepage": "https://www.drupal.org/user/3331569"
                 },
                 {
                     "name": "miro_dietiker",
@@ -7682,6 +7698,10 @@
                     "homepage": "https://www.drupal.org/user/1853532"
                 },
                 {
+                    "name": "jstoller",
+                    "homepage": "https://www.drupal.org/user/99012"
+                },
+                {
                     "name": "miro_dietiker",
                     "homepage": "https://www.drupal.org/user/227761"
                 }
@@ -7774,7 +7794,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.4",
-                    "datestamp": "1554239887",
+                    "datestamp": "1570828084",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -8470,7 +8490,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta2",
-                    "datestamp": "1481758983",
+                    "datestamp": "1571729286",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -9679,7 +9699,7 @@
                 },
                 "drupal": {
                     "version": "8.x-5.5-rc2",
-                    "datestamp": "1570176784",
+                    "datestamp": "1572377284",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
@@ -10014,7 +10034,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-alpha1",
-                    "datestamp": "1511792585",
+                    "datestamp": "1571397488",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -11204,16 +11224,16 @@
         },
         {
             "name": "openfed/kiso",
-            "version": "2.2",
+            "version": "2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openfed/kiso.git",
-                "reference": "6aa36ae9c32bc72d285b48975bd7c09223be7f45"
+                "reference": "87dc5bf23c3dc50ea6761007041e6f37ca8e3b9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openfed/kiso/zipball/6aa36ae9c32bc72d285b48975bd7c09223be7f45",
-                "reference": "6aa36ae9c32bc72d285b48975bd7c09223be7f45",
+                "url": "https://api.github.com/repos/openfed/kiso/zipball/87dc5bf23c3dc50ea6761007041e6f37ca8e3b9b",
+                "reference": "87dc5bf23c3dc50ea6761007041e6f37ca8e3b9b",
                 "shasum": ""
             },
             "require": {
@@ -11231,7 +11251,7 @@
                 }
             ],
             "description": "Drupal Kiso (基礎) base theme for Drupal 8 themes",
-            "time": "2019-09-27T10:55:42+00:00"
+            "time": "2019-11-05T10:51:14+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -14573,6 +14593,10 @@
                 {
                     "name": "See contributors",
                     "homepage": "https://www.drupal.org/node/3236/committers"
+                },
+                {
+                    "name": "pcambra",
+                    "homepage": "https://www.drupal.org/user/122101"
                 },
                 {
                     "name": "salvis",

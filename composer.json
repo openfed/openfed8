@@ -324,7 +324,7 @@
     "oomphinc/composer-installers-extender": "^1.1",
     "drupal-composer/drupal-scaffold": "^2.0.1",
     "cweagans/composer-patches": "~1.0",
-    "openfed/kiso": "2.2",
+    "openfed/kiso": "2.3",
     "drupal/core": "8.7.7",
     "drush/drush": "~9.0",
     "drupal/console": "~1.0",
