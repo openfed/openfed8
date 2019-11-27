@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+27 November 2019 - Version 8.0-rc1
+----------------------------
+  Update Drupal Core to version 8.x-8.0-rc1
+  Update Pathauto to 8.x-1.6-beta1
+
 19 November 2019 - Version 7.3
 ----------------------------
   Update Kiso to version 2.3
