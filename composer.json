@@ -294,8 +294,10 @@
         "Issue #2938850: Add Block visibility conditions": "https://www.drupal.org/files/issues/panels-block_visibility_conditions_apply_after_issue_2869412_2-2938850-2.patch"
       },
       "drupal/paragraphs": {
-        "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/2018-12-06/2461695-263.patch",
-        "Issue #2907094: Make paragraphs module working with field_group version 3.x with support for the field_layout module": "https://www.drupal.org/files/issues/2019-07-05/2907094_65_0.patch"
+        "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/2019-11-16/2461695-273.patch"
+      },
+      "drupal/paragraphs_asymmetric_translation_widgets": {
+        "Issue #2992777: Implement a migration path": "https://www.drupal.org/files/issues/2019-05-24/2992777-implement_migration_path-15.patch"
       },
       "drupal/soundcloudfield": {
         "Issue #2760787: Fix fatal error occurs on all pages": "https://www.drupal.org/files/issues/soundcloudfield-fatal_error_occurs_on_all_pages-2760787-3.patch"
@@ -332,11 +334,11 @@
     "drupal/admin_toolbar_content_languages": "1.0-beta2",
     "drupal/adminimal_theme": "1.5",
     "drupal/alertbox": "1.0-beta8",
-    "drupal/allowed_formats": "1.1",
+    "drupal/allowed_formats": "1.2",
     "drupal/anchor_link": "2.0-alpha2",
     "drupal/append_file_info": "1.0-rc2",
     "drupal/back_to_top": "1.0",
-    "drupal/bootstrap": "3.20",
+    "drupal/bootstrap": "3.21",
     "drupal/ckeditor_abbreviation": "1.5",
     "drupal/ckeditor_codemirror": "2.2",
     "drupal/ckeditor_find": "1.0-beta1",
@@ -402,7 +404,7 @@
     "drupal/override_node_options": "2.4",
     "drupal/page_manager": "4.0-beta3",
     "drupal/panels": "4.2",
-    "drupal/paragraphs": "1.6",
+    "drupal/paragraphs": "1.10",
     "drupal/paragraphs_asymmetric_translation_widgets": "1.0-beta2",
     "drupal/pathauto": "1.6-beta1",
     "drupal/redirect": "1.4",
