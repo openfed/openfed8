@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "260065978c51b96a5c3ae5166477153d",
+    "content-hash": "90e26b2665389498c14bdf6bf4636eca",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -7113,7 +7113,7 @@
                     }
                 },
                 "patches_applied": {
-                    "Issue #2870738: Wrong active trail with multiple menu items with the same path": "https://www.drupal.org/files/issues/multiple-menu-links-2870738-6.patch"
+                    "Issue #3099308: Menu Trail by Path: several issues": "https://www.drupal.org/files/issues/2019-12-06/menu_trail_by_path_issues-3099308-2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
