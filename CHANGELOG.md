@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+06 December 2019 - Version 8.0-rc2
+----------------------------
+  Update Drupal Core to version 8.x-8.0
+  Update Entity Reference Revisions to 8.x-1.7-rc2
+
 27 November 2019 - Version 8.0-rc1
 ----------------------------
   Update Drupal Core to version 8.x-8.0-rc1
