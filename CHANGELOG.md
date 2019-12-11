@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+11 December 2019 - Version 8.0-rc3
+----------------------------
+  Update Menu Trail by Path patch to fix compatibility errors.
+  Update Field Group, Leaflet, Leaflet Maptiler and Pathauto.
+
 06 December 2019 - Version 8.0-rc2
 ----------------------------
   Update Drupal Core to version 8.x-8.0
