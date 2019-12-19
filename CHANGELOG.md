@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+19 December 2019 - Version 7.4
+----------------------------
+  Update to Drupal Core due to SA-CORE-2019-0[09 to 12]
+  Update to Smart Trim due to SA-CONTRIB-2019-092
+  Update to Taxonomy Access Fix due to SA-CONTRIB-2019-093
+
 19 November 2019 - Version 7.3
 ----------------------------
   Update Kiso to version 2.3
