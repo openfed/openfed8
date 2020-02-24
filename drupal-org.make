@@ -50,7 +50,7 @@ projects[adminimal_theme][version] = "1.5"
 ; Please fill the following out. Type may be one of get, git, bzr or svn, and url is the url of the download.
 ;
 projects[addanother][version] = "1.0-rc1"
-projects[admin_toolbar][version] = "1.27"
+projects[admin_toolbar][version] = "2.0"
 projects[admin_toolbar_content_languages][version] = "1.0-beta2"
 projects[alertbox][version] = "1.0-beta8"
 projects[allowed_formats][version] = "1.2"
