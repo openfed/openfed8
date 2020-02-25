@@ -242,6 +242,9 @@
       }
     },
     "patches": {
+      "drupal/block_content_permissions": {
+        "Issue #2920739: Allow accessing the \"Custom block library\" page without \"Administer blocks\" permission": "https://www.drupal.org/files/issues/2019-06-20/block_content_permissions-access_listing_page-2920739-23.patch"
+      },
       "drupal/content_translation_workflow": {
         "Issue #2878504: fix a problem when publishing translations": "https://www.drupal.org/files/issues/2878504-1.patch"
       },
@@ -338,6 +341,7 @@
     "drupal/anchor_link": "2.0-alpha2",
     "drupal/append_file_info": "1.0-rc2",
     "drupal/back_to_top": "1.0",
+    "drupal/block_content_permissions": "1.8",
     "drupal/bootstrap": "3.21",
     "drupal/ckeditor_abbreviation": "1.5",
     "drupal/ckeditor_codemirror": "2.2",
