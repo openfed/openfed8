@@ -297,3 +297,20 @@ function openfed_update_8702(&$sandbox) {
 
   return $message;
 }
+
+/**
+ * This update will update pathauto settings, adding missing safe token.
+ */
+function openfed_update_8800(&$sandbox) {
+  $message = '';
+  $config_factory = \Drupal::configFactory();
+
+  $config = $config_factory->getEditable('pathauto.settings');
+  $safe_tokens = $config->get('safe_tokens');
+  if (!in_array('node:field_menulink:join-parents-path', $safe_tokens)) {
+    $config->set('safe_tokens', array_merge($safe_tokens, ['node:field_menulink:join-parents-path']))->save(TRUE);
+    $message .= 'Pathauto safe tokens updated.';
+  }
+
+  return $message;
+}
