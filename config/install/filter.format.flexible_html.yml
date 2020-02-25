@@ -5,6 +5,7 @@ dependencies:
     - editor
     - entity_embed
     - linkit
+    - media
 name: 'Flexible HTML'
 format: flexible_html
 weight: 0
@@ -13,52 +14,79 @@ filters:
     id: editor_file_reference
     provider: editor
     status: true
-    weight: 0
+    weight: -8
     settings: {  }
   entity_embed:
     id: entity_embed
     provider: entity_embed
     status: true
-    weight: 0
+    weight: -3
     settings: {  }
   filter_align:
     id: filter_align
     provider: filter
     status: true
-    weight: 0
+    weight: -7
     settings: {  }
   filter_caption:
     id: filter_caption
     provider: filter
     status: true
-    weight: 0
+    weight: -6
     settings: {  }
   filter_html:
     id: filter_html
     provider: filter
     status: true
-    weight: -10
+    weight: -9
     settings:
-      allowed_html: '<div id class role aria-*> <em class> <strong class> <cite> <code> <ul if type class> <ol id start type class> <li class> <dl class> <dt class> <dd class> <h2 id class> <h3 id class> <h4 id class> <h5 id class> <h6 id class> <br> <s> <sup> <sub> <drupal-entity id class data-*> <table class id cellpadding cellspacing frame rules sortable summary width> <caption align class id> <tbody class id align char charoff valign> <thead class id align char charoff valign> <tfoot class id align char charoff valign> <th class id abbr axis bgcolor char charoff colspan headers height nowrap rowspan scope valign width> <td class id abbr axis bgcolor char charoff colspan headers height nowrap rowspan scope valign width> <tr class id align bgcolor char charoff valign> <hr> <mark> <small class> <address class> <footer> <p class> <abbr title class> <blockquote cite class> <a name href hreflang class role data-* aria-* target> <button id role class autofocus disabled form* name type value> <img src alt height width class data-*> <span class> <colgroup class id align char charoff span valign width>'
+      allowed_html: '<div id class role aria-*> <em class> <strong class> <cite> <code> <ul if type class> <ol id start type class> <li class> <dl class> <dt class> <dd class> <h2 id class> <h3 id class> <h4 id class> <h5 id class> <h6 id class> <br> <s> <sup> <sub> <drupal-entity id class alt title data-*> <table class id cellpadding cellspacing frame rules sortable summary width> <caption align class id> <tbody class id align char charoff valign> <thead class id align char charoff valign> <tfoot class id align char charoff valign> <th class id abbr axis bgcolor char charoff colspan headers height nowrap rowspan scope valign width> <td class id abbr axis bgcolor char charoff colspan headers height nowrap rowspan scope valign width> <tr class id align bgcolor char charoff valign> <hr> <mark> <small class> <address class> <footer> <p class> <abbr title class> <blockquote cite class> <a name href hreflang class role data-* aria-* target> <button id role class autofocus disabled form* name type value> <img src alt height width class data-*> <span class> <colgroup class id align char charoff span valign width>'
       filter_html_help: true
       filter_html_nofollow: false
   filter_html_image_secure:
     id: filter_html_image_secure
     provider: filter
     status: true
-    weight: 9
+    weight: -4
     settings: {  }
   filter_url:
     id: filter_url
     provider: filter
     status: true
-    weight: 0
+    weight: -5
     settings:
       filter_url_length: 72
   linkit:
     id: linkit
     provider: linkit
     status: true
-    weight: -15
+    weight: -10
     settings:
       title: true
+  filter_autop:
+    id: filter_autop
+    provider: filter
+    status: false
+    weight: -1
+    settings: {  }
+  filter_html_escape:
+    id: filter_html_escape
+    provider: filter
+    status: false
+    weight: -2
+    settings: {  }
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: false
+    weight: 0
+    settings: {  }
+  media_embed:
+    id: media_embed
+    provider: media
+    status: false
+    weight: 1
+    settings:
+      default_view_mode: default
+      allowed_media_types: {  }
+      allowed_view_modes: {  }
