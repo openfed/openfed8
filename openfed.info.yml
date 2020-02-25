@@ -82,7 +82,6 @@ dependencies:
   - search_api_solr:search_api_solr
   - search_api_solr_multilingual:search_api_solr_multilingual
   - seckit:seckit
-  - sharemessage:sharemessage
   - smart_trim:smart_trim
   - super_login:super_login
   - toolbar_themes:toolbar_themes

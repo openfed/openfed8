@@ -18,4 +18,3 @@ permissions:
   - 'use text format flexible_html'
   - 'view files'
   - 'view media'
-  - 'view sharemessages'

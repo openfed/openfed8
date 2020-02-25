@@ -12,4 +12,3 @@ permissions:
   - 'search content'
   - 'view files'
   - 'view media'
-  - 'view sharemessages'
