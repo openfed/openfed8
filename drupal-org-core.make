@@ -4,6 +4,7 @@ projects[drupal][type] = core
 projects[drupal][version] = 8.8.2
 
 projects[drupal][patch][2325899] = "https://www.drupal.org/files/issues/2019-03-02/2325899-124.patch"
+projects[drupal][patch][2457999] = "https://www.drupal.org/files/issues/2019-10-28/2457999-223.patch"
 projects[drupal][patch][2649268] = "https://www.drupal.org/files/issues/2019-09-12/2649268-32.patch"
 projects[drupal][patch][2716019] = "https://www.drupal.org/files/issues/2020-01-21/2716019-77.patch"
 projects[drupal][patch][2730631] = "https://www.drupal.org/files/issues/2019-04-04/2730631_85_0.patch"
