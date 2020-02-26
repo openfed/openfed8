@@ -1,2 +1,2 @@
-admin: adminimal_theme
-default: bootstrap
+admin: openfed_admin
+default: kiso
