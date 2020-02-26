@@ -1,0 +1,9 @@
+name: openfed_admin
+description: 'Openfed administration theme'
+core: 8.x
+type: theme
+base theme: adminimal_theme
+
+# defines libraries group in which we can add css/js.
+libraries:
+  - 'openfed_admin/global-styling'
