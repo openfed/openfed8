@@ -89,6 +89,6 @@ dependencies:
   - username_enumeration_prevention:username_enumeration_prevention
 
 themes:
-  - adminimal_theme
-  - bootstrap
+  - openfed_admin
+  - kiso
 
