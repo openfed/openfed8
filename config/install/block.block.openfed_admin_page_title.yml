@@ -6,7 +6,7 @@ dependencies:
 id: openfed_admin_page_title
 theme: openfed_admin
 region: header
-weight: -30
+weight: -3
 provider: null
 plugin: page_title_block
 settings:
