@@ -5,8 +5,8 @@ dependencies:
     - kiso
 id: kiso_local_actions
 theme: kiso
-region: header
-weight: 20
+region: content
+weight: -1
 provider: null
 plugin: local_actions_block
 settings:

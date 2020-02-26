@@ -1,12 +1,12 @@
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - kiso
 id: kiso_local_tasks
 theme: kiso
-region: header
-weight: 10
+region: content
+weight: -2
 provider: null
 plugin: local_tasks_block
 settings:

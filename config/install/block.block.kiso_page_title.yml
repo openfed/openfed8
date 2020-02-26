@@ -5,7 +5,7 @@ dependencies:
     - kiso
 id: kiso_page_title
 theme: kiso
-region: header
+region: content
 weight: 0
 provider: null
 plugin: page_title_block

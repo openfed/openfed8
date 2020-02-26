@@ -7,8 +7,8 @@ dependencies:
     - kiso
 id: kiso_messages
 theme: kiso
-region: header
-weight: -50
+region: content
+weight: -3
 provider: null
 plugin: system_messages_block
 settings:
