@@ -1,0 +1,19 @@
+
+//
+// @file
+// Final imports.
+//
+// Each compiled SASS file imports this file using the @import "../config/imports"
+// @-Rule which imports itself all required configuration partials.
+//
+
+// The following comment starts with a "!". So it will not be removed during
+// the (SASS) compilation. It is just to alert project contributors that the
+// (CSS) output file can not be modified under any circumstances.
+/*! Compiled SASS file | Do NOT modify from here !*/
+
+// =============================================================================
+// Variables
+// =============================================================================
+
+@import 'variables';
