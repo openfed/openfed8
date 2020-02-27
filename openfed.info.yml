@@ -15,7 +15,6 @@ dependencies:
   - drupal:block
   - drupal:ckeditor
   - drupal:config
-  - drupal:config_translation
   - drupal:content_moderation
   - drupal:contextual
   - drupal:datetime
@@ -27,9 +26,7 @@ dependencies:
   - drupal:file
   - drupal:help
   - drupal:image
-  - drupal:language
   - drupal:link
-  - drupal:locale
   - drupal:media
   - drupal:menu_ui
   - drupal:node
@@ -47,7 +44,7 @@ dependencies:
   - admin_toolbar:admin_toolbar_tools
   - admin_toolbar:admin_toolbar_links_access_filter
   - admin_toolbar_content_languages:admin_toolbar_content_languages
-  - allowed_formatsallowed_formats:allowed_formats
+  - allowed_formats:allowed_formats
   - ckeditor_abbreviation:ckeditor_abbreviation
   - ckeditor_codemirror:ckeditor_codemirror
   - ckeditor_uploadimage:ckeditor_uploadimage
@@ -91,4 +88,3 @@ dependencies:
 themes:
   - openfed_admin
   - kiso
-
