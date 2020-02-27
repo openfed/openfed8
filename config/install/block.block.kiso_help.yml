@@ -1,0 +1,19 @@
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - kiso
+id: kiso_help
+theme: kiso
+region: help
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

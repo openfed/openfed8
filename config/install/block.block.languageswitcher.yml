@@ -1,3 +1,4 @@
+
 langcode: en
 status: true
 dependencies:
@@ -5,7 +6,7 @@ dependencies:
     - language
   theme:
     - kiso
-id: kiso_languageswitcher
+id: languageswitcher
 theme: kiso
 region: tools
 weight: -1
