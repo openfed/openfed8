@@ -8,6 +8,15 @@
  * Implements hook_install().
  */
 function openfed_multilingual_install() {
+  // Enable content translation using the proper service before importing the
+  // configurations. This will avoid wrong schemas after the import.
+  /** @var \Drupal\content_translation\ContentTranslationManager $content_translation */
+  $content_translation = \Drupal::service('content_translation.manager');
+  $content_translation->setEnabled('node', 'page', 'true');
+  $content_translation->setEnabled('media', 'iframe', 'true');
+  $content_translation->setEnabled('media', 'javascript', 'true');
+  $content_translation->setEnabled('media', 'svg', 'true');
+
   // Discover all the module configurations that we'll use to override existing
   // ones.
   $module = basename(__FILE__, '.install');
