@@ -256,6 +256,7 @@
         "Issue #2730631: Node revision routes don't convert {node} param": "https://www.drupal.org/files/issues/2019-04-04/2730631_85_0.patch",
         "Issue #2737619: Views entity reference relationships must join on langcode for translatable entities": "https://www.drupal.org/files/issues/language_aware_relationship-2737619-19.patch",
         "Issue #2771837: drupalimage CKEditor plugin should not require data-entity-uuid and data-entity-type when image upload is disabled": "https://www.drupal.org/files/issues/2020-02-20/drupalimage_ckeditor-2771837-50.patch",
+        "Issue #2915717: Fix subProcess plugin": "https://www.drupal.org/files/issues/2020-01-30/fix_sub_process_plugin-2915717-3.patch",
         "Issue #3070745: Off canvas filling up localStorage's quota, causing errors": "https://www.drupal.org/files/issues/2020-02-25/3070745-23.patch"
       },
       "drupal/cshs": {
@@ -265,8 +266,17 @@
         "Issue #2882866: Provide a preview display setting for use in WYSIWYG editors": "https://www.drupal.org/files/issues/2019-05-03/entity_embed-preview_display_plugin-2882866-14.patch",
         "Issue #3075245: Form Validation in Format Config is Too Strict for data- Attributes": "https://www.drupal.org/files/issues/2019-08-16/3075245-2.patch"
       },
+      "drupal/facets":   {
+        "Issue #3057943: Set target page URL": "https://www.drupal.org/files/issues/2020-02-07/facets-set_base_path-3057943-14.patch"
+      },
       "drupal/field_default_token": {
         "Issue #2860580: Apply field_default_token patches 2841292 and 2854384": "https://www.drupal.org/files/issues/2841292-7-and-2854384-4.patch"
+      },
+      "drupal/field_group": {
+        "Issue #3100829: Migrate Html Element field group format type": "https://www.drupal.org/files/issues/2019-12-13/migrate-html-element-field-group-format-type-3100829-2.patch"
+      },
+      "drupal/focal_point": {
+        "Issue #3106445: Referential Integrity": "https://www.drupal.org/files/issues/2020-01-23/Focal_point-Referential_Integrity-3106445-4.patch"
       },
       "drupal/imce": {
         "Issue #2858430: no browser tab in user profile in drupal 8": "https://www.drupal.org/files/issues/imce_no_browser_tab-2858430-4.patch"
@@ -276,7 +286,8 @@
         "Issue #2822764: Support adding new entities when translating": "https://www.drupal.org/files/issues/2019-09-27/inline_entity_form-support_adding_new_entities_when_translating-2822764-48.patch"
       },
       "drupal/menu_block": {
-        "Issue #2756675: Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/2018-08-08/menu_block-follow-2756675-55.patch"
+        "Issue #2756675: Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/2018-08-08/menu_block-follow-2756675-55.patch",
+        "Issue #3089134: Ability to display the menu selected by the page": "https://www.drupal.org/files/issues/2020-01-17/multi-menu-block-3089134-10.patch"
       },
       "drupal/menu_link": {
         "Issue #2894298: Attempt to create field storage menu_link which is reserved by entity type node.": "https://www.drupal.org/files/issues/2019-07-23/menu_link-field-storage-2894298-11.patch",
@@ -295,7 +306,8 @@
         "Issue #2938850: Add Block visibility conditions": "https://www.drupal.org/files/issues/panels-block_visibility_conditions_apply_after_issue_2869412_2-2938850-2.patch"
       },
       "drupal/paragraphs": {
-        "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/2019-11-16/2461695-273.patch"
+        "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/2019-11-16/2461695-273.patch",
+        "Issue #2911244: Field collections deriver and base migration": "https://www.drupal.org/files/issues/2019-10-11/2911244-80.paragraphs.Field-collections-deriver-and-base-migration.patch"
       },
       "drupal/paragraphs_asymmetric_translation_widgets": {
         "Issue #2992777: Implement a migration path": "https://www.drupal.org/files/issues/2019-05-24/2992777-implement_migration_path-15.patch"

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "58b069f17d1912ea2b23c036275e0a02",
+    "content-hash": "07270a99767b21578965d382a75989bd",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -4125,6 +4125,7 @@
                     "Issue #2730631: Node revision routes don't convert {node} param": "https://www.drupal.org/files/issues/2019-04-04/2730631_85_0.patch",
                     "Issue #2737619: Views entity reference relationships must join on langcode for translatable entities": "https://www.drupal.org/files/issues/language_aware_relationship-2737619-19.patch",
                     "Issue #2771837: drupalimage CKEditor plugin should not require data-entity-uuid and data-entity-type when image upload is disabled": "https://www.drupal.org/files/issues/2020-02-20/drupalimage_ckeditor-2771837-50.patch",
+                    "Issue #2915717: Fix subProcess plugin": "https://www.drupal.org/files/issues/2020-01-30/fix_sub_process_plugin-2915717-3.patch",
                     "Issue #3070745: Off canvas filling up localStorage's quota, causing errors": "https://www.drupal.org/files/issues/2020-02-25/3070745-23.patch"
                 }
             },
@@ -5237,6 +5238,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Issue #3057943: Set target page URL": "https://www.drupal.org/files/issues/2020-02-07/facets-set_base_path-3057943-14.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -5587,6 +5591,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Issue #3100829: Migrate Html Element field group format type": "https://www.drupal.org/files/issues/2019-12-13/migrate-html-element-field-group-format-type-3100829-2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -5777,6 +5784,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Issue #3106445: Referential Integrity": "https://www.drupal.org/files/issues/2020-01-23/Focal_point-Referential_Integrity-3106445-4.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -6815,7 +6825,8 @@
                     }
                 },
                 "patches_applied": {
-                    "Issue #2756675: Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/2018-08-08/menu_block-follow-2756675-55.patch"
+                    "Issue #2756675: Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/2018-08-08/menu_block-follow-2756675-55.patch",
+                    "Issue #3089134: Ability to display the menu selected by the page": "https://www.drupal.org/files/issues/2020-01-17/multi-menu-block-3089134-10.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -7620,7 +7631,8 @@
                     }
                 },
                 "patches_applied": {
-                    "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/2019-11-16/2461695-273.patch"
+                    "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/2019-11-16/2461695-273.patch",
+                    "Issue #2911244: Field collections deriver and base migration": "https://www.drupal.org/files/issues/2019-10-11/2911244-80.paragraphs.Field-collections-deriver-and-base-migration.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
