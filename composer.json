@@ -256,6 +256,7 @@
         "Issue #2730631: Node revision routes don't convert {node} param": "https://www.drupal.org/files/issues/2019-04-04/2730631_85_0.patch",
         "Issue #2737619: Views entity reference relationships must join on langcode for translatable entities": "https://www.drupal.org/files/issues/language_aware_relationship-2737619-19.patch",
         "Issue #2771837: drupalimage CKEditor plugin should not require data-entity-uuid and data-entity-type when image upload is disabled": "https://www.drupal.org/files/issues/2020-02-20/drupalimage_ckeditor-2771837-50.patch",
+        "Issue #2915717: Fix subProcess plugin": "https://www.drupal.org/files/issues/2020-01-30/fix_sub_process_plugin-2915717-3.patch",
         "Issue #3070745: Off canvas filling up localStorage's quota, causing errors": "https://www.drupal.org/files/issues/2020-02-25/3070745-23.patch"
       },
       "drupal/cshs": {
@@ -265,11 +266,17 @@
         "Issue #2882866: Provide a preview display setting for use in WYSIWYG editors": "https://www.drupal.org/files/issues/2019-05-03/entity_embed-preview_display_plugin-2882866-14.patch",
         "Issue #3075245: Form Validation in Format Config is Too Strict for data- Attributes": "https://www.drupal.org/files/issues/2019-08-16/3075245-2.patch"
       },
-      "drupal/entity_browser": {
-        "Issue #3086327: Show translated entity label": "https://www.drupal.org/files/issues/2019-10-07/entity_browser-show_translated_entity_label-3086327-2.patch"
+      "drupal/facets":   {
+        "Issue #3057943: Set target page URL": "https://www.drupal.org/files/issues/2020-02-07/facets-set_base_path-3057943-14.patch"
       },
       "drupal/field_default_token": {
         "Issue #2860580: Apply field_default_token patches 2841292 and 2854384": "https://www.drupal.org/files/issues/2841292-7-and-2854384-4.patch"
+      },
+      "drupal/field_group": {
+        "Issue #3100829: Migrate Html Element field group format type": "https://www.drupal.org/files/issues/2019-12-13/migrate-html-element-field-group-format-type-3100829-2.patch"
+      },
+      "drupal/focal_point": {
+        "Issue #3106445: Referential Integrity": "https://www.drupal.org/files/issues/2020-01-23/Focal_point-Referential_Integrity-3106445-4.patch"
       },
       "drupal/imce": {
         "Issue #2858430: no browser tab in user profile in drupal 8": "https://www.drupal.org/files/issues/imce_no_browser_tab-2858430-4.patch"
@@ -279,7 +286,8 @@
         "Issue #2822764: Support adding new entities when translating": "https://www.drupal.org/files/issues/2019-09-27/inline_entity_form-support_adding_new_entities_when_translating-2822764-48.patch"
       },
       "drupal/menu_block": {
-        "Issue #2756675: Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/2018-08-08/menu_block-follow-2756675-55.patch"
+        "Issue #2756675: Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/2018-08-08/menu_block-follow-2756675-55.patch",
+        "Issue #3089134: Ability to display the menu selected by the page": "https://www.drupal.org/files/issues/2020-01-17/multi-menu-block-3089134-10.patch"
       },
       "drupal/menu_link": {
         "Issue #2894298: Attempt to create field storage menu_link which is reserved by entity type node.": "https://www.drupal.org/files/issues/2019-07-23/menu_link-field-storage-2894298-11.patch",
@@ -298,10 +306,14 @@
         "Issue #2938850: Add Block visibility conditions": "https://www.drupal.org/files/issues/panels-block_visibility_conditions_apply_after_issue_2869412_2-2938850-2.patch"
       },
       "drupal/paragraphs": {
-        "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/2019-11-16/2461695-273.patch"
+        "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/2019-11-16/2461695-273.patch",
+        "Issue #2911244: Field collections deriver and base migration": "https://www.drupal.org/files/issues/2019-10-11/2911244-80.paragraphs.Field-collections-deriver-and-base-migration.patch"
       },
       "drupal/paragraphs_asymmetric_translation_widgets": {
         "Issue #2992777: Implement a migration path": "https://www.drupal.org/files/issues/2019-05-24/2992777-implement_migration_path-15.patch"
+      },
+      "drupal/pathauto": {
+        "Issue #3116452: Entity Update when using file_entity module": "https://www.drupal.org/files/issues/2020-02-27/entity_update_when_using_file_entity-3116452-3.patch"
       },
       "drupal/soundcloudfield": {
         "Issue #2760787: Fix fatal error occurs on all pages": "https://www.drupal.org/files/issues/soundcloudfield-fatal_error_occurs_on_all_pages-2760787-3.patch"
@@ -314,9 +326,6 @@
       },
       "drupal/wba_menu_link": {
         "Issue #2965926: Make the module compatible with the newest version of Workbench Moderation Actions.": "https://www.drupal.org/files/issues/2018-04-25/module_update-2965926-1.patch"
-      },
-      "drupal/workbench_moderation_actions": {
-        "Issue #2891765: Core Publish/Unpublish actions are deleted on install, but not re-created on uninstall": "https://www.drupal.org/files/issues/restore_publish_actions_after_uninstall-2891765-10.patch"
       }
     },
     "patchLevel": {
@@ -339,12 +348,12 @@
     "drupal/adminimal_theme": "1.5",
     "drupal/alertbox": "1.0-beta8",
     "drupal/allowed_formats": "1.2",
-    "drupal/anchor_link": "2.0-alpha2",
+    "drupal/anchor_link": "2.4",
     "drupal/append_file_info": "1.0-rc2",
-    "drupal/back_to_top": "1.0",
+    "drupal/back_to_top": "1.1",
     "drupal/block_content_permissions": "1.8",
     "drupal/bootstrap": "3.21",
-    "drupal/ckeditor_abbreviation": "1.5",
+    "drupal/ckeditor_abbreviation": "1.7",
     "drupal/ckeditor_codemirror": "2.2",
     "drupal/ckeditor_find": "1.0-beta1",
     "drupal/ckeditor_templates": "1.1",
@@ -352,7 +361,7 @@
     "drupal/colorbox": "1.4",
     "drupal/components": "1.1",
     "drupal/config_update": "1.6",
-    "drupal/contact_storage": "1.0-beta10",
+    "drupal/contact_storage": "1.0",
     "drupal/content_browser": "1.0-alpha4",
     "drupal/content_translation_workflow": "1.0-alpha1",
     "drupal/context": "4.0-beta2",
@@ -360,24 +369,24 @@
     "drupal/crop": "1.5",
     "drupal/cshs": "1.0-beta4",
     "drupal/ctools": "3.0",
-    "drupal/diff": "1.0-rc2",
+    "drupal/diff": "1.0",
     "drupal/disable_route_normalizer": "1.0-alpha4",
-    "drupal/ds": "3.4",
-    "drupal/embed": "1.0",
-    "drupal/entity": "1.0-rc3",
-    "drupal/entity_browser": "1.8",
+    "drupal/ds": "3.5",
+    "drupal/embed": "1.3",
+    "drupal/entity": "1.0",
+    "drupal/entity_browser": "1.10",
     "drupal/entity_embed": "1.0",
     "drupal/entity_reference_revisions": "1.7",
     "drupal/entityqueue": "1.0-beta5",
     "drupal/eu_cookie_compliance": "1.8",
-    "drupal/extlink": "1.1",
+    "drupal/extlink": "1.2",
     "drupal/facets": "1.4",
     "drupal/fakeobjects": "1.0",
     "drupal/fast_404": "1.0-alpha4",
     "drupal/fences": "2.0-alpha2",
     "drupal/field_default_token": "dev-1.x#cec380512962857e62a1c050fde77eb8d27652dc",
     "drupal/field_formatter": "1.2",
-    "drupal/field_group": "3.0-rc2",
+    "drupal/field_group": "3.0",
     "drupal/file_entity": "2.0-beta7",
     "drupal/focal_point": "1.2",
     "drupal/geofield": "1.8",
@@ -388,20 +397,20 @@
     "drupal/inline_entity_form": "1.0-rc2",
     "drupal/l10n_client": "1.0-alpha1",
     "drupal/language_cookie": "1.0-beta1",
-    "drupal/language_selection_page": "2.3",
+    "drupal/language_selection_page": "2.4",
     "drupal/leaflet": "1.25",
     "drupal/leaflet_maptiler": "1.0-beta7",
-    "drupal/link_attributes": "1.9",
-    "drupal/linkit": "5.0-beta9",
+    "drupal/link_attributes": "1.10",
+    "drupal/linkit": "5.0-beta10",
     "drupal/m4032404": "1.0-alpha4",
     "drupal/measuremail": "1.0-beta4",
     "drupal/media_entity_generic": "1.0",
     "drupal/menu_block": "1.5",
-    "drupal/menu_breadcrumb": "1.11",
+    "drupal/menu_breadcrumb": "1.12",
     "drupal/menu_link": "1.0-alpha1",
     "drupal/menu_link_weight": "2.0-alpha2",
     "drupal/menu_trail_by_path": "1.1",
-    "drupal/metatag": "1.10",
+    "drupal/metatag": "1.11",
     "drupal/node_edit_redirect": "1.0-rc2",
     "drupal/ofed_switcher": "1.4",
     "drupal/openfed_social": "1.0",
@@ -411,16 +420,16 @@
     "drupal/paragraphs": "1.10",
     "drupal/paragraphs_asymmetric_translation_widgets": "1.0-beta2",
     "drupal/pathauto": "1.6",
-    "drupal/redirect": "1.4",
-    "drupal/role_delegation": "1.0",
+    "drupal/redirect": "1.5",
+    "drupal/role_delegation": "1.1",
     "drupal/rules": "3.0-alpha5",
     "drupal/search_api": "1.13",
-    "drupal/search_api_attachments": "1.0-beta14",
+    "drupal/search_api_attachments": "1.0-beta15",
     "drupal/search_api_autocomplete": "1.2",
     "drupal/search_api_solr": "1.2",
     "drupal/search_api_solr_multilingual": "1.1",
     "drupal/seckit": "1.2",
-    "drupal/securelogin": "1.7",
+    "drupal/securelogin": "1.8",
     "drupal/scheduled_updates": "1.0-alpha7",
     "drupal/sharemessage": "1.0-beta2",
     "drupal/simple_gmap": "1.4",
@@ -430,23 +439,23 @@
     "drupal/super_login": "1.3",
     "drupal/taxonomy_access_fix": "2.7",
     "drupal/tmgmt": "1.10",
-    "drupal/token": "1.5",
+    "drupal/token": "1.6",
     "drupal/toolbar_themes": "1.0-alpha4",
     "drupal/twig_field_value": "1.2",
     "drupal/twig_tweak": "1.9",
     "drupal/twitter_block": "3.0-alpha0",
-    "drupal/typed_data": "1.0-alpha3",
+    "drupal/typed_data": "1.0-alpha4",
     "drupal/url_embed": "1.0-alpha1",
-    "drupal/username_enumeration_prevention": "1.0-beta2",
+    "drupal/username_enumeration_prevention": "1.0",
     "drupal/video_embed_field": "2.2",
     "drupal/views_slideshow": "4.6",
     "drupal/wba_menu_link" : "1.0-rc1",
     "drupal/wbm2cm": "2.0-beta1",
-    "drupal/webform": "5.5-rc2",
+    "drupal/webform": "5.8",
     "drupal/weight": "3.1",
     "drupal/workbench_access" : "1.0-beta2",
     "drupal/workbench_moderation": "1.5",
-    "drupal/workbench_moderation_actions": "1.0-alpha1",
+    "drupal/workbench_moderation_actions": "1.0-alpha2",
     "drupal/xmlrpc": "1.0-beta1",
     "jackmoore/colorbox": "1.6.4",
     "ckeditor/uploadwidget": "4.7.2",
