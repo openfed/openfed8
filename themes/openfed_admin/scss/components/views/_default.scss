@@ -9,15 +9,24 @@
   .views_tree_collapsed,
   .views_tree_expanded {
 
-    > .views_tree_link,
-    > .views-field {
-      float: none;
-      display: inline-block;
-    }
     ul {
       padding: {
         left: 0;
       }
+
+      li {
+        list: {
+          style: none;
+          style-image: none;
+        }
+      }
+    }
+    > .views_tree_link,
+    > .views-field,
+    .views-field-entity-browser-select,
+    .views-field-name {
+      float: none;
+      display: inline-block;
     }
   }
 }
