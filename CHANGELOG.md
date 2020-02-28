@@ -1,6 +1,16 @@
 CHANGELOG
 =========
 
+28 February 2020 - Version 8.0
+----------------------------
+  Stable release of Openfed8, using Drupal Core 8.8.2
+  Several module updates
+  Several patches updates
+  Additional patches and modules to help with the migration process
+  New administration theme Openfed Admin, to fix sporadic issues
+  
+  Complete list of major fixed issues: https://github.com/openfed/openfed8/milestone/5
+
 19 December 2019 - Version 8.0-rc4
 ----------------------------
   Update to Drupal Core due to SA-CORE-2019-0[09 to 12]
