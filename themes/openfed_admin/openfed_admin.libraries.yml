@@ -1,5 +1,6 @@
 # These lines define your THEMENAME/global-styling (CSS) library.
 global-styling:
   css:
-    global:
-      css/global/styles.css: { weight: 1 }
+    component:
+      css/components/forms.css: {}
+      css/components/views.css: {}

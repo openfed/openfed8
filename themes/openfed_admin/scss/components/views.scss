@@ -1,0 +1,14 @@
+
+//
+// @file
+// Components "Views" rules definition.
+//
+
+// Import Sass variables, functions, mixins and placeholders.
+@import '../config/imports';
+
+// This file is compiled separately so we can pull in config dependencies
+// above while also maintaining Drupal's SMACSS structure.
+
+@import
+  'views/default';

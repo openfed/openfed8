@@ -1,0 +1,18 @@
+//
+// @file
+// "Node Form" form.
+//
+
+form.node-form {
+
+  #{$fields} {
+
+    &--widget-multiselect {
+      clear: both;
+      overflow: hidden;
+    }
+    &--name-body {
+      clear: both;
+    }
+  }
+}
