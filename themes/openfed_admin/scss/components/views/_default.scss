@@ -5,9 +5,8 @@
 
 #{$views} {
 
-  // Tree views.
-  .views_tree_collapsed,
-  .views_tree_expanded {
+  // Taxonomy Terms views
+  &[class*="taxonomy-term"] {
 
     ul {
       padding: {
@@ -21,8 +20,8 @@
         }
       }
     }
-    > .views_tree_link,
-    > .views-field,
+    .views_tree_link,
+    .views-field,
     .views-field-entity-browser-select,
     .views-field-name {
       float: none;
