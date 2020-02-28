@@ -313,7 +313,7 @@
         "Issue #2992777: Implement a migration path": "https://www.drupal.org/files/issues/2019-05-24/2992777-implement_migration_path-15.patch"
       },
       "drupal/pathauto": {
-        "Issue #3116452: Entity Update when using file_entity module": "https://www.drupal.org/files/issues/2020-02-27/entity_update_when_using_file_entity-3116452-3.patch"
+        "Issue #3116452: Entity Update when using file_entity module": "https://www.drupal.org/files/issues/2020-02-28/entity_update_when_using_file_entity-3116452-4.patch"
       },
       "drupal/soundcloudfield": {
         "Issue #2760787: Fix fatal error occurs on all pages": "https://www.drupal.org/files/issues/soundcloudfield-fatal_error_occurs_on_all_pages-2760787-3.patch"

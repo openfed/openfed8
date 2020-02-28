@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "07270a99767b21578965d382a75989bd",
+    "content-hash": "fa1d6e7b45761f324190d38a6000b383",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -7763,7 +7763,7 @@
                     }
                 },
                 "patches_applied": {
-                    "Issue #3116452: Entity Update when using file_entity module": "https://www.drupal.org/files/issues/2020-02-27/entity_update_when_using_file_entity-3116452-3.patch"
+                    "Issue #3116452: Entity Update when using file_entity module": "https://www.drupal.org/files/issues/2020-02-28/entity_update_when_using_file_entity-3116452-4.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
