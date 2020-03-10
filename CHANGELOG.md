@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+10 March 2020 - Version 8.1
+----------------------------
+  Update to Drupal Core 8.8.3
+
 28 February 2020 - Version 8.0
 ----------------------------
   Stable release of Openfed8, using Drupal Core 8.8.2

@@ -339,7 +339,7 @@
     "drupal-composer/drupal-scaffold": "^2.0.1",
     "cweagans/composer-patches": "~1.0",
     "openfed/kiso": "2.4",
-    "drupal/core": "8.8.2",
+    "drupal/core": "8.8.3",
     "drush/drush": "~9.0",
     "drupal/console": "~1.0",
     "drupal/addanother": "1.0-rc1",
