@@ -13,28 +13,28 @@ libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][destination] = "libraries"
 
 libraries[uploadimage][download][type] = "get"
-libraries[uploadimage][download][url] = "http://download.ckeditor.com/uploadimage/releases/uploadimage_4.7.2.zip"
+libraries[uploadimage][download][url] = "http://download.ckeditor.com/uploadimage/releases/uploadimage_4.14.zip"
 libraries[uploadimage][directory_name] = "uploadimage"
 libraries[uploadimage][destination] = "libraries/ckeditor/plugins"
 
 libraries[uploadwidget][download][type] = "get"
-libraries[uploadwidget][download][url] = "http://download.ckeditor.com/uploadwidget/releases/uploadwidget_4.7.2.zip"
+libraries[uploadwidget][download][url] = "http://download.ckeditor.com/uploadwidget/releases/uploadwidget_4.14.zip"
 libraries[uploadwidget][directory_name] = "uploadwidget"
 libraries[uploadwidget][destination] = "libraries/ckeditor/plugins"
 
 libraries[filetools][download][type] = "get"
-libraries[filetools][download][url] = "http://download.ckeditor.com/filetools/releases/filetools_4.7.2.zip"
+libraries[filetools][download][url] = "http://download.ckeditor.com/filetools/releases/filetools_4.14.zip"
 libraries[filetools][download][directory_name] = "ckeditor/plugins/filetools"
 libraries[filetools][directory_name] = "filetools"
 libraries[filetools][destination] = "libraries/ckeditor/plugins"
 
 libraries[notification][download][type] = "get"
-libraries[notification][download][url] = "http://download.ckeditor.com/notification/releases/notification_4.7.2.zip"
+libraries[notification][download][url] = "http://download.ckeditor.com/notification/releases/notification_4.14.zip"
 libraries[notification][directory_name] = "notification"
 libraries[notification][destination] = "libraries/ckeditor/plugins"
 
 libraries[notificationaggregator][download][type] = "get"
-libraries[notificationaggregator][download][url] = "http://download.ckeditor.com/notificationaggregator/releases/notificationaggregator_4.7.2.zip"
+libraries[notificationaggregator][download][url] = "http://download.ckeditor.com/notificationaggregator/releases/notificationaggregator_4.14.zip"
 libraries[notificationaggregator][directory_name] = "notificationaggregator"
 libraries[notificationaggregator][destination] = "libraries/ckeditor/plugins"
 

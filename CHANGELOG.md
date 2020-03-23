@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+13 March 2020 - Version 8.2
+----------------------------
+  Update to Drupal Core 8.8.4 due to SA-CORE-2020-001
+  Update CKEditor addons version
+
 10 March 2020 - Version 8.1
 ----------------------------
   Update to Drupal Core 8.8.3
