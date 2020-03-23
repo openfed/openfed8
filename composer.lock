@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "76ba5fd346f53c318840453a2253a9df",
+    "content-hash": "18d0558d50410bbde0ad34833e2160e8",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -225,10 +225,10 @@
         },
         {
             "name": "ckeditor/fakeobjects",
-            "version": "4.7.3",
+            "version": "4.14.0",
             "dist": {
                 "type": "zip",
-                "url": "https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.7.3.zip",
+                "url": "https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.14.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -239,10 +239,10 @@
         },
         {
             "name": "ckeditor/filetools",
-            "version": "4.7.2",
+            "version": "4.14.0",
             "dist": {
                 "type": "zip",
-                "url": "https://download.ckeditor.com/filetools/releases/filetools_4.7.2.zip",
+                "url": "https://download.ckeditor.com/filetools/releases/filetools_4.14.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -253,10 +253,10 @@
         },
         {
             "name": "ckeditor/find",
-            "version": "4.7.3",
+            "version": "4.14.0",
             "dist": {
                 "type": "zip",
-                "url": "https://download.ckeditor.com/find/releases/find_4.7.3.zip",
+                "url": "https://download.ckeditor.com/find/releases/find_4.14.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -267,10 +267,10 @@
         },
         {
             "name": "ckeditor/link",
-            "version": "4.7.3",
+            "version": "4.14.0",
             "dist": {
                 "type": "zip",
-                "url": "https://download.ckeditor.com/link/releases/link_4.7.3.zip",
+                "url": "https://download.ckeditor.com/link/releases/link_4.14.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -281,10 +281,10 @@
         },
         {
             "name": "ckeditor/notification",
-            "version": "4.7.2",
+            "version": "4.14.0",
             "dist": {
                 "type": "zip",
-                "url": "https://download.ckeditor.com/notification/releases/notification_4.7.2.zip",
+                "url": "https://download.ckeditor.com/notification/releases/notification_4.14.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -295,10 +295,10 @@
         },
         {
             "name": "ckeditor/notificationaggregator",
-            "version": "4.7.2",
+            "version": "4.14.0",
             "dist": {
                 "type": "zip",
-                "url": "https://download.ckeditor.com/notificationaggregator/releases/notificationaggregator_4.7.2.zip",
+                "url": "https://download.ckeditor.com/notificationaggregator/releases/notificationaggregator_4.14.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -309,10 +309,10 @@
         },
         {
             "name": "ckeditor/templates",
-            "version": "4.7.2",
+            "version": "4.14.0",
             "dist": {
                 "type": "zip",
-                "url": "https://download.ckeditor.com/templates/releases/templates_4.7.2.zip",
+                "url": "https://download.ckeditor.com/templates/releases/templates_4.14.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -323,10 +323,10 @@
         },
         {
             "name": "ckeditor/uploadimage",
-            "version": "4.7.2",
+            "version": "4.14.0",
             "dist": {
                 "type": "zip",
-                "url": "https://download.ckeditor.com/uploadimage/releases/uploadimage_4.7.2.zip",
+                "url": "https://download.ckeditor.com/uploadimage/releases/uploadimage_4.14.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -337,10 +337,10 @@
         },
         {
             "name": "ckeditor/uploadwidget",
-            "version": "4.7.2",
+            "version": "4.14.0",
             "dist": {
                 "type": "zip",
-                "url": "https://download.ckeditor.com/uploadwidget/releases/uploadwidget_4.7.2.zip",
+                "url": "https://download.ckeditor.com/uploadwidget/releases/uploadwidget_4.14.0.zip",
                 "reference": null,
                 "shasum": null
             },
