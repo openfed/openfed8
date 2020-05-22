@@ -37,7 +37,7 @@ filters:
   filter_html:
     id: filter_html
     provider: filter
-    status: false
+    status: true
     weight: -9
     settings:
       allowed_html: '<div id class role aria-*> <em class> <strong class> <cite> <code> <ul if type class> <ol id start type class> <li class> <dl class> <dt class> <dd class> <h2 id class> <h3 id class> <h4 id class> <h5 id class> <h6 id class> <br> <s> <sup> <sub> <drupal-entity id class alt title data-*> <table class id cellpadding cellspacing frame rules sortable summary width> <caption align class id> <tbody class id align char charoff valign> <thead class id align char charoff valign> <tfoot class id align char charoff valign> <th class id abbr axis bgcolor char charoff colspan headers height nowrap rowspan scope valign width> <td class id abbr axis bgcolor char charoff colspan headers height nowrap rowspan scope valign width> <tr class id align bgcolor char charoff valign> <hr> <mark> <small class> <address class> <footer> <p class> <abbr title class> <blockquote cite class> <a name href hreflang class role data-* aria-* target> <button id role class autofocus disabled form* name type value> <img src alt height width class data-*> <span class> <colgroup class id align char charoff span valign width>'
@@ -78,7 +78,7 @@ filters:
   filter_htmlcorrector:
     id: filter_htmlcorrector
     provider: filter
-    status: true
+    status: false
     weight: 0
     settings: {  }
   media_embed:
