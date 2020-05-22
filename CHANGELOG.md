@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+22 May 2020 - Version 7.5
+----------------------------
+  Update to Drupal Core due to SA-CORE-2020-002
+  Update Webforms due to security issues from SA-CONTRIB-2020-011 until SA-CONTRIB-2020-018
+
 19 December 2019 - Version 7.4
 ----------------------------
   Update to Drupal Core due to SA-CORE-2019-0[09 to 12]
