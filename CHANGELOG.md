@@ -1,6 +1,17 @@
 CHANGELOG
 =========
 
+22 May 2020 - Version 8.3
+----------------------------
+  Update to Drupal Core due to SA-CORE-2020-002
+  Update Webforms due to security issues from SA-CONTRIB-2020-011 until SA-CONTRIB-2020-018
+  Added simpleSAMLphp Authentication module
+  Updated Kiso theme
+  Fixed administration menu items for node translation creation
+  Revert CKEditor HTML filter settings
+  Defined default config for extlink module
+  Fixed encoding issue for downloaded files on IE
+
 13 March 2020 - Version 8.2
 ----------------------------
   Update to Drupal Core 8.8.4 due to SA-CORE-2020-001
