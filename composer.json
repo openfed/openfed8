@@ -347,7 +347,7 @@
     "drupal/console": "~1.0",
     "drupal/addanother": "1.0-rc1",
     "drupal/admin_toolbar": "2.0",
-    "drupal/admin_toolbar_content_languages": "1.0-beta2",
+    "drupal/admin_toolbar_content_languages": "1.0-beta3",
     "drupal/adminimal_theme": "1.5",
     "drupal/alertbox": "1.0-beta8",
     "drupal/allowed_formats": "1.2",

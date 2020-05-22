@@ -51,7 +51,7 @@ projects[adminimal_theme][version] = "1.5"
 ;
 projects[addanother][version] = "1.0-rc1"
 projects[admin_toolbar][version] = "2.0"
-projects[admin_toolbar_content_languages][version] = "1.0-beta2"
+projects[admin_toolbar_content_languages][version] = "1.0-beta3"
 projects[alertbox][version] = "1.0-beta8"
 projects[allowed_formats][version] = "1.2"
 projects[anchor_link][version] = "2.4"
