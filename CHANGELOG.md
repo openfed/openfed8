@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+18 June 2020 - Version 8.4
+----------------------------
+  Update to Drupal Core due to SA-CORE-2020-004/5/6
+  Updated Core patches
+  Performance improvement to menu_trail_by_path module
+
 22 May 2020 - Version 8.3
 ----------------------------
   Update to Drupal Core due to SA-CORE-2020-002
