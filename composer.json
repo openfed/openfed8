@@ -250,14 +250,13 @@
       },
       "drupal/core": {
         "Issue #2325899: UI fatal caused by views argument handlers no longer can provide their own default argument handling": "https://www.drupal.org/files/issues/2019-03-02/2325899-124.patch",
-        "Issue #2457999: Cannot use relationship for rendered entity on Views": "https://www.drupal.org/files/issues/2019-10-28/2457999-223.patch",
+        "Issue #2457999: Cannot use relationship for rendered entity on Views": "https://www.drupal.org/files/issues/2020-05-30/cannot-use-relationship-2457999-236.patch",
         "Issue #2649268: Entity Field Query throws QueryException when querying all revisions and setting condition on entity reference field": "https://www.drupal.org/files/issues/2019-09-12/2649268-32.patch",
         "Issue #2716019: View titles in breadcrumb don't get properly translated": "https://www.drupal.org/files/issues/2020-01-21/2716019-77.patch",
         "Issue #2730631: Node revision routes don't convert {node} param": "https://www.drupal.org/files/issues/2019-04-04/2730631_85_0.patch",
         "Issue #2737619: Views entity reference relationships must join on langcode for translatable entities": "https://www.drupal.org/files/issues/language_aware_relationship-2737619-19.patch",
         "Issue #2771837: drupalimage CKEditor plugin should not require data-entity-uuid and data-entity-type when image upload is disabled": "https://www.drupal.org/files/issues/2020-02-20/drupalimage_ckeditor-2771837-50.patch",
-        "Issue #2915717: Fix subProcess plugin": "https://www.drupal.org/files/issues/2020-01-30/fix_sub_process_plugin-2915717-3.patch",
-        "Issue #3070745: Off canvas filling up localStorage's quota, causing errors": "https://www.drupal.org/files/issues/2020-02-25/3070745-23.patch"
+        "Issue #2915717: Fix subProcess plugin": "https://www.drupal.org/files/issues/2020-01-30/fix_sub_process_plugin-2915717-3.patch"
       },
       "drupal/cshs": {
         "Issue #2912428: Illegal offset": "https://www.drupal.org/files/issues/cshs-illegal_value_errors-2912428.patch"
@@ -342,7 +341,7 @@
     "drupal-composer/drupal-scaffold": "^2.0.1",
     "cweagans/composer-patches": "~1.0",
     "openfed/kiso": "2.5",
-    "drupal/core": "8.8.6",
+    "drupal/core": "8.8.8",
     "drush/drush": "~9.0",
     "drupal/console": "~1.0",
     "drupal/addanother": "1.0-rc1",
