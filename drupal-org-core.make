@@ -1,7 +1,7 @@
 api = 2
 core = 8.x
 projects[drupal][type] = core
-projects[drupal][version] = 8.8.8
+projects[drupal][version] = 8.8.10
 
 projects[drupal][patch][2325899] = "https://www.drupal.org/files/issues/2019-03-02/2325899-124.patch"
 projects[drupal][patch][2457999] = "https://www.drupal.org/files/issues/2020-05-30/cannot-use-relationship-2457999-236.patch"
