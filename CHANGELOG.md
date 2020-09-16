@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+16 September 2020 - Version 8.5
+----------------------------
+  Update to Drupal Core due to SA-CORE-2020-007/008/009/010/011
+
 18 June 2020 - Version 8.4
 ----------------------------
   Update to Drupal Core due to SA-CORE-2020-004/5/6
