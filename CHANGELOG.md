@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+26 November 2020 - Version 8.6
+----------------------------
+  Update Drupal Core due to SA-CORE-2020-012 and SA-CORE-2020-013
+  Update Twitter Block module
+
 16 September 2020 - Version 8.5
 ----------------------------
   Update to Drupal Core due to SA-CORE-2020-007/008/009/010/011
