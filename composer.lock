@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7bec47079dbc5433cee80405653c79e9",
+    "content-hash": "d3d1a20735e59abc2ccb46189166d255",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -11641,16 +11641,16 @@
         },
         {
             "name": "openfed/kiso",
-            "version": "2.5",
+            "version": "2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openfed/kiso.git",
-                "reference": "71ff72cad96b8a3da37ed2cd9082220a46eb32d8"
+                "reference": "d9602d38f08f153ddd5a046804a50048ca774e08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openfed/kiso/zipball/71ff72cad96b8a3da37ed2cd9082220a46eb32d8",
-                "reference": "71ff72cad96b8a3da37ed2cd9082220a46eb32d8",
+                "url": "https://api.github.com/repos/openfed/kiso/zipball/d9602d38f08f153ddd5a046804a50048ca774e08",
+                "reference": "d9602d38f08f153ddd5a046804a50048ca774e08",
                 "shasum": ""
             },
             "require": {
@@ -11668,7 +11668,7 @@
                 }
             ],
             "description": "Drupal Kiso (基礎) base theme for Drupal 8 themes",
-            "time": "2020-03-27T09:42:32+00:00"
+            "time": "2020-11-09T14:18:04+00:00"
         },
         {
             "name": "pear/archive_tar",
