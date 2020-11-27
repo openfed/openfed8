@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d3d1a20735e59abc2ccb46189166d255",
+    "content-hash": "afd8197a80b34f7bb09e0fe626ce992f",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -7399,26 +7399,26 @@
         },
         {
             "name": "drupal/openfed_social",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/openfed_social.git",
-                "reference": "8.x-1.0"
+                "reference": "8.x-1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/openfed_social-8.x-1.0.zip",
-                "reference": "8.x-1.0",
-                "shasum": "687153095eb7f91b9c2fc219156e0a07efb1c77b"
+                "url": "https://ftp.drupal.org/files/projects/openfed_social-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "6db8e3f71b6c629bdf6d33d516765842200f7cd0"
             },
             "require": {
-                "drupal/core": "~8.0"
+                "drupal/core": "^8 || ^9"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.0",
-                    "datestamp": "1582554248",
+                    "version": "8.x-1.1",
+                    "datestamp": "1593165779",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
