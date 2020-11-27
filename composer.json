@@ -280,6 +280,9 @@
       "drupal/focal_point": {
         "Issue #3106445: Referential Integrity": "https://www.drupal.org/files/issues/2020-01-23/Focal_point-Referential_Integrity-3106445-4.patch"
       },
+      "drupal/image_effects": {
+        "Issue #3146575: D8.8.6 -> D8.8.7 = Usupport schema version": "https://www.drupal.org/files/issues/2020-07-14/unsuported_schema_version-3146575-7.patch"
+      },
       "drupal/imce": {
         "Issue #2858430: no browser tab in user profile in drupal 8": "https://www.drupal.org/files/issues/imce_no_browser_tab-2858430-4.patch"
       },
