@@ -397,6 +397,7 @@
     "drupal/google_analytics": "2.4",
     "drupal/honeypot": "1.30",
     "drupal/image_effects": "3.0",
+    "drupal/image_widget_crop": "^2.3",
     "drupal/imce": "1.7",
     "drupal/inline_entity_form": "1.0-rc2",
     "drupal/l10n_client": "1.0-alpha1",
