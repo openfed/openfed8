@@ -355,6 +355,7 @@
     "drupal/anchor_link": "2.4",
     "drupal/append_file_info": "1.0-rc2",
     "drupal/back_to_top": "1.1",
+    "drupal/block_class": "1.3",
     "drupal/block_content_permissions": "1.8",
     "drupal/bootstrap": "3.21",
     "drupal/ckeditor_abbreviation": "1.7",
