@@ -9,3 +9,6 @@ scripts/
 .settings
 .settings/
 .project
+/autoload.php
+/.editorconfig
+/.gitattributes
