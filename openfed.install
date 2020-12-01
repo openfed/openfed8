@@ -13,6 +13,32 @@ use Symfony\Component\Yaml\Yaml;
 function openfed_install() {
 }
 
+
+/**
+ * Implements hook_requirements().
+ */
+function openfed_requirements($phase) {
+  $return = [];
+
+  if ($phase != 'runtime') {
+    return $return;
+  }
+
+  $moduleHandler = \Drupal::service('module_handler');
+
+  // Scheduled updates: check if this is enable. If so, we should throw an error
+  // because this module is not well maintained and supported.
+  if ($moduleHandler->moduleExists('scheduled_updates')) {
+    $return['openfed_scheduled_updated_check'] = [
+      'title' => t('Openfed: Scheduled Updates'),
+      'severity' => REQUIREMENT_ERROR,
+      'value' => t('Scheduled Updates is enabled but not supported so it will be removed before Openfed9. Use Scheduler instead.'),
+    ];
+  }
+
+  return $return;
+}
+
 /**
  * Implements hook_update_dependencies().
  */
@@ -22,13 +48,13 @@ function openfed_update_dependencies() {
   if (\Drupal::moduleHandler()->moduleExists('media_entity')) {
     // Ensure that media_entity_update_8201() runs before openfed_update_8601().
     $dependencies['openfed'][8601] = [
-      'media_entity' => 8201
+      'media_entity' => 8201,
     ];
 
     // Ensure that openfed_update_8602() and openfed_update_8603() runs before 
     // media_entity_update_8201().
     $dependencies['media_entity'][8201] = [
-      'openfed' => 8603
+      'openfed' => 8603,
     ];
   }
 
@@ -39,7 +65,8 @@ function openfed_update_dependencies() {
 /**
  * Removed in Openfed 8.x-5.0.
  *
- * Formely fixed the problem with file_entity module when upgrading from 8.3.x to 8.4.x.
+ * Formely fixed the problem with file_entity module when upgrading from 8.3.x
+ * to 8.4.x.
  *
  * @deprecated
  */
@@ -78,9 +105,9 @@ function openfed_update_8401(&$sandbox) {
 }
 
 /**
- * Formely updated configs related to core.base_field_override.media.* with the new
- * default_value_callback when upgrading from 8.5.x to 8.6.x, since media is now
- * part of the core.
+ * Formely updated configs related to core.base_field_override.media.* with the
+ * new default_value_callback when upgrading from 8.5.x to 8.6.x, since media
+ * is now part of the core.
  */
 function openfed_update_8601(&$sandbox) {
   $message = '';
@@ -89,7 +116,8 @@ function openfed_update_8601(&$sandbox) {
   $config_factory = \Drupal::configFactory();
   // Gets the list of media entity bundles.
   /** @var \Drupal\Core\Entity\EntityTypeBundleInfo $media_bundles_info */
-  $media_bundles_info = \Drupal::service('entity_type.bundle.info')->getBundleInfo('media');
+  $media_bundles_info = \Drupal::service('entity_type.bundle.info')
+    ->getBundleInfo('media');
 
   // Make sure there are media bundles.
   if (!empty($media_bundles_info)) {
@@ -114,16 +142,18 @@ function openfed_update_8601(&$sandbox) {
 }
 
 /**
- * This update will make sure that media_entity_document is uninstalled before 
+ * This update will make sure that media_entity_document is uninstalled before
  * starting media updates.
  */
 function openfed_update_8602(&$sandbox) {
   $message = '';
 
-  $uninstall_status = \Drupal::service('module_installer')->uninstall(['media_entity_document']);
+  $uninstall_status = \Drupal::service('module_installer')
+    ->uninstall(['media_entity_document']);
   if ($uninstall_status) {
     $message .= 'Media Entity Document was uninstalled successfully';
-  } else {
+  }
+  else {
     \Drupal::database()->delete('key_value')
       ->condition('collection', 'system.schema')
       ->condition('name', 'media_entity_document')
@@ -141,10 +171,12 @@ function openfed_update_8602(&$sandbox) {
 function openfed_update_8603(&$sandbox) {
   $message = '';
 
-  $uninstall_status = \Drupal::service('module_installer')->uninstall(['media_entity_image']);
+  $uninstall_status = \Drupal::service('module_installer')
+    ->uninstall(['media_entity_image']);
   if ($uninstall_status) {
     $message .= 'Media Entity Image was uninstalled successfully';
-  } else {
+  }
+  else {
     \Drupal::database()->delete('key_value')
       ->condition('collection', 'system.schema')
       ->condition('name', 'media_entity_image')
@@ -154,7 +186,6 @@ function openfed_update_8603(&$sandbox) {
 
   return $message;
 }
-
 
 
 /**
@@ -278,16 +309,18 @@ function openfed_update_8701() {
 }
 
 /**
- * This update will make sure that media_entity is uninstalled, avoiding errors 
+ * This update will make sure that media_entity is uninstalled, avoiding errors
  * on some installations.
  */
 function openfed_update_8702(&$sandbox) {
   $message = '';
 
-  $uninstall_status = \Drupal::service('module_installer')->uninstall(['media_entity']);
+  $uninstall_status = \Drupal::service('module_installer')
+    ->uninstall(['media_entity']);
   if ($uninstall_status) {
     $message .= 'Media Entity was uninstalled successfully';
-  } else {
+  }
+  else {
     \Drupal::database()->delete('key_value')
       ->condition('collection', 'system.schema')
       ->condition('name', 'media_entity')
@@ -308,7 +341,8 @@ function openfed_update_8800(&$sandbox) {
   $config = $config_factory->getEditable('pathauto.settings');
   $safe_tokens = $config->get('safe_tokens');
   if (!in_array('node:field_menulink:join-parents-path', $safe_tokens)) {
-    $config->set('safe_tokens', array_merge($safe_tokens, ['node:field_menulink:join-parents-path']))->save(TRUE);
+    $config->set('safe_tokens', array_merge($safe_tokens, ['node:field_menulink:join-parents-path']))
+      ->save(TRUE);
     $message .= 'Pathauto safe tokens updated.';
   }
 
