@@ -36,6 +36,16 @@ function openfed_requirements($phase) {
     ];
   }
 
+  // Sharemessage: check if this is enable. If so, we should throw an error
+  // because this won't be supported by Openfed anymore.
+  if ($moduleHandler->moduleExists('sharemessage')) {
+    $return['openfed_sharemessage_check'] = [
+      'title' => t('Openfed: Share Message'),
+      'severity' => REQUIREMENT_ERROR,
+      'value' => t('Share Message is enabled but not supported so it will be removed before Openfed9. Use Openfed Social instead.'),
+    ];
+  }
+
   return $return;
 }
 
@@ -51,7 +61,7 @@ function openfed_update_dependencies() {
       'media_entity' => 8201,
     ];
 
-    // Ensure that openfed_update_8602() and openfed_update_8603() runs before 
+    // Ensure that openfed_update_8602() and openfed_update_8603() runs before
     // media_entity_update_8201().
     $dependencies['media_entity'][8201] = [
       'openfed' => 8603,
@@ -209,7 +219,7 @@ function openfed_update_8701() {
         // Do the updates.
         $settings = $block->get('settings');
 
-        // The following code will update from the old settings, provided by a 
+        // The following code will update from the old settings, provided by a
         // previous patch, to new settings matching the latest dev version.
         if (strpos($settings['parent'], 'active_trail_custom')) {
           // This is a fallback since the new patch doesn't really have this option.
@@ -258,7 +268,7 @@ function openfed_update_8701() {
           if ($panel_block['provider'] == 'menu_block') {
 
             // The following code will update from the old settings, provided by
-            // a previous patch, to new settings matching the latest dev 
+            // a previous patch, to new settings matching the latest dev
             // version.
             if (strpos($panel_block['parent'], 'active_trail_custom')) {
               // This is a fallback since the new patch doesn't really have this option.
