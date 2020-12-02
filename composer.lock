@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "14ec4833b512ce64b35cc5e4deabf831",
+    "content-hash": "ab357128de24b6c5b33edf8e03896aa6",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -346,6 +346,127 @@
                 "oomphinc/composer-installers-extender": "^2.0"
             },
             "type": "openfed-ckeditor-plugin"
+        },
+        {
+            "name": "clue/stream-filter",
+            "version": "v1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/clue/php-stream-filter.git",
+                "reference": "aeb7d8ea49c7963d3b581378955dbf5bc49aa320"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/clue/php-stream-filter/zipball/aeb7d8ea49c7963d3b581378955dbf5bc49aa320",
+                "reference": "aeb7d8ea49c7963d3b581378955dbf5bc49aa320",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.3 || ^5.7 || ^4.8.36"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Clue\\StreamFilter\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Lück",
+                    "email": "christian@clue.engineering"
+                }
+            ],
+            "description": "A simple and modern approach to stream filtering in PHP",
+            "homepage": "https://github.com/clue/php-stream-filter",
+            "keywords": [
+                "bucket brigade",
+                "callback",
+                "filter",
+                "php_user_filter",
+                "stream",
+                "stream_filter_append",
+                "stream_filter_register"
+            ],
+            "funding": [
+                {
+                    "url": "https://clue.engineering/support",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/clue",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-10-02T12:38:20+00:00"
+        },
+        {
+            "name": "commerceguys/addressing",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/commerceguys/addressing.git",
+                "reference": "2450ca97631042faf786855db206a2e48fb7dbb7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/commerceguys/addressing/zipball/2450ca97631042faf786855db206a2e48fb7dbb7",
+                "reference": "2450ca97631042faf786855db206a2e48fb7dbb7",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/collections": "~1.0",
+                "php": ">=7.0.8"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "1.*",
+                "phpunit/phpunit": "^6.0",
+                "squizlabs/php_codesniffer": "2.*",
+                "symfony/validator": "^3.4"
+            },
+            "suggest": {
+                "symfony/validator": "to validate addresses"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "CommerceGuys\\Addressing\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bojan Zivanovic"
+                },
+                {
+                    "name": "Damien Tournoud"
+                }
+            ],
+            "description": "Addressing library powered by CLDR and Google's address data.",
+            "keywords": [
+                "address",
+                "internationalization",
+                "localization",
+                "postal"
+            ],
+            "time": "2020-11-29T18:48:07+00:00"
         },
         {
             "name": "composer/installers",
@@ -1437,6 +1558,58 @@
             "time": "2020-09-30T17:56:20+00:00"
         },
         {
+            "name": "davedevelopment/stiphle",
+            "version": "0.9.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/davedevelopment/stiphle.git",
+                "reference": "76151e6474741adee258c1a4860a0460e319563b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/davedevelopment/stiphle/zipball/76151e6474741adee258c1a4860a0460e319563b",
+                "reference": "76151e6474741adee258c1a4860a0460e319563b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.5",
+                "predis/predis": "^1.1"
+            },
+            "suggest": {
+                "doctrine/cache": "~1.0",
+                "predis/predis": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Stiphle": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Marshall",
+                    "email": "dave.marshall@atstsolutions.co.uk",
+                    "homepage": "http://davedevelopment.co.uk"
+                }
+            ],
+            "description": "Simple rate limiting/throttling for php",
+            "homepage": "http://github.com/davedevelopment/stiphle",
+            "keywords": [
+                "rate limit",
+                "rate limiting",
+                "throttle",
+                "throttling"
+            ],
+            "time": "2017-08-16T07:58:18+00:00"
+        },
+        {
             "name": "dflydev/dot-access-configuration",
             "version": "v1.0.3",
             "source": {
@@ -2147,6 +2320,74 @@
             }
         },
         {
+            "name": "drupal/address",
+            "version": "1.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/address.git",
+                "reference": "8.x-1.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/address-8.x-1.9.zip",
+                "reference": "8.x-1.9",
+                "shasum": "c7e6406d88c6d6be9e8fe0091040d67012bdbf05"
+            },
+            "require": {
+                "commerceguys/addressing": "^1.0.7",
+                "drupal/core": "^8.8 || ^9"
+            },
+            "require-dev": {
+                "drupal/token": "^1.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.9",
+                    "datestamp": "1604422821",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "bojanz",
+                    "homepage": "https://www.drupal.org/user/86106"
+                },
+                {
+                    "name": "dww",
+                    "homepage": "https://www.drupal.org/user/46549"
+                },
+                {
+                    "name": "googletorp",
+                    "homepage": "https://www.drupal.org/user/386230"
+                },
+                {
+                    "name": "jsacksick",
+                    "homepage": "https://www.drupal.org/user/972218"
+                },
+                {
+                    "name": "mglaman",
+                    "homepage": "https://www.drupal.org/user/2416470"
+                },
+                {
+                    "name": "rszrama",
+                    "homepage": "https://www.drupal.org/user/49344"
+                }
+            ],
+            "description": "Provides functionality for storing, validating and displaying international postal addresses.",
+            "homepage": "http://drupal.org/project/address",
+            "support": {
+                "source": "https://git.drupalcode.org/project/address"
+            }
+        },
+        {
             "name": "drupal/admin_toolbar",
             "version": "2.4.0",
             "source": {
@@ -2770,6 +3011,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Issue #2920739: Allow accessing the \"Custom block library\" page without \"Administer blocks\" permission": "https://www.drupal.org/files/issues/2019-06-20/block_content_permissions-access_listing_page-2920739-23.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -3201,6 +3445,78 @@
             "homepage": "https://www.drupal.org/project/components",
             "support": {
                 "source": "https://git.drupalcode.org/project/components"
+            }
+        },
+        {
+            "name": "drupal/conditional_fields",
+            "version": "1.0.0-alpha9",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/conditional_fields.git",
+                "reference": "8.x-1.0-alpha9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/conditional_fields-8.x-1.0-alpha9.zip",
+                "reference": "8.x-1.0-alpha9",
+                "shasum": "74448f9fbd7a2ac83bea49fec75736b4932c8fc4"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-alpha9",
+                    "datestamp": "1596049134",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Adyax",
+                    "homepage": "https://www.adyax.com/"
+                },
+                {
+                    "name": "OlgaRabodzei",
+                    "homepage": "https://www.drupal.org/user/3389198"
+                },
+                {
+                    "name": "colan",
+                    "homepage": "https://www.drupal.org/user/58704"
+                },
+                {
+                    "name": "ergonlogic",
+                    "homepage": "https://www.drupal.org/user/368613"
+                },
+                {
+                    "name": "geek-merlin",
+                    "homepage": "https://www.drupal.org/user/229048"
+                },
+                {
+                    "name": "itsekhmistro",
+                    "homepage": "https://www.drupal.org/user/928152"
+                },
+                {
+                    "name": "peterpoe",
+                    "homepage": "https://www.drupal.org/user/55674"
+                },
+                {
+                    "name": "thalles",
+                    "homepage": "https://www.drupal.org/user/3589086"
+                }
+            ],
+            "description": "Conditional fields",
+            "homepage": "https://www.drupal.org/project/conditional_fields",
+            "support": {
+                "source": "https://git.drupalcode.org/project/conditional_fields"
             }
         },
         {
@@ -3669,6 +3985,9 @@
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
                     }
+                },
+                "patches_applied": {
+                    "Issue #2878504: fix a problem when publishing translations": "https://www.drupal.org/files/issues/2878504-1.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -4007,6 +4326,15 @@
                         "[web-root]/profiles/README.txt": "assets/scaffold/files/profiles.README.txt",
                         "[web-root]/themes/README.txt": "assets/scaffold/files/themes.README.txt"
                     }
+                },
+                "patches_applied": {
+                    "Issue #2325899: UI fatal caused by views argument handlers no longer can provide their own default argument handling": "https://www.drupal.org/files/issues/2019-03-02/2325899-124.patch",
+                    "Issue #2457999: Cannot use relationship for rendered entity on Views": "https://www.drupal.org/files/issues/2020-05-30/cannot-use-relationship-2457999-236.patch",
+                    "Issue #2649268: Entity Field Query throws QueryException when querying all revisions and setting condition on entity reference field": "https://www.drupal.org/files/issues/2019-09-12/2649268-32.patch",
+                    "Issue #2716019: View titles in breadcrumb don't get properly translated": "https://www.drupal.org/files/issues/2020-01-21/2716019-77.patch",
+                    "Issue #2730631: Node revision routes don't convert {node} param": "https://www.drupal.org/files/issues/2019-04-04/2730631_85_0.patch",
+                    "Issue #2737619: Views entity reference relationships must join on langcode for translatable entities": "https://www.drupal.org/files/issues/language_aware_relationship-2737619-19.patch",
+                    "Issue #2771837: drupalimage CKEditor plugin should not require data-entity-uuid and data-entity-type when image upload is disabled": "https://www.drupal.org/files/issues/2020-02-20/drupalimage_ckeditor-2771837-50.patch"
                 }
             },
             "autoload": {
@@ -4300,6 +4628,9 @@
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
                     }
+                },
+                "patches_applied": {
+                    "Issue #2912428: Illegal offset": "https://www.drupal.org/files/issues/cshs-illegal_value_errors-2912428.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -4414,6 +4745,54 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/ctools",
                 "issues": "https://www.drupal.org/project/issues/ctools"
+            }
+        },
+        {
+            "name": "drupal/date_popup",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/date_popup.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/date_popup-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "b877b29cf11414e600b154eeea5c9078e0b125c6"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1591849806",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "benjy",
+                    "homepage": "https://www.drupal.org/user/1852732"
+                },
+                {
+                    "name": "larowlan",
+                    "homepage": "https://www.drupal.org/user/395439"
+                }
+            ],
+            "description": "Provides a HTML 5 date popup for all views filters.",
+            "homepage": "https://www.drupal.org/project/date_popup",
+            "support": {
+                "source": "https://git.drupalcode.org/project/date_popup"
             }
         },
         {
@@ -4869,6 +5248,10 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Issue #2882866: Provide a preview display setting for use in WYSIWYG editors": "https://www.drupal.org/files/issues/2019-05-03/entity_embed-preview_display_plugin-2882866-14.patch",
+                    "Issue #3075245: Form Validation in Format Config is Too Strict for data- Attributes": "https://www.drupal.org/files/issues/2019-08-16/3075245-2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -5233,6 +5616,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Issue #3057943: Set target page URL": "https://www.drupal.org/files/issues/2020-02-07/facets-set_base_path-3057943-14.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -5460,6 +5846,9 @@
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
                     }
+                },
+                "patches_applied": {
+                    "Issue #2860580: Apply field_default_token patches 2841292 and 2854384": "https://www.drupal.org/files/issues/2841292-7-and-2854384-4.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -5476,7 +5865,8 @@
             "homepage": "https://www.drupal.org/project/field_default_token",
             "support": {
                 "source": "https://git.drupalcode.org/project/field_default_token"
-            }
+            },
+            "time": "2016-10-28T17:34:32+00:00"
         },
         {
             "name": "drupal/field_formatter",
@@ -5568,6 +5958,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Issue #3100829: Migrate Html Element field group format type": "https://www.drupal.org/files/issues/2019-12-13/migrate-html-element-field-group-format-type-3100829-2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -5632,6 +6025,9 @@
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
                     }
+                },
+                "patches_applied": {
+                    "Issue #2866851: Wrong encoded Content-Disposition header": "https://www.drupal.org/files/issues/2866851-content-disposition-3.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -5870,6 +6266,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Issue #3106445: Referential Integrity": "https://www.drupal.org/files/issues/2020-01-23/Focal_point-Referential_Integrity-3106445-4.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -5886,6 +6285,129 @@
             "homepage": "https://www.drupal.org/project/focal_point",
             "support": {
                 "source": "https://git.drupalcode.org/project/focal_point"
+            }
+        },
+        {
+            "name": "drupal/geocoder",
+            "version": "3.14.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/geocoder.git",
+                "reference": "8.x-3.14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/geocoder-8.x-3.14.zip",
+                "reference": "8.x-3.14",
+                "shasum": "8b69279f6da536c84af94557b7dd65f15fed6020"
+            },
+            "require": {
+                "davedevelopment/stiphle": "^0.9.2",
+                "drupal/core": "^8.8 || ^9",
+                "php": ">=7.1.0",
+                "php-http/guzzle6-adapter": "^1.1 || ^2.0",
+                "php-http/message": "^1.6",
+                "willdurand/geocoder": "^4.0"
+            },
+            "require-dev": {
+                "drupal/address": "*",
+                "drupal/coder": "^8.2",
+                "drupal/geocoder_field": "*",
+                "drupal/geofield": "*",
+                "geocoder-php/arcgis-online-provider": "^4.0",
+                "geocoder-php/bing-maps-provider": "^4.0",
+                "geocoder-php/free-geoip-provider": "^4.1",
+                "geocoder-php/geo-plugin-provider": "^4.0",
+                "geocoder-php/geoips-provider": "^4.1",
+                "geocoder-php/geonames-provider": "^4.1",
+                "geocoder-php/google-maps-provider": "^4.2",
+                "geocoder-php/graphhopper-provider": "^0.1.0",
+                "geocoder-php/host-ip-provider": "^4.0",
+                "geocoder-php/ip-info-db-provider": "^4.0",
+                "geocoder-php/mapbox-provider": "^0.1",
+                "geocoder-php/mapquest-provider": "^4.0",
+                "geocoder-php/maxmind-provider": "^4.1",
+                "geocoder-php/nominatim-provider": "^5.0",
+                "geocoder-php/open-cage-provider": "^4.0",
+                "geocoder-php/openrouteservice-provider": "^1.0",
+                "geocoder-php/pelias-provider": "^1.1",
+                "geocoder-php/photon-provider": "^0.1.0",
+                "geocoder-php/tomtom-provider": "^4.0",
+                "geocoder-php/yandex-provider": "^4.0",
+                "phpro/grumphp": "^0.12.1",
+                "phpunit/phpunit": "^5.7|^6.5",
+                "sensiolabs/security-checker": "^4.1",
+                "squizlabs/php_codesniffer": "^2.7"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-3.14",
+                    "datestamp": "1605985806",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Pol Dellaiera (@drupol)",
+                    "homepage": "https://www.drupal.org/u/pol",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Italo Mairo (@itamair)",
+                    "homepage": "https://www.drupal.org/u/itamair",
+                    "role": "Co-maintainer"
+                },
+                {
+                    "name": "Pol",
+                    "homepage": "https://www.drupal.org/user/47194"
+                },
+                {
+                    "name": "Simon Georges",
+                    "homepage": "https://www.drupal.org/user/172312"
+                },
+                {
+                    "name": "claudiu.cristea",
+                    "homepage": "https://www.drupal.org/user/56348"
+                },
+                {
+                    "name": "gregseb",
+                    "homepage": "https://www.drupal.org/user/847848"
+                },
+                {
+                    "name": "indytechcook",
+                    "homepage": "https://www.drupal.org/user/245817"
+                },
+                {
+                    "name": "itamair",
+                    "homepage": "https://www.drupal.org/user/1179076"
+                },
+                {
+                    "name": "michaelfavia",
+                    "homepage": "https://www.drupal.org/user/49137"
+                },
+                {
+                    "name": "phayes",
+                    "homepage": "https://www.drupal.org/user/47098"
+                },
+                {
+                    "name": "vidhatanand",
+                    "homepage": "https://www.drupal.org/user/585764"
+                }
+            ],
+            "description": "A Drupal module and a services based API to perform Geocode & Reverse Geocode operations among GIS data and addresses types & formats.",
+            "homepage": "https://drupal.org/project/geocoder",
+            "support": {
+                "source": "https://git.drupalcode.org/project/geocoder",
+                "issues": "https://drupal.org/project/issues/geocoder",
+                "irc": "irc://irc.freenode.org/drupal-geo"
             }
         },
         {
@@ -6131,6 +6653,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Issue #3146575: D8.8.6 -> D8.8.7 = Usupport schema version": "https://www.drupal.org/files/issues/2020-07-14/unsuported_schema_version-3146575-7.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -6255,6 +6780,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Issue #2858430: no browser tab in user profile in drupal 8": "https://www.drupal.org/files/issues/imce_no_browser_tab-2858430-4.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -6306,6 +6834,10 @@
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
                     }
+                },
+                "patches_applied": {
+                    "Issue #2653574: Unable to keep nested IEF data separate with multivalue fields": "https://www.drupal.org/files/issues/2018-05-30/multivalue-complex-and-simple-ief-fix-2653574-100.patch",
+                    "Issue #2822764: Support adding new entities when translating": "https://www.drupal.org/files/issues/2019-09-27/inline_entity_form-support_adding_new_entities_when_translating-2822764-48.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -6916,6 +7448,82 @@
             }
         },
         {
+            "name": "drupal/memcache",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/memcache.git",
+                "reference": "8.x-2.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/memcache-8.x-2.2.zip",
+                "reference": "8.x-2.2",
+                "shasum": "1d9876763c7ef04a9bba698ddcadbe708037fed2"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.2",
+                    "datestamp": "1601053267",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "branch-alias": {
+                    "dev-8.x-2.x": "2.x-dev"
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Fabianx",
+                    "homepage": "https://www.drupal.org/user/693738"
+                },
+                {
+                    "name": "Jeremy",
+                    "homepage": "https://www.drupal.org/user/409"
+                },
+                {
+                    "name": "bdragon",
+                    "homepage": "https://www.drupal.org/user/53081"
+                },
+                {
+                    "name": "catch",
+                    "homepage": "https://www.drupal.org/user/35733"
+                },
+                {
+                    "name": "damiankloip",
+                    "homepage": "https://www.drupal.org/user/1037976"
+                },
+                {
+                    "name": "japerry",
+                    "homepage": "https://www.drupal.org/user/45640"
+                },
+                {
+                    "name": "jvandyk",
+                    "homepage": "https://www.drupal.org/user/2375"
+                },
+                {
+                    "name": "robertDouglass",
+                    "homepage": "https://www.drupal.org/user/5449"
+                }
+            ],
+            "description": "High performance integration with memcache.",
+            "homepage": "http://drupal.org/project/memcache",
+            "support": {
+                "source": "https://git.drupalcode.org/project/memcache",
+                "issues": "https://www.drupal.org/project/issues/memcache"
+            }
+        },
+        {
             "name": "drupal/menu_block",
             "version": "1.5.0",
             "source": {
@@ -6941,6 +7549,10 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Issue #2756675: Add option to make the starting level follow the active menu item": "https://www.drupal.org/files/issues/2018-08-08/menu_block-follow-2756675-55.patch",
+                    "Issue #3089134: Ability to display the menu selected by the page": "https://www.drupal.org/files/issues/2020-01-17/multi-menu-block-3089134-10.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -7040,6 +7652,63 @@
             }
         },
         {
+            "name": "drupal/menu_firstchild",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/menu_firstchild.git",
+                "reference": "2.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/menu_firstchild-2.0.0.zip",
+                "reference": "2.0.0",
+                "shasum": "4d37f43160e220b7637c769a683a05e5094b2b8e"
+            },
+            "require": {
+                "drupal/core": "^8.7 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0",
+                    "datestamp": "1605460352",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Bart Vanhoutte",
+                    "homepage": "https://www.drupal.org/user/1133754",
+                    "email": "bart@croquemonsieur.be"
+                },
+                {
+                    "name": "anrikun",
+                    "homepage": "https://www.drupal.org/user/410199"
+                },
+                {
+                    "name": "pingevt",
+                    "homepage": "https://www.drupal.org/user/411339"
+                }
+            ],
+            "description": "A Drupal module that allows creating a menu item without a path that instead will link to it's first viewable child menu item.",
+            "homepage": "http://drupal.org/project/menu_firstchild",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/menu_firstchild",
+                "issues": "http://drupal.org/project/issues/menu_firstchild"
+            }
+        },
+        {
             "name": "drupal/menu_link",
             "version": "1.0.0-alpha1",
             "source": {
@@ -7065,6 +7734,10 @@
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
                     }
+                },
+                "patches_applied": {
+                    "Issue #2894298: Attempt to create field storage menu_link which is reserved by entity type node.": "https://www.drupal.org/files/issues/2019-07-23/menu_link-field-storage-2894298-11.patch",
+                    "Issue #2907989: Problem creating pathauto joined paths": "https://www.drupal.org/files/issues/wrong_joined_paths-2907989-4.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -7192,6 +7865,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Issue #3099308: Menu Trail by Path: several issues": "https://www.drupal.org/files/issues/2020-06-12/menu_trail_by_path_issues-3099308-7.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -7289,6 +7965,63 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/metatag",
                 "issues": "http://drupal.org/project/issues/metatag"
+            }
+        },
+        {
+            "name": "drupal/multiselect",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/multiselect.git",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/multiselect-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "c97b40a13f05178b4800551c351d02e4f5700837"
+            },
+            "require": {
+                "drupal/core": "^8"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1512663484",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Adam Bergstein",
+                    "homepage": "https://www.drupal.org/user/850856",
+                    "email": "nerdstein@gmail.com"
+                },
+                {
+                    "name": "attheshow",
+                    "homepage": "https://www.drupal.org/user/249768"
+                },
+                {
+                    "name": "mandclu",
+                    "homepage": "https://www.drupal.org/user/52136"
+                },
+                {
+                    "name": "nerdstein",
+                    "homepage": "https://www.drupal.org/user/1557710"
+                }
+            ],
+            "description": "D8 Port of multiselect",
+            "homepage": "https://www.drupal.org/project/multiselect",
+            "support": {
+                "source": "https://git.drupalcode.org/project/multiselect"
             }
         },
         {
@@ -7454,6 +8187,50 @@
             }
         },
         {
+            "name": "drupal/optional_end_date",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/optional_end_date.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/optional_end_date-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "afea9219bc10800bf16a42c6a473cfe50880f7f2"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1591870654",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Birk",
+                    "homepage": "https://www.drupal.org/user/1033026"
+                }
+            ],
+            "description": "Make the end date in a Date range field optional.",
+            "homepage": "https://www.drupal.org/project/optional_end_date",
+            "support": {
+                "source": "https://git.drupalcode.org/project/optional_end_date"
+            }
+        },
+        {
             "name": "drupal/override_node_options",
             "version": "2.4.0",
             "source": {
@@ -7525,6 +8302,10 @@
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
                     }
+                },
+                "patches_applied": {
+                    "Issue #2820218: Page manager does not respect existing route defaults for title callbacks": "https://www.drupal.org/files/issues/2018-03-21/2820218-50.patch",
+                    "Issue #2858877: Allow for block visibility rules": "https://www.drupal.org/files/issues/page_manager-block_visibility_conditions-2858877-27-D8.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -7592,6 +8373,11 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Issue #2869412: Page title does not display on panels": "https://www.drupal.org/files/issues/2869412-2-page_title_does_not_show_in_panels.patch",
+                    "Issue #2923286: Fatal error in Drupal\\panels\\Form\\PanelsAddBlockForm::buildForm() with PHP 7.2": "https://www.drupal.org/files/issues/2923286-13.patch",
+                    "Issue #2938850: Add Block visibility conditions": "https://www.drupal.org/files/issues/panels-block_visibility_conditions_apply_after_issue_2869412_2-2938850-2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -7691,6 +8477,10 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/2019-11-16/2461695-273.patch",
+                    "Issue #2911244: Field collections deriver and base migration": "https://www.drupal.org/files/issues/2019-10-11/2911244-80.paragraphs.Field-collections-deriver-and-base-migration.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -7756,6 +8546,9 @@
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
                     }
+                },
+                "patches_applied": {
+                    "Issue #2992777: Implement a migration path": "https://www.drupal.org/files/issues/2019-05-24/2992777-implement_migration_path-15.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -7818,6 +8611,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Issue #3116452: Entity Update when using file_entity module": "https://www.drupal.org/files/issues/2020-02-28/entity_update_when_using_file_entity-3116452-4.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -8751,6 +9547,68 @@
             }
         },
         {
+            "name": "drupal/sitemap",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/sitemap.git",
+                "reference": "8.x-1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/sitemap-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "aa6f0189eba189c9f6c1a1e24505f1ce802eeea1"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.5",
+                    "datestamp": "1541693881",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Nik Alexandrov",
+                    "homepage": "https://www.drupal.org/u/nafes",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Anna Kalata",
+                    "homepage": "https://www.drupal.org/u/akalata",
+                    "role": "Co-maintainer"
+                },
+                {
+                    "name": "killes@www.drop.org",
+                    "homepage": "https://www.drupal.org/u/killeswww.drop.org",
+                    "role": "Co-maintainer"
+                },
+                {
+                    "name": "See other contributors",
+                    "homepage": "https://www.drupal.org/node/3295/committers",
+                    "role": "contributor"
+                }
+            ],
+            "description": "Display a sitemap.",
+            "homepage": "http://drupal.org/project/sitemap",
+            "support": {
+                "source": "http://cgit.drupalcode.org/sitemap",
+                "issues": "http://drupal.org/project/issues/sitemap",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
             "name": "drupal/smart_trim",
             "version": "1.2.0",
             "source": {
@@ -8842,6 +9700,9 @@
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
                     }
+                },
+                "patches_applied": {
+                    "Issue #2760787: Fix fatal error occurs on all pages": "https://www.drupal.org/files/issues/soundcloudfield-fatal_error_occurs_on_all_pages-2760787-3.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -9073,6 +9934,9 @@
                     "services": {
                         "drush.services.yml": "^9 || ^10"
                     }
+                },
+                "patches_applied": {
+                    "Issue #2945272: Bulk generating nodes with [node:content-type]/[node:title]": "https://www.drupal.org/files/issues/2019-03-14/2945272-8-token-language.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -9137,6 +10001,9 @@
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
                     }
+                },
+                "patches_applied": {
+                    "Issue #2856979: Add a permission for configuring toolbar themes": "https://www.drupal.org/files/issues/config_permission-2856979-6.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -9530,6 +10397,74 @@
             }
         },
         {
+            "name": "drupal/views_block_filter_block",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/views_block_filter_block.git",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/views_block_filter_block-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "39733c381750d47d1f256b1371ddb6e4c0404b6a"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1575129180",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Etroid",
+                    "homepage": "https://www.drupal.org/user/3048985"
+                },
+                {
+                    "name": "angrytoast",
+                    "homepage": "https://www.drupal.org/user/2468092"
+                },
+                {
+                    "name": "iamEAP",
+                    "homepage": "https://www.drupal.org/user/1467594"
+                },
+                {
+                    "name": "jkopel",
+                    "homepage": "https://www.drupal.org/user/66207"
+                },
+                {
+                    "name": "nehajyoti",
+                    "homepage": "https://www.drupal.org/user/2804915"
+                },
+                {
+                    "name": "sumitmadan",
+                    "homepage": "https://www.drupal.org/user/1538790"
+                },
+                {
+                    "name": "yogeshmpawar",
+                    "homepage": "https://www.drupal.org/user/2922907"
+                }
+            ],
+            "description": "Provides blocks for Views exposed filters on View blocks.",
+            "homepage": "https://www.drupal.org/project/views_block_filter_block",
+            "support": {
+                "source": "https://git.drupalcode.org/project/views_block_filter_block"
+            }
+        },
+        {
             "name": "drupal/views_slideshow",
             "version": "4.6.0",
             "source": {
@@ -9619,6 +10554,9 @@
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
                     }
+                },
+                "patches_applied": {
+                    "Issue #2965926: Make the module compatible with the newest version of Workbench Moderation Actions.": "https://www.drupal.org/files/issues/2018-04-25/module_update-2965926-1.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -12210,6 +13148,300 @@
             "time": "2020-03-08T15:31:32+00:00"
         },
         {
+            "name": "php-http/guzzle6-adapter",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-http/guzzle6-adapter.git",
+                "reference": "6074a4b1f4d5c21061b70bab3b8ad484282fe31f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-http/guzzle6-adapter/zipball/6074a4b1f4d5c21061b70bab3b8ad484282fe31f",
+                "reference": "6074a4b1f4d5c21061b70bab3b8ad484282fe31f",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.0",
+                "php": "^7.1",
+                "php-http/httplug": "^2.0",
+                "psr/http-client": "^1.0"
+            },
+            "provide": {
+                "php-http/async-client-implementation": "1.0",
+                "php-http/client-implementation": "1.0",
+                "psr/http-client-implementation": "1.0"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "php-http/client-integration-tests": "^2.0",
+                "phpunit/phpunit": "^7.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Http\\Adapter\\Guzzle6\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com"
+                },
+                {
+                    "name": "David de Boer",
+                    "email": "david@ddeboer.nl"
+                }
+            ],
+            "description": "Guzzle 6 HTTP Adapter",
+            "homepage": "http://httplug.io",
+            "keywords": [
+                "Guzzle",
+                "http"
+            ],
+            "time": "2018-12-16T14:44:03+00:00"
+        },
+        {
+            "name": "php-http/httplug",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-http/httplug.git",
+                "reference": "191a0a1b41ed026b717421931f8d3bd2514ffbf9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-http/httplug/zipball/191a0a1b41ed026b717421931f8d3bd2514ffbf9",
+                "reference": "191a0a1b41ed026b717421931f8d3bd2514ffbf9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1 || ^8.0",
+                "php-http/promise": "^1.1",
+                "psr/http-client": "^1.0",
+                "psr/http-message": "^1.0"
+            },
+            "require-dev": {
+                "friends-of-phpspec/phpspec-code-coverage": "^4.1",
+                "phpspec/phpspec": "^5.1 || ^6.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Http\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eric GELOEN",
+                    "email": "geloen.eric@gmail.com"
+                },
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com",
+                    "homepage": "https://sagikazarmark.hu"
+                }
+            ],
+            "description": "HTTPlug, the HTTP client abstraction for PHP",
+            "homepage": "http://httplug.io",
+            "keywords": [
+                "client",
+                "http"
+            ],
+            "time": "2020-07-13T15:43:23+00:00"
+        },
+        {
+            "name": "php-http/message",
+            "version": "1.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-http/message.git",
+                "reference": "39db36d5972e9e6d00ea852b650953f928d8f10d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-http/message/zipball/39db36d5972e9e6d00ea852b650953f928d8f10d",
+                "reference": "39db36d5972e9e6d00ea852b650953f928d8f10d",
+                "shasum": ""
+            },
+            "require": {
+                "clue/stream-filter": "^1.5",
+                "php": "^7.1 || ^8.0",
+                "php-http/message-factory": "^1.0.2",
+                "psr/http-message": "^1.0"
+            },
+            "provide": {
+                "php-http/message-factory-implementation": "1.0"
+            },
+            "require-dev": {
+                "ergebnis/composer-normalize": "^2.6",
+                "ext-zlib": "*",
+                "guzzlehttp/psr7": "^1.0",
+                "phpspec/phpspec": "^5.1 || ^6.3",
+                "slim/slim": "^3.0",
+                "zendframework/zend-diactoros": "^1.0"
+            },
+            "suggest": {
+                "ext-zlib": "Used with compressor/decompressor streams",
+                "guzzlehttp/psr7": "Used with Guzzle PSR-7 Factories",
+                "slim/slim": "Used with Slim Framework PSR-7 implementation",
+                "zendframework/zend-diactoros": "Used with Diactoros Factories"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.10-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Http\\Message\\": "src/"
+                },
+                "files": [
+                    "src/filters.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com"
+                }
+            ],
+            "description": "HTTP Message related tools",
+            "homepage": "http://php-http.org",
+            "keywords": [
+                "http",
+                "message",
+                "psr-7"
+            ],
+            "time": "2020-11-11T10:19:56+00:00"
+        },
+        {
+            "name": "php-http/message-factory",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-http/message-factory.git",
+                "reference": "a478cb11f66a6ac48d8954216cfed9aa06a501a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-http/message-factory/zipball/a478cb11f66a6ac48d8954216cfed9aa06a501a1",
+                "reference": "a478cb11f66a6ac48d8954216cfed9aa06a501a1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "psr/http-message": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com"
+                }
+            ],
+            "description": "Factory interfaces for PSR-7 HTTP Message",
+            "homepage": "http://php-http.org",
+            "keywords": [
+                "factory",
+                "http",
+                "message",
+                "stream",
+                "uri"
+            ],
+            "time": "2015-12-19T14:08:53+00:00"
+        },
+        {
+            "name": "php-http/promise",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-http/promise.git",
+                "reference": "4c4c1f9b7289a2ec57cde7f1e9762a5789506f88"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-http/promise/zipball/4c4c1f9b7289a2ec57cde7f1e9762a5789506f88",
+                "reference": "4c4c1f9b7289a2ec57cde7f1e9762a5789506f88",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1 || ^8.0"
+            },
+            "require-dev": {
+                "friends-of-phpspec/phpspec-code-coverage": "^4.3.2",
+                "phpspec/phpspec": "^5.1.2 || ^6.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Http\\Promise\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joel Wurtz",
+                    "email": "joel.wurtz@gmail.com"
+                },
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com"
+                }
+            ],
+            "description": "Promise used for asynchronous HTTP requests",
+            "homepage": "http://httplug.io",
+            "keywords": [
+                "promise"
+            ],
+            "time": "2020-07-07T09:29:14+00:00"
+        },
+        {
             "name": "phpfastcache/riak-client",
             "version": "3.4.3",
             "source": {
@@ -12413,6 +13645,55 @@
                 "source": "https://github.com/php-fig/container/tree/master"
             },
             "time": "2017-02-14T16:28:37+00:00"
+        },
+        {
+            "name": "psr/http-client",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-client.git",
+                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-client/zipball/2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0 || ^8.0",
+                "psr/http-message": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP clients",
+            "homepage": "https://github.com/php-fig/http-client",
+            "keywords": [
+                "http",
+                "http-client",
+                "psr",
+                "psr-18"
+            ],
+            "time": "2020-06-29T06:28:15+00:00"
         },
         {
             "name": "psr/http-message",
@@ -17150,6 +18431,65 @@
                 "source": "https://github.com/webmozart/path-util/tree/2.3.0"
             },
             "time": "2015-12-17T08:42:14+00:00"
+        },
+        {
+            "name": "willdurand/geocoder",
+            "version": "4.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/geocoder-php/php-common.git",
+                "reference": "31bc59626c737871c3d5cc4dc9bc468a7668d0d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/geocoder-php/php-common/zipball/31bc59626c737871c3d5cc4dc9bc468a7668d0d1",
+                "reference": "31bc59626c737871c3d5cc4dc9bc468a7668d0d1",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "nyholm/nsa": "^1.1",
+                "phpunit/phpunit": "^6.5 || ^7.5",
+                "symfony/stopwatch": "~2.5"
+            },
+            "suggest": {
+                "symfony/stopwatch": "If you want to use the TimedGeocoder"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Geocoder\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "William Durand",
+                    "email": "william.durand1@gmail.com"
+                }
+            ],
+            "description": "Common files for PHP Geocoder",
+            "homepage": "http://geocoder-php.org",
+            "keywords": [
+                "abstraction",
+                "geocoder",
+                "geocoding",
+                "geoip"
+            ],
+            "time": "2020-01-22T09:02:24+00:00"
         }
     ],
     "packages-dev": [
@@ -18307,5 +19647,5 @@
     "platform-overrides": {
         "php": "7.1"
     },
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "1.1.0"
 }
