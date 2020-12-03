@@ -1,6 +1,31 @@
 CHANGELOG
 =========
 
+07 December 2020 - Version 9.0
+----------------------------
+ - Update Core to version 8.9.10
+ - Image Effects: patch to allow smooth update
+ - Update Kiso to version 2.6
+ - Add image_widget_crop module
+ - Add scheduler module and a deprecated status message about scheduled_updates
+ - Add block_class module
+ - Partial compatibility with Composer 2.0
+ - Add sharemessage deprecation status message
+ - Several module version updates
+ - Add views_block_filter_block, memcache, geocoder, date_popup, address, optional_end_date, menu_firstchild, multiselect, conditional_fields, sitemap
+ - Add update restrictions, requiring Openfed 8.x-8.7, due to taxonomy_access_fix
+
+Issue list available at https://github.com/openfed/openfed8/milestone/6?closed=1
+
+**Notes**:
+ - Make sure you are using the latest Openfed 8.x-8.x version before updating to Openfed 8.x-9.0 (Requirement for Taxonomy Access Fix)
+ - Theme must be checked due to the issue described on https://www.drupal.org/project/drupal/issues/3169918
+ - scheduled_updates is not going to be supported anymore and Openfed 8.9.x is the last version where it will be included
+ - sharemessage is not supported anymore and Openfed 8.9.x is the last version where it will be included
+ - entityqueue module was updated and there is a CR for it, which may require manual intervention https://www.drupal.org/node/3123878
+ - IMCE link on user profile was replaced by an item, under admin menu item "Content"
+ - The rules submodule "rules_ban" was removed so if you are using it, uninstall it first
+
 26 November 2020 - Version 8.6
 ----------------------------
   Update Drupal Core due to SA-CORE-2020-012 and SA-CORE-2020-013
@@ -43,7 +68,7 @@ CHANGELOG
   Several patches updates
   Additional patches and modules to help with the migration process
   New administration theme Openfed Admin, to fix sporadic issues
-  
+
   Complete list of major fixed issues: https://github.com/openfed/openfed8/milestone/5
 
 19 December 2019 - Version 8.0-rc4
