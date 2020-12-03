@@ -192,10 +192,10 @@
     },
     "scripts": {
         "pre-install-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+            "DrupalProject\\composer\\ScriptHandler::checkOpenfedVersion"
         ],
         "pre-update-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
+            "DrupalProject\\composer\\ScriptHandler::checkOpenfedVersion"
         ],
         "post-install-cmd": [
             "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
@@ -238,8 +238,6 @@
                 "web-root": "./docroot"
             },
             "file-mapping": {
-                "[project-root]/.gitattributes": false,
-                "[project-root]/.editorconfig": false,
                 "[web-root]/example.gitignore": false,
                 "[web-root]/.csslintrc": false,
                 "[web-root]/modules/README.txt": false,
@@ -247,7 +245,6 @@
                 "[web-root]/sites/README.txt": false,
                 "[web-root]/themes/README.txt": false,
                 "[web-root]/INSTALL.txt": false,
-                "[web-root]/robots.txt": false,
                 "[web-root]/web.config": false
             }
         },
@@ -490,8 +487,8 @@
     "require-dev": {
         "drupal/drupal-extension": "^3.2",
         "drupal/coder": "8.*",
-        "drupal/devel": "1.2",
-        "drupal/features": "3.2"
+        "drupal/devel": "2.1",
+        "drupal/features": "3.11"
     },
     "config": {
         "platform": {

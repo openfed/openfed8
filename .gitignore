@@ -2,13 +2,6 @@ LICENSE.txt
 libraries/
 docroot/
 vendor/
-modules/contrib/
-themes/contrib/
-scripts/
-.buildpath
-.settings
-.settings/
-.project
 /autoload.php
 /.editorconfig
 /.gitattributes
