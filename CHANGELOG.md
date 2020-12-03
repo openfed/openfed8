@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+03 December 2020 - Version 8.7
+----------------------------
+  Update taxonomy_access_fix module
+
 26 November 2020 - Version 8.6
 ----------------------------
   Update Drupal Core due to SA-CORE-2020-012 and SA-CORE-2020-013
@@ -43,7 +47,7 @@ CHANGELOG
   Several patches updates
   Additional patches and modules to help with the migration process
   New administration theme Openfed Admin, to fix sporadic issues
-  
+
   Complete list of major fixed issues: https://github.com/openfed/openfed8/milestone/5
 
 19 December 2019 - Version 8.0-rc4
