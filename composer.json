@@ -240,7 +240,7 @@
     },
     "patches": {
       "drupal/block_content_permissions": {
-        "Issue #2920739: Allow accessing the \"Custom block library\" page without \"Administer blocks\" permission": "https://www.drupal.org/files/issues/2019-06-20/block_content_permissions-access_listing_page-2920739-23.patch"
+        "Issue #2920739: Allow accessing the \"Custom block library\" page without \"Administer blocks\" permission": "https://www.drupal.org/files/issues/2020-07-27/block_content_permissions-access_listing_page-2920739-38.patch"
       },
       "drupal/content_translation_workflow": {
         "Issue #2878504: fix a problem when publishing translations": "https://www.drupal.org/files/issues/2878504-1.patch"
@@ -254,11 +254,8 @@
         "Issue #2737619: Views entity reference relationships must join on langcode for translatable entities": "https://www.drupal.org/files/issues/language_aware_relationship-2737619-19.patch",
         "Issue #2771837: drupalimage CKEditor plugin should not require data-entity-uuid and data-entity-type when image upload is disabled": "https://www.drupal.org/files/issues/2020-02-20/drupalimage_ckeditor-2771837-50.patch"
       },
-      "drupal/cshs": {
-        "Issue #2912428: Illegal offset": "https://www.drupal.org/files/issues/cshs-illegal_value_errors-2912428.patch"
-      },
       "drupal/entity_embed": {
-        "Issue #2882866: Provide a preview display setting for use in WYSIWYG editors": "https://www.drupal.org/files/issues/2019-05-03/entity_embed-preview_display_plugin-2882866-14.patch",
+        "Issue #2882866: Provide a preview display setting for use in WYSIWYG editors": "https://www.drupal.org/files/issues/2019-09-18/entity_embed-preview_display_plugin-2882866-28.patch",
         "Issue #3075245: Form Validation in Format Config is Too Strict for data- Attributes": "https://www.drupal.org/files/issues/2019-08-16/3075245-2.patch"
       },
       "drupal/facets":   {
@@ -273,14 +270,8 @@
       "drupal/file_entity": {
         "Issue #2866851: Wrong encoded Content-Disposition header": "https://www.drupal.org/files/issues/2866851-content-disposition-3.patch"
       },
-      "drupal/focal_point": {
-        "Issue #3106445: Referential Integrity": "https://www.drupal.org/files/issues/2020-01-23/Focal_point-Referential_Integrity-3106445-4.patch"
-      },
       "drupal/image_effects": {
         "Issue #3146575: D8.8.6 -> D8.8.7 = Usupport schema version": "https://www.drupal.org/files/issues/2020-07-14/unsuported_schema_version-3146575-7.patch"
-      },
-      "drupal/imce": {
-        "Issue #2858430: no browser tab in user profile in drupal 8": "https://www.drupal.org/files/issues/imce_no_browser_tab-2858430-4.patch"
       },
       "drupal/inline_entity_form": {
         "Issue #2653574: Unable to keep nested IEF data separate with multivalue fields": "https://www.drupal.org/files/issues/2018-05-30/multivalue-complex-and-simple-ief-fix-2653574-100.patch",
@@ -347,60 +338,60 @@
     "drupal/address": "1.9",
     "drupal/admin_toolbar": "2.4",
     "drupal/admin_toolbar_content_languages": "1.0-beta3",
-    "drupal/adminimal_theme": "1.5",
+    "drupal/adminimal_theme": "1.6",
     "drupal/alertbox": "1.0-beta8",
-    "drupal/allowed_formats": "1.2",
+    "drupal/allowed_formats": "1.3",
     "drupal/anchor_link": "2.4",
     "drupal/append_file_info": "1.0-rc2",
     "drupal/back_to_top": "1.1",
     "drupal/block_class": "1.3",
-    "drupal/block_content_permissions": "1.8",
-    "drupal/bootstrap": "3.21",
-    "drupal/ckeditor_abbreviation": "1.7",
-    "drupal/ckeditor_codemirror": "2.2",
+    "drupal/block_content_permissions": "1.10",
+    "drupal/bootstrap": "3.23",
+    "drupal/ckeditor_abbreviation": "1.8",
+    "drupal/ckeditor_codemirror": "2.3",
     "drupal/ckeditor_find": "1.0-beta1",
-    "drupal/ckeditor_templates": "1.1",
-    "drupal/ckeditor_uploadimage": "1.7",
-    "drupal/colorbox": "1.4",
+    "drupal/ckeditor_templates": "1.2",
+    "drupal/ckeditor_uploadimage": "1.9",
+    "drupal/colorbox": "1.6",
     "drupal/components": "1.1",
     "drupal/conditional_fields": "1.0-alpha9",
     "drupal/config_update": "1.6",
-    "drupal/contact_storage": "1.0",
-    "drupal/content_browser": "1.0-alpha4",
+    "drupal/contact_storage": "1.1",
+    "drupal/content_browser": "1.0",
     "drupal/content_translation_workflow": "1.0-alpha1",
-    "drupal/context": "4.0-beta2",
-    "drupal/country": "1-beta3",
+    "drupal/context": "4.0-beta5",
+    "drupal/country": "1-beta5",
     "drupal/crop": "1.5",
-    "drupal/cshs": "1.0-beta4",
+    "drupal/cshs": "1.2",
     "drupal/ctools": "3.0",
     "drupal/date_popup": "1.1",
     "drupal/diff": "1.0",
     "drupal/disable_route_normalizer": "1.0-alpha5",
-    "drupal/ds": "3.5",
-    "drupal/embed": "1.3",
-    "drupal/entity": "1.0",
+    "drupal/ds": "3.9",
+    "drupal/embed": "1.4",
+    "drupal/entity": "1.2",
     "drupal/entity_browser": "1.10",
-    "drupal/entity_embed": "1.0",
-    "drupal/entity_reference_revisions": "1.7",
-    "drupal/entityqueue": "1.0-beta5",
-    "drupal/eu_cookie_compliance": "1.8",
-    "drupal/extlink": "1.2",
+    "drupal/entity_embed": "1.1",
+    "drupal/entity_reference_revisions": "1.8",
+    "drupal/entityqueue": "1.2",
+    "drupal/eu_cookie_compliance": "1.14",
+    "drupal/extlink": "1.5",
     "drupal/facets": "1.4",
-    "drupal/fakeobjects": "1.0",
-    "drupal/fast_404": "1.0-alpha4",
-    "drupal/fences": "2.0-alpha2",
+    "drupal/fakeobjects": "1.1",
+    "drupal/fast_404": "1.0-alpha5",
+    "drupal/fences": "2.0-rc1",
     "drupal/field_default_token": "dev-1.x#cec380512962857e62a1c050fde77eb8d27652dc",
     "drupal/field_formatter": "1.2",
-    "drupal/field_group": "3.0",
+    "drupal/field_group": "3.1",
     "drupal/file_entity": "2.0-beta7",
-    "drupal/focal_point": "1.2",
+    "drupal/focal_point": "1.5",
     "drupal/geocoder": "3.14",
-    "drupal/geofield": "1.8",
-    "drupal/google_analytics": "2.4",
+    "drupal/geofield": "1.16",
+    "drupal/google_analytics": "2.5",
     "drupal/honeypot": "1.30",
     "drupal/image_effects": "3.0",
     "drupal/image_widget_crop": "^2.3",
-    "drupal/imce": "1.7",
+    "drupal/imce": "2.3",
     "drupal/inline_entity_form": "1.0-rc2",
     "drupal/l10n_client": "1.0-alpha1",
     "drupal/language_cookie": "1.0-beta1",
