@@ -133,7 +133,13 @@ projects[menu_block][version] = "1.5"
 projects[menu_block][patch][2756675] = "https://www.drupal.org/files/issues/2018-08-08/menu_block-follow-2756675-55.patch"
 projects[menu_block][patch][3089134] = "https://www.drupal.org/files/issues/2020-01-17/multi-menu-block-3089134-10.patch"
 projects[menu_breadcrumb][version] = "1.12"
-projects[menu_firstchild][version] = "2.0"
+
+; Fix for semantic versioning.
+projects[menu_firstchild][type] = "module"
+projects[menu_firstchild][download][type] = "git"
+projects[menu_firstchild][download][tag] = "2.0.0"
+projects[menu_firstchild][download][url] = "https://git.drupal.org/project/menu_firstchild.git"
+
 projects[menu_link][version] = "1.0-alpha1"
 projects[menu_link][patch][2894298] = "https://www.drupal.org/files/issues/2019-07-23/menu_link-field-storage-2894298-11.patch"
 projects[menu_link][patch][2907989] = "https://www.drupal.org/files/issues/wrong_joined_paths-2907989-4.patch"
