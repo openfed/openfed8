@@ -58,16 +58,4 @@ class ScriptHandler {
     }
   }
 
-  /**
-   * Validate Openfed version before proceeding with an update.
-   */
-  public static function checkOpenfedVersion(Event $event) {
-    $io = $event->getIO();
-    $openfed_version = shell_exec('drush pml --type=profile --field=version');
-    if ($openfed_version && version_compare($openfed_version, '8.x-8.7', '<')) {
-      $io->writeError('<error>Your Openfed version (' . trim($openfed_version) . ') is too old, 8.x-8.7 or higher is required before proceding with the update.</error>.');
-      exit(1);
-    }
-  }
-
 }
