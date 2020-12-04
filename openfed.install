@@ -4,47 +4,59 @@
  * Install, uninstall and update hooks for Openfed.
  */
 
-use Drupal\Core\Database\Database;
-use Symfony\Component\Yaml\Yaml;
-
 /**
  * Implements hook_install().
  */
 function openfed_install() {
 }
 
-
 /**
  * Implements hook_requirements().
  */
 function openfed_requirements($phase) {
   $return = [];
-
-  if ($phase != 'runtime') {
-    return $return;
-  }
-
   $moduleHandler = \Drupal::service('module_handler');
 
-  // Scheduled updates: check if this is enable. If so, we should throw an error
-  // because this module is not well maintained and supported.
-  if ($moduleHandler->moduleExists('scheduled_updates')) {
-    $return['openfed_scheduled_updated_check'] = [
-      'title' => t('Openfed: Scheduled Updates'),
-      'severity' => REQUIREMENT_ERROR,
-      'value' => t('Scheduled Updates is enabled but not supported so it will be removed before Openfed9. Use Scheduler instead.'),
-    ];
+  switch ($phase) {
+    case 'update':
+      // If this is an update from 8.x-8.x we must be sure this is using at
+      // least 8.x-8.7. This is a requirement for a smooth update of
+      // taxonomy_access_fix so we check its update hooks.
+      if ($moduleHandler->moduleExists('taxonomy_access_fix')) {
+        $taxonomy_access_fix_schema = drupal_get_installed_schema_version('taxonomy_access_fix');
+        $openfed_schema = drupal_get_installed_schema_version('openfed');
+        if (version_compare($openfed_schema, 8800, '<=') && version_compare($taxonomy_access_fix_schema, 8201, '<=')) {
+          $return['openfed_update_check'] = [
+            'title' => t('Openfed: Update Check'),
+            'severity' => REQUIREMENT_ERROR,
+            'value' => t('Taxonomy Access fix is enabled and you are trying to update Openfed from a version older than 8.x-8.7. This is not supported, please update to Openfed 8.x-8.7 first.'),
+          ];
+        }
+      }
+      break;
+    case 'runtime':
+      // Scheduled updates: check if this is enable. If so, we should throw an error
+      // because this module is not well maintained and supported.
+      if ($moduleHandler->moduleExists('scheduled_updates')) {
+        $return['openfed_scheduled_updated_check'] = [
+          'title' => t('Openfed: Scheduled Updates'),
+          'severity' => REQUIREMENT_ERROR,
+          'value' => t('Scheduled Updates is enabled but not supported so it will be removed before Openfed9. Use Scheduler instead.'),
+        ];
+      }
+
+      // Sharemessage: check if this is enable. If so, we should throw an error
+      // because this won't be supported by Openfed anymore.
+      if ($moduleHandler->moduleExists('sharemessage')) {
+        $return['openfed_sharemessage_check'] = [
+          'title' => t('Openfed: Share Message'),
+          'severity' => REQUIREMENT_ERROR,
+          'value' => t('Share Message is enabled but not supported so it will be removed before Openfed9. Use Openfed Social instead.'),
+        ];
+      }
+      break;
   }
 
-  // Sharemessage: check if this is enable. If so, we should throw an error
-  // because this won't be supported by Openfed anymore.
-  if ($moduleHandler->moduleExists('sharemessage')) {
-    $return['openfed_sharemessage_check'] = [
-      'title' => t('Openfed: Share Message'),
-      'severity' => REQUIREMENT_ERROR,
-      'value' => t('Share Message is enabled but not supported so it will be removed before Openfed9. Use Openfed Social instead.'),
-    ];
-  }
 
   return $return;
 }
