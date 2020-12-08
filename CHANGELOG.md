@@ -24,7 +24,7 @@ Issue list available at https://github.com/openfed/openfed8/milestone/6?closed=1
  - sharemessage is not supported anymore and Openfed 8.9.x is the last version where it will be included
  - entityqueue module was updated and there is a CR for it, which may require manual intervention https://www.drupal.org/node/3123878
  - IMCE link on user profile was replaced by an item, under admin menu item "Content"
- - The rules submodule "rules_ban" was removed so if you are using it, uninstall it first
+ - The rules submodule "rules_ban" was removed so, if you are upgrading from a previous version of Openfed, uninstall it first
 
 26 November 2020 - Version 8.6
 ----------------------------
