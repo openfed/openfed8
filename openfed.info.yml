@@ -2,7 +2,7 @@ name: Openfed
 type: profile
 description: 'OpenFed base installation with modules and configurations needed for Fast2Web offer by Fedict.'
 core: 8.x
-version: '8.x-9.0'
+version: '8.x-9.1'
 
 distribution:
   name: Openfed
@@ -58,7 +58,6 @@ dependencies:
   - extlink:extlink
   - field_formatter:field_formatter
   - file_entity:file_entity
-  - google_analytics:google_analytics
   - honeypot:honeypot
   - imce:imce
   - link_attributes:link_attributes

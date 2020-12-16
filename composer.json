@@ -404,6 +404,7 @@
         "drupal/link_attributes": "1.11",
         "drupal/linkit": "5.0-beta11",
         "drupal/m4032404": "1.0-alpha5",
+        "drupal/matomo": "1.11",
         "drupal/measuremail": "1.0-beta5",
         "drupal/media_entity_generic": "1.1",
         "drupal/memcache": "2.2",
