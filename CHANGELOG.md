@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+16 December 2020 - Version 9.1
+----------------------------
+ - Core update to version 8.9.11
+ - Issue #3188679: Add Matomo module
+
 07 December 2020 - Version 9.0
 ----------------------------
  - Update Core to version 8.9.10
