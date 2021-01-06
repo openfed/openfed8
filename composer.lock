@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f8c153cd7a2c92cf20b0b9391bdbc4f",
+    "content-hash": "a183d3215b165df8b8678e94743b049a",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -7761,6 +7761,7 @@
                 "patches_applied": {
                     "Issue #2894298: Attempt to create field storage menu_link which is reserved by entity type node.": "https://www.drupal.org/files/issues/2019-07-23/menu_link-field-storage-2894298-11.patch",
                     "Issue #2907989: Problem creating pathauto joined paths": "https://www.drupal.org/files/issues/wrong_joined_paths-2907989-4.patch",
+                    "Issue #3019509: Link attributes error": "https://www.drupal.org/files/issues/2018-12-10/menu_link-attributes-error-3019509-3.patch",
                     "Issue #3190817: Weight zero error": "https://www.drupal.org/files/issues/2021-01-04/weight_zero_error-3190817-2.patch"
                 }
             },
@@ -15320,16 +15321,16 @@
         },
         {
             "name": "simplesamlphp/simplesamlphp-module-statistics",
-            "version": "v0.9.4",
+            "version": "v0.9.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/simplesamlphp/simplesamlphp-module-statistics.git",
-                "reference": "1bb1e46921d8dc84707bc9cd3c307c8abd723ac7"
+                "reference": "d7f68a129baa2dfb6104b91deddfc36b79ae2b54"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp-module-statistics/zipball/1bb1e46921d8dc84707bc9cd3c307c8abd723ac7",
-                "reference": "1bb1e46921d8dc84707bc9cd3c307c8abd723ac7",
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp-module-statistics/zipball/d7f68a129baa2dfb6104b91deddfc36b79ae2b54",
+                "reference": "d7f68a129baa2dfb6104b91deddfc36b79ae2b54",
                 "shasum": ""
             },
             "require": {
@@ -15350,7 +15351,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGPL-3.0-or-later"
+                "LGPL-2.1-or-later"
             ],
             "authors": [
                 {
@@ -15363,7 +15364,7 @@
                 "simplesamlphp",
                 "statistics"
             ],
-            "time": "2019-12-03T08:42:27+00:00"
+            "time": "2021-01-05T15:07:29+00:00"
         },
         {
             "name": "simplesamlphp/twig-configurable-i18n",

@@ -287,6 +287,7 @@
             "drupal/menu_link": {
                 "Issue #2894298: Attempt to create field storage menu_link which is reserved by entity type node.": "https://www.drupal.org/files/issues/2019-07-23/menu_link-field-storage-2894298-11.patch",
                 "Issue #2907989: Problem creating pathauto joined paths": "https://www.drupal.org/files/issues/wrong_joined_paths-2907989-4.patch",
+                "Issue #3019509: Link attributes error": "https://www.drupal.org/files/issues/2018-12-10/menu_link-attributes-error-3019509-3.patch",
                 "Issue #3190817: Weight zero error": "https://www.drupal.org/files/issues/2021-01-04/weight_zero_error-3190817-2.patch"
             },
             "drupal/menu_trail_by_path": {
