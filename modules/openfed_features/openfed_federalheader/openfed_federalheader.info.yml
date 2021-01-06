@@ -5,3 +5,7 @@ package: Openfed
 type: module
 core: 8.x
 version: '8.x-9.0'
+
+project: openfed_federalheader
+'interface translation project': openfed_federalheader
+'interface translation server pattern': profiles/contrib/openfed/modules/openfed_features/openfed_federalheader/translations/%language.po
