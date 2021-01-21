@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+21 January 2021 - Version 9.2
+----------------------------
+ - Core update to version 8.9.13 due to SA-CORE-2021-001
+ - d.org 3071446: Remove invalid iframe attributes from oembed
+ - Make openfed_federalheader module aware of existing translations
+ - Fix menu_link issues with new patches
+
 16 December 2020 - Version 9.1
 ----------------------------
  - Core update to version 8.9.11
