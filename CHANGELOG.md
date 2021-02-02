@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+02 February 2021 - Version 9.3
+----------------------------
+- Fix Openfed SVG field translation+moderation issue
+
 21 January 2021 - Version 9.2
 ----------------------------
  - Core update to version 8.9.13 due to SA-CORE-2021-001

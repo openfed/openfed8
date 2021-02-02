@@ -6,4 +6,4 @@ dependencies:
 
 type: module
 core: 8.x
-version: '8.x-9.0'
+version: '8.x-9.1'
