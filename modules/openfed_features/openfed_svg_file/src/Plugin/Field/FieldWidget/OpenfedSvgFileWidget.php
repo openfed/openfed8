@@ -2,6 +2,8 @@
 
 namespace Drupal\openfed_svg_file\Plugin\Field\FieldWidget;
 
+use Drupal\Component\Utility\NestedArray;
+use Drupal\Core\Access\AccessResultInterface;
 use Drupal\Core\Field\FieldItemListInterface;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\file\Element\ManagedFile;
@@ -195,5 +197,28 @@ class OpenfedSvgFileWidget extends FileWidget {
     if ($value !== '' && (!is_numeric($value) || intval($value) != $value || $value < 0)) {
       $form_state->setError($element, t('%name must be a positive integer.', ['%name' => $element['#title']]));
     }
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function extractFormValues(FieldItemListInterface $items, array $form, FormStateInterface $form_state) {
+    $field_name = $this->fieldDefinition->getName();
+
+    $field_state = static::getWidgetState($form['#parents'], $field_name, $form_state);
+    $widget = NestedArray::getValue($form, $field_state['array_parents']);
+
+    // Require an access validation to avoid submitting locked fields, as is the
+    // case when working with moderated content and translations and
+    // non-translated fields are used.
+    $access = $widget['#access'] ?? TRUE;
+    if ($access === FALSE || ($access instanceof AccessResultInterface && !$access->isAllowed())) {
+      $path = array_merge($form['#parents'], [$field_name]);
+      $values = $form_state->getValues();
+      NestedArray::unsetValue($values, $path);
+      $form_state->setValues($values);
+    }
+    parent::extractFormValues($items, $form, $form_state);
+
   }
 }
