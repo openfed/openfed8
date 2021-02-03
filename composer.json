@@ -322,6 +322,10 @@
             "drupal/toolbar_themes": {
                 "Issue #2856979: Add a permission for configuring toolbar themes": "https://www.drupal.org/files/issues/config_permission-2856979-6.patch"
             },
+            "drupal/video_embed_field": {
+                "Issue #3175436: Video Embed Field Accessibility issues": "https://www.drupal.org/files/issues/2020-10-07/retrieve-title-3175436-2.patch",
+                "Issue #3196304: Video Embed Field - youtube requests using https instead": "https://www.drupal.org/files/issues/2021-02-03/fix_thumbnail_download-3196304-2.patch"
+            },
             "drupal/wba_menu_link": {
                 "Issue #2965926: Make the module compatible with the newest version of Workbench Moderation Actions.": "https://www.drupal.org/files/issues/2018-04-25/module_update-2965926-1.patch"
             }

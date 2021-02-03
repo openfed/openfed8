@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0a78a0cb87f205540b7707fb51374cb2",
+    "content-hash": "9f140b9f33ea22b7965adb030a870d94",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3489,6 +3489,10 @@
                 {
                     "name": "itsekhmistro",
                     "homepage": "https://www.drupal.org/user/928152"
+                },
+                {
+                    "name": "mparker17",
+                    "homepage": "https://www.drupal.org/user/536298"
                 },
                 {
                     "name": "peterpoe",
@@ -7601,6 +7605,10 @@
                     "homepage": "https://www.drupal.org/user/32095"
                 },
                 {
+                    "name": "RenatoG",
+                    "homepage": "https://www.drupal.org/user/3326031"
+                },
+                {
                     "name": "joelpittet",
                     "homepage": "https://www.drupal.org/user/160302"
                 },
@@ -7965,7 +7973,7 @@
             "extra": {
                 "drupal": {
                     "version": "8.x-1.15",
-                    "datestamp": "1607188979",
+                    "datestamp": "1611210662",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -9693,24 +9701,16 @@
                     "role": "Maintainer"
                 },
                 {
-                    "name": "chrisjlee",
-                    "homepage": "https://www.drupal.org/user/760600"
-                },
-                {
-                    "name": "drywall",
-                    "homepage": "https://www.drupal.org/user/192591"
-                },
-                {
-                    "name": "jsenich",
-                    "homepage": "https://www.drupal.org/user/58871"
-                },
-                {
-                    "name": "markie",
-                    "homepage": "https://www.drupal.org/user/206687"
-                },
-                {
                     "name": "newsignature",
                     "homepage": "https://www.drupal.org/user/765518"
+                },
+                {
+                    "name": "ultimike",
+                    "homepage": "https://www.drupal.org/user/51132"
+                },
+                {
+                    "name": "volkswagenchick",
+                    "homepage": "https://www.drupal.org/user/3332522"
                 }
             ],
             "description": "Provides a more robust alternative to 'summary or trimmed' textfield format.",
@@ -10415,6 +10415,10 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Issue #3175436: Video Embed Field Accessibility issues": "https://www.drupal.org/files/issues/2020-10-07/retrieve-title-3175436-2.patch",
+                    "Issue #3196304: Video Embed Field - youtube requests using https instead": "https://www.drupal.org/files/issues/2021-02-03/fix_thumbnail_download-3196304-2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
