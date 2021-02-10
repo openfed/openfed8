@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f140b9f33ea22b7965adb030a870d94",
+    "content-hash": "949b0da1b0ea23bc7463fc79258f934b",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -231,7 +231,7 @@
                 "url": "https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.14.0.zip"
             },
             "require": {
-                "oomphinc/composer-installers-extender": "^2.0"
+                "oomphinc/composer-installers-extender": "^1.1"
             },
             "type": "drupal-library"
         },
@@ -243,7 +243,7 @@
                 "url": "https://download.ckeditor.com/filetools/releases/filetools_4.14.0.zip"
             },
             "require": {
-                "oomphinc/composer-installers-extender": "^2.0"
+                "oomphinc/composer-installers-extender": "^1.1"
             },
             "type": "openfed-ckeditor-plugin"
         },
@@ -255,7 +255,7 @@
                 "url": "https://download.ckeditor.com/find/releases/find_4.14.0.zip"
             },
             "require": {
-                "oomphinc/composer-installers-extender": "^2.0"
+                "oomphinc/composer-installers-extender": "^1.1"
             },
             "type": "openfed-ckeditor-plugin"
         },
@@ -267,7 +267,7 @@
                 "url": "https://download.ckeditor.com/link/releases/link_4.14.0.zip"
             },
             "require": {
-                "oomphinc/composer-installers-extender": "^2.0"
+                "oomphinc/composer-installers-extender": "^1.1"
             },
             "type": "drupal-library"
         },
@@ -279,7 +279,7 @@
                 "url": "https://download.ckeditor.com/notification/releases/notification_4.14.0.zip"
             },
             "require": {
-                "oomphinc/composer-installers-extender": "^2.0"
+                "oomphinc/composer-installers-extender": "^1.1"
             },
             "type": "openfed-ckeditor-plugin"
         },
@@ -291,7 +291,7 @@
                 "url": "https://download.ckeditor.com/notificationaggregator/releases/notificationaggregator_4.14.0.zip"
             },
             "require": {
-                "oomphinc/composer-installers-extender": "^2.0"
+                "oomphinc/composer-installers-extender": "^1.1"
             },
             "type": "openfed-ckeditor-plugin"
         },
@@ -303,7 +303,7 @@
                 "url": "https://download.ckeditor.com/templates/releases/templates_4.14.0.zip"
             },
             "require": {
-                "oomphinc/composer-installers-extender": "^2.0"
+                "oomphinc/composer-installers-extender": "^1.1"
             },
             "type": "openfed-ckeditor-template"
         },
@@ -315,7 +315,7 @@
                 "url": "https://download.ckeditor.com/uploadimage/releases/uploadimage_4.14.0.zip"
             },
             "require": {
-                "oomphinc/composer-installers-extender": "^2.0"
+                "oomphinc/composer-installers-extender": "^1.1"
             },
             "type": "openfed-ckeditor-plugin"
         },
@@ -327,7 +327,7 @@
                 "url": "https://download.ckeditor.com/uploadwidget/releases/uploadwidget_4.14.0.zip"
             },
             "require": {
-                "oomphinc/composer-installers-extender": "^2.0"
+                "oomphinc/composer-installers-extender": "^1.1"
             },
             "type": "openfed-ckeditor-plugin"
         },
@@ -3364,10 +3364,6 @@
                 {
                     "name": "Sam152",
                     "homepage": "https://www.drupal.org/user/1485048"
-                },
-                {
-                    "name": "frjo",
-                    "homepage": "https://www.drupal.org/user/5546"
                 },
                 {
                     "name": "jdwfly",
@@ -11965,7 +11961,7 @@
                 "url": "https://github.com/jackmoore/colorbox/archive/1.6.4.zip"
             },
             "require": {
-                "oomphinc/composer-installers-extender": "^2.0"
+                "oomphinc/composer-installers-extender": "^1.1"
             },
             "type": "drupal-library"
         },
@@ -12643,27 +12639,21 @@
         },
         {
             "name": "oomphinc/composer-installers-extender",
-            "version": "2.0.0",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oomphinc/composer-installers-extender.git",
-                "reference": "8d3fe38a1723e0e91076920c8bb946b1696e28ca"
+                "reference": "ca1c4b16b0905c81d1e77e608f36a2eff1a56f56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oomphinc/composer-installers-extender/zipball/8d3fe38a1723e0e91076920c8bb946b1696e28ca",
-                "reference": "8d3fe38a1723e0e91076920c8bb946b1696e28ca",
+                "url": "https://api.github.com/repos/oomphinc/composer-installers-extender/zipball/ca1c4b16b0905c81d1e77e608f36a2eff1a56f56",
+                "reference": "ca1c4b16b0905c81d1e77e608f36a2eff1a56f56",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.1 || ^2.0",
-                "composer/installers": "^1.0",
-                "php": ">=7.1"
-            },
-            "require-dev": {
-                "composer/composer": "^2.0",
-                "phpunit/phpunit": "^7.2",
-                "squizlabs/php_codesniffer": "^3.3"
+                "composer-plugin-api": "^1.0",
+                "composer/installers": "^1.0"
             },
             "type": "composer-plugin",
             "extra": {
@@ -12683,16 +12673,11 @@
                     "name": "Stephen Beemsterboer",
                     "email": "stephen@oomphinc.com",
                     "homepage": "https://github.com/balbuf"
-                },
-                {
-                    "name": "Nathan Dentzau",
-                    "email": "nate@oomphinc.com",
-                    "homepage": "http://oomph.is/ndentzau"
                 }
             ],
             "description": "Extend the composer/installers plugin to accept any arbitrary package type.",
             "homepage": "http://www.oomphinc.com/",
-            "time": "2020-08-11T21:06:11+00:00"
+            "time": "2017-03-31T16:57:39+00:00"
         },
         {
             "name": "openfed/kiso",
@@ -17926,7 +17911,7 @@
                 "url": "https://github.com/w8tcha/CKEditor-CodeMirror-Plugin/archive/untagged-f790a6bee2e01b538b13.zip"
             },
             "require": {
-                "oomphinc/composer-installers-extender": "^2.0"
+                "oomphinc/composer-installers-extender": "^1.1"
             },
             "type": "drupal-library",
             "extra": {
@@ -18255,23 +18240,24 @@
         },
         {
             "name": "behat/gherkin",
-            "version": "v4.7.1",
+            "version": "v4.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Behat/Gherkin.git",
-                "reference": "987bcdc3d29ba433e6bd4b1db4ae59737ba3dacd"
+                "reference": "d5ae4616aeaa91daadbfb8446d9d17aae8d43cf7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/987bcdc3d29ba433e6bd4b1db4ae59737ba3dacd",
-                "reference": "987bcdc3d29ba433e6bd4b1db4ae59737ba3dacd",
+                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/d5ae4616aeaa91daadbfb8446d9d17aae8d43cf7",
+                "reference": "d5ae4616aeaa91daadbfb8446d9d17aae8d43cf7",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.6"
             },
             "require-dev": {
-                "phpunit/phpunit": "~5.7|~6|~7",
+                "cucumber/cucumber": "dev-gherkin-16.0.0",
+                "phpunit/phpunit": "^5.7.1|~6|~7",
                 "symfony/phpunit-bridge": "~2.7|~3|~4",
                 "symfony/yaml": "~2.3|~3|~4"
             },
@@ -18310,7 +18296,7 @@
                 "gherkin",
                 "parser"
             ],
-            "time": "2021-01-26T16:24:32+00:00"
+            "time": "2021-02-04T12:26:47+00:00"
         },
         {
             "name": "behat/mink",
