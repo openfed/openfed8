@@ -21,7 +21,7 @@
                 "version": "1.6.4",
                 "type": "drupal-library",
                 "require": {
-                    "oomphinc/composer-installers-extender": "^1.1"
+                    "oomphinc/composer-installers-extender": "^2.0"
                 },
                 "dist": {
                     "url": "https://github.com/jackmoore/colorbox/archive/1.6.4.zip",
@@ -36,7 +36,7 @@
                 "version": "4.14.0",
                 "type": "openfed-ckeditor-plugin",
                 "require": {
-                    "oomphinc/composer-installers-extender": "^1.1"
+                    "oomphinc/composer-installers-extender": "^2.0"
                 },
                 "dist": {
                     "url": "https://download.ckeditor.com/uploadimage/releases/uploadimage_4.14.0.zip",
@@ -51,7 +51,7 @@
                 "version": "4.14.0",
                 "type": "openfed-ckeditor-plugin",
                 "require": {
-                    "oomphinc/composer-installers-extender": "^1.1"
+                    "oomphinc/composer-installers-extender": "^2.0"
                 },
                 "dist": {
                     "url": "https://download.ckeditor.com/uploadwidget/releases/uploadwidget_4.14.0.zip",
@@ -66,7 +66,7 @@
                 "version": "4.14.0",
                 "type": "openfed-ckeditor-plugin",
                 "require": {
-                    "oomphinc/composer-installers-extender": "^1.1"
+                    "oomphinc/composer-installers-extender": "^2.0"
                 },
                 "dist": {
                     "url": "https://download.ckeditor.com/filetools/releases/filetools_4.14.0.zip",
@@ -81,7 +81,7 @@
                 "version": "4.14.0",
                 "type": "openfed-ckeditor-plugin",
                 "require": {
-                    "oomphinc/composer-installers-extender": "^1.1"
+                    "oomphinc/composer-installers-extender": "^2.0"
                 },
                 "dist": {
                     "url": "https://download.ckeditor.com/notification/releases/notification_4.14.0.zip",
@@ -96,7 +96,7 @@
                 "version": "4.14.0",
                 "type": "openfed-ckeditor-plugin",
                 "require": {
-                    "oomphinc/composer-installers-extender": "^1.1"
+                    "oomphinc/composer-installers-extender": "^2.0"
                 },
                 "dist": {
                     "url": "https://download.ckeditor.com/notificationaggregator/releases/notificationaggregator_4.14.0.zip",
@@ -111,7 +111,7 @@
                 "version": "4.14.0",
                 "type": "openfed-ckeditor-template",
                 "require": {
-                    "oomphinc/composer-installers-extender": "^1.1"
+                    "oomphinc/composer-installers-extender": "^2.0"
                 },
                 "dist": {
                     "url": "https://download.ckeditor.com/templates/releases/templates_4.14.0.zip",
@@ -126,7 +126,7 @@
                 "version": "4.14.0",
                 "type": "openfed-ckeditor-plugin",
                 "require": {
-                    "oomphinc/composer-installers-extender": "^1.1"
+                    "oomphinc/composer-installers-extender": "^2.0"
                 },
                 "dist": {
                     "url": "https://download.ckeditor.com/find/releases/find_4.14.0.zip",
@@ -141,7 +141,7 @@
                 "version": "4.14.0",
                 "type": "drupal-library",
                 "require": {
-                    "oomphinc/composer-installers-extender": "^1.1"
+                    "oomphinc/composer-installers-extender": "^2.0"
                 },
                 "dist": {
                     "url": "https://download.ckeditor.com/link/releases/link_4.14.0.zip",
@@ -156,7 +156,7 @@
                 "version": "4.14.0",
                 "type": "drupal-library",
                 "require": {
-                    "oomphinc/composer-installers-extender": "^1.1"
+                    "oomphinc/composer-installers-extender": "^2.0"
                 },
                 "dist": {
                     "url": "https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.14.0.zip",
@@ -171,7 +171,7 @@
                 "version": "1.17.8",
                 "type": "drupal-library",
                 "require": {
-                    "oomphinc/composer-installers-extender": "^1.1"
+                    "oomphinc/composer-installers-extender": "^2.0"
                 },
                 "extra": {
                     "installer-name": "ckeditor_codemirror"
@@ -337,7 +337,7 @@
     },
     "require": {
         "composer/installers": "^1.2",
-        "oomphinc/composer-installers-extender": "^1.1",
+        "oomphinc/composer-installers-extender": "^2.0",
         "cweagans/composer-patches": "^1.6.5",
         "openfed/kiso": "2.6",
         "drush/drush": "~9.0",
