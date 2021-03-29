@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+02 February 2021 - Version 9.4
+----------------------------
+- Update Webform module due to sa-contrib-2021-004
+
 02 February 2021 - Version 9.3
 ----------------------------
 - Fix Openfed SVG field translation+moderation issue
