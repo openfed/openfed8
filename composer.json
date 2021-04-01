@@ -352,6 +352,7 @@
         "drupal/alertbox": "1.0-beta8",
         "drupal/allowed_formats": "1.3",
         "drupal/anchor_link": "2.4",
+        "drupal/antibot": "1.4",
         "drupal/append_file_info": "1.0-rc2",
         "drupal/back_to_top": "1.1",
         "drupal/block_class": "1.3",
