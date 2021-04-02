@@ -45,6 +45,7 @@ dependencies:
   - admin_toolbar:admin_toolbar_links_access_filter
   - admin_toolbar_content_languages:admin_toolbar_content_languages
   - allowed_formats:allowed_formats
+  - antibot:antibot
   - ckeditor_abbreviation:ckeditor_abbreviation
   - ckeditor_codemirror:ckeditor_codemirror
   - ckeditor_uploadimage:ckeditor_uploadimage
