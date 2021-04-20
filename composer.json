@@ -264,7 +264,7 @@
                 "Issue #3075245: Form Validation in Format Config is Too Strict for data- Attributes": "https://www.drupal.org/files/issues/2019-08-16/3075245-2.patch"
             },
             "drupal/facets": {
-                "Issue #3057943: Set target page URL": "https://www.drupal.org/files/issues/2020-02-07/facets-set_base_path-3057943-14.patch"
+                "Issue #3057943: Set target page URL": "https://www.drupal.org/files/issues/2021-04-02/facets-set_base_path-3057943-21.patch"
             },
             "drupal/field_default_token": {
                 "Issue #2860580: Apply field_default_token patches 2841292 and 2854384": "https://www.drupal.org/files/issues/2841292-7-and-2854384-4.patch"
@@ -291,23 +291,21 @@
                 "Issue #3190817: Weight zero error": "https://www.drupal.org/files/issues/2021-01-19/weight_zero_error-3190817-6.patch"
             },
             "drupal/menu_trail_by_path": {
-                "Issue #3099308: Menu Trail by Path: several issues": "https://www.drupal.org/files/issues/2020-06-12/menu_trail_by_path_issues-3099308-7.patch"
+                "Issue #3099308: Menu Trail by Path: several issues": "https://www.drupal.org/files/issues/2021-04-02/menu_trail_by_path_issues-3099308-10.patch"
             },
             "drupal/page_manager": {
                 "Issue #2820218: Page manager does not respect existing route defaults for title callbacks": "https://www.drupal.org/files/issues/2018-03-21/2820218-50.patch",
-                "Issue #2858877: Allow for block visibility rules": "https://www.drupal.org/files/issues/page_manager-block_visibility_conditions-2858877-27-D8.patch"
+                "Issue #2858877: Allow for block visibility rules": "https://www.drupal.org/files/issues/2020-06-24/page_manager-block_visibility_conditions-2858877-66.patch"
             },
             "drupal/panels": {
-                "Issue #2869412: Page title does not display on panels": "https://www.drupal.org/files/issues/2869412-2-page_title_does_not_show_in_panels.patch",
-                "Issue #2923286: Fatal error in Drupal\\panels\\Form\\PanelsAddBlockForm::buildForm() with PHP 7.2": "https://www.drupal.org/files/issues/2923286-13.patch",
-                "Issue #2938850: Add Block visibility conditions": "https://www.drupal.org/files/issues/panels-block_visibility_conditions_apply_after_issue_2869412_2-2938850-2.patch"
+                "Issue #2769099: Add Block visibility conditions": "https://www.drupal.org/files/issues/2020-07-13/panels-block_visibility_conditions-2769099-43.patch"
             },
             "drupal/paragraphs": {
-                "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/2019-11-16/2461695-273.patch",
+                "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/2020-03-06/2461695-276.patch",
                 "Issue #2911244: Field collections deriver and base migration": "https://www.drupal.org/files/issues/2019-10-11/2911244-80.paragraphs.Field-collections-deriver-and-base-migration.patch"
             },
             "drupal/paragraphs_asymmetric_translation_widgets": {
-                "Issue #2992777: Implement a migration path": "https://www.drupal.org/files/issues/2019-05-24/2992777-implement_migration_path-15.patch"
+                "Issue #2992777: Implement a migration path": "https://www.drupal.org/files/issues/2020-08-13/2992777_28.patch"
             },
             "drupal/pathauto": {
                 "Issue #3116452: Entity Update when using file_entity module": "https://www.drupal.org/files/issues/2020-02-28/entity_update_when_using_file_entity-3116452-4.patch"
@@ -370,7 +368,7 @@
         "drupal/country": "1.0-rc1",
         "drupal/crop": "2.1",
         "drupal/cshs": "1.5",
-        "drupal/ctools": "3.0",
+        "drupal/ctools": "3.4",
         "drupal/date_popup": "1.1",
         "drupal/diff": "1.0",
         "drupal/disable_route_normalizer": "1.0-alpha5",
@@ -383,7 +381,7 @@
         "drupal/entityqueue": "1.2",
         "drupal/eu_cookie_compliance": "1.14",
         "drupal/extlink": "1.5",
-        "drupal/facets": "1.4",
+        "drupal/facets": "1.7",
         "drupal/fakeobjects": "1.1",
         "drupal/fast_404": "1.0-alpha5",
         "drupal/fences": "2.0-rc1",
@@ -417,7 +415,7 @@
         "drupal/menu_firstchild": "2.0",
         "drupal/menu_link": "1.0-alpha1",
         "drupal/menu_link_weight": "2.0-alpha3",
-        "drupal/menu_trail_by_path": "1.1",
+        "drupal/menu_trail_by_path": "1.3",
         "drupal/metatag": "1.15",
         "drupal/multiselect": "1.0",
         "drupal/node_edit_redirect": "1.0-rc3",
@@ -425,26 +423,26 @@
         "drupal/openfed_social": "1.1",
         "drupal/optional_end_date": "1.1",
         "drupal/override_node_options": "2.6",
-        "drupal/page_manager": "4.0-beta3",
-        "drupal/panels": "4.2",
-        "drupal/paragraphs": "1.10",
-        "drupal/paragraphs_asymmetric_translation_widgets": "1.0-beta2",
+        "drupal/page_manager": "4.0-beta6",
+        "drupal/panels": "4.6",
+        "drupal/paragraphs": "1.12",
+        "drupal/paragraphs_asymmetric_translation_widgets": "1.0-beta4",
         "drupal/pathauto": "1.8",
         "drupal/redirect": "1.6",
         "drupal/role_delegation": "1.1",
         "drupal/rules": "3.0-alpha5",
         "drupal/scheduled_updates": "1.0-alpha7",
         "drupal/scheduler": "1.3",
-        "drupal/search_api": "1.13",
-        "drupal/search_api_attachments": "1.0-beta15",
-        "drupal/search_api_autocomplete": "1.2",
+        "drupal/search_api": "1.19",
+        "drupal/search_api_attachments": "1.0-beta17",
+        "drupal/search_api_autocomplete": "1.4",
         "drupal/search_api_solr": "1.2",
         "drupal/search_api_solr_multilingual": "1.1",
-        "drupal/seckit": "1.2",
+        "drupal/seckit": "2.0",
         "drupal/securelogin": "1.8",
         "drupal/sharemessage": "1.0-beta3",
         "drupal/simple_gmap": "2.0",
-        "drupal/simple_sitemap": "3.8",
+        "drupal/simple_sitemap": "3.10",
         "drupal/simplesamlphp_auth": "3.2",
         "drupal/sitemap": "2.0-beta2",
         "drupal/smart_trim": "1.3",
