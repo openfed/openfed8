@@ -96,7 +96,7 @@ class PartialDateFormatter extends FormatterBase implements ContainerFactoryPlug
       'format' => 'short',
     ) + parent::defaultSettings();
   }
-  
+
   /**
    * {@inheritdoc}
    */
@@ -244,13 +244,13 @@ class PartialDateFormatter extends FormatterBase implements ContainerFactoryPlug
    *
    * This could throw errors if outside PHP's native date range.
    */
-  public function generateExampleDate($timestamp = REQUEST_TIME, $timezone = NULL) {
+  public function generateExampleDate($timestamp = 0, $timezone = NULL) {
     // PHP Date should handle any integer, but outside of the int range, 0 is
     // returned by intval(). On 32 bit systems this is Fri, 13 Dec 1901 20:45:54
     // and Tue, 19 Jan 2038 03:14:07 GMT
     $timestamp = intval($timestamp);
     if (!$timestamp) {
-      $timestamp = REQUEST_TIME;
+      $timestamp = \Drupal::time()->getRequestTime();
     }
     if (!$timezone) {
       //$timezones = partial_date_granularity_field_options('timezone');

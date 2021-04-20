@@ -122,7 +122,7 @@ function partial_date_timezone_handling_correlation($timezone = '', $tz_handling
       return !empty($default_timezone) ? $default_timezone : @date_default_timezone_get();
 
     case 'user':
-      return drupal_get_user_timezone();
+      return date_default_timezone_get();
 
     case 'date':
     case 'none':

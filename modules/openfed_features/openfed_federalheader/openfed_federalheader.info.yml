@@ -3,8 +3,8 @@ description: 'Provide the official Belgian Federal Authorities header'
 package: Openfed
 
 type: module
-core: 8.x
-version: '8.x-9.0'
+version: '8.x-10.0'
+core_version_requirement: ^8 || ^9
 
 project: openfed_federalheader
 'interface translation project': openfed_federalheader

@@ -2,9 +2,9 @@
 
 /*
  * Static "stand-alone" date related functions.
- * 
+ *
  * Note: It would be great to move these to the date_api.
- * 
+ *
  */
 
 namespace Drupal\partial_date;
@@ -85,7 +85,7 @@ class DateTools {
     }
     return array(31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31);
   }
-  
+
   public static function lastDayOfMonth($month, $year = NULL) {
     $matrix = self::monthMatrix($year);
     return $matrix[$month];
@@ -156,8 +156,8 @@ class DateTools {
    */
   public static function weekdayAbbreviations($week_day_number, $length = 3) {
     $name = STATIC::weekdayNames($week_day_number);
-    if (Unicode::strlen($name) > $length) {
-      return Unicode::substr($name, 0, $length);
+    if (mb_strlen($name) > $length) {
+      return mb_substr($name, 0, $length);
     }
     return $name;
   }
@@ -232,5 +232,5 @@ class DateTools {
     }
   }
 
-  
+
 }

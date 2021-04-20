@@ -96,7 +96,7 @@ class PartialDateFormatEditForm extends EntityForm {
     }
     return $elements;
   }
-  
+
   private function buildSeparatorElements(PartialDateFormatInterface $format) {
     $elements = array(
       '#type' => 'details',
@@ -218,7 +218,7 @@ class PartialDateFormatEditForm extends EntityForm {
         '#required' => TRUE,
       );
     }
-    
+
     return $table;
   }
 
@@ -288,12 +288,12 @@ class PartialDateFormatEditForm extends EntityForm {
     $status = parent::save($form, $form_state);
 
     if ($status) {
-      drupal_set_message($this->t('Saved the %label format.', array(
+      $this->messenger->addMessage($this->t('Saved the %label format.', array(
         '%label' => $this->entity->label(),
       )));
     }
     else {
-      drupal_set_message($this->t('The %label format was not saved.', array(
+      $this->messenger->addMessage($this->t('The %label format was not saved.', array(
         '%label' => $this->entity->label(),
       )));
     }
