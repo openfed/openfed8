@@ -1,8 +1,0 @@
-name: 'YAML Form Clear'
-description: 'Prevents YAML form submissions from being stored in the database'
-type: module
-core: 8.x
-version: '8.x-9.0'
-package: 'YAML Form'
-dependencies:
-  - yamlform
