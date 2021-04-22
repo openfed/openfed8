@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+22 April 2021 - Version 9.6
+----------------------------
+  Update Drupal core due to Critical - Cross-site scripting - SA-CORE-2021-002
+
 01 April 2021 - Version 9.5
 ----------------------------
 - Added Antibot module

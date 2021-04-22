@@ -2,7 +2,7 @@ name: Openfed
 type: profile
 description: 'OpenFed base installation with modules and configurations needed for Fast2Web offer by Fedict.'
 core: 8.x
-version: '8.x-9.5'
+version: '8.x-9.6'
 
 distribution:
   name: Openfed
