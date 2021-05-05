@@ -286,7 +286,7 @@
                 "Issue #2907989: Problem creating pathauto joined paths": "https://www.drupal.org/files/issues/wrong_joined_paths-2907989-4.patch"
             },
             "drupal/menu_trail_by_path": {
-                "Issue #3099308: Menu Trail by Path: several issues": "https://www.drupal.org/files/issues/2021-04-02/menu_trail_by_path_issues-3099308-10.patch"
+                "Issue #3099308: Menu Trail by Path: several issues": "https://www.drupal.org/files/issues/2021-05-05/menu_trail_by_path_issues-3099308-12.patch"
             },
             "drupal/page_manager": {
                 "Issue #2820218: Page manager does not respect existing route defaults for title callbacks": "https://www.drupal.org/files/issues/2018-03-21/2820218-50.patch",
