@@ -293,7 +293,7 @@
                 "Issue #2858877: Allow for block visibility rules": "https://www.drupal.org/files/issues/2020-06-24/page_manager-block_visibility_conditions-2858877-66.patch"
             },
             "drupal/panels": {
-                "Issue #2769099: Add Block visibility conditions": "https://www.drupal.org/files/issues/2020-07-13/panels-block_visibility_conditions-2769099-43.patch"
+                "Issue #3214070: Add Block visibility conditions and fix title display": "https://www.drupal.org/files/issues/2021-05-14/panels_issues-3214070-2.patch"
             },
             "drupal/paragraphs": {
                 "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/2020-03-06/2461695-276.patch",

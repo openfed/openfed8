@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "022a9fb96e8430ae2c40974555419204",
+    "content-hash": "08705bb33b354e401097b5edb52d0d1f",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -396,16 +396,16 @@
         },
         {
             "name": "commerceguys/addressing",
-            "version": "v1.2.0",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/commerceguys/addressing.git",
-                "reference": "00c263fa945e7f78524bbb6b99d331f3b493be2a"
+                "reference": "311040bd78ea2ea82105dd1f17205c449ac8de47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/commerceguys/addressing/zipball/00c263fa945e7f78524bbb6b99d331f3b493be2a",
-                "reference": "00c263fa945e7f78524bbb6b99d331f3b493be2a",
+                "url": "https://api.github.com/repos/commerceguys/addressing/zipball/311040bd78ea2ea82105dd1f17205c449ac8de47",
+                "reference": "311040bd78ea2ea82105dd1f17205c449ac8de47",
                 "shasum": ""
             },
             "require": {
@@ -451,7 +451,7 @@
                 "localization",
                 "postal"
             ],
-            "time": "2021-03-14T20:04:10+00:00"
+            "time": "2021-05-17T08:05:21+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -8585,7 +8585,7 @@
                     "dev-8.x-4.x": "4.x-dev"
                 },
                 "patches_applied": {
-                    "Issue #2769099: Add Block visibility conditions": "https://www.drupal.org/files/issues/2020-07-13/panels-block_visibility_conditions-2769099-43.patch"
+                    "Issue #3214070: Add Block visibility conditions and fix title display": "https://www.drupal.org/files/issues/2021-05-14/panels_issues-3214070-2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -15108,16 +15108,16 @@
         },
         {
             "name": "simplesamlphp/simplesamlphp-module-negotiate",
-            "version": "v0.9.10",
+            "version": "v0.9.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/simplesamlphp/simplesamlphp-module-negotiate.git",
-                "reference": "db05ff40399c66e3f14697a8162da6b2fbdab47d"
+                "reference": "e7c4597110c753a750cd522220fc2a5a34b7c1b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp-module-negotiate/zipball/db05ff40399c66e3f14697a8162da6b2fbdab47d",
-                "reference": "db05ff40399c66e3f14697a8162da6b2fbdab47d",
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp-module-negotiate/zipball/e7c4597110c753a750cd522220fc2a5a34b7c1b8",
+                "reference": "e7c4597110c753a750cd522220fc2a5a34b7c1b8",
                 "shasum": ""
             },
             "require": {
@@ -15157,7 +15157,7 @@
                 "negotiate",
                 "simplesamlphp"
             ],
-            "time": "2021-01-22T13:36:09+00:00"
+            "time": "2021-05-17T11:01:39+00:00"
         },
         {
             "name": "simplesamlphp/simplesamlphp-module-oauth",
