@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+31 May 2021 - Version 9.7
+----------------------------
+  Update Drupal core due to Moderately critical - Cross Site Scripting - SA-CORE-2021-003
+
+
 22 April 2021 - Version 9.6
 ----------------------------
   Update Drupal core due to Critical - Cross-site scripting - SA-CORE-2021-002
