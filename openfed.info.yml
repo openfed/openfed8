@@ -80,7 +80,6 @@ dependencies:
   - seckit:seckit
   - smart_trim:smart_trim
   - super_login:super_login
-  - toolbar_themes:toolbar_themes
   - token:token
   - username_enumeration_prevention:username_enumeration_prevention
 

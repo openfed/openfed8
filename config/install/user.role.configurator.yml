@@ -6,6 +6,5 @@ label: Configurator
 weight: 4
 is_admin: null
 permissions:
-  - 'configure toolbar_themes'
   - 'use text format embeddable_text'
   - 'use text format flexible_html'
