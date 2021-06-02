@@ -76,7 +76,6 @@ dependencies:
   - search_api:search_api
   - search_api_attachments:search_api_attachments
   - search_api_solr:search_api_solr
-  - search_api_solr_multilingual:search_api_solr_multilingual
   - seckit:seckit
   - smart_trim:smart_trim
   - super_login:super_login
