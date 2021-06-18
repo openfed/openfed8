@@ -73,12 +73,11 @@ class OpenfedSvgFileFormatter extends FileFormatterBase {
             $dom = new \DomDocument();
             libxml_use_internal_errors(TRUE);
             $dom->loadXML($svg_file);
-            $svg_data = $dom->saveXML();
             if (isset($dom->documentElement)) {
               $dom->documentElement->setAttribute('height', $attributes['height']);
               $dom->documentElement->setAttribute('width', $attributes['width']);
-              $svg_data = $dom->saveXML();
             }
+            $svg_data = $dom->C14N();
           }
         }
 
