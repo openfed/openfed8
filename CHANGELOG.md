@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+1 July 2021 - Version 9.8
+----------------------------
+  Fix gitignore by reverting wrong ignore rule introduced in previous release.
+
+
 31 May 2021 - Version 9.7
 ----------------------------
   Update Drupal core due to Moderately critical - Cross Site Scripting - SA-CORE-2021-003
