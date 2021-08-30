@@ -1,6 +1,11 @@
 CHANGELOG
 =========
 
+30 August 2021 - Version 9.9
+----------------------------
+  Update Drupal core.
+  Update Webform module.
+
 1 July 2021 - Version 9.8
 ----------------------------
   Fix gitignore by reverting wrong ignore rule introduced in previous release.
