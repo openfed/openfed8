@@ -38,7 +38,7 @@ class PartialDateFormatter implements PartialDateFormatterInterface {
         switch ($display_type) {
           case 'none':
             // We need to avoid adding an empty option.
-            continue;
+            continue 2;
 
           case 'date_only':
           case 'date_or':
