@@ -79,6 +79,9 @@
             }
         },
         "patches": {
+            "drupal/admin_toolbar": {
+                "Issue #3019298: Menu items for content entity show in wrong language": "https://www.drupal.org/files/issues/2021-01-20/admin_toolbar-entity_type_translation-3019298-26.patch"
+            },
             "drupal/block_content_permissions": {
                 "Issue #2920739: Allow accessing the \"Custom block library\" page without \"Administer blocks\" permission": "https://www.drupal.org/files/issues/2020-07-27/block_content_permissions-access_listing_page-2920739-38.patch"
             },
@@ -169,7 +172,7 @@
         "drupal/console": "~1.0",
         "drupal/addanother": "1.1",
         "drupal/address": "1.9",
-        "drupal/admin_toolbar": "2.4",
+        "drupal/admin_toolbar": "2.5",
         "drupal/admin_toolbar_content_languages": "1.0-beta4",
         "drupal/adminimal_theme": "1.6",
         "drupal/alertbox": "1.0-beta8",
