@@ -253,6 +253,7 @@
                 "Issue #2878504: fix a problem when publishing translations": "https://www.drupal.org/files/issues/2878504-1.patch"
             },
             "drupal/core": {
+                "Issue #2321071: BaseFieldOverride fails": "https://www.drupal.org/files/issues/2019-12-24/2321071-39.patch",
                 "Issue #2325899: UI fatal caused by views argument handlers no longer can provide their own default argument handling": "https://www.drupal.org/files/issues/2019-03-02/2325899-124.patch",
                 "Issue #2457999: Cannot use relationship for rendered entity on Views": "https://www.drupal.org/files/issues/2020-05-30/cannot-use-relationship-2457999-236.patch",
                 "Issue #2649268: Entity Field Query throws QueryException when querying all revisions and setting condition on entity reference field": "https://www.drupal.org/files/issues/2019-09-12/2649268-32.patch",
