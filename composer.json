@@ -61,6 +61,9 @@
             ],
             "docroot/libraries/ckeditor/plugins/{$name}": [
                 "type:openfed-ckeditor-plugin"
+            ],
+            "docroot/libraries/simplesamlphp/modules/{$name}": [
+                "type:simplesamlphp-module"
             ]
         },
         "drupal-scaffold": {
@@ -167,7 +170,7 @@
         "cweagans/composer-patches": "^1.6.5",
         "openfed/kiso": "2.7",
         "drush/drush": "~9.0",
-        "drupal/core-recommended": "8.9.16",
+        "drupal/core-recommended": "8.9.18",
         "drupal/core-composer-scaffold": "*",
         "drupal/console": "~1.0",
         "drupal/addanother": "1.1",
