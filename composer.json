@@ -267,8 +267,7 @@
                 "Issue #3071446: Remove invalid iframe attributes from oembed":"https://www.drupal.org/files/issues/2019-07-31/remove-iframe-attributes-3071446-4.patch"
             },
             "drupal/entity_embed": {
-                "Issue #2882866: Provide a preview display setting for use in WYSIWYG editors": "https://www.drupal.org/files/issues/2019-09-18/entity_embed-preview_display_plugin-2882866-28.patch",
-                "Issue #3075245: Form Validation in Format Config is Too Strict for data- Attributes": "https://www.drupal.org/files/issues/2019-08-16/3075245-2.patch"
+                "Issue #2882866: Provide a preview display setting for use in WYSIWYG editors": "https://www.drupal.org/files/issues/2019-09-18/entity_embed-preview_display_plugin-2882866-28.patch"
             },
             "drupal/facets": {
                 "Issue #3057943: Set target page URL": "https://www.drupal.org/files/issues/2020-02-07/facets-set_base_path-3057943-14.patch"
@@ -389,7 +388,7 @@
         "drupal/embed": "1.4",
         "drupal/entity": "1.2",
         "drupal/entity_browser": "1.10",
-        "drupal/entity_embed": "1.1",
+        "drupal/entity_embed": "1.2",
         "drupal/entity_reference_revisions": "1.8",
         "drupal/entityqueue": "1.2",
         "drupal/eu_cookie_compliance": "1.14",
