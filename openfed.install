@@ -364,3 +364,11 @@ function openfed_update_8800(&$sandbox) {
 
   return $message;
 }
+
+/**
+ * This update will force the use of Openfed8 9.11 before updating to Openfed8
+ * 10.0.
+ */
+function openfed_update_8900() {
+  return t('You can now update to Openfed 8.x-10.0.');
+}

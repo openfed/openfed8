@@ -1,11 +1,6 @@
 <?php
 
-/**
- * @file
- * Contains \DrupalProject\composer\ScriptHandler.
- */
-
-namespace DrupalProject\composer;
+namespace OpenfedProject\composer;
 
 use Composer\Script\Event;
 use Symfony\Component\Filesystem\Filesystem;

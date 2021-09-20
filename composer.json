@@ -187,15 +187,18 @@
     "prefer-stable": true,
     "autoload": {
         "classmap": [
-            "scripts/composer/ScriptHandler.php"
+            "scripts/composer"
         ]
     },
     "scripts": {
+        "pre-update-cmd": [
+            "OpenfedProject\\composer\\OpenfedValidations::validateUpdate810"
+        ],
         "post-install-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+            "OpenfedProject\\composer\\ScriptHandler::createRequiredFiles"
         ],
         "post-update-cmd": [
-            "DrupalProject\\composer\\ScriptHandler::createRequiredFiles"
+            "OpenfedProject\\composer\\ScriptHandler::createRequiredFiles"
         ]
     },
     "extra": {
