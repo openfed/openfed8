@@ -1,6 +1,50 @@
 CHANGELOG
 =========
 
+20 September 2021 - Version 10.0
+----------------------------
+This version is a transition between Drupal 8 and Drupal 9. All modules and code in this release should be compatible with Drupal 9, but it still uses Drupal 8.
+
+Several updates have been made which may require rework on your site before update. This version may also require some changes at your server because it requires at least PHP 7.3 and Solr support is now limited. Old versions of Solr can still be used by using search_api_solr_legacy. See https://www.drupal.org/project/search_api_solr for more info.
+
+At theme level, if you use twig_tweak module, you may have to update your theme and/or configuration to make it compatible with twig_tweak 2. For more info check https://www.drupal.org/docs/contributed-modules/twig-tweak/migrating-to-twig-tweak-2x
+
+Several modules were removed and should be uninstalled before update:
+- toolbar_themes
+- sharemessage
+- simple_gmap
+- scheduled_updates
+- field_default_token
+- contact_storage_clear
+- yamlform_clear
+- features
+
+Two new scripts were added to Openfed, one to ease the update to this version from Openfed 8.x-9.x and the other to help with future updates of every project composer files when a Openfed update is needed. See the Openfed8-project README file for more information about the update script.
+
+Almost every module was updated in this release in order to provide compatibility with Drupal 9.
+
+**Note1**: To update to this version from an existing Openfed site, you must be sure to be running on Openfed 8.x-9.11 or higher.
+
+**Note2**: Since toolbar_themes was removed, the administration toolbar will look different from previous versions. From now on Openfed will use the default Drupal toolbar for a better compatibility with Drupal 9.
+
+01 June 2021 - Version 10.0-beta2
+----------------------------
+Update Drupal core due to Moderately critical - Cross Site Scripting - SA-CORE-2021-003
+
+19 May 2021 - Version 10.0-beta1
+----------------------------
+- Several module updates.
+- Remove scheduled_updates
+- Remove sharemessage
+- Remove simple_gmap
+- Remove toolbar_themes
+- Remove field_default_token
+- Remove Openfed contact_storage_clear module
+- Remove Openfed yamlform_clear
+- Remove features --dev
+- Remove drupal/drupal-extension --dev
+- Set PHP version to 7.3
+
 20 April 2021 - Version 10.0-alpha1
 ----------------------------
 This version is intended to be fully compatible with Drupal 9. It includes:
