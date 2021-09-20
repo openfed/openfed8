@@ -1,16 +1,20 @@
 CHANGELOG
 =========
 
+20 September 2021 - Version 9.11
+----------------------------
+Scripts were added to make update to Openfed 8.x-10.0 smoother.
+
 15 September 2021 - Version 9.10
 ----------------------------
-  Update Drupal core.
-  Update Entity Embed module.
-  Add missing regions to Openfed Admin theme.
-  Fix partialDate module issue.
-  Issue #116: Patch to fix admin_toolbar translation issues.
-  Update kiso.
-  Issue 3222938: Remove empty hook_install.
-  Fix svg files treated as xml files.
+- Update Drupal core.
+- Update Entity Embed module.
+- Add missing regions to Openfed Admin theme.
+- Fix partialDate module issue.
+- Issue #116: Patch to fix admin_toolbar translation issues.
+- Update kiso.
+- Issue 3222938: Remove empty hook_install.
+- Fix svg files treated as xml files.
 
 30 August 2021 - Version 9.9
 ----------------------------
