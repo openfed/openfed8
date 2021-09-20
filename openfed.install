@@ -5,6 +5,13 @@
  */
 
 /**
+ * Minimum 9.11 schema version to allow upgrading from.
+ */
+function openfed_update_last_removed() {
+  return 8900;
+}
+
+/**
  * Implements hook_requirements().
  */
 function openfed_requirements($phase) {
