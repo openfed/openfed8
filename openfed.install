@@ -364,3 +364,16 @@ function openfed_update_8800(&$sandbox) {
 
   return $message;
 }
+
+/**
+ * Fix long lost modules are missing from the filesystem.
+ */
+function openfed_update_81000(&$sandbox) {
+  $modules = [
+    'media_entity',
+  ];
+  \Drupal::database()->delete('key_value')
+    ->condition('collection', 'system.schema')
+    ->condition('name', $modules, 'IN')
+    ->execute();
+}
