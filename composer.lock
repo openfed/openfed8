@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d87dec1de4ee6214fd1e2a07cb962b46",
+    "content-hash": "c5e85d510be156c18ba79311d716a5ec",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -9476,6 +9476,55 @@
                 "source": "http://git.drupal.org/project/search_api_solr.git",
                 "issues": "https://www.drupal.org/project/issues/search_api_solr",
                 "chat": "https://drupalchat.me/channel/search"
+            }
+        },
+        {
+            "name": "drupal/search_api_solr_multilingual",
+            "version": "3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/search_api_solr_multilingual.git",
+                "reference": "8.x-3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/search_api_solr_multilingual-8.x-3.1.zip",
+                "reference": "8.x-3.1",
+                "shasum": "56aea2ce9b7f3dceac5eca7147bf66120f50b71e"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9",
+                "drupal/search_api_solr": ">=3.0.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-3.1",
+                    "datestamp": "1586971671",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "cspitzlay",
+                    "homepage": "https://www.drupal.org/user/419305"
+                },
+                {
+                    "name": "mkalkbrenner",
+                    "homepage": "https://www.drupal.org/user/124705"
+                }
+            ],
+            "description": "Provides the transition to search_api_solr 4.x.",
+            "homepage": "https://www.drupal.org/project/search_api_solr_multilingual",
+            "support": {
+                "source": "https://git.drupalcode.org/project/search_api_solr_multilingual"
             }
         },
         {
