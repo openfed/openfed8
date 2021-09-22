@@ -89,7 +89,7 @@ class OpenfedValidations {
     // We'll make sure that the composer merge is updated in the old composer
     // file.
     $composer_file = json_decode(file_get_contents('composer.json'), TRUE);
-    $merged_composers = array_search('composer.openfed.json', $composer_file['extra']['merge-plugin']['require']);
+    $merged_composers = array_search('composer.libraries.json', $composer_file['extra']['merge-plugin']['require']);
     if (strpos($composer_file['require']['wikimedia/composer-merge-plugin'], '^1.') !== FALSE || $merged_composers !== FALSE) {
       throw new \ErrorException("Your composer.json doesn't seem to be up to date.");
     }
