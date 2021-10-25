@@ -50,6 +50,7 @@ dependencies:
   - ckeditor_codemirror:ckeditor_codemirror
   - ckeditor_uploadimage:ckeditor_uploadimage
   - ctools:ctools
+  - current_page_crumb:current_page_crumb
   - diff:diff
   - ds:ds
   - entity:entity
