@@ -384,3 +384,14 @@ function openfed_update_81000(&$sandbox) {
     ->condition('name', $modules, 'IN')
     ->execute();
 }
+
+
+/**
+ * Uninstall wbm2cm because it's unlikely that it gets ported to D9.
+ */
+function openfed_update_81001(&$sandbox) {
+  $modules = [
+    'wbm2cm',
+  ];
+  \Drupal::service('module_installer')->uninstall($modules);
+}
