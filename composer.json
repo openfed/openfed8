@@ -40,7 +40,9 @@
     "extra": {
         "installer-types": [
             "openfed-ckeditor-plugin",
-            "openfed-ckeditor-template"
+            "openfed-ckeditor-template",
+            "simplesamlphp-module",
+            "theme-library"
         ],
         "installer-paths": {
             "docroot/core": [
@@ -48,7 +50,8 @@
             ],
             "docroot/libraries/{$name}": [
                 "type:drupal-library",
-                "type:openfed-ckeditor-template"
+                "type:openfed-ckeditor-template",
+                "type:theme-library"
             ],
             "docroot/modules/contrib/{$name}": [
                 "type:drupal-module"
@@ -306,7 +309,8 @@
         "ckeditor/find": "4.16.1",
         "ckeditor/link": "4.16.1",
         "ckeditor/fakeobjects": "4.16.1",
-        "w8tcha/codemirror": "1.17.8"
+        "w8tcha/codemirror": "1.17.8",
+        "smillart/wai-aria-patterns-and-widgets": "^1.0"
     },
     "require-dev": {
         "drupal/coder": "8.*",
