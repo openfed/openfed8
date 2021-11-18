@@ -1,6 +1,18 @@
 CHANGELOG
 =========
 
+18 November 2021 - Version 10.2
+----------------------------
+- Added current_page_crumb module to fix some edge cases when breadcrumb is not correctly generated
+- Uninstall wbm2cm because it's unlikely that it gets ported to D9
+- Reorganize libraries and add new library smillart/wai-aria-patterns-and-widgets
+- Update code and ckeditor libraries due to SA-CORE-2021-011
+
+20 September 2021 - Version 10.1
+----------------------------
+Fix composer.json validation condition
+
+
 20 September 2021 - Version 10.0
 ----------------------------
 This version is a transition between Drupal 8 and Drupal 9. All modules and code in this release should be compatible with Drupal 9, but it still uses Drupal 8.
@@ -27,9 +39,11 @@ Almost every module was updated in this release in order to provide compatibilit
 
 **Note2**: Since toolbar_themes was removed, the administration toolbar will look different from previous versions. From now on Openfed will use the default Drupal toolbar for a better compatibility with Drupal 9.
 
+
 01 June 2021 - Version 10.0-beta2
 ----------------------------
 Update Drupal core due to Moderately critical - Cross Site Scripting - SA-CORE-2021-003
+
 
 19 May 2021 - Version 10.0-beta1
 ----------------------------
@@ -44,6 +58,7 @@ Update Drupal core due to Moderately critical - Cross Site Scripting - SA-CORE-2
 - Remove features --dev
 - Remove drupal/drupal-extension --dev
 - Set PHP version to 7.3
+
 
 20 April 2021 - Version 10.0-alpha1
 ----------------------------
