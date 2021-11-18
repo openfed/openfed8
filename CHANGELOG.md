@@ -8,7 +8,8 @@ CHANGELOG
 - Reorganize libraries and add new library smillart/wai-aria-patterns-and-widgets
 - Update code and ckeditor libraries due to SA-CORE-2021-011
 
-20 September 2021 - Version 10.1
+
+22 September 2021 - Version 10.1
 ----------------------------
 Fix composer.json validation condition
 
