@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+07 December 2021 - Version 10.3
+----------------------------
+- Update Rules version
+
 18 November 2021 - Version 10.2
 ----------------------------
 - Added current_page_crumb module to fix some edge cases when breadcrumb is not correctly generated
