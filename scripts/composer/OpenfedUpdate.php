@@ -145,7 +145,7 @@ class OpenfedUpdate {
    * Set the latest Openfed8 version variable.
    */
   private static function _setLatestOpenfedVersion() {
-    $latest_openfed_version = explode("\n", trim(shell_exec("git -c 'versionsort.suffix=-' ls-remote --tags --sort='-v:refname' " . self::$openfed8Repo . " | cut --delimiter='/' --fields=3 | grep -v -")));
+    $latest_openfed_version = explode("\n", trim(shell_exec("git -c 'versionsort.suffix=-' ls-remote --tags --sort='-v:refname' " . self::$openfed8Repo . " | cut -delimiter '/' -f 3 | grep -v -")));
     self::$latestOpenfedVersion = $latest_openfed_version[0];
   }
 
