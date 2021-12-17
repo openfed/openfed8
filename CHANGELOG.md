@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+17 December 2021 - Version 10.4
+----------------------------
+- Revert code to fix issue with drupal-profile path
+
 07 December 2021 - Version 10.3
 ----------------------------
 - Update Rules version
