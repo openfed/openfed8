@@ -1,7 +1,7 @@
 CHANGELOG
 =========
 
-07 December 2022 - Version 10.5
+07 January 2022 - Version 10.5
 ----------------------------
 Several security updates:
 - Update Linkit due to SA-CONTRIB-2021-042.
