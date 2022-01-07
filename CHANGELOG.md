@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+07 December 2022 - Version 10.5
+----------------------------
+Several security updates:
+- Update Linkit due to SA-CONTRIB-2021-042.
+- Update Search API attachments due to SA-CONTRIB-2021-034.
+- Update Super Login due to SA-CONTRIB-2022-048.
+
 17 December 2021 - Version 10.4
 ----------------------------
 - Revert code to fix issue with drupal-profile path
