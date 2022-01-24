@@ -320,6 +320,14 @@
     "config": {
         "platform": {
             "php": "7.3"
+        },
+        "allow-plugins": {
+            "simplesamlphp/composer-module-installer": true,
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "oomphinc/composer-installers-extender": true,
+            "drupal/console-extend-plugin": true,
+            "drupal/core-composer-scaffold": true
         }
     }
 }
