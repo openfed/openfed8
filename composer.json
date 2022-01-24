@@ -105,6 +105,9 @@
                 "Issue #2771837: drupalimage CKEditor plugin should not require data-entity-uuid and data-entity-type when image upload is disabled": "https://www.drupal.org/files/issues/2020-02-20/drupalimage_ckeditor-2771837-50.patch",
                 "Issue #3071446: Remove invalid iframe attributes from oembed":"https://www.drupal.org/files/issues/2019-07-31/remove-iframe-attributes-3071446-4.patch"
             },
+            "drupal/cshs": {
+                "Select option labels are empty": "https://www.drupal.org/files/issues/2022-01-13/cshs-select_option_labels_are_empty-3258226-5-D8.patch"
+            },
             "drupal/entity_embed": {
                 "Issue #2882866: Provide a preview display setting for use in WYSIWYG editors": "https://www.drupal.org/files/issues/2019-09-18/entity_embed-preview_display_plugin-2882866-28.patch"
             },

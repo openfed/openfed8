@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4cc93de36e998a24c3e4abb9aff13e2a",
+    "content-hash": "11626f9ba98ad14ad6e49dbc6247615a",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -132,16 +132,16 @@
         },
         {
             "name": "caxy/php-htmldiff",
-            "version": "v0.1.13",
+            "version": "v0.1.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/caxy/php-htmldiff.git",
-                "reference": "aca63d7da8c9cf3c0c3c27fb41af1ffb1b1d4b3a"
+                "reference": "3f8ee7edda3d7c6d2e58a02d70a12d3242c84ea5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/caxy/php-htmldiff/zipball/aca63d7da8c9cf3c0c3c27fb41af1ffb1b1d4b3a",
-                "reference": "aca63d7da8c9cf3c0c3c27fb41af1ffb1b1d4b3a",
+                "url": "https://api.github.com/repos/caxy/php-htmldiff/zipball/3f8ee7edda3d7c6d2e58a02d70a12d3242c84ea5",
+                "reference": "3f8ee7edda3d7c6d2e58a02d70a12d3242c84ea5",
                 "shasum": ""
             },
             "require": {
@@ -187,9 +187,9 @@
             ],
             "support": {
                 "issues": "https://github.com/caxy/php-htmldiff/issues",
-                "source": "https://github.com/caxy/php-htmldiff/tree/v0.1.13"
+                "source": "https://github.com/caxy/php-htmldiff/tree/v0.1.14"
             },
-            "time": "2021-09-27T22:01:33+00:00"
+            "time": "2022-01-19T11:09:59+00:00"
         },
         {
             "name": "chi-teck/drupal-code-generator",
@@ -874,6 +874,10 @@
                 }
             ],
             "description": "Initialize Symfony Console commands from annotated command class methods.",
+            "support": {
+                "issues": "https://github.com/consolidation/annotated-command/issues",
+                "source": "https://github.com/consolidation/annotated-command/tree/2.12.2"
+            },
             "time": "2022-01-03T00:23:44+00:00"
         },
         {
@@ -1465,6 +1469,10 @@
                 }
             ],
             "description": "Manage alias records for local and remote sites.",
+            "support": {
+                "issues": "https://github.com/consolidation/site-alias/issues",
+                "source": "https://github.com/consolidation/site-alias/tree/3.1.3"
+            },
             "time": "2022-01-03T19:00:28+00:00"
         },
         {
@@ -3113,9 +3121,6 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                },
-                "patches_applied": {
-                    "Issue #2920739: Allow accessing the \"Custom block library\" page without \"Administer blocks\" permission": "https://www.drupal.org/files/issues/2020-07-27/block_content_permissions-access_listing_page-2920739-38.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -4103,9 +4108,6 @@
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
                     }
-                },
-                "patches_applied": {
-                    "Issue #2878504: fix a problem when publishing translations": "https://www.drupal.org/files/issues/2878504-1.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -4448,17 +4450,6 @@
                         "[web-root]/profiles/README.txt": "assets/scaffold/files/profiles.README.txt",
                         "[web-root]/themes/README.txt": "assets/scaffold/files/themes.README.txt"
                     }
-                },
-                "patches_applied": {
-                    "Issue #2321071: BaseFieldOverride fails": "https://www.drupal.org/files/issues/2019-12-24/2321071-39.patch",
-                    "Issue #2325899: UI fatal caused by views argument handlers no longer can provide their own default argument handling": "https://www.drupal.org/files/issues/2019-03-02/2325899-124.patch",
-                    "Issue #2457999: Cannot use relationship for rendered entity on Views": "https://www.drupal.org/files/issues/2020-05-30/cannot-use-relationship-2457999-236.patch",
-                    "Issue #2649268: Entity Field Query throws QueryException when querying all revisions and setting condition on entity reference field": "https://www.drupal.org/files/issues/2019-09-12/2649268-32.patch",
-                    "Issue #2716019: View titles in breadcrumb don't get properly translated": "https://www.drupal.org/files/issues/2020-01-21/2716019-77.patch",
-                    "Issue #2730631: Node revision routes don't convert {node} param": "https://www.drupal.org/files/issues/2019-04-04/2730631_85_0.patch",
-                    "Issue #2737619: Views entity reference relationships must join on langcode for translatable entities": "https://www.drupal.org/files/issues/language_aware_relationship-2737619-19.patch",
-                    "Issue #2771837: drupalimage CKEditor plugin should not require data-entity-uuid and data-entity-type when image upload is disabled": "https://www.drupal.org/files/issues/2020-02-20/drupalimage_ckeditor-2771837-50.patch",
-                    "Issue #3071446: Remove invalid iframe attributes from oembed": "https://www.drupal.org/files/issues/2019-07-31/remove-iframe-attributes-3071446-4.patch"
                 }
             },
             "autoload": {
@@ -4489,7 +4480,7 @@
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "9.3.2",
+            "version": "9.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -4532,6 +4523,9 @@
             "keywords": [
                 "drupal"
             ],
+            "support": {
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.3.3"
+            },
             "time": "2021-11-19T09:52:23+00:00"
         },
         {
@@ -5436,9 +5430,6 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                },
-                "patches_applied": {
-                    "Issue #2882866: Provide a preview display setting for use in WYSIWYG editors": "https://www.drupal.org/files/issues/2019-09-18/entity_embed-preview_display_plugin-2882866-28.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -5822,9 +5813,6 @@
                 },
                 "branch-alias": {
                     "dev-8.x-1.x": "1.x-dev"
-                },
-                "patches_applied": {
-                    "Issue #3057943: Set target page URL": "https://www.drupal.org/files/issues/2021-05-13/facets-set_base_path-3057943-23.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -5972,8 +5960,7 @@
             "homepage": "https://www.drupal.org/project/fast_404",
             "support": {
                 "source": "https://git.drupalcode.org/project/fast_404"
-            },
-            "time": "2020-09-14T15:03:19+00:00"
+            }
         },
         {
             "name": "drupal/fences",
@@ -6197,9 +6184,6 @@
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
                     }
-                },
-                "patches_applied": {
-                    "Issue #2866851: Wrong encoded Content-Disposition header": "https://www.drupal.org/files/issues/2020-11-02/2866851-content-disposition-9.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -6638,24 +6622,12 @@
                     "role": "Maintainer"
                 },
                 {
-                    "name": "davidseth",
-                    "homepage": "https://www.drupal.org/user/254857"
-                },
-                {
-                    "name": "itamair",
-                    "homepage": "https://www.drupal.org/user/1179076"
-                },
-                {
                     "name": "phayes",
                     "homepage": "https://www.drupal.org/user/47098"
                 },
                 {
                     "name": "plopesc",
                     "homepage": "https://www.drupal.org/user/282415"
-                },
-                {
-                    "name": "zzolo",
-                    "homepage": "https://www.drupal.org/user/147331"
                 }
             ],
             "description": "Stores geographic and location data (points, lines, and polygons).",
@@ -6838,9 +6810,6 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                },
-                "patches_applied": {
-                    "Issue #3146575: D8.8.6 -> D8.8.7 = Usupport schema version": "https://www.drupal.org/files/issues/2020-07-14/unsuported_schema_version-3146575-7.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -7019,9 +6988,6 @@
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
                     }
-                },
-                "patches_applied": {
-                    "Issue #2822764: Support adding new entities when translating": "https://www.drupal.org/files/issues/2020-05-16/2822764-57.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -8056,9 +8022,6 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                },
-                "patches_applied": {
-                    "Issue #3089134: Ability to display the menu selected by the page": "https://www.drupal.org/files/issues/2020-08-12/multi-menu-block-3089134-15.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -8247,10 +8210,6 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                },
-                "patches_applied": {
-                    "Issue #2894298: Attempt to create field storage menu_link which is reserved by entity type node.": "https://www.drupal.org/files/issues/2019-07-23/menu_link-field-storage-2894298-11.patch",
-                    "Issue #2907989: Problem creating pathauto joined paths": "https://www.drupal.org/files/issues/wrong_joined_paths-2907989-4.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -8389,9 +8348,6 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                },
-                "patches_applied": {
-                    "Issue #3099308: Menu Trail by Path: several issues": "https://www.drupal.org/files/issues/2021-06-02/menu_trail_by_path_issues-3099308-13.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -8700,7 +8656,7 @@
             ],
             "authors": [
                 {
-                    "name": "dolu",
+                    "name": "Ludo.R",
                     "homepage": "https://www.drupal.org/user/374670"
                 },
                 {
@@ -8833,10 +8789,6 @@
                 },
                 "branch-alias": {
                     "dev-8.x-4.x": "4.x-dev"
-                },
-                "patches_applied": {
-                    "Issue #2820218: Page manager does not respect existing route defaults for title callbacks": "https://www.drupal.org/files/issues/2018-03-21/2820218-50.patch",
-                    "Issue #2858877: Allow for block visibility rules": "https://www.drupal.org/files/issues/2020-06-24/page_manager-block_visibility_conditions-2858877-66.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -8913,9 +8865,6 @@
                 },
                 "branch-alias": {
                     "dev-8.x-4.x": "4.x-dev"
-                },
-                "patches_applied": {
-                    "Issue #3214070: Add Block visibility conditions and fix title display": "https://www.drupal.org/files/issues/2021-05-14/panels_issues-3214070-2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -9015,10 +8964,6 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                },
-                "patches_applied": {
-                    "Issue #2461695: Support translatable paragraph entity reference revision field": "https://www.drupal.org/files/issues/2020-03-06/2461695-276.patch",
-                    "Issue #2911244: Field collections deriver and base migration": "https://www.drupal.org/files/issues/2019-10-11/2911244-80.paragraphs.Field-collections-deriver-and-base-migration.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -9084,9 +9029,6 @@
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
                     }
-                },
-                "patches_applied": {
-                    "Issue #2992777: Implement a migration path": "https://www.drupal.org/files/issues/2020-08-13/2992777_28.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -9157,9 +9099,6 @@
                     "services": {
                         "drush.services.yml": "^9 || ^10"
                     }
-                },
-                "patches_applied": {
-                    "Issue #3116452: Entity Update when using file_entity module": "https://www.drupal.org/files/issues/2020-02-28/entity_update_when_using_file_entity-3116452-4.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -10178,9 +10117,6 @@
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
                     }
-                },
-                "patches_applied": {
-                    "Issue #2760787: Fix fatal error occurs on all pages": "https://www.drupal.org/files/issues/soundcloudfield-fatal_error_occurs_on_all_pages-2760787-3.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -10416,9 +10352,6 @@
                     "services": {
                         "drush.services.yml": "^9 || ^10"
                     }
-                },
-                "patches_applied": {
-                    "Issue #2945272: Bulk generating nodes with [node:content-type]/[node:title]": "https://www.drupal.org/files/issues/2019-03-14/2945272-8-token-language.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -10805,10 +10738,6 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
-                },
-                "patches_applied": {
-                    "Issue #3175436: Video Embed Field Accessibility issues": "https://www.drupal.org/files/issues/2020-10-07/retrieve-title-3175436-2.patch",
-                    "Issue #3196304: Video Embed Field - youtube requests using https instead": "https://www.drupal.org/files/issues/2021-02-03/fix_thumbnail_download-3196304-2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -11949,6 +11878,10 @@
             "keywords": [
                 "html"
             ],
+            "support": {
+                "issues": "https://github.com/ezyang/htmlpurifier/issues",
+                "source": "https://github.com/ezyang/htmlpurifier/tree/v4.14.0"
+            },
             "time": "2021-12-25T01:21:49+00:00"
         },
         {
@@ -13648,6 +13581,10 @@
             ],
             "description": "A library to read, parse, export and make subsets of different types of font files.",
             "homepage": "https://github.com/PhenX/php-font-lib",
+            "support": {
+                "issues": "https://github.com/dompdf/php-font-lib/issues",
+                "source": "https://github.com/dompdf/php-font-lib/tree/0.5.4"
+            },
             "time": "2021-12-17T19:44:54+00:00"
         },
         {
@@ -14500,6 +14437,10 @@
                 "interactive",
                 "shell"
             ],
+            "support": {
+                "issues": "https://github.com/bobthecow/psysh/issues",
+                "source": "https://github.com/bobthecow/psysh/tree/v0.11.1"
+            },
             "time": "2022-01-03T13:58:38+00:00"
         },
         {
@@ -14628,16 +14569,16 @@
         },
         {
             "name": "simplesamlphp/saml2",
-            "version": "v4.2.6",
+            "version": "v4.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/simplesamlphp/saml2.git",
-                "reference": "8ce8819085e7bfc622e0dc4eedcadee677ae8d6f"
+                "reference": "f3b13417deb45f882f676108c250143f994eb2a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/simplesamlphp/saml2/zipball/8ce8819085e7bfc622e0dc4eedcadee677ae8d6f",
-                "reference": "8ce8819085e7bfc622e0dc4eedcadee677ae8d6f",
+                "url": "https://api.github.com/repos/simplesamlphp/saml2/zipball/f3b13417deb45f882f676108c250143f994eb2a4",
+                "reference": "f3b13417deb45f882f676108c250143f994eb2a4",
                 "shasum": ""
             },
             "require": {
@@ -14678,7 +14619,11 @@
                 }
             ],
             "description": "SAML2 PHP library from SimpleSAMLphp",
-            "time": "2022-01-06T11:37:45+00:00"
+            "support": {
+                "issues": "https://github.com/simplesamlphp/saml2/issues",
+                "source": "https://github.com/simplesamlphp/saml2/tree/v4.4.0"
+            },
+            "time": "2022-01-20T17:38:13+00:00"
         },
         {
             "name": "simplesamlphp/simplesamlphp",
@@ -14853,6 +14798,10 @@
                 "adfs",
                 "simplesamlphp"
             ],
+            "support": {
+                "issues": "https://github.com/tvdijen/simplesamlphp-module-adfs/issues",
+                "source": "https://github.com/tvdijen/simplesamlphp-module-adfs"
+            },
             "time": "2022-01-03T20:33:38+00:00"
         },
         {
@@ -14900,6 +14849,10 @@
                 "authcrypt",
                 "simplesamlphp"
             ],
+            "support": {
+                "issues": "https://github.com/tvdijen/simplesamlphp-module-authcrypt/issues",
+                "source": "https://github.com/tvdijen/simplesamlphp-module-authcrypt"
+            },
             "time": "2022-01-03T20:50:47+00:00"
         },
         {
@@ -14999,6 +14952,10 @@
                 "authorize",
                 "simplesamlphp"
             ],
+            "support": {
+                "issues": "https://github.com/tvdijen/simplesamlphp-module-authorize/issues",
+                "source": "https://github.com/tvdijen/simplesamlphp-module-authorize"
+            },
             "time": "2022-01-03T20:56:53+00:00"
         },
         {
@@ -15050,6 +15007,10 @@
                 "simplesamlphp",
                 "twitter"
             ],
+            "support": {
+                "issues": "https://github.com/tvdijen/simplesamlphp-module-authtwitter/issues",
+                "source": "https://github.com/tvdijen/simplesamlphp-module-authtwitter"
+            },
             "time": "2022-01-03T23:01:48+00:00"
         },
         {
@@ -15159,6 +15120,10 @@
                 "simplesamlphp",
                 "x509"
             ],
+            "support": {
+                "issues": "https://github.com/tvdijen/simplesamlphp-module-authx509/issues",
+                "source": "https://github.com/tvdijen/simplesamlphp-module-authx509"
+            },
             "time": "2022-01-06T19:02:38+00:00"
         },
         {
@@ -15208,6 +15173,10 @@
                 "authyubikey",
                 "simplesamlphp"
             ],
+            "support": {
+                "issues": "https://github.com/tvdijen/simplesamlphp-module-authyubikey/issues",
+                "source": "https://github.com/tvdijen/simplesamlphp-module-authyubikey"
+            },
             "time": "2022-01-06T19:07:32+00:00"
         },
         {
@@ -15309,6 +15278,10 @@
                 "cdc",
                 "simplesamlphp"
             ],
+            "support": {
+                "issues": "https://github.com/simplesamlphp/simplesamlphp-module-cdc/issues",
+                "source": "https://github.com/simplesamlphp/simplesamlphp-module-cdc/"
+            },
             "time": "2022-01-06T19:27:16+00:00"
         },
         {
@@ -15355,6 +15328,10 @@
                 "consent",
                 "simplesamlphp"
             ],
+            "support": {
+                "issues": "https://github.com/tvdijen/simplesamlphp-module-consent/issues",
+                "source": "https://github.com/tvdijen/simplesamlphp-module-consent"
+            },
             "time": "2022-01-06T19:17:22+00:00"
         },
         {
@@ -15404,6 +15381,10 @@
                 "consentadmin",
                 "simplesamlphp"
             ],
+            "support": {
+                "issues": "https://github.com/simplesamlphp/simplesamlphp-module-consentadmin/issues",
+                "source": "https://github.com/simplesamlphp/simplesamlphp-module-consentadmin"
+            },
             "time": "2022-01-06T19:19:38+00:00"
         },
         {
@@ -15549,20 +15530,24 @@
                 "expirycheck",
                 "simplesamlphp"
             ],
+            "support": {
+                "issues": "https://github.com/tvdijen/simplesamlphp-module-expirycheck/issues",
+                "source": "https://github.com/tvdijen/simplesamlphp-module-expirycheck"
+            },
             "time": "2022-01-06T21:16:01+00:00"
         },
         {
             "name": "simplesamlphp/simplesamlphp-module-ldap",
-            "version": "v0.9.16",
+            "version": "v0.9.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/simplesamlphp/simplesamlphp-module-ldap.git",
-                "reference": "1eaff0af2d441fa015be1ced54d258c20cdd98c4"
+                "reference": "40f1bfe0c4ac2f91cf8e52d22fa6ec2fe1c03066"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp-module-ldap/zipball/1eaff0af2d441fa015be1ced54d258c20cdd98c4",
-                "reference": "1eaff0af2d441fa015be1ced54d258c20cdd98c4",
+                "url": "https://api.github.com/repos/simplesamlphp/simplesamlphp-module-ldap/zipball/40f1bfe0c4ac2f91cf8e52d22fa6ec2fe1c03066",
+                "reference": "40f1bfe0c4ac2f91cf8e52d22fa6ec2fe1c03066",
                 "shasum": ""
             },
             "require": {
@@ -15601,7 +15586,11 @@
                 "ldap",
                 "simplesamlphp"
             ],
-            "time": "2022-01-03T23:12:23+00:00"
+            "support": {
+                "issues": "https://github.com/tvdijen/simplesamlphp-module-ldap/issues",
+                "source": "https://github.com/tvdijen/simplesamlphp-module-ldap"
+            },
+            "time": "2022-01-11T12:50:47+00:00"
         },
         {
             "name": "simplesamlphp/simplesamlphp-module-memcachemonitor",
@@ -15648,6 +15637,10 @@
                 "memcachemonitor",
                 "simplesamlphp"
             ],
+            "support": {
+                "issues": "https://github.com/tvdijen/simplesamlphp-module-memcachemonitor/issues",
+                "source": "https://github.com/tvdijen/simplesamlphp-module-memcachemonitor"
+            },
             "time": "2022-01-06T22:37:15+00:00"
         },
         {
@@ -15745,6 +15738,10 @@
                 "metarefresh",
                 "simplesamlphp"
             ],
+            "support": {
+                "issues": "https://github.com/tvdijen/simplesamlphp-module-metarefresh/issues",
+                "source": "https://github.com/tvdijen/simplesamlphp-module-metarefresh"
+            },
             "time": "2022-01-06T22:45:08+00:00"
         },
         {
@@ -15798,6 +15795,10 @@
                 "negotiate",
                 "simplesamlphp"
             ],
+            "support": {
+                "issues": "https://github.com/simplesamlphp/simplesamlphp-module-negotiate/issues",
+                "source": "https://github.com/simplesamlphp/simplesamlphp-module-negotiate"
+            },
             "time": "2022-01-03T23:18:27+00:00"
         },
         {
@@ -15898,6 +15899,10 @@
                 "preprodwarning",
                 "simplesamlphp"
             ],
+            "support": {
+                "issues": "https://github.com/simplesamlphp/simplesamlphp-module-preprodwarning/issues",
+                "source": "https://github.com/simplesamlphp/simplesamlphp-module-preprodwarning"
+            },
             "time": "2022-01-06T23:21:17+00:00"
         },
         {
@@ -15944,6 +15949,10 @@
                 "radius",
                 "simplesamlphp"
             ],
+            "support": {
+                "issues": "https://github.com/tvdijen/simplesamlphp-module-radius/issues",
+                "source": "https://github.com/tvdijen/simplesamlphp-module-radius"
+            },
             "time": "2022-01-06T23:23:28+00:00"
         },
         {
@@ -16090,6 +16099,10 @@
                 "simplesamlphp",
                 "smartattributes"
             ],
+            "support": {
+                "issues": "https://github.com/tvdijen/simplesamlphp-module-smartattributes/issues",
+                "source": "https://github.com/tvdijen/simplesamlphp-module-smartattributes"
+            },
             "time": "2022-01-06T23:42:07+00:00"
         },
         {
@@ -16136,6 +16149,10 @@
                 "simplesamlphp",
                 "sqlauth"
             ],
+            "support": {
+                "issues": "https://github.com/tvdijen/simplesamlphp-module-sqlauth/issues",
+                "source": "https://github.com/tvdijen/simplesamlphp-module-sqlauth"
+            },
             "time": "2022-01-06T23:50:52+00:00"
         },
         {
@@ -16262,16 +16279,16 @@
         },
         {
             "name": "solarium/solarium",
-            "version": "6.2.1",
+            "version": "6.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/solariumphp/solarium.git",
-                "reference": "3c13804d3e12b2783ca450a4e8a6d759e496d651"
+                "reference": "0f5c81eee5529556f349eaacfbf5ce3cfbb2be47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/solariumphp/solarium/zipball/3c13804d3e12b2783ca450a4e8a6d759e496d651",
-                "reference": "3c13804d3e12b2783ca450a4e8a6d759e496d651",
+                "url": "https://api.github.com/repos/solariumphp/solarium/zipball/0f5c81eee5529556f349eaacfbf5ce3cfbb2be47",
+                "reference": "0f5c81eee5529556f349eaacfbf5ce3cfbb2be47",
                 "shasum": ""
             },
             "require": {
@@ -16317,7 +16334,11 @@
                 "search",
                 "solr"
             ],
-            "time": "2021-12-26T10:15:52+00:00"
+            "support": {
+                "issues": "https://github.com/solariumphp/solarium/issues",
+                "source": "https://github.com/solariumphp/solarium/tree/6.2.2"
+            },
+            "time": "2022-01-20T17:45:10+00:00"
         },
         {
             "name": "stack/builder",
@@ -16616,6 +16637,9 @@
             ],
             "description": "Helps you find, load, combine, autofill and validate configuration values of any kind",
             "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/config/tree/v4.4.36"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -17273,6 +17297,9 @@
             ],
             "description": "Finds files and directories via an intuitive fluent interface",
             "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/finder/tree/v4.4.36"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -18058,6 +18085,9 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.24.0"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -18134,6 +18164,9 @@
                 "portable",
                 "shim"
             ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php81/tree/v1.24.0"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -18801,6 +18834,9 @@
                 "debug",
                 "dump"
             ],
+            "support": {
+                "source": "https://github.com/symfony/var-dumper/tree/v4.4.36"
+            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -19293,16 +19329,16 @@
         },
         {
             "name": "willdurand/geocoder",
-            "version": "4.4.0",
+            "version": "4.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/geocoder-php/php-common.git",
-                "reference": "3e86f5b10ab0cef1cf03f979fe8e34b6476daff0"
+                "reference": "b9a27dfbc06d012f4ff52b890fe52789e4978769"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/geocoder-php/php-common/zipball/3e86f5b10ab0cef1cf03f979fe8e34b6476daff0",
-                "reference": "3e86f5b10ab0cef1cf03f979fe8e34b6476daff0",
+                "url": "https://api.github.com/repos/geocoder-php/php-common/zipball/b9a27dfbc06d012f4ff52b890fe52789e4978769",
+                "reference": "b9a27dfbc06d012f4ff52b890fe52789e4978769",
                 "shasum": ""
             },
             "require": {
@@ -19349,9 +19385,9 @@
                 "geoip"
             ],
             "support": {
-                "source": "https://github.com/geocoder-php/php-common/tree/4.4.0"
+                "source": "https://github.com/geocoder-php/php-common/tree/4.5.0"
             },
-            "time": "2020-12-21T09:30:01+00:00"
+            "time": "2022-01-07T14:44:30+00:00"
         }
     ],
     "packages-dev": [
@@ -19586,5 +19622,5 @@
     "platform-overrides": {
         "php": "7.3"
     },
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.2.0"
 }
