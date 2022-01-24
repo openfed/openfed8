@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+24 January 2022 - Version 10.6
+----------------------------
+Patch CSHS module to fix major content editing issue
+
 07 January 2022 - Version 10.5
 ----------------------------
 Several security updates:
