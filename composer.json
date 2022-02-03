@@ -103,7 +103,8 @@
                 "Issue #2730631: Node revision routes don't convert {node} param": "https://www.drupal.org/files/issues/2019-04-04/2730631_85_0.patch",
                 "Issue #2737619: Views entity reference relationships must join on langcode for translatable entities": "https://www.drupal.org/files/issues/language_aware_relationship-2737619-19.patch",
                 "Issue #2771837: drupalimage CKEditor plugin should not require data-entity-uuid and data-entity-type when image upload is disabled": "https://www.drupal.org/files/issues/2020-02-20/drupalimage_ckeditor-2771837-50.patch",
-                "Issue #3071446: Remove invalid iframe attributes from oembed":"https://www.drupal.org/files/issues/2019-07-31/remove-iframe-attributes-3071446-4.patch"
+                "Issue #3071446: Remove invalid iframe attributes from oembed":"https://www.drupal.org/files/issues/2019-07-31/remove-iframe-attributes-3071446-4.patch",
+                "Backport Drupal 9.x SA-CORE-2022-001": "patches/openfed8-oldsites-jqueryui-sa-core-2022-001.patch"
             },
             "drupal/cshs": {
                 "Select option labels are empty": "https://www.drupal.org/files/issues/2022-01-13/cshs-select_option_labels_are_empty-3258226-5-D8.patch"
@@ -122,6 +123,9 @@
             },
             "drupal/inline_entity_form": {
                 "Issue #2822764: Support adding new entities when translating": "https://www.drupal.org/files/issues/2020-05-16/2822764-57.patch"
+            },
+            "drupal/jquery_ui": {
+                "Backport Drupal 9.x SA-CORE-2022-001": "patches/openfed-jqueryui-sa-core-2022-001.patch"
             },
             "drupal/menu_block": {
                 "Issue #3089134: Ability to display the menu selected by the page": "https://www.drupal.org/files/issues/2020-08-12/multi-menu-block-3089134-15.patch"
@@ -330,7 +334,8 @@
             "cweagans/composer-patches": true,
             "oomphinc/composer-installers-extender": true,
             "drupal/console-extend-plugin": true,
-            "drupal/core-composer-scaffold": true
+            "drupal/core-composer-scaffold": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
         }
     }
 }
