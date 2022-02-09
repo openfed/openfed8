@@ -3,6 +3,7 @@
 namespace OpenfedProject\composer;
 
 use Composer\Script\Event;
+use Drupal\Component\Utility\NestedArray;
 use Drupal\Core\DrupalKernel;
 use Symfony\Component\HttpFoundation\Request;
 use ZipArchive;
@@ -19,7 +20,7 @@ class OpenfedUpdate {
    */
   protected static $openfed8Zip = 'https://github.com/openfed/openfed8-project/archive/refs/tags/';
 
-    /**
+  /**
    * @var string
    */
   protected static $openfedRepo = 'https://github.com/openfed/openfed-project';
@@ -70,9 +71,11 @@ class OpenfedUpdate {
 
       unlink($zipFile);
       unlink('./composer.libraries.json');
-      unlink($extractPath . DIRECTORY_SEPARATOR . 'openfed8-project-' . self::$latestOpenfedVersion . DIRECTORY_SEPARATOR . 'composer.json');
       unlink($extractPath . DIRECTORY_SEPARATOR . 'openfed8-project-' . self::$latestOpenfedVersion . DIRECTORY_SEPARATOR . '.gitignore');
       unlink($extractPath . DIRECTORY_SEPARATOR . 'openfed8-project-' . self::$latestOpenfedVersion . DIRECTORY_SEPARATOR . 'README.md');
+
+      self::_mergeComposer($extractPath . DIRECTORY_SEPARATOR . 'openfed8-project-' . self::$latestOpenfedVersion, '.');
+      unlink($extractPath . DIRECTORY_SEPARATOR . 'openfed8-project-' . self::$latestOpenfedVersion . DIRECTORY_SEPARATOR . 'composer.json');
 
       self::_recurseCopy($extractPath . DIRECTORY_SEPARATOR . 'openfed8-project-' . self::$latestOpenfedVersion, '.');
       self::_deleteDirectory($extractPath);
@@ -117,15 +120,34 @@ class OpenfedUpdate {
 
       unlink($zipFile);
       unlink('./composer.libraries.json');
-      unlink($extractPath . DIRECTORY_SEPARATOR . 'openfed-project-' . self::$latestOpenfedVersion . DIRECTORY_SEPARATOR . 'composer.json');
       unlink($extractPath . DIRECTORY_SEPARATOR . 'openfed-project-' . self::$latestOpenfedVersion . DIRECTORY_SEPARATOR . '.gitignore');
       unlink($extractPath . DIRECTORY_SEPARATOR . 'openfed-project-' . self::$latestOpenfedVersion . DIRECTORY_SEPARATOR . 'README.md');
+
+      self::_mergeComposer($extractPath . DIRECTORY_SEPARATOR . 'openfed8-project-' . self::$latestOpenfedVersion, '.');
+      unlink($extractPath . DIRECTORY_SEPARATOR . 'openfed8-project-' . self::$latestOpenfedVersion . DIRECTORY_SEPARATOR . 'composer.json');
 
       self::_recurseCopy($extractPath . DIRECTORY_SEPARATOR . 'openfed-project-' . self::$latestOpenfedVersion, '.');
       self::_deleteDirectory($extractPath);
 
       echo "---- Files updated. You still have to check your composer.json manually.\n\n";
     }
+  }
+
+  /**
+   * Merge composer files, keeping existing values.
+   *
+   * @param $new
+   *  New composer file, from github repo.
+   * @param $old
+   *  Old composer file, the one in the filesystem.
+   */
+  private static function _mergeComposer($new, $old) {
+    $file = DIRECTORY_SEPARATOR . 'composer.json';
+    $new_composer = json_decode(file_get_contents($new . $file), TRUE);
+    $old_composer = json_decode(file_get_contents($old . $file), TRUE);
+
+    $updated_composer= NestedArray::mergeDeepArray([$old_composer, $new_composer], TRUE);
+    file_put_contents($old . $file, json_encode($updated_composer, JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES));
   }
 
   /**
@@ -142,7 +164,7 @@ class OpenfedUpdate {
     while (FALSE !== ($file = readdir($dir))) {
       if (($file != '.') && ($file != '..')) {
         if (is_dir($src . DIRECTORY_SEPARATOR . $file)) {
-          recurse_copy($src . DIRECTORY_SEPARATOR . $file, $dst . DIRECTORY_SEPARATOR . $file);
+          _recurseCopy($src . DIRECTORY_SEPARATOR . $file, $dst . DIRECTORY_SEPARATOR . $file);
         }
         else {
           copy($src . DIRECTORY_SEPARATOR . $file, $dst . DIRECTORY_SEPARATOR . $file);
