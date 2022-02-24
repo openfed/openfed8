@@ -395,3 +395,13 @@ function openfed_update_81001(&$sandbox) {
   ];
   \Drupal::service('module_installer')->uninstall($modules);
 }
+
+/**
+ * If content_moderation is used, install moderated_content_bulk_publish.
+ */
+function openfed_update_81002(&$sandbox) {
+  $moduleHandler = \Drupal::service('module_handler');
+  if ($moduleHandler->moduleExists('content_moderation')) {
+    \Drupal::service('module_installer')->install(['moderated_content_bulk_publish']);
+  }
+}

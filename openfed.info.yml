@@ -69,6 +69,7 @@ dependencies:
   - menu_breadcrumb:menu_breadcrumb
   - menu_trail_by_path:menu_trail_by_path
   - metatag:metatag
+  - moderated_content_bulk_publish:moderated_content_bulk_publish
   - node_edit_redirect:node_edit_redirect
   - ofed_switcher:ofed_switcher
   - override_node_options:override_node_options
