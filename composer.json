@@ -292,7 +292,7 @@
         "drupal/super_login": "1.7",
         "drupal/taxonomy_access_fix": "3.1",
         "drupal/tmgmt": "1.12",
-        "drupal/token": "1.9",
+        "drupal/token": "1.10",
         "drupal/twig_field_value": "2.0",
         "drupal/twig_tweak": "2.9",
         "drupal/twitter_block": "3.0-alpha1",
