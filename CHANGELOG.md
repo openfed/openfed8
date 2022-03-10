@@ -1,6 +1,24 @@
 CHANGELOG
 =========
 
+10 March 2022 - Version 10.10
+----------------------------
+Improve update/upgrade script comments and made code a bit more flexible
+
+09 February 2022 - Version 10.9
+----------------------------
+Improve script by doing a composer.json merge for update/upgrade
+Composer.lock update
+
+07 February 2022 - Version 10.8
+----------------------------
+Add Upgrade composer command
+Fix local patch path
+
+03 February 2022 - Version 10.7
+----------------------------
+Backport Drupal 9.x SA-CORE-2022-001
+
 24 January 2022 - Version 10.6
 ----------------------------
 Patch CSHS module to fix major content editing issue
