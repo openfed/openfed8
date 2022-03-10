@@ -69,12 +69,16 @@ class OpenfedUpdate {
       $zip->extractTo($extractPath);
       $zip->close();
 
+      // We'll merge the contents of the zip archive, but we'll ignore some
+      // files. Those files will be removed/unlink.
       unlink($zipFile);
       unlink('./composer.libraries.json');
       unlink($extractPath . DIRECTORY_SEPARATOR . 'openfed8-project-' . self::$latestOpenfedVersion . DIRECTORY_SEPARATOR . '.gitignore');
       unlink($extractPath . DIRECTORY_SEPARATOR . 'openfed8-project-' . self::$latestOpenfedVersion . DIRECTORY_SEPARATOR . 'README.md');
 
-      self::_mergeComposer($extractPath . DIRECTORY_SEPARATOR . 'openfed8-project-' . self::$latestOpenfedVersion, '.');
+      // Composer.json and composer.patches.json, if exists, will be merged.
+      // This is a best effort merge and should be manually confirmed.
+      self::_mergeComposer($extractPath . DIRECTORY_SEPARATOR . 'openfed8-project-' . self::$latestOpenfedVersion . DIRECTORY_SEPARATOR . 'composer.json', '.' . DIRECTORY_SEPARATOR . 'composer.json');
       unlink($extractPath . DIRECTORY_SEPARATOR . 'openfed8-project-' . self::$latestOpenfedVersion . DIRECTORY_SEPARATOR . 'composer.json');
 
       self::_recurseCopy($extractPath . DIRECTORY_SEPARATOR . 'openfed8-project-' . self::$latestOpenfedVersion, '.');
@@ -118,14 +122,21 @@ class OpenfedUpdate {
       $zip->extractTo($extractPath);
       $zip->close();
 
+      // We'll merge the contents of the zip archive, but we'll ignore some
+      // files. Those files will be removed/unlink.
       unlink($zipFile);
       unlink('./composer.libraries.json');
       unlink($extractPath . DIRECTORY_SEPARATOR . 'openfed-project-' . self::$latestOpenfedVersion . DIRECTORY_SEPARATOR . '.gitignore');
       unlink($extractPath . DIRECTORY_SEPARATOR . 'openfed-project-' . self::$latestOpenfedVersion . DIRECTORY_SEPARATOR . 'README.md');
 
-      self::_mergeComposer($extractPath . DIRECTORY_SEPARATOR . 'openfed8-project-' . self::$latestOpenfedVersion, '.');
-      unlink($extractPath . DIRECTORY_SEPARATOR . 'openfed8-project-' . self::$latestOpenfedVersion . DIRECTORY_SEPARATOR . 'composer.json');
+      // Composer.json and composer.patches.json, if exists, will be merged.
+      // This is a best effort merge and should be manually confirmed.
+      self::_mergeComposer($extractPath . DIRECTORY_SEPARATOR . 'openfed-project-' . self::$latestOpenfedVersion . DIRECTORY_SEPARATOR . 'composer.json', '.' . DIRECTORY_SEPARATOR . 'composer.json');
+      self::_mergeComposer('.' . DIRECTORY_SEPARATOR . 'composer.patches.json', $extractPath . DIRECTORY_SEPARATOR . 'openfed-project-' . self::$latestOpenfedVersion . DIRECTORY_SEPARATOR . 'composer.patches.json');
+      unlink($extractPath . DIRECTORY_SEPARATOR . 'openfed-project-' . self::$latestOpenfedVersion . DIRECTORY_SEPARATOR . 'composer.json');
 
+      // All the remaining files will be copied as is (i.e.
+      // composer.openfed.json)
       self::_recurseCopy($extractPath . DIRECTORY_SEPARATOR . 'openfed-project-' . self::$latestOpenfedVersion, '.');
       self::_deleteDirectory($extractPath);
 
@@ -142,12 +153,11 @@ class OpenfedUpdate {
    *  Old composer file, the one in the filesystem.
    */
   private static function _mergeComposer($new, $old) {
-    $file = DIRECTORY_SEPARATOR . 'composer.json';
-    $new_composer = json_decode(file_get_contents($new . $file), TRUE);
-    $old_composer = json_decode(file_get_contents($old . $file), TRUE);
+    $new_composer = json_decode(file_get_contents($new), TRUE);
+    $old_composer = json_decode(file_get_contents($old), TRUE);
 
     $updated_composer= NestedArray::mergeDeepArray([$old_composer, $new_composer], TRUE);
-    file_put_contents($old . $file, json_encode($updated_composer, JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES));
+    file_put_contents($old, json_encode($updated_composer, JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES));
   }
 
   /**
