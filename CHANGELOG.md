@@ -1,6 +1,35 @@
 CHANGELOG
 =========
 
+10 March 2022 - Version 10.10
+----------------------------
+Improve update/upgrade script comments and made code a bit more flexible
+
+09 February 2022 - Version 10.9
+----------------------------
+Improve script by doing a composer.json merge for update/upgrade
+Composer.lock update
+
+07 February 2022 - Version 10.8
+----------------------------
+Add Upgrade composer command
+Fix local patch path
+
+03 February 2022 - Version 10.7
+----------------------------
+Backport Drupal 9.x SA-CORE-2022-001
+
+24 January 2022 - Version 10.6
+----------------------------
+Patch CSHS module to fix major content editing issue
+
+07 January 2022 - Version 10.5
+----------------------------
+Several security updates:
+- Update Linkit due to SA-CONTRIB-2021-042.
+- Update Search API attachments due to SA-CONTRIB-2021-034.
+- Update Super Login due to SA-CONTRIB-2022-048.
+
 17 December 2021 - Version 10.4
 ----------------------------
 - Revert code to fix issue with drupal-profile path
