@@ -199,6 +199,9 @@
         ],
         "post-update-cmd": [
             "OpenfedProject\\composer\\ScriptHandler::createRequiredFiles"
+        ],
+        "project-update": [
+            "OpenfedProject\\composer\\OpenfedUpdate::update"
         ]
     },
     "extra": {
