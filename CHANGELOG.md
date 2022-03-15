@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+15 March 2022 - Version 10.11
+----------------------------
+Improve validation script to make it compatible with older grep versions
+
 10 March 2022 - Version 10.10
 ----------------------------
 Improve update/upgrade script comments and made code a bit more flexible
