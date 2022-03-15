@@ -1,6 +1,10 @@
 CHANGELOG
 =========
 
+15 March 2022 - Version 9.14
+----------------------------
+Update validation scripts.
+
 20 September 2021 - Version 9.11
 ----------------------------
 Scripts were added to make update to Openfed 8.x-10.0 smoother.
