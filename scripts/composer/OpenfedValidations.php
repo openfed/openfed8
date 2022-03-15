@@ -162,7 +162,7 @@ class OpenfedValidations {
 
       // 1. Check Rendering Blocks.
       $available_blocks = array_keys(\Drupal::service('plugin.manager.block')->getDefinitions());
-      $search = shell_exec('grep --include \*.twig -r "drupal_block" ./docroot/themes/ ./config/');
+      $search = shell_exec('find ./docroot/themes/ ./config/ -name "*.twig" | xargs grep -hi "drupal_block"');
       $pattern = '/drupal_block\([\'|"]([a-zA-Z0-9\-_]+)[\'|"]\)/';
       preg_match_all($pattern, $search, $matches);
 
@@ -175,7 +175,7 @@ class OpenfedValidations {
       }
 
       // 2. Check preg_replace filter declaration.
-      $search = shell_exec('grep --include \*.twig -r "preg_replace" ./docroot/themes/ ./config/');
+      $search = shell_exec('find ./docroot/themes/ ./config/ -name "*.twig" | xargs grep -hi "preg_replace"');
       $pattern = '/preg_replace\([\'|"]\/?/';
       preg_match_all($pattern, $search, $matches);
 
@@ -196,7 +196,7 @@ class OpenfedValidations {
       // 4. Check Region wrapper.
       // 5. Check Default field language.
       // 6. Check preg_replace filter declaration.
-      $search = shell_exec('grep --include \*.twig -r "drupal_set_message" ./docroot/themes/ ./config/');
+      $search = shell_exec('find ./docroot/themes/ ./config/ -name "*.twig" | xargs grep -hi "drupal_set_message"');
       $pattern = '/drupal_set_message\([\'|"]/';
       preg_match_all($pattern, $search, $matches);
 
